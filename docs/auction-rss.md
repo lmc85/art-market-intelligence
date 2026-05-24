@@ -14,6 +14,12 @@ Regenerate the feed:
 python3 scripts/generate_auction_rss.py
 ```
 
+Fetch the first live Christie’s result feed:
+
+```bash
+python3 scripts/ingest_christies_auction_feed.py --limit 12 --sale-query contemporary --replace
+```
+
 ## Required Fields
 
 Each feed item supports the fields requested for sale and auction monitoring:
@@ -34,7 +40,8 @@ Optional fields are omitted from the XML when they are not available. The dashbo
 
 ## Notes
 
-- Current records are seed data for the prototype schema.
+- Current records are live first-pass Christie’s public auction results.
+- Christie’s public lot-list payload includes estimates and realized prices, but not starting price or prior sale price; those remain unavailable until a detail-page or partner-data enrichment step provides them.
 - Live records should preserve source URL, source ID, auction house, sale date, and collection timestamp.
 - The next connector targets are tracked in `data/next_ingestion_targets.json`.
 - The feed uses an `artmi` namespace for custom fields: `https://artmarketintelligence.local/rss/1.0`.

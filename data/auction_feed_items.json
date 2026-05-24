@@ -1,154 +1,326 @@
 [
   {
-    "id": "prototype-sale-2026-05-18-001",
+    "id": "christies-24267.401",
     "status": "sold",
-    "title": "Untitled screenprint from a late twentieth-century edition",
-    "artists": ["Attributed artist pending verification"],
-    "style": "Postwar prints",
-    "auction_house": "Swann Galleries",
-    "auction_date": "2026-05-18",
-    "starting_price": {
-      "currency": "USD",
-      "amount": 18000,
-      "display": "$18,000"
-    },
-    "estimated_selling_price": {
-      "currency": "USD",
-      "low": 24000,
-      "high": 32000,
-      "display": "$24,000-$32,000"
-    },
-    "result_price": {
-      "currency": "USD",
-      "amount": 36500,
-      "display": "$36,500"
-    },
-    "last_sold_price": {
-      "currency": "USD",
-      "amount": 28000,
-      "display": "$28,000",
-      "date": "2021-11-04"
-    },
-    "source_url": "https://github.com/lmc85/art-market-intelligence",
-    "record_source": "Prototype seed data",
-    "notes": "Seed record for the auction RSS schema; replace with verified source URL when a live connector lands."
-  },
-  {
-    "id": "prototype-auction-2026-05-20-002",
-    "status": "auctioned",
-    "title": "Pair of molded plywood lounge chairs",
-    "artists": ["Studio attribution"],
-    "style": "Nordic design",
-    "auction_house": "Bukowskis",
-    "auction_date": "2026-05-20",
-    "starting_price": {
-      "currency": "EUR",
-      "amount": 9500,
-      "display": "EUR 9,500"
-    },
-    "estimated_selling_price": {
-      "currency": "EUR",
-      "low": 12000,
-      "high": 16000,
-      "display": "EUR 12,000-EUR 16,000"
-    },
-    "result_price": null,
-    "last_sold_price": null,
-    "source_url": "https://github.com/lmc85/art-market-intelligence",
-    "record_source": "Prototype seed data",
-    "notes": "Auctioned-status seed record for lots where a realized price is not yet available."
-  },
-  {
-    "id": "prototype-sale-2026-05-21-003",
-    "status": "sold",
-    "title": "Small oil study of a harbor at dusk",
-    "artists": ["Unknown European school"],
-    "style": "Old master study",
-    "auction_house": "Dorotheum",
+    "title": "Untitled (7.2.89)",
+    "artists": [
+      "GERHARD RICHTER (B. 1932)"
+    ],
+    "style": "Post-War and Contemporary Art Day Sale",
+    "auction_house": "Christie's",
     "auction_date": "2026-05-21",
-    "starting_price": {
-      "currency": "EUR",
-      "amount": 4200,
-      "display": "EUR 4,200"
-    },
-    "estimated_selling_price": {
-      "currency": "EUR",
-      "low": 6000,
-      "high": 9000,
-      "display": "EUR 6,000-EUR 9,000"
-    },
-    "result_price": {
-      "currency": "EUR",
-      "amount": 11200,
-      "display": "EUR 11,200"
-    },
-    "last_sold_price": {
-      "currency": "EUR",
-      "amount": 7300,
-      "display": "EUR 7,300",
-      "date": "2018-03-14"
-    },
-    "source_url": "https://github.com/lmc85/art-market-intelligence",
-    "record_source": "Prototype seed data",
-    "notes": "Seed record for provenance-sensitive lots."
-  },
-  {
-    "id": "prototype-auction-2026-05-22-004",
-    "status": "auctioned",
-    "title": "Gelatin silver print portfolio",
-    "artists": ["Catalog artist pending"],
-    "style": "Photography",
-    "auction_house": "Phillips",
-    "auction_date": "2026-05-22",
-    "starting_price": {
-      "currency": "USD",
-      "amount": 22000,
-      "display": "$22,000"
-    },
+    "starting_price": null,
     "estimated_selling_price": {
       "currency": "USD",
-      "low": 30000,
-      "high": 45000,
-      "display": "$30,000-$45,000"
-    },
-    "result_price": null,
-    "last_sold_price": {
-      "currency": "USD",
-      "amount": 26000,
-      "display": "$26,000",
-      "date": "2020-10-09"
-    },
-    "source_url": "https://github.com/lmc85/art-market-intelligence",
-    "record_source": "Prototype seed data",
-    "notes": "Seed record showing an estimate and prior sale before a final result is present."
-  },
-  {
-    "id": "prototype-sale-2026-05-23-005",
-    "status": "sold",
-    "title": "Large ceramic vessel with incised geometric pattern",
-    "artists": ["Workshop unknown"],
-    "style": "Contemporary craft",
-    "auction_house": "Freeman's Hindman",
-    "auction_date": "2026-05-23",
-    "starting_price": {
-      "currency": "USD",
-      "amount": 3000,
-      "display": "$3,000"
-    },
-    "estimated_selling_price": {
-      "currency": "USD",
-      "low": 5000,
-      "high": 8000,
-      "display": "$5,000-$8,000"
+      "low": 60000.0,
+      "high": 80000.0,
+      "display": "USD 60,000 - 80,000"
     },
     "result_price": {
       "currency": "USD",
-      "amount": 9200,
-      "display": "$9,200"
+      "amount": 330200.0,
+      "display": "USD 330,200"
     },
     "last_sold_price": null,
-    "source_url": "https://github.com/lmc85/art-market-intelligence",
-    "record_source": "Prototype seed data",
-    "notes": "Seed record for a lower-price liquidity segment."
+    "source_url": "https://www.christies.com/en/lot/lot-6585915?ldp_breadcrumb=back",
+    "record_source": "Christie's public auction result page",
+    "notes": "Starting price and prior sale price were not exposed in the public lot-list payload."
+  },
+  {
+    "id": "christies-24267.402",
+    "status": "sold",
+    "title": "Untitled",
+    "artists": [
+      "FRANZ KLINE (1910-1962)"
+    ],
+    "style": "Post-War and Contemporary Art Day Sale",
+    "auction_house": "Christie's",
+    "auction_date": "2026-05-21",
+    "starting_price": null,
+    "estimated_selling_price": {
+      "currency": "USD",
+      "low": 120000.0,
+      "high": 180000.0,
+      "display": "USD 120,000 - 180,000"
+    },
+    "result_price": {
+      "currency": "USD",
+      "amount": 254000.0,
+      "display": "USD 254,000"
+    },
+    "last_sold_price": null,
+    "source_url": "https://www.christies.com/en/lot/lot-6585916?ldp_breadcrumb=back",
+    "record_source": "Christie's public auction result page",
+    "notes": "Starting price and prior sale price were not exposed in the public lot-list payload."
+  },
+  {
+    "id": "christies-24267.403",
+    "status": "sold",
+    "title": "18 December 2008",
+    "artists": [
+      "GERHARD RICHTER (B. 1932)"
+    ],
+    "style": "Post-War and Contemporary Art Day Sale",
+    "auction_house": "Christie's",
+    "auction_date": "2026-05-21",
+    "starting_price": null,
+    "estimated_selling_price": {
+      "currency": "USD",
+      "low": 80000.0,
+      "high": 120000.0,
+      "display": "USD 80,000 - 120,000"
+    },
+    "result_price": {
+      "currency": "USD",
+      "amount": 482600.0,
+      "display": "USD 482,600"
+    },
+    "last_sold_price": null,
+    "source_url": "https://www.christies.com/en/lot/lot-6585917?ldp_breadcrumb=back",
+    "record_source": "Christie's public auction result page",
+    "notes": "Starting price and prior sale price were not exposed in the public lot-list payload."
+  },
+  {
+    "id": "christies-24267.404",
+    "status": "sold",
+    "title": "Usuyuki",
+    "artists": [
+      "JASPER JOHNS (B. 1930)"
+    ],
+    "style": "Post-War and Contemporary Art Day Sale",
+    "auction_house": "Christie's",
+    "auction_date": "2026-05-21",
+    "starting_price": null,
+    "estimated_selling_price": {
+      "currency": "USD",
+      "low": 100000.0,
+      "high": 150000.0,
+      "display": "USD 100,000 - 150,000"
+    },
+    "result_price": {
+      "currency": "USD",
+      "amount": 381000.0,
+      "display": "USD 381,000"
+    },
+    "last_sold_price": null,
+    "source_url": "https://www.christies.com/en/lot/lot-6585918?ldp_breadcrumb=back",
+    "record_source": "Christie's public auction result page",
+    "notes": "Starting price and prior sale price were not exposed in the public lot-list payload."
+  },
+  {
+    "id": "christies-24267.405",
+    "status": "sold",
+    "title": "Abstraktes Bild",
+    "artists": [
+      "GERHARD RICHTER (B. 1932)"
+    ],
+    "style": "Post-War and Contemporary Art Day Sale",
+    "auction_house": "Christie's",
+    "auction_date": "2026-05-21",
+    "starting_price": null,
+    "estimated_selling_price": {
+      "currency": "USD",
+      "low": 750000.0,
+      "high": 1000000.0,
+      "display": "USD 750,000 - 1,000,000"
+    },
+    "result_price": {
+      "currency": "USD",
+      "amount": 889000.0,
+      "display": "USD 889,000"
+    },
+    "last_sold_price": null,
+    "source_url": "https://www.christies.com/en/lot/lot-6585919?ldp_breadcrumb=back",
+    "record_source": "Christie's public auction result page",
+    "notes": "Starting price and prior sale price were not exposed in the public lot-list payload."
+  },
+  {
+    "id": "christies-24267.406",
+    "status": "sold",
+    "title": "3. Juli 2015",
+    "artists": [
+      "GERHARD RICHTER (B. 1932)"
+    ],
+    "style": "Post-War and Contemporary Art Day Sale",
+    "auction_house": "Christie's",
+    "auction_date": "2026-05-21",
+    "starting_price": null,
+    "estimated_selling_price": {
+      "currency": "USD",
+      "low": 60000.0,
+      "high": 80000.0,
+      "display": "USD 60,000 - 80,000"
+    },
+    "result_price": {
+      "currency": "USD",
+      "amount": 69850.0,
+      "display": "USD 69,850"
+    },
+    "last_sold_price": null,
+    "source_url": "https://www.christies.com/en/lot/lot-6585920?ldp_breadcrumb=back",
+    "record_source": "Christie's public auction result page",
+    "notes": "Starting price and prior sale price were not exposed in the public lot-list payload."
+  },
+  {
+    "id": "christies-24267.407",
+    "status": "sold",
+    "title": "Johannisnacht IV",
+    "artists": [
+      "ANSELM KIEFER (B. 1945)"
+    ],
+    "style": "Post-War and Contemporary Art Day Sale",
+    "auction_house": "Christie's",
+    "auction_date": "2026-05-21",
+    "starting_price": null,
+    "estimated_selling_price": {
+      "currency": "USD",
+      "low": 80000.0,
+      "high": 120000.0,
+      "display": "USD 80,000 - 120,000"
+    },
+    "result_price": {
+      "currency": "USD",
+      "amount": 139700.0,
+      "display": "USD 139,700"
+    },
+    "last_sold_price": null,
+    "source_url": "https://www.christies.com/en/lot/lot-6585921?ldp_breadcrumb=back",
+    "record_source": "Christie's public auction result page",
+    "notes": "Starting price and prior sale price were not exposed in the public lot-list payload."
+  },
+  {
+    "id": "christies-24267.408",
+    "status": "sold",
+    "title": "Ceramic Sketch",
+    "artists": [
+      "THOMAS SCHÜTTE (B. 1954)"
+    ],
+    "style": "Post-War and Contemporary Art Day Sale",
+    "auction_house": "Christie's",
+    "auction_date": "2026-05-21",
+    "starting_price": null,
+    "estimated_selling_price": {
+      "currency": "USD",
+      "low": 50000.0,
+      "high": 70000.0,
+      "display": "USD 50,000 - 70,000"
+    },
+    "result_price": {
+      "currency": "USD",
+      "amount": 27940.0,
+      "display": "USD 27,940"
+    },
+    "last_sold_price": null,
+    "source_url": "https://www.christies.com/en/lot/lot-6585922?ldp_breadcrumb=back",
+    "record_source": "Christie's public auction result page",
+    "notes": "Starting price and prior sale price were not exposed in the public lot-list payload."
+  },
+  {
+    "id": "christies-24267.409",
+    "status": "sold",
+    "title": "Der Kyffhäuser",
+    "artists": [
+      "ANSELM KIEFER (B. 1945)"
+    ],
+    "style": "Post-War and Contemporary Art Day Sale",
+    "auction_house": "Christie's",
+    "auction_date": "2026-05-21",
+    "starting_price": null,
+    "estimated_selling_price": {
+      "currency": "USD",
+      "low": 30000.0,
+      "high": 50000.0,
+      "display": "USD 30,000 - 50,000"
+    },
+    "result_price": {
+      "currency": "USD",
+      "amount": 44450.0,
+      "display": "USD 44,450"
+    },
+    "last_sold_price": null,
+    "source_url": "https://www.christies.com/en/lot/lot-6585923?ldp_breadcrumb=back",
+    "record_source": "Christie's public auction result page",
+    "notes": "Starting price and prior sale price were not exposed in the public lot-list payload."
+  },
+  {
+    "id": "christies-24267.410",
+    "status": "sold",
+    "title": "Ella",
+    "artists": [
+      "GERHARD RICHTER (B. 1932)"
+    ],
+    "style": "Post-War and Contemporary Art Day Sale",
+    "auction_house": "Christie's",
+    "auction_date": "2026-05-21",
+    "starting_price": null,
+    "estimated_selling_price": {
+      "currency": "USD",
+      "low": 25000.0,
+      "high": 35000.0,
+      "display": "USD 25,000 - 35,000"
+    },
+    "result_price": {
+      "currency": "USD",
+      "amount": 78740.0,
+      "display": "USD 78,740"
+    },
+    "last_sold_price": null,
+    "source_url": "https://www.christies.com/en/lot/lot-6585924?ldp_breadcrumb=back",
+    "record_source": "Christie's public auction result page",
+    "notes": "Starting price and prior sale price were not exposed in the public lot-list payload."
+  },
+  {
+    "id": "christies-24267.411",
+    "status": "sold",
+    "title": "20 February 2002",
+    "artists": [
+      "GERHARD RICHTER (B. 1932)"
+    ],
+    "style": "Post-War and Contemporary Art Day Sale",
+    "auction_house": "Christie's",
+    "auction_date": "2026-05-21",
+    "starting_price": null,
+    "estimated_selling_price": {
+      "currency": "USD",
+      "low": 30000.0,
+      "high": 50000.0,
+      "display": "USD 30,000 - 50,000"
+    },
+    "result_price": {
+      "currency": "USD",
+      "amount": 139700.0,
+      "display": "USD 139,700"
+    },
+    "last_sold_price": null,
+    "source_url": "https://www.christies.com/en/lot/lot-6585925?ldp_breadcrumb=back",
+    "record_source": "Christie's public auction result page",
+    "notes": "Starting price and prior sale price were not exposed in the public lot-list payload."
+  },
+  {
+    "id": "christies-24267.412",
+    "status": "sold",
+    "title": "Map Drawing (Sud-Polar-Karte)",
+    "artists": [
+      "WILLIAM KENTRIDGE (B. 1955)"
+    ],
+    "style": "Post-War and Contemporary Art Day Sale",
+    "auction_house": "Christie's",
+    "auction_date": "2026-05-21",
+    "starting_price": null,
+    "estimated_selling_price": {
+      "currency": "USD",
+      "low": 30000.0,
+      "high": 50000.0,
+      "display": "USD 30,000 - 50,000"
+    },
+    "result_price": {
+      "currency": "USD",
+      "amount": 48260.0,
+      "display": "USD 48,260"
+    },
+    "last_sold_price": null,
+    "source_url": "https://www.christies.com/en/lot/lot-6585926?ldp_breadcrumb=back",
+    "record_source": "Christie's public auction result page",
+    "notes": "Starting price and prior sale price were not exposed in the public lot-list payload."
   }
 ]

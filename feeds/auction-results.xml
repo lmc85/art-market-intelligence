@@ -5,139 +5,308 @@
     <link>http://localhost:4173/</link>
     <description>Auction and sale records normalized for art market intelligence.</description>
     <language>en-us</language>
-    <lastBuildDate>Sun, 24 May 2026 12:56:43 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 24 May 2026 13:29:43 +0000</lastBuildDate>
     <ttl>60</ttl>
     <atom:link href="http://localhost:4173/feeds/auction-results.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Large ceramic vessel with incised geometric pattern - Freeman's Hindman</title>
-      <link>https://github.com/lmc85/art-market-intelligence</link>
-      <guid>prototype-sale-2026-05-23-005</guid>
-      <pubDate>Sat, 23 May 2026 12:00:00 +0000</pubDate>
-      <category>sold</category>
-      <description>Artist(s): Workshop unknown
-Style: Contemporary craft
-Auction house: Freeman's Hindman
-Auction date: 2026-05-23
-Starting price: $3,000
-Estimated selling price: $5,000-$8,000
-Result price: $9,200
-Last sold price: Not available
-Notes: Seed record for a lower-price liquidity segment.</description>
-      <artmi:title>Large ceramic vessel with incised geometric pattern</artmi:title>
-      <artmi:artists>Workshop unknown</artmi:artists>
-      <artmi:style>Contemporary craft</artmi:style>
-      <artmi:auctionHouse>Freeman's Hindman</artmi:auctionHouse>
-      <artmi:auctionDate>2026-05-23</artmi:auctionDate>
-      <artmi:status>sold</artmi:status>
-      <artmi:startingPrice>$3,000</artmi:startingPrice>
-      <artmi:estimatedSellingPrice>$5,000-$8,000</artmi:estimatedSellingPrice>
-      <artmi:resultPrice>$9,200</artmi:resultPrice>
-      <artmi:recordSource>Prototype seed data</artmi:recordSource>
-    </item>
-    <item>
-      <title>Gelatin silver print portfolio - Phillips</title>
-      <link>https://github.com/lmc85/art-market-intelligence</link>
-      <guid>prototype-auction-2026-05-22-004</guid>
-      <pubDate>Fri, 22 May 2026 12:00:00 +0000</pubDate>
-      <category>auctioned</category>
-      <description>Artist(s): Catalog artist pending
-Style: Photography
-Auction house: Phillips
-Auction date: 2026-05-22
-Starting price: $22,000
-Estimated selling price: $30,000-$45,000
-Result price: Not available
-Last sold price: $26,000
-Notes: Seed record showing an estimate and prior sale before a final result is present.</description>
-      <artmi:title>Gelatin silver print portfolio</artmi:title>
-      <artmi:artists>Catalog artist pending</artmi:artists>
-      <artmi:style>Photography</artmi:style>
-      <artmi:auctionHouse>Phillips</artmi:auctionHouse>
-      <artmi:auctionDate>2026-05-22</artmi:auctionDate>
-      <artmi:status>auctioned</artmi:status>
-      <artmi:startingPrice>$22,000</artmi:startingPrice>
-      <artmi:estimatedSellingPrice>$30,000-$45,000</artmi:estimatedSellingPrice>
-      <artmi:lastSoldPrice>$26,000</artmi:lastSoldPrice>
-      <artmi:recordSource>Prototype seed data</artmi:recordSource>
-    </item>
-    <item>
-      <title>Small oil study of a harbor at dusk - Dorotheum</title>
-      <link>https://github.com/lmc85/art-market-intelligence</link>
-      <guid>prototype-sale-2026-05-21-003</guid>
+      <title>Untitled (7.2.89) - Christie's</title>
+      <link>https://www.christies.com/en/lot/lot-6585915?ldp_breadcrumb=back</link>
+      <guid>christies-24267.401</guid>
       <pubDate>Thu, 21 May 2026 12:00:00 +0000</pubDate>
       <category>sold</category>
-      <description>Artist(s): Unknown European school
-Style: Old master study
-Auction house: Dorotheum
+      <description>Artist(s): GERHARD RICHTER (B. 1932)
+Style: Post-War and Contemporary Art Day Sale
+Auction house: Christie's
 Auction date: 2026-05-21
-Starting price: EUR 4,200
-Estimated selling price: EUR 6,000-EUR 9,000
-Result price: EUR 11,200
-Last sold price: EUR 7,300
-Notes: Seed record for provenance-sensitive lots.</description>
-      <artmi:title>Small oil study of a harbor at dusk</artmi:title>
-      <artmi:artists>Unknown European school</artmi:artists>
-      <artmi:style>Old master study</artmi:style>
-      <artmi:auctionHouse>Dorotheum</artmi:auctionHouse>
+Starting price: Not available
+Estimated selling price: USD 60,000 - 80,000
+Result price: USD 330,200
+Last sold price: Not available
+Notes: Starting price and prior sale price were not exposed in the public lot-list payload.</description>
+      <artmi:title>Untitled (7.2.89)</artmi:title>
+      <artmi:artists>GERHARD RICHTER (B. 1932)</artmi:artists>
+      <artmi:style>Post-War and Contemporary Art Day Sale</artmi:style>
+      <artmi:auctionHouse>Christie's</artmi:auctionHouse>
       <artmi:auctionDate>2026-05-21</artmi:auctionDate>
       <artmi:status>sold</artmi:status>
-      <artmi:startingPrice>EUR 4,200</artmi:startingPrice>
-      <artmi:estimatedSellingPrice>EUR 6,000-EUR 9,000</artmi:estimatedSellingPrice>
-      <artmi:resultPrice>EUR 11,200</artmi:resultPrice>
-      <artmi:lastSoldPrice>EUR 7,300</artmi:lastSoldPrice>
-      <artmi:recordSource>Prototype seed data</artmi:recordSource>
+      <artmi:estimatedSellingPrice>USD 60,000 - 80,000</artmi:estimatedSellingPrice>
+      <artmi:resultPrice>USD 330,200</artmi:resultPrice>
+      <artmi:recordSource>Christie's public auction result page</artmi:recordSource>
     </item>
     <item>
-      <title>Pair of molded plywood lounge chairs - Bukowskis</title>
-      <link>https://github.com/lmc85/art-market-intelligence</link>
-      <guid>prototype-auction-2026-05-20-002</guid>
-      <pubDate>Wed, 20 May 2026 12:00:00 +0000</pubDate>
-      <category>auctioned</category>
-      <description>Artist(s): Studio attribution
-Style: Nordic design
-Auction house: Bukowskis
-Auction date: 2026-05-20
-Starting price: EUR 9,500
-Estimated selling price: EUR 12,000-EUR 16,000
-Result price: Not available
-Last sold price: Not available
-Notes: Auctioned-status seed record for lots where a realized price is not yet available.</description>
-      <artmi:title>Pair of molded plywood lounge chairs</artmi:title>
-      <artmi:artists>Studio attribution</artmi:artists>
-      <artmi:style>Nordic design</artmi:style>
-      <artmi:auctionHouse>Bukowskis</artmi:auctionHouse>
-      <artmi:auctionDate>2026-05-20</artmi:auctionDate>
-      <artmi:status>auctioned</artmi:status>
-      <artmi:startingPrice>EUR 9,500</artmi:startingPrice>
-      <artmi:estimatedSellingPrice>EUR 12,000-EUR 16,000</artmi:estimatedSellingPrice>
-      <artmi:recordSource>Prototype seed data</artmi:recordSource>
-    </item>
-    <item>
-      <title>Untitled screenprint from a late twentieth-century edition - Swann Galleries</title>
-      <link>https://github.com/lmc85/art-market-intelligence</link>
-      <guid>prototype-sale-2026-05-18-001</guid>
-      <pubDate>Mon, 18 May 2026 12:00:00 +0000</pubDate>
+      <title>Untitled - Christie's</title>
+      <link>https://www.christies.com/en/lot/lot-6585916?ldp_breadcrumb=back</link>
+      <guid>christies-24267.402</guid>
+      <pubDate>Thu, 21 May 2026 12:00:00 +0000</pubDate>
       <category>sold</category>
-      <description>Artist(s): Attributed artist pending verification
-Style: Postwar prints
-Auction house: Swann Galleries
-Auction date: 2026-05-18
-Starting price: $18,000
-Estimated selling price: $24,000-$32,000
-Result price: $36,500
-Last sold price: $28,000
-Notes: Seed record for the auction RSS schema; replace with verified source URL when a live connector lands.</description>
-      <artmi:title>Untitled screenprint from a late twentieth-century edition</artmi:title>
-      <artmi:artists>Attributed artist pending verification</artmi:artists>
-      <artmi:style>Postwar prints</artmi:style>
-      <artmi:auctionHouse>Swann Galleries</artmi:auctionHouse>
-      <artmi:auctionDate>2026-05-18</artmi:auctionDate>
+      <description>Artist(s): FRANZ KLINE (1910-1962)
+Style: Post-War and Contemporary Art Day Sale
+Auction house: Christie's
+Auction date: 2026-05-21
+Starting price: Not available
+Estimated selling price: USD 120,000 - 180,000
+Result price: USD 254,000
+Last sold price: Not available
+Notes: Starting price and prior sale price were not exposed in the public lot-list payload.</description>
+      <artmi:title>Untitled</artmi:title>
+      <artmi:artists>FRANZ KLINE (1910-1962)</artmi:artists>
+      <artmi:style>Post-War and Contemporary Art Day Sale</artmi:style>
+      <artmi:auctionHouse>Christie's</artmi:auctionHouse>
+      <artmi:auctionDate>2026-05-21</artmi:auctionDate>
       <artmi:status>sold</artmi:status>
-      <artmi:startingPrice>$18,000</artmi:startingPrice>
-      <artmi:estimatedSellingPrice>$24,000-$32,000</artmi:estimatedSellingPrice>
-      <artmi:resultPrice>$36,500</artmi:resultPrice>
-      <artmi:lastSoldPrice>$28,000</artmi:lastSoldPrice>
-      <artmi:recordSource>Prototype seed data</artmi:recordSource>
+      <artmi:estimatedSellingPrice>USD 120,000 - 180,000</artmi:estimatedSellingPrice>
+      <artmi:resultPrice>USD 254,000</artmi:resultPrice>
+      <artmi:recordSource>Christie's public auction result page</artmi:recordSource>
+    </item>
+    <item>
+      <title>18 December 2008 - Christie's</title>
+      <link>https://www.christies.com/en/lot/lot-6585917?ldp_breadcrumb=back</link>
+      <guid>christies-24267.403</guid>
+      <pubDate>Thu, 21 May 2026 12:00:00 +0000</pubDate>
+      <category>sold</category>
+      <description>Artist(s): GERHARD RICHTER (B. 1932)
+Style: Post-War and Contemporary Art Day Sale
+Auction house: Christie's
+Auction date: 2026-05-21
+Starting price: Not available
+Estimated selling price: USD 80,000 - 120,000
+Result price: USD 482,600
+Last sold price: Not available
+Notes: Starting price and prior sale price were not exposed in the public lot-list payload.</description>
+      <artmi:title>18 December 2008</artmi:title>
+      <artmi:artists>GERHARD RICHTER (B. 1932)</artmi:artists>
+      <artmi:style>Post-War and Contemporary Art Day Sale</artmi:style>
+      <artmi:auctionHouse>Christie's</artmi:auctionHouse>
+      <artmi:auctionDate>2026-05-21</artmi:auctionDate>
+      <artmi:status>sold</artmi:status>
+      <artmi:estimatedSellingPrice>USD 80,000 - 120,000</artmi:estimatedSellingPrice>
+      <artmi:resultPrice>USD 482,600</artmi:resultPrice>
+      <artmi:recordSource>Christie's public auction result page</artmi:recordSource>
+    </item>
+    <item>
+      <title>Usuyuki - Christie's</title>
+      <link>https://www.christies.com/en/lot/lot-6585918?ldp_breadcrumb=back</link>
+      <guid>christies-24267.404</guid>
+      <pubDate>Thu, 21 May 2026 12:00:00 +0000</pubDate>
+      <category>sold</category>
+      <description>Artist(s): JASPER JOHNS (B. 1930)
+Style: Post-War and Contemporary Art Day Sale
+Auction house: Christie's
+Auction date: 2026-05-21
+Starting price: Not available
+Estimated selling price: USD 100,000 - 150,000
+Result price: USD 381,000
+Last sold price: Not available
+Notes: Starting price and prior sale price were not exposed in the public lot-list payload.</description>
+      <artmi:title>Usuyuki</artmi:title>
+      <artmi:artists>JASPER JOHNS (B. 1930)</artmi:artists>
+      <artmi:style>Post-War and Contemporary Art Day Sale</artmi:style>
+      <artmi:auctionHouse>Christie's</artmi:auctionHouse>
+      <artmi:auctionDate>2026-05-21</artmi:auctionDate>
+      <artmi:status>sold</artmi:status>
+      <artmi:estimatedSellingPrice>USD 100,000 - 150,000</artmi:estimatedSellingPrice>
+      <artmi:resultPrice>USD 381,000</artmi:resultPrice>
+      <artmi:recordSource>Christie's public auction result page</artmi:recordSource>
+    </item>
+    <item>
+      <title>Abstraktes Bild - Christie's</title>
+      <link>https://www.christies.com/en/lot/lot-6585919?ldp_breadcrumb=back</link>
+      <guid>christies-24267.405</guid>
+      <pubDate>Thu, 21 May 2026 12:00:00 +0000</pubDate>
+      <category>sold</category>
+      <description>Artist(s): GERHARD RICHTER (B. 1932)
+Style: Post-War and Contemporary Art Day Sale
+Auction house: Christie's
+Auction date: 2026-05-21
+Starting price: Not available
+Estimated selling price: USD 750,000 - 1,000,000
+Result price: USD 889,000
+Last sold price: Not available
+Notes: Starting price and prior sale price were not exposed in the public lot-list payload.</description>
+      <artmi:title>Abstraktes Bild</artmi:title>
+      <artmi:artists>GERHARD RICHTER (B. 1932)</artmi:artists>
+      <artmi:style>Post-War and Contemporary Art Day Sale</artmi:style>
+      <artmi:auctionHouse>Christie's</artmi:auctionHouse>
+      <artmi:auctionDate>2026-05-21</artmi:auctionDate>
+      <artmi:status>sold</artmi:status>
+      <artmi:estimatedSellingPrice>USD 750,000 - 1,000,000</artmi:estimatedSellingPrice>
+      <artmi:resultPrice>USD 889,000</artmi:resultPrice>
+      <artmi:recordSource>Christie's public auction result page</artmi:recordSource>
+    </item>
+    <item>
+      <title>3. Juli 2015 - Christie's</title>
+      <link>https://www.christies.com/en/lot/lot-6585920?ldp_breadcrumb=back</link>
+      <guid>christies-24267.406</guid>
+      <pubDate>Thu, 21 May 2026 12:00:00 +0000</pubDate>
+      <category>sold</category>
+      <description>Artist(s): GERHARD RICHTER (B. 1932)
+Style: Post-War and Contemporary Art Day Sale
+Auction house: Christie's
+Auction date: 2026-05-21
+Starting price: Not available
+Estimated selling price: USD 60,000 - 80,000
+Result price: USD 69,850
+Last sold price: Not available
+Notes: Starting price and prior sale price were not exposed in the public lot-list payload.</description>
+      <artmi:title>3. Juli 2015</artmi:title>
+      <artmi:artists>GERHARD RICHTER (B. 1932)</artmi:artists>
+      <artmi:style>Post-War and Contemporary Art Day Sale</artmi:style>
+      <artmi:auctionHouse>Christie's</artmi:auctionHouse>
+      <artmi:auctionDate>2026-05-21</artmi:auctionDate>
+      <artmi:status>sold</artmi:status>
+      <artmi:estimatedSellingPrice>USD 60,000 - 80,000</artmi:estimatedSellingPrice>
+      <artmi:resultPrice>USD 69,850</artmi:resultPrice>
+      <artmi:recordSource>Christie's public auction result page</artmi:recordSource>
+    </item>
+    <item>
+      <title>Johannisnacht IV - Christie's</title>
+      <link>https://www.christies.com/en/lot/lot-6585921?ldp_breadcrumb=back</link>
+      <guid>christies-24267.407</guid>
+      <pubDate>Thu, 21 May 2026 12:00:00 +0000</pubDate>
+      <category>sold</category>
+      <description>Artist(s): ANSELM KIEFER (B. 1945)
+Style: Post-War and Contemporary Art Day Sale
+Auction house: Christie's
+Auction date: 2026-05-21
+Starting price: Not available
+Estimated selling price: USD 80,000 - 120,000
+Result price: USD 139,700
+Last sold price: Not available
+Notes: Starting price and prior sale price were not exposed in the public lot-list payload.</description>
+      <artmi:title>Johannisnacht IV</artmi:title>
+      <artmi:artists>ANSELM KIEFER (B. 1945)</artmi:artists>
+      <artmi:style>Post-War and Contemporary Art Day Sale</artmi:style>
+      <artmi:auctionHouse>Christie's</artmi:auctionHouse>
+      <artmi:auctionDate>2026-05-21</artmi:auctionDate>
+      <artmi:status>sold</artmi:status>
+      <artmi:estimatedSellingPrice>USD 80,000 - 120,000</artmi:estimatedSellingPrice>
+      <artmi:resultPrice>USD 139,700</artmi:resultPrice>
+      <artmi:recordSource>Christie's public auction result page</artmi:recordSource>
+    </item>
+    <item>
+      <title>Ceramic Sketch - Christie's</title>
+      <link>https://www.christies.com/en/lot/lot-6585922?ldp_breadcrumb=back</link>
+      <guid>christies-24267.408</guid>
+      <pubDate>Thu, 21 May 2026 12:00:00 +0000</pubDate>
+      <category>sold</category>
+      <description>Artist(s): THOMAS SCHÜTTE (B. 1954)
+Style: Post-War and Contemporary Art Day Sale
+Auction house: Christie's
+Auction date: 2026-05-21
+Starting price: Not available
+Estimated selling price: USD 50,000 - 70,000
+Result price: USD 27,940
+Last sold price: Not available
+Notes: Starting price and prior sale price were not exposed in the public lot-list payload.</description>
+      <artmi:title>Ceramic Sketch</artmi:title>
+      <artmi:artists>THOMAS SCHÜTTE (B. 1954)</artmi:artists>
+      <artmi:style>Post-War and Contemporary Art Day Sale</artmi:style>
+      <artmi:auctionHouse>Christie's</artmi:auctionHouse>
+      <artmi:auctionDate>2026-05-21</artmi:auctionDate>
+      <artmi:status>sold</artmi:status>
+      <artmi:estimatedSellingPrice>USD 50,000 - 70,000</artmi:estimatedSellingPrice>
+      <artmi:resultPrice>USD 27,940</artmi:resultPrice>
+      <artmi:recordSource>Christie's public auction result page</artmi:recordSource>
+    </item>
+    <item>
+      <title>Der Kyffhäuser - Christie's</title>
+      <link>https://www.christies.com/en/lot/lot-6585923?ldp_breadcrumb=back</link>
+      <guid>christies-24267.409</guid>
+      <pubDate>Thu, 21 May 2026 12:00:00 +0000</pubDate>
+      <category>sold</category>
+      <description>Artist(s): ANSELM KIEFER (B. 1945)
+Style: Post-War and Contemporary Art Day Sale
+Auction house: Christie's
+Auction date: 2026-05-21
+Starting price: Not available
+Estimated selling price: USD 30,000 - 50,000
+Result price: USD 44,450
+Last sold price: Not available
+Notes: Starting price and prior sale price were not exposed in the public lot-list payload.</description>
+      <artmi:title>Der Kyffhäuser</artmi:title>
+      <artmi:artists>ANSELM KIEFER (B. 1945)</artmi:artists>
+      <artmi:style>Post-War and Contemporary Art Day Sale</artmi:style>
+      <artmi:auctionHouse>Christie's</artmi:auctionHouse>
+      <artmi:auctionDate>2026-05-21</artmi:auctionDate>
+      <artmi:status>sold</artmi:status>
+      <artmi:estimatedSellingPrice>USD 30,000 - 50,000</artmi:estimatedSellingPrice>
+      <artmi:resultPrice>USD 44,450</artmi:resultPrice>
+      <artmi:recordSource>Christie's public auction result page</artmi:recordSource>
+    </item>
+    <item>
+      <title>Ella - Christie's</title>
+      <link>https://www.christies.com/en/lot/lot-6585924?ldp_breadcrumb=back</link>
+      <guid>christies-24267.410</guid>
+      <pubDate>Thu, 21 May 2026 12:00:00 +0000</pubDate>
+      <category>sold</category>
+      <description>Artist(s): GERHARD RICHTER (B. 1932)
+Style: Post-War and Contemporary Art Day Sale
+Auction house: Christie's
+Auction date: 2026-05-21
+Starting price: Not available
+Estimated selling price: USD 25,000 - 35,000
+Result price: USD 78,740
+Last sold price: Not available
+Notes: Starting price and prior sale price were not exposed in the public lot-list payload.</description>
+      <artmi:title>Ella</artmi:title>
+      <artmi:artists>GERHARD RICHTER (B. 1932)</artmi:artists>
+      <artmi:style>Post-War and Contemporary Art Day Sale</artmi:style>
+      <artmi:auctionHouse>Christie's</artmi:auctionHouse>
+      <artmi:auctionDate>2026-05-21</artmi:auctionDate>
+      <artmi:status>sold</artmi:status>
+      <artmi:estimatedSellingPrice>USD 25,000 - 35,000</artmi:estimatedSellingPrice>
+      <artmi:resultPrice>USD 78,740</artmi:resultPrice>
+      <artmi:recordSource>Christie's public auction result page</artmi:recordSource>
+    </item>
+    <item>
+      <title>20 February 2002 - Christie's</title>
+      <link>https://www.christies.com/en/lot/lot-6585925?ldp_breadcrumb=back</link>
+      <guid>christies-24267.411</guid>
+      <pubDate>Thu, 21 May 2026 12:00:00 +0000</pubDate>
+      <category>sold</category>
+      <description>Artist(s): GERHARD RICHTER (B. 1932)
+Style: Post-War and Contemporary Art Day Sale
+Auction house: Christie's
+Auction date: 2026-05-21
+Starting price: Not available
+Estimated selling price: USD 30,000 - 50,000
+Result price: USD 139,700
+Last sold price: Not available
+Notes: Starting price and prior sale price were not exposed in the public lot-list payload.</description>
+      <artmi:title>20 February 2002</artmi:title>
+      <artmi:artists>GERHARD RICHTER (B. 1932)</artmi:artists>
+      <artmi:style>Post-War and Contemporary Art Day Sale</artmi:style>
+      <artmi:auctionHouse>Christie's</artmi:auctionHouse>
+      <artmi:auctionDate>2026-05-21</artmi:auctionDate>
+      <artmi:status>sold</artmi:status>
+      <artmi:estimatedSellingPrice>USD 30,000 - 50,000</artmi:estimatedSellingPrice>
+      <artmi:resultPrice>USD 139,700</artmi:resultPrice>
+      <artmi:recordSource>Christie's public auction result page</artmi:recordSource>
+    </item>
+    <item>
+      <title>Map Drawing (Sud-Polar-Karte) - Christie's</title>
+      <link>https://www.christies.com/en/lot/lot-6585926?ldp_breadcrumb=back</link>
+      <guid>christies-24267.412</guid>
+      <pubDate>Thu, 21 May 2026 12:00:00 +0000</pubDate>
+      <category>sold</category>
+      <description>Artist(s): WILLIAM KENTRIDGE (B. 1955)
+Style: Post-War and Contemporary Art Day Sale
+Auction house: Christie's
+Auction date: 2026-05-21
+Starting price: Not available
+Estimated selling price: USD 30,000 - 50,000
+Result price: USD 48,260
+Last sold price: Not available
+Notes: Starting price and prior sale price were not exposed in the public lot-list payload.</description>
+      <artmi:title>Map Drawing (Sud-Polar-Karte)</artmi:title>
+      <artmi:artists>WILLIAM KENTRIDGE (B. 1955)</artmi:artists>
+      <artmi:style>Post-War and Contemporary Art Day Sale</artmi:style>
+      <artmi:auctionHouse>Christie's</artmi:auctionHouse>
+      <artmi:auctionDate>2026-05-21</artmi:auctionDate>
+      <artmi:status>sold</artmi:status>
+      <artmi:estimatedSellingPrice>USD 30,000 - 50,000</artmi:estimatedSellingPrice>
+      <artmi:resultPrice>USD 48,260</artmi:resultPrice>
+      <artmi:recordSource>Christie's public auction result page</artmi:recordSource>
     </item>
   </channel>
 </rss>

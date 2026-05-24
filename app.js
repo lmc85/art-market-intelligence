@@ -278,9 +278,10 @@ function renderAuctionFeed() {
         item.style,
         item.auction_house,
         item.auction_date,
-        priceLabel(item.starting_price),
-        priceLabel(item.estimated_selling_price),
-        priceLabel(item.last_sold_price),
+      priceLabel(item.starting_price),
+      priceLabel(item.estimated_selling_price),
+      priceLabel(item.result_price),
+      priceLabel(item.last_sold_price),
       ]
         .join(" ")
         .toLowerCase()
@@ -291,7 +292,7 @@ function renderAuctionFeed() {
   if (!items.length) {
     elements.auctionFeedBody.innerHTML = `
       <tr>
-        <td class="table-empty" colspan="8">No auction feed items match the current search.</td>
+        <td class="table-empty" colspan="9">No auction feed items match the current search.</td>
       </tr>
     `;
     return;
@@ -311,6 +312,7 @@ function renderAuctionFeed() {
           <td>${escapeHtml(item.auction_date || "Not available")}</td>
           <td>${escapeHtml(priceLabel(item.starting_price))}</td>
           <td>${escapeHtml(priceLabel(item.estimated_selling_price))}</td>
+          <td>${escapeHtml(priceLabel(item.result_price))}</td>
           <td>${escapeHtml(priceLabel(item.last_sold_price))}</td>
         </tr>
       `,

@@ -53,6 +53,12 @@ Regenerate it after editing `data/auction_feed_items.json`:
 python3 scripts/generate_auction_rss.py
 ```
 
+Fetch live first-pass Christie's result records into the RSS feed:
+
+```bash
+python3 scripts/ingest_christies_auction_feed.py --limit 12 --sale-query contemporary --replace
+```
+
 ## Near-Term Data Work
 
 1. Expand open collection ingestion to bulk CSV sources: National Gallery of Art, MoMA, Tate, Smithsonian, and V&A.

@@ -4,18 +4,18 @@
     "source_name": "Heritage Auctions Archives",
     "priority": "P0",
     "target_type": "Realized price archive",
-    "stage": "Terms review",
+    "stage": "Blocked in local HTTP; terms/browser review",
     "rss_use": "Sold lots, estimates, realized prices, prior sale cues",
-    "next_action": "Confirm automated-use terms, then map search/result pages."
+    "next_action": "Review terms and access path; local HTTP requests currently receive 403 while browser/search access is visible."
   },
   {
     "source_id": "christies_results",
     "source_name": "Christie's Results",
     "priority": "P0",
     "target_type": "Official auction result",
-    "stage": "Selector mapping",
-    "rss_use": "Official sale dates, lot titles, estimates, realized prices",
-    "next_action": "Map sale and lot page fields, preserving source URL per lot."
+    "stage": "Implemented first pass",
+    "rss_use": "Live official lot records with artist, title, sale date, estimates, realized price, and source URL",
+    "next_action": "Add pagination, sale-type filters, and detail-page enrichment for starting price and prior-sale fields."
   },
   {
     "source_id": "sothebys_results",
