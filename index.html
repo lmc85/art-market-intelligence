@@ -1,0 +1,209 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Art Market Intelligence</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="app-shell">
+      <aside class="sidebar" aria-label="Primary">
+        <a class="brand" href="/" aria-label="Art Market Intelligence home">
+          <span class="brand-mark">AMI</span>
+          <span>
+            <strong>Art Market</strong>
+            <small>Intelligence</small>
+          </span>
+        </a>
+
+        <nav class="nav-list">
+          <a class="active" href="#pulse">Pulse</a>
+          <a href="#feed">Feed</a>
+          <a href="#sources">Sources</a>
+          <a href="#forecast">Forecasts</a>
+          <a href="#queue">Queue</a>
+        </nav>
+
+        <div class="sidebar-status">
+          <span class="status-dot"></span>
+          <span>Source register live</span>
+        </div>
+      </aside>
+
+      <main class="workspace">
+        <header class="topbar">
+          <div>
+            <p class="eyebrow">Market Command Center</p>
+            <h1>Global art sales intelligence</h1>
+          </div>
+          <div class="topbar-actions">
+            <label class="search-box" for="global-search">
+              <span>Search</span>
+              <input id="global-search" type="search" placeholder="Artist, lot, region, house" />
+            </label>
+            <button class="primary-action" type="button">New Source</button>
+          </div>
+        </header>
+
+        <section class="metric-grid" id="pulse" aria-label="Market pulse">
+          <article class="metric">
+            <span class="metric-label">Source Register</span>
+            <strong id="metric-sources">--</strong>
+            <small id="metric-sources-detail">Loading sources</small>
+          </article>
+          <article class="metric">
+            <span class="metric-label">P0 Feeds</span>
+            <strong id="metric-p0">--</strong>
+            <small>Ready for first connectors</small>
+          </article>
+          <article class="metric">
+            <span class="metric-label">Price Surfaces</span>
+            <strong id="metric-price">--</strong>
+            <small>Realized and official results</small>
+          </article>
+          <article class="metric accent">
+            <span class="metric-label">Signal Confidence</span>
+            <strong>72%</strong>
+            <small>Model scaffold, no live comps yet</small>
+          </article>
+        </section>
+
+        <section class="dashboard-grid">
+          <section class="panel feed-panel" id="feed" aria-labelledby="feed-title">
+            <div class="panel-header">
+              <div>
+                <p class="eyebrow">Live Feed</p>
+                <h2 id="feed-title">Market movements</h2>
+              </div>
+              <div class="segmented-control" role="tablist" aria-label="Feed filters">
+                <button class="active" type="button" data-filter="all">All</button>
+                <button type="button" data-filter="demand">Demand</button>
+                <button type="button" data-filter="price">Price</button>
+                <button type="button" data-filter="risk">Risk</button>
+              </div>
+            </div>
+            <div class="feed-list" id="feed-list"></div>
+          </section>
+
+          <section class="panel heat-panel" aria-labelledby="heat-title">
+            <div class="panel-header">
+              <div>
+                <p class="eyebrow">Demand Heat</p>
+                <h2 id="heat-title">Regional pressure</h2>
+              </div>
+              <span class="time-chip">90d</span>
+            </div>
+            <div class="heat-map" aria-label="Regional demand heat map">
+              <div class="heat-region north-america">
+                <span>North America</span>
+                <strong>+8.4%</strong>
+              </div>
+              <div class="heat-region europe">
+                <span>Europe</span>
+                <strong>+5.1%</strong>
+              </div>
+              <div class="heat-region asia">
+                <span>Asia</span>
+                <strong>+11.7%</strong>
+              </div>
+              <div class="heat-region nordics">
+                <span>Nordics</span>
+                <strong>+6.9%</strong>
+              </div>
+              <div class="heat-region gulf">
+                <span>Gulf</span>
+                <strong>+4.3%</strong>
+              </div>
+            </div>
+            <div class="market-bars">
+              <div>
+                <span>Postwar prints</span>
+                <meter min="0" max="100" value="84"></meter>
+              </div>
+              <div>
+                <span>Nordic design</span>
+                <meter min="0" max="100" value="77"></meter>
+              </div>
+              <div>
+                <span>Old master works</span>
+                <meter min="0" max="100" value="63"></meter>
+              </div>
+            </div>
+          </section>
+
+          <section class="panel forecast-panel" id="forecast" aria-labelledby="forecast-title">
+            <div class="panel-header">
+              <div>
+                <p class="eyebrow">Forecast</p>
+                <h2 id="forecast-title">Comparable estimate</h2>
+              </div>
+              <button class="ghost-action" type="button">Refresh</button>
+            </div>
+            <div class="forecast-card">
+              <div class="lot-thumb" aria-hidden="true">
+                <span></span>
+                <span></span>
+                <span></span>
+              </div>
+              <div>
+                <p class="forecast-label">Untitled screenprint, late 20th c.</p>
+                <strong>$42K-$58K</strong>
+                <small>Based on medium, edition, size, house tier, and 14 modeled comps</small>
+              </div>
+            </div>
+            <div class="forecast-stats">
+              <div>
+                <span>Liquidity</span>
+                <strong>High</strong>
+              </div>
+              <div>
+                <span>Volatility</span>
+                <strong>Medium</strong>
+              </div>
+              <div>
+                <span>Downside</span>
+                <strong>12%</strong>
+              </div>
+            </div>
+          </section>
+
+          <section class="panel coverage-panel" id="sources" aria-labelledby="coverage-title">
+            <div class="panel-header">
+              <div>
+                <p class="eyebrow">Coverage</p>
+                <h2 id="coverage-title">Source classes</h2>
+              </div>
+            </div>
+            <div class="coverage-list" id="coverage-list"></div>
+          </section>
+
+          <section class="panel queue-panel" id="queue" aria-labelledby="queue-title">
+            <div class="panel-header">
+              <div>
+                <p class="eyebrow">Connector Queue</p>
+                <h2 id="queue-title">Next ingestion targets</h2>
+              </div>
+              <button class="ghost-action" type="button">Export</button>
+            </div>
+            <div class="table-shell">
+              <table>
+                <thead>
+                  <tr>
+                    <th>Source</th>
+                    <th>Class</th>
+                    <th>Access</th>
+                    <th>Priority</th>
+                  </tr>
+                </thead>
+                <tbody id="queue-body"></tbody>
+              </table>
+            </div>
+          </section>
+        </section>
+      </main>
+    </div>
+
+    <script src="app.js"></script>
+  </body>
+</html>
