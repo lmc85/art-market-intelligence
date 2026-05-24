@@ -20,6 +20,7 @@ class AuctionRssTests(unittest.TestCase):
                     "starting_price": {"display": "$1,000"},
                     "estimated_selling_price": {"display": "$1,500-$2,000"},
                     "last_sold_price": {"display": "$900"},
+                    "prediction_ready": True,
                     "source_url": "https://example.test/lot",
                     "record_source": "test",
                 }
@@ -39,6 +40,7 @@ class AuctionRssTests(unittest.TestCase):
         self.assertEqual(item.findtext(f"{{{ARTMI_NS}}}startingPrice"), "$1,000")
         self.assertEqual(item.findtext(f"{{{ARTMI_NS}}}estimatedSellingPrice"), "$1,500-$2,000")
         self.assertEqual(item.findtext(f"{{{ARTMI_NS}}}lastSoldPrice"), "$900")
+        self.assertEqual(item.findtext(f"{{{ARTMI_NS}}}predictionReady"), "true")
 
     def test_christies_lot_normalizer_maps_estimate_and_result(self):
         item = lot_to_feed_item(
@@ -60,7 +62,7 @@ class AuctionRssTests(unittest.TestCase):
             sale_url="https://www.christies.com/en/auction/post-war-and-contemporary-art-day-sale-31036/",
         )
 
-        self.assertEqual(item["id"], "christies-24267.401")
+        self.assertEqual(item["id"], "christies_results|christie's|post-war and contemporary art day sale|401")
         self.assertEqual(item["status"], "sold")
         self.assertEqual(item["title"], "Untitled (7.2.89)")
         self.assertEqual(item["artists"], ["GERHARD RICHTER (B. 1932)"])

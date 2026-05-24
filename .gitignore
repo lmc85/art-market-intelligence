@@ -6,3 +6,10 @@ __pycache__/
 data/ingested/*.json
 data/ingested/*.jsonl
 !data/ingested/.gitkeep
+
+# Local auction pipeline artifacts.
+data/auction/*.sqlite
+data/auction/*.sqlite-*
+data/auction/raw_snapshots/*
+!data/auction/.gitkeep
+!data/auction/raw_snapshots/.gitkeep

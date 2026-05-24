@@ -5,13 +5,13 @@
     <link>http://localhost:4173/</link>
     <description>Auction and sale records normalized for art market intelligence.</description>
     <language>en-us</language>
-    <lastBuildDate>Sun, 24 May 2026 13:29:43 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 24 May 2026 23:17:47 +0000</lastBuildDate>
     <ttl>60</ttl>
     <atom:link href="http://localhost:4173/feeds/auction-results.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Untitled (7.2.89) - Christie's</title>
       <link>https://www.christies.com/en/lot/lot-6585915?ldp_breadcrumb=back</link>
-      <guid>christies-24267.401</guid>
+      <guid>christies_results|christie's|31036|401</guid>
       <pubDate>Thu, 21 May 2026 12:00:00 +0000</pubDate>
       <category>sold</category>
       <description>Artist(s): GERHARD RICHTER (B. 1932)
@@ -31,12 +31,13 @@ Notes: Starting price and prior sale price were not exposed in the public lot-li
       <artmi:status>sold</artmi:status>
       <artmi:estimatedSellingPrice>USD 60,000 - 80,000</artmi:estimatedSellingPrice>
       <artmi:resultPrice>USD 330,200</artmi:resultPrice>
+      <artmi:predictionReady>true</artmi:predictionReady>
       <artmi:recordSource>Christie's public auction result page</artmi:recordSource>
     </item>
     <item>
       <title>Untitled - Christie's</title>
       <link>https://www.christies.com/en/lot/lot-6585916?ldp_breadcrumb=back</link>
-      <guid>christies-24267.402</guid>
+      <guid>christies_results|christie's|31036|402</guid>
       <pubDate>Thu, 21 May 2026 12:00:00 +0000</pubDate>
       <category>sold</category>
       <description>Artist(s): FRANZ KLINE (1910-1962)
@@ -56,12 +57,13 @@ Notes: Starting price and prior sale price were not exposed in the public lot-li
       <artmi:status>sold</artmi:status>
       <artmi:estimatedSellingPrice>USD 120,000 - 180,000</artmi:estimatedSellingPrice>
       <artmi:resultPrice>USD 254,000</artmi:resultPrice>
+      <artmi:predictionReady>true</artmi:predictionReady>
       <artmi:recordSource>Christie's public auction result page</artmi:recordSource>
     </item>
     <item>
       <title>18 December 2008 - Christie's</title>
       <link>https://www.christies.com/en/lot/lot-6585917?ldp_breadcrumb=back</link>
-      <guid>christies-24267.403</guid>
+      <guid>christies_results|christie's|31036|403</guid>
       <pubDate>Thu, 21 May 2026 12:00:00 +0000</pubDate>
       <category>sold</category>
       <description>Artist(s): GERHARD RICHTER (B. 1932)
@@ -81,12 +83,13 @@ Notes: Starting price and prior sale price were not exposed in the public lot-li
       <artmi:status>sold</artmi:status>
       <artmi:estimatedSellingPrice>USD 80,000 - 120,000</artmi:estimatedSellingPrice>
       <artmi:resultPrice>USD 482,600</artmi:resultPrice>
+      <artmi:predictionReady>true</artmi:predictionReady>
       <artmi:recordSource>Christie's public auction result page</artmi:recordSource>
     </item>
     <item>
       <title>Usuyuki - Christie's</title>
       <link>https://www.christies.com/en/lot/lot-6585918?ldp_breadcrumb=back</link>
-      <guid>christies-24267.404</guid>
+      <guid>christies_results|christie's|31036|404</guid>
       <pubDate>Thu, 21 May 2026 12:00:00 +0000</pubDate>
       <category>sold</category>
       <description>Artist(s): JASPER JOHNS (B. 1930)
@@ -106,12 +109,13 @@ Notes: Starting price and prior sale price were not exposed in the public lot-li
       <artmi:status>sold</artmi:status>
       <artmi:estimatedSellingPrice>USD 100,000 - 150,000</artmi:estimatedSellingPrice>
       <artmi:resultPrice>USD 381,000</artmi:resultPrice>
+      <artmi:predictionReady>true</artmi:predictionReady>
       <artmi:recordSource>Christie's public auction result page</artmi:recordSource>
     </item>
     <item>
       <title>Abstraktes Bild - Christie's</title>
       <link>https://www.christies.com/en/lot/lot-6585919?ldp_breadcrumb=back</link>
-      <guid>christies-24267.405</guid>
+      <guid>christies_results|christie's|31036|405</guid>
       <pubDate>Thu, 21 May 2026 12:00:00 +0000</pubDate>
       <category>sold</category>
       <description>Artist(s): GERHARD RICHTER (B. 1932)
@@ -131,12 +135,13 @@ Notes: Starting price and prior sale price were not exposed in the public lot-li
       <artmi:status>sold</artmi:status>
       <artmi:estimatedSellingPrice>USD 750,000 - 1,000,000</artmi:estimatedSellingPrice>
       <artmi:resultPrice>USD 889,000</artmi:resultPrice>
+      <artmi:predictionReady>true</artmi:predictionReady>
       <artmi:recordSource>Christie's public auction result page</artmi:recordSource>
     </item>
     <item>
       <title>3. Juli 2015 - Christie's</title>
       <link>https://www.christies.com/en/lot/lot-6585920?ldp_breadcrumb=back</link>
-      <guid>christies-24267.406</guid>
+      <guid>christies_results|christie's|31036|406</guid>
       <pubDate>Thu, 21 May 2026 12:00:00 +0000</pubDate>
       <category>sold</category>
       <description>Artist(s): GERHARD RICHTER (B. 1932)
@@ -156,12 +161,13 @@ Notes: Starting price and prior sale price were not exposed in the public lot-li
       <artmi:status>sold</artmi:status>
       <artmi:estimatedSellingPrice>USD 60,000 - 80,000</artmi:estimatedSellingPrice>
       <artmi:resultPrice>USD 69,850</artmi:resultPrice>
+      <artmi:predictionReady>true</artmi:predictionReady>
       <artmi:recordSource>Christie's public auction result page</artmi:recordSource>
     </item>
     <item>
       <title>Johannisnacht IV - Christie's</title>
       <link>https://www.christies.com/en/lot/lot-6585921?ldp_breadcrumb=back</link>
-      <guid>christies-24267.407</guid>
+      <guid>christies_results|christie's|31036|407</guid>
       <pubDate>Thu, 21 May 2026 12:00:00 +0000</pubDate>
       <category>sold</category>
       <description>Artist(s): ANSELM KIEFER (B. 1945)
@@ -181,12 +187,13 @@ Notes: Starting price and prior sale price were not exposed in the public lot-li
       <artmi:status>sold</artmi:status>
       <artmi:estimatedSellingPrice>USD 80,000 - 120,000</artmi:estimatedSellingPrice>
       <artmi:resultPrice>USD 139,700</artmi:resultPrice>
+      <artmi:predictionReady>true</artmi:predictionReady>
       <artmi:recordSource>Christie's public auction result page</artmi:recordSource>
     </item>
     <item>
       <title>Ceramic Sketch - Christie's</title>
       <link>https://www.christies.com/en/lot/lot-6585922?ldp_breadcrumb=back</link>
-      <guid>christies-24267.408</guid>
+      <guid>christies_results|christie's|31036|408</guid>
       <pubDate>Thu, 21 May 2026 12:00:00 +0000</pubDate>
       <category>sold</category>
       <description>Artist(s): THOMAS SCHÜTTE (B. 1954)
@@ -206,12 +213,13 @@ Notes: Starting price and prior sale price were not exposed in the public lot-li
       <artmi:status>sold</artmi:status>
       <artmi:estimatedSellingPrice>USD 50,000 - 70,000</artmi:estimatedSellingPrice>
       <artmi:resultPrice>USD 27,940</artmi:resultPrice>
+      <artmi:predictionReady>true</artmi:predictionReady>
       <artmi:recordSource>Christie's public auction result page</artmi:recordSource>
     </item>
     <item>
       <title>Der Kyffhäuser - Christie's</title>
       <link>https://www.christies.com/en/lot/lot-6585923?ldp_breadcrumb=back</link>
-      <guid>christies-24267.409</guid>
+      <guid>christies_results|christie's|31036|409</guid>
       <pubDate>Thu, 21 May 2026 12:00:00 +0000</pubDate>
       <category>sold</category>
       <description>Artist(s): ANSELM KIEFER (B. 1945)
@@ -231,12 +239,13 @@ Notes: Starting price and prior sale price were not exposed in the public lot-li
       <artmi:status>sold</artmi:status>
       <artmi:estimatedSellingPrice>USD 30,000 - 50,000</artmi:estimatedSellingPrice>
       <artmi:resultPrice>USD 44,450</artmi:resultPrice>
+      <artmi:predictionReady>true</artmi:predictionReady>
       <artmi:recordSource>Christie's public auction result page</artmi:recordSource>
     </item>
     <item>
       <title>Ella - Christie's</title>
       <link>https://www.christies.com/en/lot/lot-6585924?ldp_breadcrumb=back</link>
-      <guid>christies-24267.410</guid>
+      <guid>christies_results|christie's|31036|410</guid>
       <pubDate>Thu, 21 May 2026 12:00:00 +0000</pubDate>
       <category>sold</category>
       <description>Artist(s): GERHARD RICHTER (B. 1932)
@@ -256,12 +265,13 @@ Notes: Starting price and prior sale price were not exposed in the public lot-li
       <artmi:status>sold</artmi:status>
       <artmi:estimatedSellingPrice>USD 25,000 - 35,000</artmi:estimatedSellingPrice>
       <artmi:resultPrice>USD 78,740</artmi:resultPrice>
+      <artmi:predictionReady>true</artmi:predictionReady>
       <artmi:recordSource>Christie's public auction result page</artmi:recordSource>
     </item>
     <item>
       <title>20 February 2002 - Christie's</title>
       <link>https://www.christies.com/en/lot/lot-6585925?ldp_breadcrumb=back</link>
-      <guid>christies-24267.411</guid>
+      <guid>christies_results|christie's|31036|411</guid>
       <pubDate>Thu, 21 May 2026 12:00:00 +0000</pubDate>
       <category>sold</category>
       <description>Artist(s): GERHARD RICHTER (B. 1932)
@@ -281,12 +291,13 @@ Notes: Starting price and prior sale price were not exposed in the public lot-li
       <artmi:status>sold</artmi:status>
       <artmi:estimatedSellingPrice>USD 30,000 - 50,000</artmi:estimatedSellingPrice>
       <artmi:resultPrice>USD 139,700</artmi:resultPrice>
+      <artmi:predictionReady>true</artmi:predictionReady>
       <artmi:recordSource>Christie's public auction result page</artmi:recordSource>
     </item>
     <item>
       <title>Map Drawing (Sud-Polar-Karte) - Christie's</title>
       <link>https://www.christies.com/en/lot/lot-6585926?ldp_breadcrumb=back</link>
-      <guid>christies-24267.412</guid>
+      <guid>christies_results|christie's|31036|412</guid>
       <pubDate>Thu, 21 May 2026 12:00:00 +0000</pubDate>
       <category>sold</category>
       <description>Artist(s): WILLIAM KENTRIDGE (B. 1955)
@@ -306,6 +317,7 @@ Notes: Starting price and prior sale price were not exposed in the public lot-li
       <artmi:status>sold</artmi:status>
       <artmi:estimatedSellingPrice>USD 30,000 - 50,000</artmi:estimatedSellingPrice>
       <artmi:resultPrice>USD 48,260</artmi:resultPrice>
+      <artmi:predictionReady>true</artmi:predictionReady>
       <artmi:recordSource>Christie's public auction result page</artmi:recordSource>
     </item>
   </channel>

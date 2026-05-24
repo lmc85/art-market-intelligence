@@ -10,7 +10,7 @@ The first ingestion layer focuses only on open API and bulk-file sources. It doe
 | `artic_api` | Art Institute of Chicago API | Open API | Uses the artworks listing/search endpoint with an explicit field list. |
 | `cleveland_open_access` | Cleveland Museum of Art Open Access API | Open API | Uses a User-Agent header and requests image-backed records. |
 | `moma_collection` | MoMA Collection Data | Bulk CSV | Streams the GitHub-hosted `Artworks.csv` file without loading the full dataset into memory. |
-| `christies_results` | Christie's Results | Public HTML payload | Fetches official lot-level result data from public sale pages into the auction RSS schema. |
+| `christies_results` | Christie's Results | Public HTML payload | Fetches official lot-level result data into SQLite, then exports the auction RSS/dashboard schema. |
 
 Queued but not implemented yet: National Gallery of Art, Tate, Smithsonian, Rijksmuseum, Harvard Art Museums, V&A, Europeana, and authority/macro connectors.
 

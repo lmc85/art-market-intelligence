@@ -5,10 +5,12 @@ from __future__ import annotations
 import html
 import json
 import re
+from dataclasses import dataclass
 from datetime import datetime
 from html.parser import HTMLParser
-from typing import Any, Dict, Iterable, List, Optional
+from typing import Any, Dict, List, Optional, Tuple
 
+from ingestion.auction_models import AuctionLot, MoneyValue
 from ingestion.http import HttpClient
 
 
@@ -25,6 +27,16 @@ EXCLUDED_SALE_TERMS = (
     "sneaker",
     "real estate",
 )
+
+
+@dataclass
+class ChristiesSaleSnapshot:
+    sale_url: str
+    sale_title: str
+    sale_id: str
+    sale_number: str
+    raw_html: str
+    lots_payload: Dict[str, Any]
 
 
 class ChristiesResultsConnector:
@@ -45,20 +57,43 @@ class ChristiesResultsConnector:
         if limit < 1:
             return []
 
+        snapshot, lots = self.fetch_auction_lots(limit=limit, sale_url=sale_url, sale_query=sale_query)
+        return [lot.to_feed_item() for lot in lots]
+
+    def fetch_auction_lots(
+        self,
+        limit: int = 10,
+        sale_url: Optional[str] = None,
+        sale_query: str = "",
+    ) -> Tuple[ChristiesSaleSnapshot, List[AuctionLot]]:
+        snapshot = self.fetch_sale_snapshot(sale_url=sale_url, sale_query=sale_query)
+        lots = []
+        for lot in snapshot.lots_payload.get("lots", []):
+            if len(lots) >= limit:
+                break
+            item = lot_to_auction_lot(lot, snapshot)
+            if item:
+                lots.append(item)
+        return snapshot, lots
+
+    def fetch_sale_snapshot(
+        self,
+        sale_url: Optional[str] = None,
+        sale_query: str = "",
+    ) -> ChristiesSaleSnapshot:
         target_sale_url = sale_url or self.discover_sale_url(sale_query=sale_query)
         sale_html = self.client.get_text(target_sale_url)
         sale_title = extract_sale_title(sale_html)
         lots_payload = extract_component_data(sale_html, "window.chrComponents.lots")
-        lots = lots_payload.get("lots", [])
-
-        items = []
-        for lot in lots:
-            if len(items) >= limit:
-                break
-            item = lot_to_feed_item(lot, sale_title=sale_title, sale_url=target_sale_url)
-            if item:
-                items.append(item)
-        return items
+        sale_id, sale_number = extract_sale_ids(lots_payload)
+        return ChristiesSaleSnapshot(
+            sale_url=target_sale_url,
+            sale_title=sale_title,
+            sale_id=sale_id,
+            sale_number=sale_number,
+            raw_html=sale_html,
+            lots_payload=lots_payload,
+        )
 
     def discover_sale_url(self, sale_query: str = "") -> str:
         results_html = self.client.get_text(RESULTS_URL)
@@ -88,6 +123,19 @@ class ChristiesResultsConnector:
 
 
 def lot_to_feed_item(lot: Dict[str, Any], sale_title: str, sale_url: str) -> Optional[Dict[str, Any]]:
+    snapshot = ChristiesSaleSnapshot(
+        sale_url=sale_url,
+        sale_title=sale_title,
+        sale_id="",
+        sale_number="",
+        raw_html="",
+        lots_payload={},
+    )
+    auction_lot = lot_to_auction_lot(lot, snapshot)
+    return auction_lot.to_feed_item() if auction_lot else None
+
+
+def lot_to_auction_lot(lot: Dict[str, Any], snapshot: ChristiesSaleSnapshot) -> Optional[AuctionLot]:
     object_id = str(lot.get("object_id") or "").strip()
     lot_id = str(lot.get("lot_id_txt") or "").strip()
     if not object_id and not lot_id:
@@ -98,23 +146,40 @@ def lot_to_feed_item(lot: Dict[str, Any], sale_title: str, sale_url: str) -> Opt
     title = clean_text(lot.get("title_secondary_txt") or lot.get("title_tertiary_txt") or "Untitled lot")
     estimate = estimate_price(lot)
     result = money_value(lot.get("price_realised"), lot.get("price_realised_txt"))
+    image = lot.get("image") or {}
+    currency = currency_from_money(estimate) or currency_from_money(result)
 
-    return {
-        "id": f"christies-{lot.get('analytics_id') or lot_id or object_id}",
-        "status": "sold" if result else "auctioned",
-        "title": title,
-        "artists": [artist] if artist else [],
-        "style": sale_title,
-        "auction_house": AUCTION_HOUSE,
-        "auction_date": auction_date,
-        "starting_price": None,
-        "estimated_selling_price": estimate,
-        "result_price": result,
-        "last_sold_price": None,
-        "source_url": lot.get("url") or sale_url,
-        "record_source": RECORD_SOURCE,
-        "notes": "Starting price and prior sale price were not exposed in the public lot-list payload.",
-    }
+    return AuctionLot(
+        source_id=ChristiesResultsConnector.source_id,
+        source_name=ChristiesResultsConnector.source_name,
+        auction_house=AUCTION_HOUSE,
+        sale_id=snapshot.sale_id,
+        sale_title=snapshot.sale_title,
+        sale_url=snapshot.sale_url,
+        lot_id=lot_id,
+        source_record_id=object_id,
+        title=title,
+        artists=[artist] if artist else [],
+        style=snapshot.sale_title,
+        auction_date=auction_date,
+        currency=currency,
+        estimate=MoneyValue.from_dict(estimate),
+        result_price=MoneyValue.from_dict(result),
+        source_url=lot.get("url") or snapshot.sale_url,
+        image_url=image.get("image_src") or image.get("image_desktop_src") or "",
+        description=clean_text(lot.get("description_txt") or ""),
+        record_source=RECORD_SOURCE,
+        notes="Starting price and prior sale price were not exposed in the public lot-list payload.",
+        raw=lot,
+    )
+
+
+def extract_sale_ids(lots_payload: Dict[str, Any]) -> Tuple[str, str]:
+    params = (
+        lots_payload.get("lot_search_api_endpoint", {})
+        .get("parameters", {})
+    )
+    return str(params.get("saleid") or ""), str(params.get("salenumber") or "")
 
 
 def extract_component_data(html_text: str, assignment: str) -> Dict[str, Any]:
@@ -208,6 +273,10 @@ def money_value(value: Any, display: Any) -> Optional[Dict[str, Any]]:
         "amount": amount,
         "display": display_text or f"{currency} {amount}".strip(),
     }
+
+
+def currency_from_money(value: Optional[Dict[str, Any]]) -> str:
+    return str((value or {}).get("currency") or "")
 
 
 def range_display(currency: str, low: Optional[float], high: Optional[float]) -> str:

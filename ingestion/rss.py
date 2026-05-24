@@ -90,6 +90,7 @@ def add_item(channel: ET.Element, item: Dict[str, Any]) -> None:
     add_artmi(node, "estimatedSellingPrice", money_display(item.get("estimated_selling_price")))
     add_artmi(node, "resultPrice", money_display(item.get("result_price")))
     add_artmi(node, "lastSoldPrice", money_display(item.get("last_sold_price")))
+    add_artmi(node, "predictionReady", str(bool(item.get("prediction_ready"))).lower())
     add_artmi(node, "recordSource", item.get("record_source"))
 
 

@@ -20,6 +20,12 @@ Fetch the first live Christie’s result feed:
 python3 scripts/ingest_christies_auction_feed.py --limit 12 --sale-query contemporary --replace
 ```
 
+Republish from the local SQLite store without fetching:
+
+```bash
+python3 scripts/export_auction_feed.py --limit 100
+```
+
 ## Required Fields
 
 Each feed item supports the fields requested for sale and auction monitoring:
@@ -35,6 +41,7 @@ Each feed item supports the fields requested for sale and auction monitoring:
 | Estimated selling price | `estimated_selling_price.display` | `artmi:estimatedSellingPrice` |
 | Last sold price | `last_sold_price.display` | `artmi:lastSoldPrice` |
 | Sold/result price | `result_price.display` | `artmi:resultPrice` |
+| Prediction ready | `prediction_ready` | `artmi:predictionReady` |
 
 Optional fields are omitted from the XML when they are not available. The dashboard displays unavailable values as `Not available`.
 

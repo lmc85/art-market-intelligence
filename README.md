@@ -11,6 +11,9 @@ An early-stage art market intelligence app for collecting public auction, sales,
 - `data/auction_feed_items.json` - seed auction/sales records for the prototype RSS feed.
 - `feeds/auction-results.xml` - generated RSS feed for pieces sold and auctioned.
 - `scripts/generate_auction_rss.py` - regenerates the auction RSS XML from JSON.
+- `scripts/ingest_christies_auction_feed.py` - fetches Christie’s public result lots into SQLite, then publishes JSON/RSS.
+- `scripts/export_auction_feed.py` - republishes JSON/RSS from the local auction SQLite store.
+- `docs/auction-pipeline.md` - pipeline storage, quality flags, and command notes.
 - `docs/ingestion.md` - ingestion usage, schema, and guardrails.
 - `docs/free-data-sources.md` - prioritized register of free/public/partial-free data sources.
 - `data/free_data_sources.csv` - structured source inventory for future ingestion tooling.
@@ -58,6 +61,8 @@ Fetch live first-pass Christie's result records into the RSS feed:
 ```bash
 python3 scripts/ingest_christies_auction_feed.py --limit 12 --sale-query contemporary --replace
 ```
+
+The Christie’s script now stores lots in `data/auction/auction_pipeline.sqlite`, saves raw snapshots under `data/auction/raw_snapshots/`, then exports the dashboard JSON and RSS feed.
 
 ## Near-Term Data Work
 

@@ -1,6 +1,6 @@
 [
   {
-    "id": "christies-24267.401",
+    "id": "christies_results|christie's|31036|401",
     "status": "sold",
     "title": "Untitled (7.2.89)",
     "artists": [
@@ -24,10 +24,24 @@
     "last_sold_price": null,
     "source_url": "https://www.christies.com/en/lot/lot-6585915?ldp_breadcrumb=back",
     "record_source": "Christie's public auction result page",
-    "notes": "Starting price and prior sale price were not exposed in the public lot-list payload."
+    "notes": "Starting price and prior sale price were not exposed in the public lot-list payload.",
+    "quality_flags": {
+      "has_artist": true,
+      "has_title": true,
+      "has_auction_date": true,
+      "has_estimate": true,
+      "has_result_price": true,
+      "has_starting_price": false,
+      "has_prior_sale": false,
+      "has_source_url": true,
+      "has_image": true,
+      "has_medium": false,
+      "has_dimensions": false
+    },
+    "prediction_ready": true
   },
   {
-    "id": "christies-24267.402",
+    "id": "christies_results|christie's|31036|402",
     "status": "sold",
     "title": "Untitled",
     "artists": [
@@ -51,10 +65,24 @@
     "last_sold_price": null,
     "source_url": "https://www.christies.com/en/lot/lot-6585916?ldp_breadcrumb=back",
     "record_source": "Christie's public auction result page",
-    "notes": "Starting price and prior sale price were not exposed in the public lot-list payload."
+    "notes": "Starting price and prior sale price were not exposed in the public lot-list payload.",
+    "quality_flags": {
+      "has_artist": true,
+      "has_title": true,
+      "has_auction_date": true,
+      "has_estimate": true,
+      "has_result_price": true,
+      "has_starting_price": false,
+      "has_prior_sale": false,
+      "has_source_url": true,
+      "has_image": true,
+      "has_medium": false,
+      "has_dimensions": false
+    },
+    "prediction_ready": true
   },
   {
-    "id": "christies-24267.403",
+    "id": "christies_results|christie's|31036|403",
     "status": "sold",
     "title": "18 December 2008",
     "artists": [
@@ -78,10 +106,24 @@
     "last_sold_price": null,
     "source_url": "https://www.christies.com/en/lot/lot-6585917?ldp_breadcrumb=back",
     "record_source": "Christie's public auction result page",
-    "notes": "Starting price and prior sale price were not exposed in the public lot-list payload."
+    "notes": "Starting price and prior sale price were not exposed in the public lot-list payload.",
+    "quality_flags": {
+      "has_artist": true,
+      "has_title": true,
+      "has_auction_date": true,
+      "has_estimate": true,
+      "has_result_price": true,
+      "has_starting_price": false,
+      "has_prior_sale": false,
+      "has_source_url": true,
+      "has_image": true,
+      "has_medium": false,
+      "has_dimensions": false
+    },
+    "prediction_ready": true
   },
   {
-    "id": "christies-24267.404",
+    "id": "christies_results|christie's|31036|404",
     "status": "sold",
     "title": "Usuyuki",
     "artists": [
@@ -105,10 +147,24 @@
     "last_sold_price": null,
     "source_url": "https://www.christies.com/en/lot/lot-6585918?ldp_breadcrumb=back",
     "record_source": "Christie's public auction result page",
-    "notes": "Starting price and prior sale price were not exposed in the public lot-list payload."
+    "notes": "Starting price and prior sale price were not exposed in the public lot-list payload.",
+    "quality_flags": {
+      "has_artist": true,
+      "has_title": true,
+      "has_auction_date": true,
+      "has_estimate": true,
+      "has_result_price": true,
+      "has_starting_price": false,
+      "has_prior_sale": false,
+      "has_source_url": true,
+      "has_image": true,
+      "has_medium": false,
+      "has_dimensions": false
+    },
+    "prediction_ready": true
   },
   {
-    "id": "christies-24267.405",
+    "id": "christies_results|christie's|31036|405",
     "status": "sold",
     "title": "Abstraktes Bild",
     "artists": [
@@ -132,10 +188,24 @@
     "last_sold_price": null,
     "source_url": "https://www.christies.com/en/lot/lot-6585919?ldp_breadcrumb=back",
     "record_source": "Christie's public auction result page",
-    "notes": "Starting price and prior sale price were not exposed in the public lot-list payload."
+    "notes": "Starting price and prior sale price were not exposed in the public lot-list payload.",
+    "quality_flags": {
+      "has_artist": true,
+      "has_title": true,
+      "has_auction_date": true,
+      "has_estimate": true,
+      "has_result_price": true,
+      "has_starting_price": false,
+      "has_prior_sale": false,
+      "has_source_url": true,
+      "has_image": true,
+      "has_medium": false,
+      "has_dimensions": false
+    },
+    "prediction_ready": true
   },
   {
-    "id": "christies-24267.406",
+    "id": "christies_results|christie's|31036|406",
     "status": "sold",
     "title": "3. Juli 2015",
     "artists": [
@@ -159,10 +229,24 @@
     "last_sold_price": null,
     "source_url": "https://www.christies.com/en/lot/lot-6585920?ldp_breadcrumb=back",
     "record_source": "Christie's public auction result page",
-    "notes": "Starting price and prior sale price were not exposed in the public lot-list payload."
+    "notes": "Starting price and prior sale price were not exposed in the public lot-list payload.",
+    "quality_flags": {
+      "has_artist": true,
+      "has_title": true,
+      "has_auction_date": true,
+      "has_estimate": true,
+      "has_result_price": true,
+      "has_starting_price": false,
+      "has_prior_sale": false,
+      "has_source_url": true,
+      "has_image": true,
+      "has_medium": false,
+      "has_dimensions": false
+    },
+    "prediction_ready": true
   },
   {
-    "id": "christies-24267.407",
+    "id": "christies_results|christie's|31036|407",
     "status": "sold",
     "title": "Johannisnacht IV",
     "artists": [
@@ -186,10 +270,24 @@
     "last_sold_price": null,
     "source_url": "https://www.christies.com/en/lot/lot-6585921?ldp_breadcrumb=back",
     "record_source": "Christie's public auction result page",
-    "notes": "Starting price and prior sale price were not exposed in the public lot-list payload."
+    "notes": "Starting price and prior sale price were not exposed in the public lot-list payload.",
+    "quality_flags": {
+      "has_artist": true,
+      "has_title": true,
+      "has_auction_date": true,
+      "has_estimate": true,
+      "has_result_price": true,
+      "has_starting_price": false,
+      "has_prior_sale": false,
+      "has_source_url": true,
+      "has_image": true,
+      "has_medium": false,
+      "has_dimensions": false
+    },
+    "prediction_ready": true
   },
   {
-    "id": "christies-24267.408",
+    "id": "christies_results|christie's|31036|408",
     "status": "sold",
     "title": "Ceramic Sketch",
     "artists": [
@@ -213,10 +311,24 @@
     "last_sold_price": null,
     "source_url": "https://www.christies.com/en/lot/lot-6585922?ldp_breadcrumb=back",
     "record_source": "Christie's public auction result page",
-    "notes": "Starting price and prior sale price were not exposed in the public lot-list payload."
+    "notes": "Starting price and prior sale price were not exposed in the public lot-list payload.",
+    "quality_flags": {
+      "has_artist": true,
+      "has_title": true,
+      "has_auction_date": true,
+      "has_estimate": true,
+      "has_result_price": true,
+      "has_starting_price": false,
+      "has_prior_sale": false,
+      "has_source_url": true,
+      "has_image": true,
+      "has_medium": false,
+      "has_dimensions": false
+    },
+    "prediction_ready": true
   },
   {
-    "id": "christies-24267.409",
+    "id": "christies_results|christie's|31036|409",
     "status": "sold",
     "title": "Der Kyffhäuser",
     "artists": [
@@ -240,10 +352,24 @@
     "last_sold_price": null,
     "source_url": "https://www.christies.com/en/lot/lot-6585923?ldp_breadcrumb=back",
     "record_source": "Christie's public auction result page",
-    "notes": "Starting price and prior sale price were not exposed in the public lot-list payload."
+    "notes": "Starting price and prior sale price were not exposed in the public lot-list payload.",
+    "quality_flags": {
+      "has_artist": true,
+      "has_title": true,
+      "has_auction_date": true,
+      "has_estimate": true,
+      "has_result_price": true,
+      "has_starting_price": false,
+      "has_prior_sale": false,
+      "has_source_url": true,
+      "has_image": true,
+      "has_medium": false,
+      "has_dimensions": false
+    },
+    "prediction_ready": true
   },
   {
-    "id": "christies-24267.410",
+    "id": "christies_results|christie's|31036|410",
     "status": "sold",
     "title": "Ella",
     "artists": [
@@ -267,10 +393,24 @@
     "last_sold_price": null,
     "source_url": "https://www.christies.com/en/lot/lot-6585924?ldp_breadcrumb=back",
     "record_source": "Christie's public auction result page",
-    "notes": "Starting price and prior sale price were not exposed in the public lot-list payload."
+    "notes": "Starting price and prior sale price were not exposed in the public lot-list payload.",
+    "quality_flags": {
+      "has_artist": true,
+      "has_title": true,
+      "has_auction_date": true,
+      "has_estimate": true,
+      "has_result_price": true,
+      "has_starting_price": false,
+      "has_prior_sale": false,
+      "has_source_url": true,
+      "has_image": true,
+      "has_medium": false,
+      "has_dimensions": false
+    },
+    "prediction_ready": true
   },
   {
-    "id": "christies-24267.411",
+    "id": "christies_results|christie's|31036|411",
     "status": "sold",
     "title": "20 February 2002",
     "artists": [
@@ -294,10 +434,24 @@
     "last_sold_price": null,
     "source_url": "https://www.christies.com/en/lot/lot-6585925?ldp_breadcrumb=back",
     "record_source": "Christie's public auction result page",
-    "notes": "Starting price and prior sale price were not exposed in the public lot-list payload."
+    "notes": "Starting price and prior sale price were not exposed in the public lot-list payload.",
+    "quality_flags": {
+      "has_artist": true,
+      "has_title": true,
+      "has_auction_date": true,
+      "has_estimate": true,
+      "has_result_price": true,
+      "has_starting_price": false,
+      "has_prior_sale": false,
+      "has_source_url": true,
+      "has_image": true,
+      "has_medium": false,
+      "has_dimensions": false
+    },
+    "prediction_ready": true
   },
   {
-    "id": "christies-24267.412",
+    "id": "christies_results|christie's|31036|412",
     "status": "sold",
     "title": "Map Drawing (Sud-Polar-Karte)",
     "artists": [
@@ -321,6 +475,20 @@
     "last_sold_price": null,
     "source_url": "https://www.christies.com/en/lot/lot-6585926?ldp_breadcrumb=back",
     "record_source": "Christie's public auction result page",
-    "notes": "Starting price and prior sale price were not exposed in the public lot-list payload."
+    "notes": "Starting price and prior sale price were not exposed in the public lot-list payload.",
+    "quality_flags": {
+      "has_artist": true,
+      "has_title": true,
+      "has_auction_date": true,
+      "has_estimate": true,
+      "has_result_price": true,
+      "has_starting_price": false,
+      "has_prior_sale": false,
+      "has_source_url": true,
+      "has_image": true,
+      "has_medium": false,
+      "has_dimensions": false
+    },
+    "prediction_ready": true
   }
 ]
