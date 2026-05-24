@@ -1,4 +1,6 @@
 const sourcePath = "data/free_data_sources.csv";
+const auctionFeedPath = "data/auction_feed_items.json";
+const nextTargetsPath = "data/next_ingestion_targets.json";
 
 const feedItems = [
   {
@@ -75,7 +77,35 @@ const fallbackSources = [
   },
 ];
 
+const fallbackAuctionItems = [
+  {
+    status: "sold",
+    title: "Untitled screenprint from a late twentieth-century edition",
+    artists: ["Attributed artist pending verification"],
+    style: "Postwar prints",
+    auction_house: "Swann Galleries",
+    auction_date: "2026-05-18",
+    starting_price: { display: "$18,000" },
+    estimated_selling_price: { display: "$24,000-$32,000" },
+    last_sold_price: { display: "$28,000" },
+  },
+];
+
+const fallbackNextTargets = [
+  {
+    source_id: "heritage_auctions",
+    source_name: "Heritage Auctions Archives",
+    priority: "P0",
+    target_type: "Realized price archive",
+    stage: "Terms review",
+    rss_use: "Sold lots, estimates, realized prices",
+    next_action: "Confirm automated-use terms, then map search/result pages.",
+  },
+];
+
 let sources = [];
+let auctionItems = [];
+let nextTargets = [];
 let activeFilter = "all";
 let searchTerm = "";
 
@@ -84,9 +114,14 @@ const elements = {
   metricSourcesDetail: document.querySelector("#metric-sources-detail"),
   metricP0: document.querySelector("#metric-p0"),
   metricPrice: document.querySelector("#metric-price"),
+  metricAuctionEvents: document.querySelector("#metric-auction-events"),
+  metricAuctionDetail: document.querySelector("#metric-auction-detail"),
   feedList: document.querySelector("#feed-list"),
+  auctionFeedBody: document.querySelector("#auction-feed-body"),
   coverageList: document.querySelector("#coverage-list"),
   queueBody: document.querySelector("#queue-body"),
+  targetList: document.querySelector("#target-list"),
+  targetCount: document.querySelector("#target-count"),
   search: document.querySelector("#global-search"),
   filterButtons: document.querySelectorAll("[data-filter]"),
 };
@@ -94,10 +129,16 @@ const elements = {
 init();
 
 async function init() {
-  sources = await loadSources();
+  [sources, auctionItems, nextTargets] = await Promise.all([
+    loadSources(),
+    loadJson(auctionFeedPath, fallbackAuctionItems),
+    loadJson(nextTargetsPath, fallbackNextTargets),
+  ]);
   renderMetrics();
   renderCoverage();
   renderQueue();
+  renderAuctionFeed();
+  renderNextTargets();
   renderFeed();
   bindEvents();
 }
@@ -114,6 +155,17 @@ async function loadSources() {
   }
 }
 
+async function loadJson(path, fallback) {
+  try {
+    const response = await fetch(path);
+    if (!response.ok) throw new Error(`Unable to load ${path}`);
+    return await response.json();
+  } catch (error) {
+    console.warn(error);
+    return fallback;
+  }
+}
+
 function bindEvents() {
   elements.filterButtons.forEach((button) => {
     button.addEventListener("click", () => {
@@ -126,7 +178,9 @@ function bindEvents() {
   elements.search.addEventListener("input", (event) => {
     searchTerm = event.target.value.trim().toLowerCase();
     renderFeed();
+    renderAuctionFeed();
     renderQueue();
+    renderNextTargets();
   });
 }
 
@@ -181,11 +235,15 @@ function renderMetrics() {
   const openCount = sources.filter((source) =>
     ["open_api", "bulk_file", "open_api_key"].includes(source.access_type),
   ).length;
+  const soldCount = auctionItems.filter((item) => item.status === "sold").length;
+  const auctionedCount = auctionItems.filter((item) => item.status === "auctioned").length;
 
   elements.metricSources.textContent = sources.length;
   elements.metricSourcesDetail.textContent = `${openCount} open API or bulk sources`;
   elements.metricP0.textContent = p0Count;
   elements.metricPrice.textContent = priceCount;
+  elements.metricAuctionEvents.textContent = auctionItems.length;
+  elements.metricAuctionDetail.textContent = `${soldCount} sold, ${auctionedCount} auctioned in RSS`;
 }
 
 function renderCoverage() {
@@ -207,6 +265,97 @@ function renderCoverage() {
     .join("");
 
   elements.coverageList.innerHTML = rows;
+}
+
+function renderAuctionFeed() {
+  const items = auctionItems
+    .filter((item) => {
+      if (!searchTerm) return true;
+      return [
+        item.status,
+        item.title,
+        artistsLabel(item),
+        item.style,
+        item.auction_house,
+        item.auction_date,
+        priceLabel(item.starting_price),
+        priceLabel(item.estimated_selling_price),
+        priceLabel(item.last_sold_price),
+      ]
+        .join(" ")
+        .toLowerCase()
+        .includes(searchTerm);
+    })
+    .sort((a, b) => String(b.auction_date || "").localeCompare(String(a.auction_date || "")));
+
+  if (!items.length) {
+    elements.auctionFeedBody.innerHTML = `
+      <tr>
+        <td class="table-empty" colspan="8">No auction feed items match the current search.</td>
+      </tr>
+    `;
+    return;
+  }
+
+  elements.auctionFeedBody.innerHTML = items
+    .map(
+      (item) => `
+        <tr>
+          <td><span class="status-pill status-${escapeAttribute(item.status)}">${escapeHtml(formatLabel(item.status))}</span></td>
+          <td>
+            <strong class="auction-title">${escapeHtml(item.title || "Untitled lot")}</strong>
+            <span class="auction-artist">${escapeHtml(artistsLabel(item))}</span>
+          </td>
+          <td>${escapeHtml(item.style || "Not available")}</td>
+          <td>${escapeHtml(item.auction_house || "Not available")}</td>
+          <td>${escapeHtml(item.auction_date || "Not available")}</td>
+          <td>${escapeHtml(priceLabel(item.starting_price))}</td>
+          <td>${escapeHtml(priceLabel(item.estimated_selling_price))}</td>
+          <td>${escapeHtml(priceLabel(item.last_sold_price))}</td>
+        </tr>
+      `,
+    )
+    .join("");
+}
+
+function renderNextTargets() {
+  const targets = nextTargets.filter((target) => {
+    if (!searchTerm) return true;
+    return [
+      target.source_name,
+      target.priority,
+      target.target_type,
+      target.stage,
+      target.rss_use,
+      target.next_action,
+    ]
+      .join(" ")
+      .toLowerCase()
+      .includes(searchTerm);
+  });
+
+  elements.targetCount.textContent = `${targets.length} targets`;
+
+  elements.targetList.innerHTML = targets.length
+    ? targets
+        .map(
+          (target) => `
+            <article class="target-row">
+              <div>
+                <div class="feed-meta">
+                  <span>${escapeHtml(target.priority || "P?")}</span>
+                  <span>${escapeHtml(target.stage || "Queued")}</span>
+                  <span>${escapeHtml(target.target_type || "Auction source")}</span>
+                </div>
+                <h3>${escapeHtml(target.source_name || target.source_id)}</h3>
+                <p>${escapeHtml(target.rss_use || "")}</p>
+              </div>
+              <strong>${escapeHtml(target.next_action || "Review source")}</strong>
+            </article>
+          `,
+        )
+        .join("")
+    : `<p class="empty-state">No next targets match the current search.</p>`;
 }
 
 function renderQueue() {
@@ -314,9 +463,32 @@ function countBy(records, key) {
   }, {});
 }
 
-function formatLabel(value) {
-  return value
+function artistsLabel(item) {
+  return (item.artists || []).join(", ") || "Artist not available";
+}
+
+function priceLabel(price) {
+  return price?.display || "Not available";
+}
+
+function formatLabel(value = "") {
+  return String(value)
     .replace(/_/g, " ")
     .replace(/\b\w/g, (letter) => letter.toUpperCase())
     .replace(/\bApi\b/g, "API");
+}
+
+function escapeHtml(value) {
+  return String(value)
+    .replace(/&/g, "&amp;")
+    .replace(/</g, "&lt;")
+    .replace(/>/g, "&gt;")
+    .replace(/"/g, "&quot;")
+    .replace(/'/g, "&#039;");
+}
+
+function escapeAttribute(value) {
+  return String(value || "")
+    .toLowerCase()
+    .replace(/[^a-z0-9_-]/g, "");
 }

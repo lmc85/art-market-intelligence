@@ -1,0 +1,143 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<rss xmlns:artmi="https://artmarketintelligence.local/rss/1.0" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
+  <channel>
+    <title>Art Market Intelligence Auction Results</title>
+    <link>http://localhost:4173/</link>
+    <description>Auction and sale records normalized for art market intelligence.</description>
+    <language>en-us</language>
+    <lastBuildDate>Sun, 24 May 2026 12:56:43 +0000</lastBuildDate>
+    <ttl>60</ttl>
+    <atom:link href="http://localhost:4173/feeds/auction-results.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Large ceramic vessel with incised geometric pattern - Freeman's Hindman</title>
+      <link>https://github.com/lmc85/art-market-intelligence</link>
+      <guid>prototype-sale-2026-05-23-005</guid>
+      <pubDate>Sat, 23 May 2026 12:00:00 +0000</pubDate>
+      <category>sold</category>
+      <description>Artist(s): Workshop unknown
+Style: Contemporary craft
+Auction house: Freeman's Hindman
+Auction date: 2026-05-23
+Starting price: $3,000
+Estimated selling price: $5,000-$8,000
+Result price: $9,200
+Last sold price: Not available
+Notes: Seed record for a lower-price liquidity segment.</description>
+      <artmi:title>Large ceramic vessel with incised geometric pattern</artmi:title>
+      <artmi:artists>Workshop unknown</artmi:artists>
+      <artmi:style>Contemporary craft</artmi:style>
+      <artmi:auctionHouse>Freeman's Hindman</artmi:auctionHouse>
+      <artmi:auctionDate>2026-05-23</artmi:auctionDate>
+      <artmi:status>sold</artmi:status>
+      <artmi:startingPrice>$3,000</artmi:startingPrice>
+      <artmi:estimatedSellingPrice>$5,000-$8,000</artmi:estimatedSellingPrice>
+      <artmi:resultPrice>$9,200</artmi:resultPrice>
+      <artmi:recordSource>Prototype seed data</artmi:recordSource>
+    </item>
+    <item>
+      <title>Gelatin silver print portfolio - Phillips</title>
+      <link>https://github.com/lmc85/art-market-intelligence</link>
+      <guid>prototype-auction-2026-05-22-004</guid>
+      <pubDate>Fri, 22 May 2026 12:00:00 +0000</pubDate>
+      <category>auctioned</category>
+      <description>Artist(s): Catalog artist pending
+Style: Photography
+Auction house: Phillips
+Auction date: 2026-05-22
+Starting price: $22,000
+Estimated selling price: $30,000-$45,000
+Result price: Not available
+Last sold price: $26,000
+Notes: Seed record showing an estimate and prior sale before a final result is present.</description>
+      <artmi:title>Gelatin silver print portfolio</artmi:title>
+      <artmi:artists>Catalog artist pending</artmi:artists>
+      <artmi:style>Photography</artmi:style>
+      <artmi:auctionHouse>Phillips</artmi:auctionHouse>
+      <artmi:auctionDate>2026-05-22</artmi:auctionDate>
+      <artmi:status>auctioned</artmi:status>
+      <artmi:startingPrice>$22,000</artmi:startingPrice>
+      <artmi:estimatedSellingPrice>$30,000-$45,000</artmi:estimatedSellingPrice>
+      <artmi:lastSoldPrice>$26,000</artmi:lastSoldPrice>
+      <artmi:recordSource>Prototype seed data</artmi:recordSource>
+    </item>
+    <item>
+      <title>Small oil study of a harbor at dusk - Dorotheum</title>
+      <link>https://github.com/lmc85/art-market-intelligence</link>
+      <guid>prototype-sale-2026-05-21-003</guid>
+      <pubDate>Thu, 21 May 2026 12:00:00 +0000</pubDate>
+      <category>sold</category>
+      <description>Artist(s): Unknown European school
+Style: Old master study
+Auction house: Dorotheum
+Auction date: 2026-05-21
+Starting price: EUR 4,200
+Estimated selling price: EUR 6,000-EUR 9,000
+Result price: EUR 11,200
+Last sold price: EUR 7,300
+Notes: Seed record for provenance-sensitive lots.</description>
+      <artmi:title>Small oil study of a harbor at dusk</artmi:title>
+      <artmi:artists>Unknown European school</artmi:artists>
+      <artmi:style>Old master study</artmi:style>
+      <artmi:auctionHouse>Dorotheum</artmi:auctionHouse>
+      <artmi:auctionDate>2026-05-21</artmi:auctionDate>
+      <artmi:status>sold</artmi:status>
+      <artmi:startingPrice>EUR 4,200</artmi:startingPrice>
+      <artmi:estimatedSellingPrice>EUR 6,000-EUR 9,000</artmi:estimatedSellingPrice>
+      <artmi:resultPrice>EUR 11,200</artmi:resultPrice>
+      <artmi:lastSoldPrice>EUR 7,300</artmi:lastSoldPrice>
+      <artmi:recordSource>Prototype seed data</artmi:recordSource>
+    </item>
+    <item>
+      <title>Pair of molded plywood lounge chairs - Bukowskis</title>
+      <link>https://github.com/lmc85/art-market-intelligence</link>
+      <guid>prototype-auction-2026-05-20-002</guid>
+      <pubDate>Wed, 20 May 2026 12:00:00 +0000</pubDate>
+      <category>auctioned</category>
+      <description>Artist(s): Studio attribution
+Style: Nordic design
+Auction house: Bukowskis
+Auction date: 2026-05-20
+Starting price: EUR 9,500
+Estimated selling price: EUR 12,000-EUR 16,000
+Result price: Not available
+Last sold price: Not available
+Notes: Auctioned-status seed record for lots where a realized price is not yet available.</description>
+      <artmi:title>Pair of molded plywood lounge chairs</artmi:title>
+      <artmi:artists>Studio attribution</artmi:artists>
+      <artmi:style>Nordic design</artmi:style>
+      <artmi:auctionHouse>Bukowskis</artmi:auctionHouse>
+      <artmi:auctionDate>2026-05-20</artmi:auctionDate>
+      <artmi:status>auctioned</artmi:status>
+      <artmi:startingPrice>EUR 9,500</artmi:startingPrice>
+      <artmi:estimatedSellingPrice>EUR 12,000-EUR 16,000</artmi:estimatedSellingPrice>
+      <artmi:recordSource>Prototype seed data</artmi:recordSource>
+    </item>
+    <item>
+      <title>Untitled screenprint from a late twentieth-century edition - Swann Galleries</title>
+      <link>https://github.com/lmc85/art-market-intelligence</link>
+      <guid>prototype-sale-2026-05-18-001</guid>
+      <pubDate>Mon, 18 May 2026 12:00:00 +0000</pubDate>
+      <category>sold</category>
+      <description>Artist(s): Attributed artist pending verification
+Style: Postwar prints
+Auction house: Swann Galleries
+Auction date: 2026-05-18
+Starting price: $18,000
+Estimated selling price: $24,000-$32,000
+Result price: $36,500
+Last sold price: $28,000
+Notes: Seed record for the auction RSS schema; replace with verified source URL when a live connector lands.</description>
+      <artmi:title>Untitled screenprint from a late twentieth-century edition</artmi:title>
+      <artmi:artists>Attributed artist pending verification</artmi:artists>
+      <artmi:style>Postwar prints</artmi:style>
+      <artmi:auctionHouse>Swann Galleries</artmi:auctionHouse>
+      <artmi:auctionDate>2026-05-18</artmi:auctionDate>
+      <artmi:status>sold</artmi:status>
+      <artmi:startingPrice>$18,000</artmi:startingPrice>
+      <artmi:estimatedSellingPrice>$24,000-$32,000</artmi:estimatedSellingPrice>
+      <artmi:resultPrice>$36,500</artmi:resultPrice>
+      <artmi:lastSoldPrice>$28,000</artmi:lastSoldPrice>
+      <artmi:recordSource>Prototype seed data</artmi:recordSource>
+    </item>
+  </channel>
+</rss>

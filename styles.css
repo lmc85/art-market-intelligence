@@ -222,10 +222,19 @@ h2 {
 }
 
 .ghost-action {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
   border: 1px solid var(--line);
   background: #ffffff;
   color: var(--ink);
   padding: 0 12px;
+  text-decoration: none;
+  white-space: nowrap;
+}
+
+.rss-action {
+  color: #07504d;
 }
 
 .metric-grid {
@@ -295,11 +304,15 @@ h2 {
 }
 
 .feed-panel,
-.queue-panel {
+.queue-panel,
+.auction-feed-panel,
+.targets-panel {
   grid-column: span 1;
 }
 
-.queue-panel {
+.queue-panel,
+.auction-feed-panel,
+.targets-panel {
   grid-column: 1 / -1;
 }
 
@@ -647,6 +660,10 @@ table {
   border-collapse: collapse;
 }
 
+.auction-table {
+  min-width: 1040px;
+}
+
 th,
 td {
   border-bottom: 1px solid #e5ebf0;
@@ -667,6 +684,76 @@ td {
 .table-empty {
   color: var(--muted);
   text-align: center;
+}
+
+.auction-title,
+.auction-artist {
+  display: block;
+}
+
+.auction-title {
+  max-width: 300px;
+}
+
+.auction-artist {
+  margin-top: 4px;
+  color: var(--muted);
+  font-size: 0.8rem;
+  font-weight: 650;
+}
+
+.status-pill {
+  display: inline-block;
+  border-radius: 999px;
+  font-size: 0.72rem;
+  font-weight: 850;
+  padding: 5px 9px;
+}
+
+.status-sold {
+  background: #e0f1ee;
+  color: #07504d;
+}
+
+.status-auctioned {
+  background: #e7edf7;
+  color: #2b4e84;
+}
+
+.target-list {
+  display: grid;
+  gap: 10px;
+}
+
+.target-row {
+  display: grid;
+  grid-template-columns: minmax(0, 1.2fr) minmax(220px, 0.8fr);
+  gap: 16px;
+  align-items: center;
+  border-top: 1px solid #e5ebf0;
+  padding: 14px 0 4px;
+}
+
+.target-row:first-child {
+  border-top: 0;
+  padding-top: 0;
+}
+
+.target-row h3 {
+  margin: 0;
+  font-size: 0.98rem;
+}
+
+.target-row p {
+  margin: 5px 0 0;
+  color: var(--muted);
+  font-size: 0.86rem;
+}
+
+.target-row strong {
+  color: #263541;
+  font-size: 0.88rem;
+  line-height: 1.35;
 }
 
 .risk-pill {
@@ -710,7 +797,7 @@ td {
   }
 
   .nav-list {
-    grid-template-columns: repeat(5, minmax(0, 1fr));
+    grid-template-columns: repeat(6, minmax(0, 1fr));
     overflow-x: auto;
   }
 
@@ -753,6 +840,10 @@ td {
   }
 
   .forecast-card {
+    grid-template-columns: 1fr;
+  }
+
+  .target-row {
     grid-template-columns: 1fr;
   }
 }

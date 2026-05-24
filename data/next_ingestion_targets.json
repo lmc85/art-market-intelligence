@@ -1,0 +1,74 @@
+[
+  {
+    "source_id": "heritage_auctions",
+    "source_name": "Heritage Auctions Archives",
+    "priority": "P0",
+    "target_type": "Realized price archive",
+    "stage": "Terms review",
+    "rss_use": "Sold lots, estimates, realized prices, prior sale cues",
+    "next_action": "Confirm automated-use terms, then map search/result pages."
+  },
+  {
+    "source_id": "christies_results",
+    "source_name": "Christie's Results",
+    "priority": "P0",
+    "target_type": "Official auction result",
+    "stage": "Selector mapping",
+    "rss_use": "Official sale dates, lot titles, estimates, realized prices",
+    "next_action": "Map sale and lot page fields, preserving source URL per lot."
+  },
+  {
+    "source_id": "sothebys_results",
+    "source_name": "Sotheby's Results",
+    "priority": "P0",
+    "target_type": "Official auction result",
+    "stage": "Access review",
+    "rss_use": "Official sale dates, auction house, lot estimates, realized prices",
+    "next_action": "Review login prompts and public result-page stability."
+  },
+  {
+    "source_id": "bonhams_results",
+    "source_name": "Bonhams Results",
+    "priority": "P0",
+    "target_type": "Official auction result",
+    "stage": "Connector design",
+    "rss_use": "Mid-market sale results and category breadth",
+    "next_action": "Test public results pages for stable lot metadata."
+  },
+  {
+    "source_id": "phillips_auctions",
+    "source_name": "Phillips Auctions",
+    "priority": "P0",
+    "target_type": "Official auction result",
+    "stage": "URL pattern review",
+    "rss_use": "Contemporary art, design, editions, photographs",
+    "next_action": "Identify past auction result URL patterns and lot data shape."
+  },
+  {
+    "source_id": "liveauctioneers",
+    "source_name": "LiveAuctioneers Auction Results",
+    "priority": "P0",
+    "target_type": "Aggregator result archive",
+    "stage": "Terms review",
+    "rss_use": "Broad auction-house discovery and duplicate detection",
+    "next_action": "Use as a discovery layer only until reuse terms are clear."
+  },
+  {
+    "source_id": "swann_past",
+    "source_name": "Swann Galleries Past Auctions",
+    "priority": "P1",
+    "target_type": "Specialist official result",
+    "stage": "Candidate connector",
+    "rss_use": "Prints, photographs, books, works on paper",
+    "next_action": "Map category-specific fields and estimate/result exposure."
+  },
+  {
+    "source_id": "doyle_past",
+    "source_name": "Doyle Past Auctions",
+    "priority": "P1",
+    "target_type": "Regional official result",
+    "stage": "Candidate connector",
+    "rss_use": "US regional and estate-market comps",
+    "next_action": "Review past-auction list and lot detail structure."
+  }
+]
