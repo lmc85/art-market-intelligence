@@ -1,0 +1,8 @@
+__pycache__/
+*.py[cod]
+.DS_Store
+
+# Generated ingestion outputs can become large quickly.
+data/ingested/*.json
+data/ingested/*.jsonl
+!data/ingested/.gitkeep
