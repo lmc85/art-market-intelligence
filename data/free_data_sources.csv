@@ -1,0 +1,54 @@
+source_id,source_name,source_class,access_type,priority,geography,access_url,ingestion_method,license_or_terms_status,notes
+heritage_auctions,Heritage Auctions Archives,realized_price,free_browse,P0,Global with strong US coverage,https://www.ha.com/c/search/results.zx,crawl_candidate,review_needed,Large realized-price archive; confirm automated-use terms.
+liveauctioneers,LiveAuctioneers Auction Results,realized_price,free_browse,P0,Global aggregator,https://www.liveauctioneers.com/auction-results,crawl_candidate,review_needed,Broad auction-platform coverage; likely no public API.
+artsy_price_database,Artsy Price Database,realized_price,free_browse_or_account,P0,Global blue-chip and mid-market,https://www.artsy.net/price-database,crawl_or_partnership_candidate,review_needed,Useful benchmark and artist comp source; confirm login and automation limits.
+christies_results,Christie's Results,official_auction_result,free_browse,P0,Global,https://www.christies.com/results?sc_lang=en,crawl_candidate,review_needed,Canonical major-house results.
+sothebys_results,Sotheby's Results,official_auction_result,free_browse_or_account,P0,Global,https://www.sothebys.com/en/results,crawl_candidate,review_needed,Canonical major-house results; login may be prompted.
+bonhams_results,Bonhams Results,official_auction_result,free_browse,P0,Global,https://www.bonhams.com/auctions/results/,crawl_candidate,review_needed,Good category breadth; may block automated clients.
+phillips_auctions,Phillips Auctions,official_auction_result,free_browse,P0,Global contemporary/design/luxury,https://www.phillips.com/auctions,crawl_candidate,review_needed,Verify current past-results URL patterns before connector work.
+artcurial_results,Artcurial Results,official_auction_result,free_browse,P0,France and global,https://www.artcurial.com/en/results-auctions-sales/,crawl_candidate,review_needed,Useful European and luxury/art market signal.
+dorotheum_results,Dorotheum Auction Results,official_auction_result,free_browse,P0,Austria and Europe,https://www.dorotheum.com/en/auction-results/,crawl_candidate,review_needed,Strong Central European source.
+lempertz_results,Lempertz Sale Results,official_auction_result,free_browse,P0,Germany and Europe,https://www.lempertz.com/en/auctions/sale-results.html,crawl_candidate,review_needed,Specialist European source.
+bukowskis_results,Bukowskis Results,official_auction_result,free_browse,P1,Nordic,https://www.bukowskis.com/en/results,crawl_candidate,review_needed,Nordic auction results.
+bruun_rasmussen_past,Bruun Rasmussen Past Auctions,official_auction_result,free_browse,P1,Nordic,https://bruun-rasmussen.dk/m/auctions?tab=past,crawl_candidate,review_needed,Nordic auction results under Bonhams ecosystem.
+doyle_past,Doyle Past Auctions,official_auction_result,free_browse,P1,United States,https://www.doyle.com/past-auctions,crawl_candidate,review_needed,US regional/mid-market comps.
+swann_past,Swann Galleries Past Auctions,official_auction_result,free_browse,P1,United States,https://www.swanngalleries.com/auctions/past-auctions/,crawl_candidate,review_needed,Strong prints/books/photography/works-on-paper source.
+freemans_hindman_past,Freeman's Hindman Past Auctions,official_auction_result,free_browse,P1,United States,https://hindmanauctions.com/auctions/past-auctions,crawl_candidate,review_needed,US regional/mid-market source.
+barnebys_realized,Barnebys Realized Prices,realized_price,free_browse,P1,Global aggregator,https://www.barnebys.com/realized-prices,crawl_candidate,review_needed,Useful discovery source; verify depth and reuse terms.
+bidtoart,BidtoArt,realized_price,free_browse,P1,Global,https://bidtoart.com/,crawl_candidate,review_needed,Candidate fine-art comp source.
+findartvalue,FindArtValue,realized_price,free_browse,P1,Global,https://findartvalue.com/,crawl_candidate,review_needed,Candidate fine-art comp source.
+drouot_gazette_results,Drouot / Gazette Drouot Results,auction_result,partial_free,P2,France,https://www.gazette-drouot.com/en/auctions/results,crawl_candidate,limited,May require subscription for full historical depth.
+invaluable_price_archive,Invaluable Price Archive,realized_price,free_account_or_partial,P2,Global aggregator,https://www.invaluable.com/inv/help/faq/search-price-archive/,crawl_candidate,limited,Useful discovery source; full historical access may be paid.
+mutualart_price_database,MutualArt Price Database,realized_price,partial_free,P2,Global aggregator,https://www.mutualart.com/price-database,manual_benchmark,limited,Likely not a core free ingestion source.
+met_open_access,The Met Open Access,object_metadata,open_api,P0,Global collection,https://www.metmuseum.org/en/hubs/open-access,api,open,Object metadata/images for enrichment.
+artic_api,Art Institute of Chicago API,object_metadata,open_api,P0,Chicago/global collection,https://api.artic.edu/docs/,api,open,Structured artwork API.
+cleveland_open_access,Cleveland Museum of Art Open Access API,object_metadata,open_api,P0,Cleveland/global collection,https://www.clevelandart.org/open-access-api,api,open,Structured artwork API and images.
+smithsonian_open_access,Smithsonian Open Access,object_metadata,open_api,P0,United States/global collections,https://www.si.edu/OpenAccess,api,open,Cross-institution collection data.
+rijksmuseum_data,Rijksmuseum Data Services,object_metadata,open_api,P0,Netherlands/Europe,https://data.rijksmuseum.nl/,api,open,Requires API key; strong old master/Dutch enrichment.
+nga_open_data,National Gallery of Art Open Data,object_metadata,bulk_file,P0,United States/global collection,https://github.com/NationalGalleryOfArt/opendata,csv_github,open,Easy bulk ingest from GitHub.
+harvard_art_museums_api,Harvard Art Museums API,object_metadata,open_api,P0,United States/global collection,https://github.com/harvardartmuseums/api-docs,api,open,Free API key required.
+moma_collection,MoMA Collection Data,object_metadata,bulk_file,P0,Modern/contemporary,https://github.com/MuseumofModernArt/collection,csv_github,open,Modern/contemporary artist and artwork data.
+tate_collection,Tate Collection Data,object_metadata,bulk_file,P0,Britain/global modern,https://github.com/tategallery/collection,json_csv_github,open,Artist and artwork enrichment.
+cooper_hewitt_api,Cooper Hewitt API,object_metadata,open_api,P1,Design/decorative arts,https://apidocs.cooperhewitt.org/api-home/,api,open,Design-market enrichment.
+europeana_apis,Europeana APIs,object_metadata,open_api,P1,Europe,https://www.europeana.eu/en/apis,api,open,Pan-European cultural metadata aggregator.
+wikidata_query_service,Wikidata Query Service,authority,open_api,P1,Global,https://query.wikidata.org/,sparql,open,Entity graph and authority identifiers.
+wikimedia_commons_structured,Wikimedia Commons Structured Data,image_metadata,open_api,P1,Global,https://commons.wikimedia.org/wiki/Commons:Structured_data,api,open,Image metadata and licensing.
+vam_api,Victoria and Albert Museum API,object_metadata,open_api,P1,United Kingdom/global design,https://developers.vam.ac.uk/,api,open,Design/decorative arts/fashion enrichment.
+finnish_national_gallery_api,Finnish National Gallery API,object_metadata,open_api,P2,Finland/Nordic,https://www.kansallisgalleria.fi/en/api,api,open,Regional enrichment.
+getty_provenance_index,Getty Provenance Index,historical_catalog,free_database,P0,Historical Europe/US,https://www.getty.edu/databases-tools-and-technologies/provenance/,database_or_lod,open_or_review,Historical sale and provenance data.
+getty_vocabularies,Getty Vocabularies,authority,open_api,P0,Global,https://www.getty.edu/research/tools/vocabularies/,linked_data,open,ULAN/AAT/TGN/CONA authority backbone.
+getty_research_portal,Getty Research Portal,historical_catalog,free_search,P1,Global historical,https://www.getty.edu/research/tools/portal/,ocr_source,review_needed,Digitized books and catalogs.
+internet_archive,Internet Archive,historical_catalog,free_repository,P1,Global historical,https://archive.org/,ocr_source,review_needed,Public-domain catalogs and OCR where rights allow.
+hathitrust,HathiTrust,historical_catalog,free_search_or_pd,P1,Global historical,https://www.hathitrust.org/,ocr_source,review_needed,Access varies by rights and institution.
+gallica_bnf,Gallica BnF,historical_catalog,free_repository,P1,France/historical,https://gallica.bnf.fr/,ocr_source,review_needed,French historical catalogs and OCR.
+un_comtrade,UN Comtrade API,macro_demand,open_api,P0,Global,https://comtradeapi.un.org/,api,open_with_limits,HS 97 trade flows for country demand signals.
+world_bank_indicators,World Bank Indicators API,macro_context,open_api,P0,Global,https://datahelpdesk.worldbank.org/knowledgebase/articles/889392-about-the-indicators-api-documentation,api,open,GDP/income/population/inflation features.
+fred_api,FRED API,macro_context,open_api_key,P0,United States and global series,https://fred.stlouisfed.org/docs/api/fred/,api,open_key_required,Rates/CPI/FX/financial conditions.
+bls_api,BLS Public Data API,macro_context,open_api,P1,United States,https://www.bls.gov/bls/api_features.htm,api,open,CPI/PPI and inflation adjustment.
+exchangerate_host,ExchangeRate.host,fx_rates,free_tier_api,P1,Global,https://exchangerate.host/documentation,api,limited,Verify free historical coverage and quotas.
+ecb_data_portal,ECB Data Portal API,fx_rates,open_api,P1,Europe/global FX,https://data.ecb.europa.eu/help/api/overview,api,open,Euro exchange rates and financial statistics.
+world_inequality_database,World Inequality Database,macro_context,free_data,P1,Global,https://wid.world/data/,download_or_api,open,Wealth distribution demand proxy.
+oecd_data_explorer,OECD Data Explorer,macro_context,open_data,P2,OECD/global,https://data-explorer.oecd.org/,api_or_download,open,Additional macro indicators.
+art_basel_ubs_report,Art Basel and UBS Art Market Report,report,free_pdf,P2,Global,https://www.ubs.com/us/en/wealth-management/our-solutions/private-wealth-management/family-office-solutions/art-advisory/art-basel-art-market-report.html,pdf_reference,report_only,Market sizing and validation; not raw training data.
+deloitte_art_finance,Deloitte Art & Finance Report,report,free_pdf,P2,Global,https://www.deloitte.com/global/en/Industries/financial-services/research/art-finance-report.html,pdf_reference,report_only,Art finance and wealth-management context.
+hiscox_online_art_trade,Hiscox Online Art Trade Report,report,free_pdf,P2,Online/global,https://www.hiscox.com/online-art-trade-report,pdf_reference,report_only,Online art trade context.
