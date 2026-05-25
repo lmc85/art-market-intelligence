@@ -1,5 +1,455 @@
 [
   {
+    "id": "phillips_auctions|phillips|NY010526|301",
+    "status": "sold",
+    "title": "The girls take their places",
+    "artists": [
+      "Michaela Yearwood-Dan"
+    ],
+    "style": "Modern & Contemporary Art: Afternoon Session",
+    "auction_house": "Phillips",
+    "auction_date": "2026-05-21",
+    "starting_price": null,
+    "estimated_selling_price": {
+      "currency": "USD",
+      "low": 80000.0,
+      "high": 120000.0,
+      "display": "$ 80,000 - 120,000"
+    },
+    "result_price": {
+      "currency": "USD",
+      "amount": 167700.0,
+      "display": "$ 167,700"
+    },
+    "last_sold_price": null,
+    "source_url": "https://www.phillips.com/detail/michaela-yearwooddan/234217",
+    "record_source": "Phillips public auction result page",
+    "notes": "Starting price and prior sale price were not exposed in the public Phillips sale payload.",
+    "medium": "",
+    "dimensions": "",
+    "provenance": "",
+    "literature": "",
+    "quality_flags": {
+      "has_artist": true,
+      "has_title": true,
+      "has_auction_date": true,
+      "has_estimate": true,
+      "has_result_price": true,
+      "has_starting_price": false,
+      "has_prior_sale": false,
+      "has_source_url": true,
+      "has_image": false,
+      "has_medium": false,
+      "has_dimensions": false
+    },
+    "prediction_ready": true
+  },
+  {
+    "id": "phillips_auctions|phillips|NY010526|302",
+    "status": "sold",
+    "title": "The First to Arrive",
+    "artists": [
+      "Cynthia Hawkins"
+    ],
+    "style": "Modern & Contemporary Art: Afternoon Session",
+    "auction_house": "Phillips",
+    "auction_date": "2026-05-21",
+    "starting_price": null,
+    "estimated_selling_price": {
+      "currency": "USD",
+      "low": 40000.0,
+      "high": 60000.0,
+      "display": "$ 40,000 - 60,000"
+    },
+    "result_price": {
+      "currency": "USD",
+      "amount": 38700.0,
+      "display": "$ 38,700"
+    },
+    "last_sold_price": null,
+    "source_url": "https://www.phillips.com/detail/cynthia-hawkins/234922",
+    "record_source": "Phillips public auction result page",
+    "notes": "Starting price and prior sale price were not exposed in the public Phillips sale payload.",
+    "medium": "",
+    "dimensions": "",
+    "provenance": "",
+    "literature": "",
+    "quality_flags": {
+      "has_artist": true,
+      "has_title": true,
+      "has_auction_date": true,
+      "has_estimate": true,
+      "has_result_price": true,
+      "has_starting_price": false,
+      "has_prior_sale": false,
+      "has_source_url": true,
+      "has_image": false,
+      "has_medium": false,
+      "has_dimensions": false
+    },
+    "prediction_ready": true
+  },
+  {
+    "id": "phillips_auctions|phillips|NY010526|303",
+    "status": "sold",
+    "title": "Automne",
+    "artists": [
+      "Etel Adnan"
+    ],
+    "style": "Modern & Contemporary Art: Afternoon Session",
+    "auction_house": "Phillips",
+    "auction_date": "2026-05-21",
+    "starting_price": null,
+    "estimated_selling_price": {
+      "currency": "USD",
+      "low": 100000.0,
+      "high": 150000.0,
+      "display": "$ 100,000 - 150,000"
+    },
+    "result_price": {
+      "currency": "USD",
+      "amount": 193500.0,
+      "display": "$ 193,500"
+    },
+    "last_sold_price": null,
+    "source_url": "https://www.phillips.com/detail/etel-adnan/234838",
+    "record_source": "Phillips public auction result page",
+    "notes": "Starting price and prior sale price were not exposed in the public Phillips sale payload.",
+    "medium": "",
+    "dimensions": "",
+    "provenance": "",
+    "literature": "",
+    "quality_flags": {
+      "has_artist": true,
+      "has_title": true,
+      "has_auction_date": true,
+      "has_estimate": true,
+      "has_result_price": true,
+      "has_starting_price": false,
+      "has_prior_sale": false,
+      "has_source_url": true,
+      "has_image": false,
+      "has_medium": false,
+      "has_dimensions": false
+    },
+    "prediction_ready": true
+  },
+  {
+    "id": "phillips_auctions|phillips|NY010526|304",
+    "status": "sold",
+    "title": "Everything in order",
+    "artists": [
+      "Alexis Ralaivao"
+    ],
+    "style": "Modern & Contemporary Art: Afternoon Session",
+    "auction_house": "Phillips",
+    "auction_date": "2026-05-21",
+    "starting_price": null,
+    "estimated_selling_price": {
+      "currency": "USD",
+      "low": 15000.0,
+      "high": 20000.0,
+      "display": "$ 15,000 - 20,000"
+    },
+    "result_price": {
+      "currency": "USD",
+      "amount": 38700.0,
+      "display": "$ 38,700"
+    },
+    "last_sold_price": null,
+    "source_url": "https://www.phillips.com/detail/alexis-ralaivao/234485",
+    "record_source": "Phillips public auction result page",
+    "notes": "Starting price and prior sale price were not exposed in the public Phillips sale payload.",
+    "medium": "",
+    "dimensions": "",
+    "provenance": "",
+    "literature": "",
+    "quality_flags": {
+      "has_artist": true,
+      "has_title": true,
+      "has_auction_date": true,
+      "has_estimate": true,
+      "has_result_price": true,
+      "has_starting_price": false,
+      "has_prior_sale": false,
+      "has_source_url": true,
+      "has_image": false,
+      "has_medium": false,
+      "has_dimensions": false
+    },
+    "prediction_ready": true
+  },
+  {
+    "id": "phillips_auctions|phillips|NY010526|305",
+    "status": "sold",
+    "title": "Ellipsis",
+    "artists": [
+      "Joseph Yaeger"
+    ],
+    "style": "Modern & Contemporary Art: Afternoon Session",
+    "auction_house": "Phillips",
+    "auction_date": "2026-05-21",
+    "starting_price": null,
+    "estimated_selling_price": {
+      "currency": "USD",
+      "low": 30000.0,
+      "high": 50000.0,
+      "display": "$ 30,000 - 50,000"
+    },
+    "result_price": {
+      "currency": "USD",
+      "amount": 51600.0,
+      "display": "$ 51,600"
+    },
+    "last_sold_price": null,
+    "source_url": "https://www.phillips.com/detail/joseph-yaeger/233881",
+    "record_source": "Phillips public auction result page",
+    "notes": "Starting price and prior sale price were not exposed in the public Phillips sale payload.",
+    "medium": "",
+    "dimensions": "",
+    "provenance": "",
+    "literature": "",
+    "quality_flags": {
+      "has_artist": true,
+      "has_title": true,
+      "has_auction_date": true,
+      "has_estimate": true,
+      "has_result_price": true,
+      "has_starting_price": false,
+      "has_prior_sale": false,
+      "has_source_url": true,
+      "has_image": false,
+      "has_medium": false,
+      "has_dimensions": false
+    },
+    "prediction_ready": true
+  },
+  {
+    "id": "bonhams_results|bonhams|31876|201",
+    "status": "sold",
+    "title": "Spending Scarlet",
+    "artists": [
+      "EMILY MASON (1932-2019)"
+    ],
+    "style": "Post-War and Contemporary Art",
+    "auction_house": "Bonhams",
+    "auction_date": "2026-05-21",
+    "starting_price": null,
+    "estimated_selling_price": {
+      "currency": "USD",
+      "low": 30000.0,
+      "high": 50000.0,
+      "display": "US$ 30,000 - 50,000"
+    },
+    "result_price": {
+      "currency": "USD",
+      "amount": 64000.0,
+      "display": "US$ 64,000"
+    },
+    "last_sold_price": null,
+    "source_url": "https://www.bonhams.com/auction/31876/lot/201/emily-mason-1932-2019-spending-scarlet-32-x-23-78-in-811-x-606-cm-painted-in-2000/",
+    "record_source": "Bonhams public auction result page",
+    "notes": "Starting price and prior sale price were not exposed in the public Bonhams lot-list payload.",
+    "medium": "",
+    "dimensions": "32 x 23 7/8 in (81.1 x 60.6 cm)",
+    "provenance": "",
+    "literature": "",
+    "quality_flags": {
+      "has_artist": true,
+      "has_title": true,
+      "has_auction_date": true,
+      "has_estimate": true,
+      "has_result_price": true,
+      "has_starting_price": false,
+      "has_prior_sale": false,
+      "has_source_url": true,
+      "has_image": true,
+      "has_medium": false,
+      "has_dimensions": true
+    },
+    "prediction_ready": true
+  },
+  {
+    "id": "bonhams_results|bonhams|31876|202",
+    "status": "sold",
+    "title": "Mind the Bridges",
+    "artists": [
+      "EMILY MASON (1932-2019)"
+    ],
+    "style": "Post-War and Contemporary Art",
+    "auction_house": "Bonhams",
+    "auction_date": "2026-05-21",
+    "starting_price": null,
+    "estimated_selling_price": {
+      "currency": "USD",
+      "low": 40000.0,
+      "high": 60000.0,
+      "display": "US$ 40,000 - 60,000"
+    },
+    "result_price": {
+      "currency": "USD",
+      "amount": 61440.0,
+      "display": "US$ 61,440"
+    },
+    "last_sold_price": null,
+    "source_url": "https://www.bonhams.com/auction/31876/lot/202/emily-mason-1932-2019-mind-the-bridges-24-x-48-in-609-x-1219-cm-painted-in-2002/",
+    "record_source": "Bonhams public auction result page",
+    "notes": "Starting price and prior sale price were not exposed in the public Bonhams lot-list payload.",
+    "medium": "",
+    "dimensions": "24 x 48 in (60.9 x 121.9 cm)",
+    "provenance": "",
+    "literature": "",
+    "quality_flags": {
+      "has_artist": true,
+      "has_title": true,
+      "has_auction_date": true,
+      "has_estimate": true,
+      "has_result_price": true,
+      "has_starting_price": false,
+      "has_prior_sale": false,
+      "has_source_url": true,
+      "has_image": true,
+      "has_medium": false,
+      "has_dimensions": true
+    },
+    "prediction_ready": true
+  },
+  {
+    "id": "bonhams_results|bonhams|31876|203",
+    "status": "sold",
+    "title": "Midnight Choir",
+    "artists": [
+      "DOROTHY FRATT (1923-2017)"
+    ],
+    "style": "Post-War and Contemporary Art",
+    "auction_house": "Bonhams",
+    "auction_date": "2026-05-21",
+    "starting_price": null,
+    "estimated_selling_price": {
+      "currency": "USD",
+      "low": 35000.0,
+      "high": 55000.0,
+      "display": "US$ 35,000 - 55,000"
+    },
+    "result_price": {
+      "currency": "USD",
+      "amount": 44800.0,
+      "display": "US$ 44,800"
+    },
+    "last_sold_price": null,
+    "source_url": "https://www.bonhams.com/auction/31876/lot/203/dorothy-fratt-1923-2017-midnight-choir-26-x-21-in-66-x-534-cm-painted-in-1989/",
+    "record_source": "Bonhams public auction result page",
+    "notes": "Starting price and prior sale price were not exposed in the public Bonhams lot-list payload.",
+    "medium": "",
+    "dimensions": "26 x 21 in (66 x 53.4 cm)",
+    "provenance": "",
+    "literature": "",
+    "quality_flags": {
+      "has_artist": true,
+      "has_title": true,
+      "has_auction_date": true,
+      "has_estimate": true,
+      "has_result_price": true,
+      "has_starting_price": false,
+      "has_prior_sale": false,
+      "has_source_url": true,
+      "has_image": true,
+      "has_medium": false,
+      "has_dimensions": true
+    },
+    "prediction_ready": true
+  },
+  {
+    "id": "bonhams_results|bonhams|31876|204",
+    "status": "sold",
+    "title": "Untitled (Coucou, Monsieur Ingres)",
+    "artists": [
+      "JANICE BIALA (1903-2000)"
+    ],
+    "style": "Post-War and Contemporary Art",
+    "auction_house": "Bonhams",
+    "auction_date": "2026-05-21",
+    "starting_price": null,
+    "estimated_selling_price": {
+      "currency": "USD",
+      "low": 10000.0,
+      "high": 15000.0,
+      "display": "US$ 10,000 - 15,000"
+    },
+    "result_price": {
+      "currency": "USD",
+      "amount": 24320.0,
+      "display": "US$ 24,320"
+    },
+    "last_sold_price": null,
+    "source_url": "https://www.bonhams.com/auction/31876/lot/204/janice-biala-1903-2000-untitled-coucou-monsieur-ingres-13-x-18-in-33-x-459-cm-painted-circa-1969/",
+    "record_source": "Bonhams public auction result page",
+    "notes": "Starting price and prior sale price were not exposed in the public Bonhams lot-list payload.",
+    "medium": "",
+    "dimensions": "13 x 18 in (33 x 45.9 cm)",
+    "provenance": "",
+    "literature": "",
+    "quality_flags": {
+      "has_artist": true,
+      "has_title": true,
+      "has_auction_date": true,
+      "has_estimate": true,
+      "has_result_price": true,
+      "has_starting_price": false,
+      "has_prior_sale": false,
+      "has_source_url": true,
+      "has_image": true,
+      "has_medium": false,
+      "has_dimensions": true
+    },
+    "prediction_ready": true
+  },
+  {
+    "id": "bonhams_results|bonhams|31876|205",
+    "status": "sold",
+    "title": "Foliage Study",
+    "artists": [
+      "LYNNE DREXLER (1928-1999)"
+    ],
+    "style": "Post-War and Contemporary Art",
+    "auction_house": "Bonhams",
+    "auction_date": "2026-05-21",
+    "starting_price": null,
+    "estimated_selling_price": {
+      "currency": "USD",
+      "low": 30000.0,
+      "high": 50000.0,
+      "display": "US$ 30,000 - 50,000"
+    },
+    "result_price": {
+      "currency": "USD",
+      "amount": 66540.0,
+      "display": "US$ 66,540"
+    },
+    "last_sold_price": null,
+    "source_url": "https://www.bonhams.com/auction/31876/lot/205/lynne-drexler-1928-1999-foliage-study-16-18-x-13-in-409-x-33-cm-executed-in-1962/",
+    "record_source": "Bonhams public auction result page",
+    "notes": "Starting price and prior sale price were not exposed in the public Bonhams lot-list payload.",
+    "medium": "",
+    "dimensions": "16 1/8 x 13 in (40.9 x 33 cm)",
+    "provenance": "",
+    "literature": "",
+    "quality_flags": {
+      "has_artist": true,
+      "has_title": true,
+      "has_auction_date": true,
+      "has_estimate": true,
+      "has_result_price": true,
+      "has_starting_price": false,
+      "has_prior_sale": false,
+      "has_source_url": true,
+      "has_image": true,
+      "has_medium": false,
+      "has_dimensions": true
+    },
+    "prediction_ready": true
+  },
+  {
     "id": "christies_results|christie's|31036|401",
     "status": "sold",
     "title": "Untitled (7.2.89)",
@@ -538,5 +988,210 @@
       "has_dimensions": false
     },
     "prediction_ready": true
+  },
+  {
+    "id": "sothebys_results|sotheby's|016637c6-b78d-430c-a043-475a3aa5b654|301",
+    "status": "auctioned",
+    "title": "Sin título",
+    "artists": [
+      "Bridget Bate Tichenor"
+    ],
+    "style": "Modern Day Auction",
+    "auction_house": "Sotheby's",
+    "auction_date": "2026-05-20",
+    "starting_price": null,
+    "estimated_selling_price": {
+      "currency": "USD",
+      "low": 40000.0,
+      "high": 60000.0,
+      "display": "USD 40,000 - 60,000"
+    },
+    "result_price": null,
+    "last_sold_price": null,
+    "source_url": "https://www.sothebys.com/en/buy/auction/2026/modern-day-auction/sin-titulo-4",
+    "record_source": "Sotheby's public auction result page",
+    "notes": "Starting price, realized price, and prior sale price were not exposed in the sampled public Sotheby's payload.",
+    "medium": "",
+    "dimensions": "",
+    "provenance": "",
+    "literature": "",
+    "quality_flags": {
+      "has_artist": true,
+      "has_title": true,
+      "has_auction_date": true,
+      "has_estimate": true,
+      "has_result_price": false,
+      "has_starting_price": false,
+      "has_prior_sale": false,
+      "has_source_url": true,
+      "has_image": false,
+      "has_medium": false,
+      "has_dimensions": false
+    },
+    "prediction_ready": false
+  },
+  {
+    "id": "sothebys_results|sotheby's|016637c6-b78d-430c-a043-475a3aa5b654|302",
+    "status": "auctioned",
+    "title": "Błąd (Error)",
+    "artists": [
+      "Anna Güntner"
+    ],
+    "style": "Modern Day Auction",
+    "auction_house": "Sotheby's",
+    "auction_date": "2026-05-20",
+    "starting_price": null,
+    "estimated_selling_price": {
+      "currency": "USD",
+      "low": 50000.0,
+      "high": 70000.0,
+      "display": "USD 50,000 - 70,000"
+    },
+    "result_price": null,
+    "last_sold_price": null,
+    "source_url": "https://www.sothebys.com/en/buy/auction/2026/modern-day-auction/blad-error",
+    "record_source": "Sotheby's public auction result page",
+    "notes": "Starting price, realized price, and prior sale price were not exposed in the sampled public Sotheby's payload.",
+    "medium": "",
+    "dimensions": "",
+    "provenance": "",
+    "literature": "",
+    "quality_flags": {
+      "has_artist": true,
+      "has_title": true,
+      "has_auction_date": true,
+      "has_estimate": true,
+      "has_result_price": false,
+      "has_starting_price": false,
+      "has_prior_sale": false,
+      "has_source_url": true,
+      "has_image": false,
+      "has_medium": false,
+      "has_dimensions": false
+    },
+    "prediction_ready": false
+  },
+  {
+    "id": "sothebys_results|sotheby's|016637c6-b78d-430c-a043-475a3aa5b654|303",
+    "status": "auctioned",
+    "title": "Le Temps",
+    "artists": [
+      "Jane Graverol"
+    ],
+    "style": "Modern Day Auction",
+    "auction_house": "Sotheby's",
+    "auction_date": "2026-05-20",
+    "starting_price": null,
+    "estimated_selling_price": {
+      "currency": "USD",
+      "low": 30000.0,
+      "high": 50000.0,
+      "display": "USD 30,000 - 50,000"
+    },
+    "result_price": null,
+    "last_sold_price": null,
+    "source_url": "https://www.sothebys.com/en/buy/auction/2026/modern-day-auction/le-temps",
+    "record_source": "Sotheby's public auction result page",
+    "notes": "Starting price, realized price, and prior sale price were not exposed in the sampled public Sotheby's payload.",
+    "medium": "",
+    "dimensions": "",
+    "provenance": "",
+    "literature": "",
+    "quality_flags": {
+      "has_artist": true,
+      "has_title": true,
+      "has_auction_date": true,
+      "has_estimate": true,
+      "has_result_price": false,
+      "has_starting_price": false,
+      "has_prior_sale": false,
+      "has_source_url": true,
+      "has_image": false,
+      "has_medium": false,
+      "has_dimensions": false
+    },
+    "prediction_ready": false
+  },
+  {
+    "id": "sothebys_results|sotheby's|016637c6-b78d-430c-a043-475a3aa5b654|304",
+    "status": "auctioned",
+    "title": "Le Compotier",
+    "artists": [
+      "René Magritte"
+    ],
+    "style": "Modern Day Auction",
+    "auction_house": "Sotheby's",
+    "auction_date": "2026-05-20",
+    "starting_price": null,
+    "estimated_selling_price": {
+      "currency": "USD",
+      "low": 800000.0,
+      "high": 1200000.0,
+      "display": "USD 800,000 - 1,200,000"
+    },
+    "result_price": null,
+    "last_sold_price": null,
+    "source_url": "https://www.sothebys.com/en/buy/auction/2026/modern-day-auction/le-compotier",
+    "record_source": "Sotheby's public auction result page",
+    "notes": "Starting price, realized price, and prior sale price were not exposed in the sampled public Sotheby's payload.",
+    "medium": "",
+    "dimensions": "",
+    "provenance": "",
+    "literature": "",
+    "quality_flags": {
+      "has_artist": true,
+      "has_title": true,
+      "has_auction_date": true,
+      "has_estimate": true,
+      "has_result_price": false,
+      "has_starting_price": false,
+      "has_prior_sale": false,
+      "has_source_url": true,
+      "has_image": false,
+      "has_medium": false,
+      "has_dimensions": false
+    },
+    "prediction_ready": false
+  },
+  {
+    "id": "sothebys_results|sotheby's|016637c6-b78d-430c-a043-475a3aa5b654|305",
+    "status": "auctioned",
+    "title": "Le Calcul mental",
+    "artists": [
+      "René Magritte"
+    ],
+    "style": "Modern Day Auction",
+    "auction_house": "Sotheby's",
+    "auction_date": "2026-05-20",
+    "starting_price": null,
+    "estimated_selling_price": {
+      "currency": "USD",
+      "low": 250000.0,
+      "high": 350000.0,
+      "display": "USD 250,000 - 350,000"
+    },
+    "result_price": null,
+    "last_sold_price": null,
+    "source_url": "https://www.sothebys.com/en/buy/auction/2026/modern-day-auction/le-calcul-mental",
+    "record_source": "Sotheby's public auction result page",
+    "notes": "Starting price, realized price, and prior sale price were not exposed in the sampled public Sotheby's payload.",
+    "medium": "",
+    "dimensions": "",
+    "provenance": "",
+    "literature": "",
+    "quality_flags": {
+      "has_artist": true,
+      "has_title": true,
+      "has_auction_date": true,
+      "has_estimate": true,
+      "has_result_price": false,
+      "has_starting_price": false,
+      "has_prior_sale": false,
+      "has_source_url": true,
+      "has_image": false,
+      "has_medium": false,
+      "has_dimensions": false
+    },
+    "prediction_ready": false
   }
 ]

@@ -3,6 +3,7 @@ const auctionFeedPath = "data/auction_feed_items.json";
 const nextTargetsPath = "data/next_ingestion_targets.json";
 const marketIndicesPath = "data/market_indices.json";
 const legalAppraisalsPath = "data/legal_appraisal_records.json";
+const dataVersion = new URLSearchParams(window.location.search).get("v") || "local";
 
 const feedItems = [
   {
@@ -177,7 +178,7 @@ async function init() {
 
 async function loadSources() {
   try {
-    const response = await fetch(sourcePath);
+    const response = await fetch(versionedDataPath(sourcePath), { cache: "no-store" });
     if (!response.ok) throw new Error(`Unable to load ${sourcePath}`);
     const text = await response.text();
     return parseCsv(text);
@@ -189,13 +190,17 @@ async function loadSources() {
 
 async function loadJson(path, fallback) {
   try {
-    const response = await fetch(path);
+    const response = await fetch(versionedDataPath(path), { cache: "no-store" });
     if (!response.ok) throw new Error(`Unable to load ${path}`);
     return await response.json();
   } catch (error) {
     console.warn(error);
     return fallback;
   }
+}
+
+function versionedDataPath(path) {
+  return `${path}?v=${encodeURIComponent(dataVersion)}`;
 }
 
 function bindEvents() {

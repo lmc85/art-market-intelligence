@@ -14,6 +14,7 @@ An early-stage art market intelligence app for collecting public auction, sales,
 - `feeds/auction-results.xml` - generated RSS feed for pieces sold and auctioned.
 - `scripts/generate_auction_rss.py` - regenerates the auction RSS XML from JSON.
 - `scripts/ingest_christies_auction_feed.py` - fetches Christie’s public result lots into SQLite, then publishes JSON/RSS.
+- `scripts/ingest_auction_house_feed.py` - fetches Sotheby’s, Bonhams, Phillips, and Heritage lanes into SQLite, then publishes JSON/RSS.
 - `scripts/export_auction_feed.py` - republishes JSON/RSS from the local auction SQLite store.
 - `scripts/build_market_indices.py` - derives prototype market indices from local auction lots.
 - `scripts/ingest_legal_appraisal_records.py` - searches CourtListener/RECAP for public appraisal and bankruptcy leads.
@@ -67,6 +68,14 @@ Fetch live first-pass Christie's result records into the RSS feed:
 python3 scripts/ingest_christies_auction_feed.py --limit 12 --sale-query contemporary --replace
 ```
 
+Fetch the additional official auction-house lanes:
+
+```bash
+python3 scripts/ingest_auction_house_feed.py --source bonhams_results --sale-query contemporary --limit 12 --replace-source
+python3 scripts/ingest_auction_house_feed.py --source phillips_auctions --sale-query contemporary --limit 12 --replace-source
+python3 scripts/ingest_auction_house_feed.py --source sothebys_results --sale-query modern --limit 12 --replace-source
+```
+
 Add public lot-detail enrichment for medium, dimensions, provenance, literature, and stronger image metadata:
 
 ```bash
@@ -93,6 +102,6 @@ Set `COURTLISTENER_TOKEN` and pass `--enrich-documents` when document text enric
 
 1. Expand open collection ingestion to bulk CSV sources: National Gallery of Art, MoMA, Tate, Smithsonian, and V&A.
 2. Add macro and demand signals from UN Comtrade, World Bank, FRED, BLS, and FX sources.
-3. Build terms-reviewed connectors for official auction-house result pages and public realized-price archives.
+3. Deepen auction-house detail enrichment for medium, dimensions, provenance, literature, and prior-sale cues.
 4. Deduplicate aggregator records against official auction-house records.
 5. Add historical OCR workflows for provenance and older sale catalogs.

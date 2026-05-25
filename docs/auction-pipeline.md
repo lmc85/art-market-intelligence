@@ -40,6 +40,17 @@ Fetch the same sale and enrich selected lots from their public detail pages:
 python3 scripts/ingest_christies_auction_feed.py --limit 12 --sale-query contemporary --replace --enrich-details --detail-limit 5
 ```
 
+Fetch the newly added auction-house lanes:
+
+```bash
+python3 scripts/ingest_auction_house_feed.py --source bonhams_results --sale-query contemporary --limit 12 --replace-source
+python3 scripts/ingest_auction_house_feed.py --source phillips_auctions --sale-query contemporary --limit 12 --replace-source
+python3 scripts/ingest_auction_house_feed.py --source sothebys_results --sale-query modern --limit 12 --replace-source
+python3 scripts/ingest_auction_house_feed.py --source heritage_auctions --sale-query "fine art" --limit 12
+```
+
+The Heritage lane is intentionally nonfatal: local direct HTTP currently returns 403, so the connector records a blocked run and preserves the source as a terms/access review target.
+
 Export feed files from the existing SQLite store:
 
 ```bash

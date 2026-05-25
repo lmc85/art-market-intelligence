@@ -4,9 +4,9 @@
     "source_name": "Heritage Auctions Archives",
     "priority": "P0",
     "target_type": "Realized price archive",
-    "stage": "Blocked in local HTTP; terms/browser review",
+    "stage": "Implemented blocked-access lane",
     "rss_use": "Sold lots, estimates, realized prices, prior sale cues",
-    "next_action": "Review terms and access path; local HTTP requests currently receive 403 while browser/search access is visible."
+    "next_action": "Review terms and access path; connector records a blocked run when local HTTP requests receive 403."
   },
   {
     "source_id": "christies_results",
@@ -40,27 +40,27 @@
     "source_name": "Sotheby's Results",
     "priority": "P0",
     "target_type": "Official auction result",
-    "stage": "Access review",
-    "rss_use": "Official sale dates, auction house, lot estimates, realized prices",
-    "next_action": "Review login prompts and public result-page stability."
+    "stage": "Implemented first pass",
+    "rss_use": "Official sale dates, auction house, lot titles, artists, and estimates; realized prices may be gated",
+    "next_action": "Add realized-price enrichment if public detail pages or an approved access path exposes sold prices."
   },
   {
     "source_id": "bonhams_results",
     "source_name": "Bonhams Results",
     "priority": "P0",
     "target_type": "Official auction result",
-    "stage": "Connector design",
-    "rss_use": "Mid-market sale results and category breadth",
-    "next_action": "Test public results pages for stable lot metadata."
+    "stage": "Implemented first pass",
+    "rss_use": "Mid-market sale results with title, artist, estimate, hammer/premium result, sale date, and source URL",
+    "next_action": "Add pagination and optional detail-page enrichment for condition/provenance/medium fields."
   },
   {
     "source_id": "phillips_auctions",
     "source_name": "Phillips Auctions",
     "priority": "P0",
     "target_type": "Official auction result",
-    "stage": "URL pattern review",
-    "rss_use": "Contemporary art, design, editions, photographs",
-    "next_action": "Identify past auction result URL patterns and lot data shape."
+    "stage": "Implemented first pass",
+    "rss_use": "Contemporary art, design, editions, and photographs with estimates, sold price, date, and detail URL",
+    "next_action": "Add detail-page enrichment for medium, dimensions, provenance, literature, and image fields."
   },
   {
     "source_id": "liveauctioneers",
