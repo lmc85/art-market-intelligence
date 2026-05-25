@@ -10,6 +10,7 @@ This register separates genuinely open/free sources from sources that are only f
 2. **Artwork and artist enrichment:** normalize sale lots against object/artist vocabularies from [The Met](https://www.metmuseum.org/en/hubs/open-access), [Art Institute of Chicago](https://api.artic.edu/docs/), [Cleveland Museum of Art](https://www.clevelandart.org/open-access-api), [Smithsonian Open Access](https://www.si.edu/OpenAccess), [Rijksmuseum](https://data.rijksmuseum.nl/), [National Gallery of Art](https://github.com/NationalGalleryOfArt/opendata), [Harvard Art Museums](https://github.com/harvardartmuseums/api-docs), [MoMA](https://github.com/MuseumofModernArt/collection), [Tate](https://github.com/tategallery/collection), [Europeana](https://www.europeana.eu/en/apis), and [Wikidata](https://query.wikidata.org/).
 3. **Historical provenance and sales context:** use [Getty Provenance Index](https://www.getty.edu/databases-tools-and-technologies/provenance/), [Getty Vocabularies](https://www.getty.edu/research/tools/vocabularies/), [Getty Research Portal](https://www.getty.edu/research/tools/portal/), [Internet Archive](https://archive.org/), [HathiTrust](https://www.hathitrust.org/), and [Gallica](https://gallica.bnf.fr/) for historical catalog and provenance features.
 4. **Demand and market geography:** combine sale-location signals with [UN Comtrade](https://comtradeapi.un.org/) HS 97 trade flows, [World Bank Indicators](https://datahelpdesk.worldbank.org/knowledgebase/articles/889392-about-the-indicators-api-documentation), [FRED](https://fred.stlouisfed.org/docs/api/fred/), [BLS CPI](https://www.bls.gov/bls/api_features.htm), exchange-rate sources, and public art-market reports.
+5. **Derived and legal valuation lanes:** build internal price-history indices from normalized auction lots, then mine [CourtListener RECAP](https://www.courtlistener.com/recap/) for public appraisal, valuation, bankruptcy, and auction-consignment filing leads.
 
 ## Source Inventory
 
@@ -18,7 +19,9 @@ This register separates genuinely open/free sources from sources that are only f
 | P0 | [Heritage Auctions Archives](https://www.ha.com/c/search/results.zx) | Realized prices | Free browse; account may improve access | Large searchable archive with realized prices, images, descriptions, dates, categories, and bidder context across fine art and collectibles | Strong first target for structured comps; confirm automated-use terms before scraping |
 | P0 | [LiveAuctioneers Auction Results](https://www.liveauctioneers.com/auction-results) | Realized prices | Free browse/search; account may be required for depth | Aggregated global auction results across many houses, often with hammer/sold prices, dates, categories, and images | Valuable market breadth; likely no public API, so terms review and throttled extraction strategy required |
 | P0 | [Artsy Price Database](https://www.artsy.net/price-database) | Realized prices | Free public product; login may be required | Auction results for artists and works sold through major houses; useful artist-level comp surface | Good for discovery and benchmarking; verify access constraints before automation |
+| P0 | AMI Internal Auction Indices | Derived market index | Local generated data | Median realized-price indices by market, artist, medium family, and sale context | Implemented prototype from local SQLite auction lots; needs deeper history before confidence is high |
 | P0 | [Christie's Results](https://www.christies.com/results?sc_lang=en) | Official auction results | Free browse | Major global auction-house result pages with sale names, locations, dates, lots, estimates, and realized prices where exposed | High-quality canonical data; page structure and availability vary by sale |
+| P0 | [CourtListener RECAP Search](https://www.courtlistener.com/api/rest/v4/search/) | Legal appraisal records | Public search API; document detail may need token | Federal court and bankruptcy filing metadata for appraisals, valuation reports, sale motions, and auction-consignment references | Implemented search lead lane; treat records as legal valuation leads until matched to auction outcomes |
 | P0 | [Sotheby's Results](https://www.sothebys.com/en/results) | Official auction results | Free browse; login may be prompted | Major global auction results, categories, sale dates, locations, lot metadata, and realized prices where exposed | High-value canonical source; terms and anti-bot behavior need review |
 | P0 | [Bonhams Results](https://www.bonhams.com/auctions/results/) | Official auction results | Free browse | Global auction results across fine art, design, jewelry, wine, cars, and collectibles | Good category breadth; some pages may block automated clients |
 | P0 | [Phillips Auctions](https://www.phillips.com/auctions) | Official auction results | Free browse | Modern/contemporary art, design, watches, editions, photographs | High signal for contemporary market; confirm current result URL patterns |
@@ -92,8 +95,10 @@ Minimum source-register fields:
 1. Ingest open/bulk enrichment data first: NGA, MoMA, Tate, Met, AIC, Cleveland, Getty vocabularies, and Wikidata. This gives us canonical artist/category/place/material IDs before price data gets messy.
 2. Add macro normalization: UN Comtrade, World Bank, FRED, BLS, ECB/FX. This makes every sale record currency- and inflation-aware from day one.
 3. Build first price-comp connectors for sources with the clearest public structure: Heritage, Christie's, Sotheby's, Bonhams, Phillips, Artcurial, Dorotheum, Lempertz, Doyle, Swann, Freeman's Hindman, Bukowskis, and Bruun Rasmussen.
-4. Add aggregation platforms as discovery/coverage sources after terms review: LiveAuctioneers, Artsy, Barnebys, BidtoArt, FindArtValue, Invaluable, MutualArt.
-5. Add historical OCR pipeline for Getty Research Portal, Internet Archive, HathiTrust, and Gallica once contemporary comps are flowing.
+4. Generate internal market indices from every stored auction result, while clearly flagging series that need more historical periods.
+5. Add legal appraisal lead ingestion from CourtListener/RECAP, then cross-link extracted works to auction outcomes.
+6. Add aggregation platforms as discovery/coverage sources after terms review: LiveAuctioneers, Artsy, Barnebys, BidtoArt, FindArtValue, Invaluable, MutualArt.
+7. Add historical OCR pipeline for Getty Research Portal, Internet Archive, HathiTrust, and Gallica once contemporary comps are flowing.
 
 ## Key Normalization Rules
 
@@ -104,4 +109,3 @@ Minimum source-register fields:
 - Deduplicate across aggregator platforms and official auction-house records by lot title, artist, sale date, auction house, dimensions, medium, and image hash.
 - Keep image URLs and local thumbnails separate from image rights/licensing status.
 - Make access provenance auditable: every sale record should know which source URL produced it and when it was collected.
-

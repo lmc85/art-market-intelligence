@@ -13,3 +13,6 @@ data/auction/*.sqlite-*
 data/auction/raw_snapshots/*
 !data/auction/.gitkeep
 !data/auction/raw_snapshots/.gitkeep
+
+# Court/legal search snapshots.
+data/legal_appraisals/raw_snapshots/*

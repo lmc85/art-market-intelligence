@@ -18,6 +18,24 @@
     "next_action": "Add pagination, sale-type filters, and detail-page enrichment for starting price and prior-sale fields."
   },
   {
+    "source_id": "internal_market_indices",
+    "source_name": "AMI Internal Auction Indices",
+    "priority": "P0",
+    "target_type": "Derived price index",
+    "stage": "Implemented prototype",
+    "rss_use": "Trend baselines for artist, medium, and sale-context price movement",
+    "next_action": "Add more historical auction-house records so index series move beyond one-period prototype signals."
+  },
+  {
+    "source_id": "courtlistener_recap",
+    "source_name": "CourtListener RECAP Search",
+    "priority": "P0",
+    "target_type": "Legal appraisal lead",
+    "stage": "Implemented search lane",
+    "rss_use": "Public appraisal, valuation, auction-consignment, and bankruptcy-document leads",
+    "next_action": "Add COURTLISTENER_TOKEN for document text enrichment and tune bankruptcy/appraisal query sets."
+  },
+  {
     "source_id": "sothebys_results",
     "source_name": "Sotheby's Results",
     "priority": "P0",

@@ -1,0 +1,303 @@
+{
+  "generated_at": "2026-05-25T13:11:59Z",
+  "source": {
+    "type": "internal_auction_results",
+    "db_path": "data/auction/auction_pipeline.sqlite",
+    "method": "Median realized-price index, rebased to 100 at the first observed period.",
+    "caveat": "Prototype indices are only as strong as the available normalized lot history."
+  },
+  "summary": {
+    "lot_count": 12,
+    "index_count": 11,
+    "history_ready_count": 0,
+    "needs_more_history_count": 11
+  },
+  "indices": [
+    {
+      "id": "market:all-auction-results",
+      "series_type": "market",
+      "label": "All auction results",
+      "status": "needs_more_history",
+      "confidence": "low",
+      "period_count": 1,
+      "lot_count": 12,
+      "latest_period": "2026",
+      "latest_index_value": 100.0,
+      "latest_lots_sold": 12,
+      "latest_median_result": 139700.0,
+      "latest_estimate_ratio": 1.545,
+      "points": [
+        {
+          "period": "2026",
+          "index_value": 100.0,
+          "lots_sold": 12,
+          "total_value": 2885440.0,
+          "median_result": 139700.0,
+          "median_estimate": 70000.0,
+          "estimate_ratio": 1.545
+        }
+      ],
+      "notes": "Needs at least two observed periods before this behaves like a trend index."
+    },
+    {
+      "id": "sale_context:post-war-and-contemporary-art-day-sale",
+      "series_type": "sale_context",
+      "label": "Post-War and Contemporary Art Day Sale",
+      "status": "needs_more_history",
+      "confidence": "low",
+      "period_count": 1,
+      "lot_count": 12,
+      "latest_period": "2026",
+      "latest_index_value": 100.0,
+      "latest_lots_sold": 12,
+      "latest_median_result": 139700.0,
+      "latest_estimate_ratio": 1.545,
+      "points": [
+        {
+          "period": "2026",
+          "index_value": 100.0,
+          "lots_sold": 12,
+          "total_value": 2885440.0,
+          "median_result": 139700.0,
+          "median_estimate": 70000.0,
+          "estimate_ratio": 1.545
+        }
+      ],
+      "notes": "Needs at least two observed periods before this behaves like a trend index."
+    },
+    {
+      "id": "artist:gerhard-richter--b--1932",
+      "series_type": "artist",
+      "label": "GERHARD RICHTER (B. 1932)",
+      "status": "needs_more_history",
+      "confidence": "low",
+      "period_count": 1,
+      "lot_count": 6,
+      "latest_period": "2026",
+      "latest_index_value": 100.0,
+      "latest_lots_sold": 6,
+      "latest_median_result": 234950.0,
+      "latest_estimate_ratio": 3.059,
+      "points": [
+        {
+          "period": "2026",
+          "index_value": 100.0,
+          "lots_sold": 6,
+          "total_value": 1990090.0,
+          "median_result": 234950.0,
+          "median_estimate": 70000.0,
+          "estimate_ratio": 3.059
+        }
+      ],
+      "notes": "Needs at least two observed periods before this behaves like a trend index."
+    },
+    {
+      "id": "artist:anselm-kiefer--b--1945",
+      "series_type": "artist",
+      "label": "ANSELM KIEFER (B. 1945)",
+      "status": "needs_more_history",
+      "confidence": "low",
+      "period_count": 1,
+      "lot_count": 2,
+      "latest_period": "2026",
+      "latest_index_value": 100.0,
+      "latest_lots_sold": 2,
+      "latest_median_result": 92075.0,
+      "latest_estimate_ratio": 1.254,
+      "points": [
+        {
+          "period": "2026",
+          "index_value": 100.0,
+          "lots_sold": 2,
+          "total_value": 184150.0,
+          "median_result": 92075.0,
+          "median_estimate": 70000.0,
+          "estimate_ratio": 1.254
+        }
+      ],
+      "notes": "Needs at least two observed periods before this behaves like a trend index."
+    },
+    {
+      "id": "medium:paintings",
+      "series_type": "medium",
+      "label": "Paintings",
+      "status": "needs_more_history",
+      "confidence": "low",
+      "period_count": 1,
+      "lot_count": 2,
+      "latest_period": "2026",
+      "latest_index_value": 100.0,
+      "latest_lots_sold": 2,
+      "latest_median_result": 571500.0,
+      "latest_estimate_ratio": 1.355,
+      "points": [
+        {
+          "period": "2026",
+          "index_value": 100.0,
+          "lots_sold": 2,
+          "total_value": 1143000.0,
+          "median_result": 571500.0,
+          "median_estimate": 512500.0,
+          "estimate_ratio": 1.355
+        }
+      ],
+      "notes": "Needs at least two observed periods before this behaves like a trend index."
+    },
+    {
+      "id": "medium:prints-and-editions",
+      "series_type": "medium",
+      "label": "Prints and editions",
+      "status": "needs_more_history",
+      "confidence": "low",
+      "period_count": 1,
+      "lot_count": 2,
+      "latest_period": "2026",
+      "latest_index_value": 100.0,
+      "latest_lots_sold": 2,
+      "latest_median_result": 431800.0,
+      "latest_estimate_ratio": 3.937,
+      "points": [
+        {
+          "period": "2026",
+          "index_value": 100.0,
+          "lots_sold": 2,
+          "total_value": 863600.0,
+          "median_result": 431800.0,
+          "median_estimate": 112500.0,
+          "estimate_ratio": 3.937
+        }
+      ],
+      "notes": "Needs at least two observed periods before this behaves like a trend index."
+    },
+    {
+      "id": "artist:franz-kline--1910-1962",
+      "series_type": "artist",
+      "label": "FRANZ KLINE (1910-1962)",
+      "status": "needs_more_history",
+      "confidence": "low",
+      "period_count": 1,
+      "lot_count": 1,
+      "latest_period": "2026",
+      "latest_index_value": 100.0,
+      "latest_lots_sold": 1,
+      "latest_median_result": 254000.0,
+      "latest_estimate_ratio": 1.693,
+      "points": [
+        {
+          "period": "2026",
+          "index_value": 100.0,
+          "lots_sold": 1,
+          "total_value": 254000.0,
+          "median_result": 254000.0,
+          "median_estimate": 150000.0,
+          "estimate_ratio": 1.693
+        }
+      ],
+      "notes": "Needs at least two observed periods before this behaves like a trend index."
+    },
+    {
+      "id": "artist:jasper-johns--b--1930",
+      "series_type": "artist",
+      "label": "JASPER JOHNS (B. 1930)",
+      "status": "needs_more_history",
+      "confidence": "low",
+      "period_count": 1,
+      "lot_count": 1,
+      "latest_period": "2026",
+      "latest_index_value": 100.0,
+      "latest_lots_sold": 1,
+      "latest_median_result": 381000.0,
+      "latest_estimate_ratio": 3.048,
+      "points": [
+        {
+          "period": "2026",
+          "index_value": 100.0,
+          "lots_sold": 1,
+          "total_value": 381000.0,
+          "median_result": 381000.0,
+          "median_estimate": 125000.0,
+          "estimate_ratio": 3.048
+        }
+      ],
+      "notes": "Needs at least two observed periods before this behaves like a trend index."
+    },
+    {
+      "id": "artist:thomas-schütte--b--1954",
+      "series_type": "artist",
+      "label": "THOMAS SCHÜTTE (B. 1954)",
+      "status": "needs_more_history",
+      "confidence": "low",
+      "period_count": 1,
+      "lot_count": 1,
+      "latest_period": "2026",
+      "latest_index_value": 100.0,
+      "latest_lots_sold": 1,
+      "latest_median_result": 27940.0,
+      "latest_estimate_ratio": 0.466,
+      "points": [
+        {
+          "period": "2026",
+          "index_value": 100.0,
+          "lots_sold": 1,
+          "total_value": 27940.0,
+          "median_result": 27940.0,
+          "median_estimate": 60000.0,
+          "estimate_ratio": 0.466
+        }
+      ],
+      "notes": "Needs at least two observed periods before this behaves like a trend index."
+    },
+    {
+      "id": "artist:william-kentridge--b--1955",
+      "series_type": "artist",
+      "label": "WILLIAM KENTRIDGE (B. 1955)",
+      "status": "needs_more_history",
+      "confidence": "low",
+      "period_count": 1,
+      "lot_count": 1,
+      "latest_period": "2026",
+      "latest_index_value": 100.0,
+      "latest_lots_sold": 1,
+      "latest_median_result": 48260.0,
+      "latest_estimate_ratio": 1.206,
+      "points": [
+        {
+          "period": "2026",
+          "index_value": 100.0,
+          "lots_sold": 1,
+          "total_value": 48260.0,
+          "median_result": 48260.0,
+          "median_estimate": 40000.0,
+          "estimate_ratio": 1.206
+        }
+      ],
+      "notes": "Needs at least two observed periods before this behaves like a trend index."
+    },
+    {
+      "id": "medium:photography",
+      "series_type": "medium",
+      "label": "Photography",
+      "status": "needs_more_history",
+      "confidence": "low",
+      "period_count": 1,
+      "lot_count": 1,
+      "latest_period": "2026",
+      "latest_index_value": 100.0,
+      "latest_lots_sold": 1,
+      "latest_median_result": 330200.0,
+      "latest_estimate_ratio": 4.717,
+      "points": [
+        {
+          "period": "2026",
+          "index_value": 100.0,
+          "lots_sold": 1,
+          "total_value": 330200.0,
+          "median_result": 330200.0,
+          "median_estimate": 70000.0,
+          "estimate_ratio": 4.717
+        }
+      ],
+      "notes": "Needs at least two observed periods before this behaves like a trend index."
+    }
+  ]
+}

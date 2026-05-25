@@ -1,6 +1,8 @@
 const sourcePath = "data/free_data_sources.csv";
 const auctionFeedPath = "data/auction_feed_items.json";
 const nextTargetsPath = "data/next_ingestion_targets.json";
+const marketIndicesPath = "data/market_indices.json";
+const legalAppraisalsPath = "data/legal_appraisal_records.json";
 
 const feedItems = [
   {
@@ -105,9 +107,29 @@ const fallbackNextTargets = [
   },
 ];
 
+const fallbackMarketIndices = {
+  summary: {
+    index_count: 0,
+    history_ready_count: 0,
+    needs_more_history_count: 0,
+  },
+  indices: [],
+};
+
+const fallbackLegalAppraisals = {
+  summary: {
+    record_count: 0,
+    high_confidence_count: 0,
+    available_document_count: 0,
+  },
+  records: [],
+};
+
 let sources = [];
 let auctionItems = [];
 let nextTargets = [];
+let marketIndexPayload = fallbackMarketIndices;
+let legalAppraisalPayload = fallbackLegalAppraisals;
 let activeFilter = "all";
 let searchTerm = "";
 
@@ -120,6 +142,10 @@ const elements = {
   metricAuctionDetail: document.querySelector("#metric-auction-detail"),
   feedList: document.querySelector("#feed-list"),
   auctionFeedBody: document.querySelector("#auction-feed-body"),
+  marketIndexList: document.querySelector("#market-index-list"),
+  marketIndexCount: document.querySelector("#market-index-count"),
+  legalLeadList: document.querySelector("#legal-lead-list"),
+  legalLeadCount: document.querySelector("#legal-lead-count"),
   coverageList: document.querySelector("#coverage-list"),
   queueBody: document.querySelector("#queue-body"),
   targetList: document.querySelector("#target-list"),
@@ -131,12 +157,16 @@ const elements = {
 init();
 
 async function init() {
-  [sources, auctionItems, nextTargets] = await Promise.all([
+  [sources, auctionItems, nextTargets, marketIndexPayload, legalAppraisalPayload] = await Promise.all([
     loadSources(),
     loadJson(auctionFeedPath, fallbackAuctionItems),
     loadJson(nextTargetsPath, fallbackNextTargets),
+    loadJson(marketIndicesPath, fallbackMarketIndices),
+    loadJson(legalAppraisalsPath, fallbackLegalAppraisals),
   ]);
   renderMetrics();
+  renderMarketIndices();
+  renderLegalLeads();
   renderCoverage();
   renderQueue();
   renderAuctionFeed();
@@ -181,9 +211,105 @@ function bindEvents() {
     searchTerm = event.target.value.trim().toLowerCase();
     renderFeed();
     renderAuctionFeed();
+    renderMarketIndices();
+    renderLegalLeads();
     renderQueue();
     renderNextTargets();
   });
+}
+
+function renderMarketIndices() {
+  const indices = (marketIndexPayload.indices || []).filter((item) => {
+    if (!searchTerm) return true;
+    return [
+      item.series_type,
+      item.label,
+      item.status,
+      item.confidence,
+      item.latest_period,
+      item.notes,
+    ]
+      .join(" ")
+      .toLowerCase()
+      .includes(searchTerm);
+  });
+  const summary = marketIndexPayload.summary || {};
+  elements.marketIndexCount.textContent = `${summary.history_ready_count || 0}/${summary.index_count || 0} trend-ready`;
+
+  elements.marketIndexList.innerHTML = indices.length
+    ? indices.slice(0, 6).map(renderMarketIndex).join("")
+    : `<p class="empty-state">No market index series match the current search.</p>`;
+}
+
+function renderMarketIndex(item) {
+  const points = item.points || [];
+  const series = points.map((point) => point.index_value || 100);
+  return `
+    <article class="index-row">
+      <div class="index-body">
+        <div class="feed-meta">
+          <span>${escapeHtml(formatLabel(item.series_type || "series"))}</span>
+          <span>${escapeHtml(formatLabel(item.status || "queued"))}</span>
+          <span>${escapeHtml(formatLabel(item.confidence || "low"))}</span>
+        </div>
+        <h3>${escapeHtml(item.label || "Market index")}</h3>
+        <p>${escapeHtml(item.notes || "")}</p>
+        <div class="index-stats">
+          <span><strong>${escapeHtml(numberLabel(item.latest_index_value))}</strong> index</span>
+          <span><strong>${escapeHtml(item.latest_lots_sold || 0)}</strong> lots</span>
+          <span><strong>${escapeHtml(moneyNumberLabel(item.latest_median_result))}</strong> median</span>
+          <span><strong>${escapeHtml(ratioLabel(item.latest_estimate_ratio))}</strong> est. ratio</span>
+        </div>
+      </div>
+      ${renderSparkline(series)}
+    </article>
+  `;
+}
+
+function renderLegalLeads() {
+  const records = (legalAppraisalPayload.records || []).filter((item) => {
+    if (!searchTerm) return true;
+    return [
+      item.case_name,
+      item.court,
+      item.docket_number,
+      item.document_description,
+      item.short_description,
+      item.date_filed,
+      item.query,
+      (item.matched_terms || []).join(" "),
+      (item.value_mentions || []).join(" "),
+    ]
+      .join(" ")
+      .toLowerCase()
+      .includes(searchTerm);
+  });
+  const summary = legalAppraisalPayload.summary || {};
+  elements.legalLeadCount.textContent = `${summary.record_count || records.length} leads`;
+
+  elements.legalLeadList.innerHTML = records.length
+    ? records.slice(0, 6).map(renderLegalLead).join("")
+    : `<p class="empty-state">No legal appraisal leads match the current search.</p>`;
+}
+
+function renderLegalLead(item) {
+  const description = item.document_description || item.short_description || "Public court filing lead";
+  const availability = item.document_available ? "RECAP file" : "Lead only";
+  const terms = (item.matched_terms || []).slice(0, 4).join(", ") || "term review";
+  return `
+    <article class="legal-lead-row">
+      <div>
+        <div class="feed-meta">
+          <span>${escapeHtml(formatLabel(item.confidence || "low"))}</span>
+          <span>${escapeHtml(item.date_filed || "No date")}</span>
+          <span>${escapeHtml(availability)}</span>
+        </div>
+        <h3>${escapeHtml(description)}</h3>
+        <p>${escapeHtml(terms)}</p>
+      </div>
+      <a class="ghost-action legal-link" href="${escapeHtml(item.source_url || "#")}" target="_blank" rel="noreferrer">Open</a>
+    </article>
+  `;
 }
 
 function parseCsv(text) {
@@ -446,11 +572,13 @@ function renderFeedItem(item) {
 function renderSparkline(series) {
   const width = 112;
   const height = 44;
-  const max = Math.max(...series);
-  const min = Math.min(...series);
+  const values = series && series.length ? series : [100, 100];
+  const drawable = values.length === 1 ? [values[0], values[0]] : values;
+  const max = Math.max(...drawable);
+  const min = Math.min(...drawable);
   const spread = max - min || 1;
-  const step = width / (series.length - 1);
-  const points = series.map((value, index) => {
+  const step = width / (drawable.length - 1);
+  const points = drawable.map((value, index) => {
     const x = index * step;
     const y = height - ((value - min) / spread) * (height - 8) - 4;
     return `${x},${y}`;
@@ -482,6 +610,21 @@ function lotDetailsLabel(item) {
 
 function priceLabel(price) {
   return price?.display || "Not available";
+}
+
+function numberLabel(value) {
+  if (value === null || value === undefined || value === "") return "N/A";
+  return Number(value).toLocaleString(undefined, { maximumFractionDigits: 1 });
+}
+
+function moneyNumberLabel(value) {
+  if (value === null || value === undefined || value === "") return "N/A";
+  return `$${Number(value).toLocaleString(undefined, { maximumFractionDigits: 0 })}`;
+}
+
+function ratioLabel(value) {
+  if (value === null || value === undefined || value === "") return "N/A";
+  return `${Number(value).toFixed(2)}x`;
 }
 
 function formatLabel(value = "") {

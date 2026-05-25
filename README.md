@@ -9,11 +9,16 @@ An early-stage art market intelligence app for collecting public auction, sales,
 - `app.js` - CSV-backed dashboard metrics, feed filters, and connector queue.
 - `ingestion/` - open collection connector framework and CLI.
 - `data/auction_feed_items.json` - seed auction/sales records for the prototype RSS feed.
+- `data/market_indices.json` - generated internal auction-derived price index series.
+- `data/legal_appraisal_records.json` - generated CourtListener/RECAP legal appraisal leads.
 - `feeds/auction-results.xml` - generated RSS feed for pieces sold and auctioned.
 - `scripts/generate_auction_rss.py` - regenerates the auction RSS XML from JSON.
 - `scripts/ingest_christies_auction_feed.py` - fetches Christie’s public result lots into SQLite, then publishes JSON/RSS.
 - `scripts/export_auction_feed.py` - republishes JSON/RSS from the local auction SQLite store.
+- `scripts/build_market_indices.py` - derives prototype market indices from local auction lots.
+- `scripts/ingest_legal_appraisal_records.py` - searches CourtListener/RECAP for public appraisal and bankruptcy leads.
 - `docs/auction-pipeline.md` - pipeline storage, quality flags, and command notes.
+- `docs/indices-and-appraisals.md` - derived index and legal appraisal lane notes.
 - `docs/ingestion.md` - ingestion usage, schema, and guardrails.
 - `docs/free-data-sources.md` - prioritized register of free/public/partial-free data sources.
 - `data/free_data_sources.csv` - structured source inventory for future ingestion tooling.
@@ -69,6 +74,20 @@ python3 scripts/ingest_christies_auction_feed.py --limit 12 --sale-query contemp
 ```
 
 The Christie’s script stores lots in `data/auction/auction_pipeline.sqlite`, saves sale and detail raw snapshots under `data/auction/raw_snapshots/`, then exports the dashboard JSON and RSS feed.
+
+Build internal market index lanes from local auction results:
+
+```bash
+python3 scripts/build_market_indices.py --min-lots-per-series 1
+```
+
+Search public legal/appraisal filing leads through CourtListener/RECAP:
+
+```bash
+python3 scripts/ingest_legal_appraisal_records.py --limit-per-query 5
+```
+
+Set `COURTLISTENER_TOKEN` and pass `--enrich-documents` when document text enrichment is needed and permitted by the API.
 
 ## Near-Term Data Work
 

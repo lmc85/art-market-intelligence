@@ -306,7 +306,9 @@ h2 {
 .feed-panel,
 .queue-panel,
 .auction-feed-panel,
-.targets-panel {
+.targets-panel,
+.indices-panel,
+.legal-leads-panel {
   grid-column: span 1;
 }
 
@@ -404,6 +406,69 @@ h2 {
   margin: 4px 0 0;
   color: var(--muted);
   font-size: 0.86rem;
+}
+
+.index-list,
+.legal-lead-list {
+  display: grid;
+  gap: 10px;
+}
+
+.index-row,
+.legal-lead-row {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) auto;
+  gap: 14px;
+  align-items: center;
+  border: 1px solid #e5ebf0;
+  border-radius: 8px;
+  padding: 12px;
+}
+
+.index-body,
+.legal-lead-row div {
+  min-width: 0;
+}
+
+.index-row h3,
+.legal-lead-row h3 {
+  margin: 0;
+  font-size: 0.98rem;
+  line-height: 1.25;
+}
+
+.index-row p,
+.legal-lead-row p {
+  margin: 5px 0 0;
+  color: var(--muted);
+  font-size: 0.84rem;
+  line-height: 1.35;
+}
+
+.index-stats {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 7px;
+  margin-top: 10px;
+}
+
+.index-stats span {
+  border-radius: 8px;
+  background: #f4f7f8;
+  color: var(--muted);
+  font-size: 0.74rem;
+  padding: 8px;
+}
+
+.index-stats strong {
+  display: block;
+  color: var(--ink);
+  font-size: 0.9rem;
+}
+
+.legal-link {
+  min-width: 68px;
+  text-align: center;
 }
 
 .sparkline {
@@ -806,7 +871,7 @@ td {
   }
 
   .nav-list {
-    grid-template-columns: repeat(6, minmax(0, 1fr));
+    grid-template-columns: repeat(8, minmax(0, 1fr));
     overflow-x: auto;
   }
 
@@ -836,6 +901,11 @@ td {
 
   .feed-item {
     grid-template-columns: 44px minmax(0, 1fr);
+  }
+
+  .index-row,
+  .legal-lead-row {
+    grid-template-columns: 1fr;
   }
 
   .feed-swatch {

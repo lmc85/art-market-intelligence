@@ -21,7 +21,9 @@
         <nav class="nav-list">
           <a class="active" href="#pulse">Pulse</a>
           <a href="#feed">Feed</a>
+          <a href="#indices">Indices</a>
           <a href="#auction-feed">Sales Feed</a>
+          <a href="#legal-leads">Legal Leads</a>
           <a href="#sources">Sources</a>
           <a href="#forecast">Forecasts</a>
           <a href="#queue">Queue</a>
@@ -135,6 +137,17 @@
             </div>
           </section>
 
+          <section class="panel indices-panel" id="indices" aria-labelledby="indices-title">
+            <div class="panel-header">
+              <div>
+                <p class="eyebrow">Internal Indices</p>
+                <h2 id="indices-title">Price history lanes</h2>
+              </div>
+              <span class="time-chip" id="market-index-count">-- series</span>
+            </div>
+            <div class="index-list" id="market-index-list"></div>
+          </section>
+
           <section class="panel forecast-panel" id="forecast" aria-labelledby="forecast-title">
             <div class="panel-header">
               <div>
@@ -169,6 +182,17 @@
                 <strong>12%</strong>
               </div>
             </div>
+          </section>
+
+          <section class="panel legal-leads-panel" id="legal-leads" aria-labelledby="legal-leads-title">
+            <div class="panel-header">
+              <div>
+                <p class="eyebrow">Legal Appraisals</p>
+                <h2 id="legal-leads-title">Public filing leads</h2>
+              </div>
+              <span class="time-chip" id="legal-lead-count">-- leads</span>
+            </div>
+            <div class="legal-lead-list" id="legal-lead-list"></div>
           </section>
 
           <section class="panel coverage-panel" id="sources" aria-labelledby="coverage-title">
