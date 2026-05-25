@@ -27,6 +27,10 @@ class AuctionStoreTests(unittest.TestCase):
                     estimate=MoneyValue(currency="USD", low=1000, high=2000, display="USD 1,000 - 2,000"),
                     result_price=MoneyValue(currency="USD", amount=2500, display="USD 2,500"),
                     source_url="https://example.test/lot",
+                    medium="Oil on panel",
+                    dimensions="10 x 12 in.",
+                    provenance="Private collection",
+                    literature="Example catalogue",
                     record_source="test",
                 )
 
@@ -40,8 +44,13 @@ class AuctionStoreTests(unittest.TestCase):
         self.assertEqual(len(items), 1)
         self.assertEqual(items[0]["title"], "Untitled")
         self.assertEqual(items[0]["result_price"]["display"], "USD 2,500")
+        self.assertEqual(items[0]["medium"], "Oil on panel")
+        self.assertEqual(items[0]["dimensions"], "10 x 12 in.")
+        self.assertEqual(items[0]["provenance"], "Private collection")
         self.assertEqual(summary["total"], 1)
         self.assertEqual(summary["prediction_ready"], 1)
+        self.assertEqual(summary["missing_medium"], 0)
+        self.assertEqual(summary["missing_dimensions"], 0)
 
 
 if __name__ == "__main__":

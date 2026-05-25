@@ -687,7 +687,8 @@ td {
 }
 
 .auction-title,
-.auction-artist {
+.auction-artist,
+.auction-detail {
   display: block;
 }
 
@@ -700,6 +701,14 @@ td {
   color: var(--muted);
   font-size: 0.8rem;
   font-weight: 650;
+}
+
+.auction-detail {
+  margin-top: 3px;
+  max-width: 340px;
+  color: #586a75;
+  font-size: 0.76rem;
+  line-height: 1.35;
 }
 
 .status-pill {

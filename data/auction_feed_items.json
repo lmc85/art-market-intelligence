@@ -24,7 +24,11 @@
     "last_sold_price": null,
     "source_url": "https://www.christies.com/en/lot/lot-6585915?ldp_breadcrumb=back",
     "record_source": "Christie's public auction result page",
-    "notes": "Starting price and prior sale price were not exposed in the public lot-list payload.",
+    "notes": "Starting price and prior sale price were not exposed in the public lot-list payload. Enriched from Christie's public lot detail page.",
+    "medium": "oil on photograph",
+    "dimensions": "5 ¾ x 4 in. (14.6 x 10.2 cm.)",
+    "provenance": "Acquired directly from the artist by the late owner, 1989",
+    "literature": "J. Hage and H. U. Obrist, eds., Gerhard Richter: The Overpainted Photographs, A Comprehensive Catalogue, London, 2024, p. 9.",
     "quality_flags": {
       "has_artist": true,
       "has_title": true,
@@ -35,8 +39,8 @@
       "has_prior_sale": false,
       "has_source_url": true,
       "has_image": true,
-      "has_medium": false,
-      "has_dimensions": false
+      "has_medium": true,
+      "has_dimensions": true
     },
     "prediction_ready": true
   },
@@ -65,7 +69,11 @@
     "last_sold_price": null,
     "source_url": "https://www.christies.com/en/lot/lot-6585916?ldp_breadcrumb=back",
     "record_source": "Christie's public auction result page",
-    "notes": "Starting price and prior sale price were not exposed in the public lot-list payload.",
+    "notes": "Starting price and prior sale price were not exposed in the public lot-list payload. Enriched from Christie's public lot detail page.",
+    "medium": "oil on paper mounted on panel",
+    "dimensions": "11 ¾ x 13 1⁄8 in. (28.7 x 33.3 cm.)",
+    "provenance": "Gift of the artist to the late owner",
+    "literature": "T. Atencio Demirdjian, For Art's Sake: Inside the Homes of Art Dealers, New York, 2020, pp. 208, 216 and 218-219 (illustrated in situ).",
     "quality_flags": {
       "has_artist": true,
       "has_title": true,
@@ -76,8 +84,8 @@
       "has_prior_sale": false,
       "has_source_url": true,
       "has_image": true,
-      "has_medium": false,
-      "has_dimensions": false
+      "has_medium": true,
+      "has_dimensions": true
     },
     "prediction_ready": true
   },
@@ -106,7 +114,11 @@
     "last_sold_price": null,
     "source_url": "https://www.christies.com/en/lot/lot-6585917?ldp_breadcrumb=back",
     "record_source": "Christie's public auction result page",
-    "notes": "Starting price and prior sale price were not exposed in the public lot-list payload.",
+    "notes": "Starting price and prior sale price were not exposed in the public lot-list payload. Enriched from Christie's public lot detail page.",
+    "medium": "enameled lacquer on printed paper",
+    "dimensions": "5 5⁄8 x 8 1⁄8 in. (13.8 x 20.6 cm.)",
+    "provenance": "Gift of the artist to the late owner",
+    "literature": "",
     "quality_flags": {
       "has_artist": true,
       "has_title": true,
@@ -117,8 +129,8 @@
       "has_prior_sale": false,
       "has_source_url": true,
       "has_image": true,
-      "has_medium": false,
-      "has_dimensions": false
+      "has_medium": true,
+      "has_dimensions": true
     },
     "prediction_ready": true
   },
@@ -147,7 +159,11 @@
     "last_sold_price": null,
     "source_url": "https://www.christies.com/en/lot/lot-6585918?ldp_breadcrumb=back",
     "record_source": "Christie's public auction result page",
-    "notes": "Starting price and prior sale price were not exposed in the public lot-list payload.",
+    "notes": "Starting price and prior sale price were not exposed in the public lot-list payload. Enriched from Christie's public lot detail page.",
+    "medium": "screenprint in colors on Kurotani Kozo paper",
+    "dimensions": "image: 27 ½ x 45 7⁄8 in. (69.9 x 116.5 cm.)",
+    "provenance": "Acquired directly from the artist by the late owner",
+    "literature": "R. S. Field, The Prints of Jasper Johns 1960-1993: A Catalogue Raisonné, West Islip, New York, 1994, n.p., no. 227 (another example illustrated).",
     "quality_flags": {
       "has_artist": true,
       "has_title": true,
@@ -158,8 +174,8 @@
       "has_prior_sale": false,
       "has_source_url": true,
       "has_image": true,
-      "has_medium": false,
-      "has_dimensions": false
+      "has_medium": true,
+      "has_dimensions": true
     },
     "prediction_ready": true
   },
@@ -188,7 +204,11 @@
     "last_sold_price": null,
     "source_url": "https://www.christies.com/en/lot/lot-6585919?ldp_breadcrumb=back",
     "record_source": "Christie's public auction result page",
-    "notes": "Starting price and prior sale price were not exposed in the public lot-list payload.",
+    "notes": "Starting price and prior sale price were not exposed in the public lot-list payload. Enriched from Christie's public lot detail page.",
+    "medium": "oil on canvas",
+    "dimensions": "16 x 14 1⁄8 in. (40.6 x 36 cm.)",
+    "provenance": "Acquired directly from the artist by the late owner, 1999",
+    "literature": "Gerhard Richter, exh. cat., London, Anthony d'Offay Gallery, 1998, pp. 94 and 106 (illustrated).\nA. Zweite, Gerhard Richter: Catalogue Raisonné 1993-2004, Düsseldorf, 2005, pp. 276 and 311, no. 833-4 (illustrated).\nD. Elger, ed., Gerhard Richter Catalogue Raisonné, Volume 5, Nos. 806-899, 1994-2006, Berlin, 2019, p. 180, no. 833-4 (illustrated).",
     "quality_flags": {
       "has_artist": true,
       "has_title": true,
@@ -199,8 +219,8 @@
       "has_prior_sale": false,
       "has_source_url": true,
       "has_image": true,
-      "has_medium": false,
-      "has_dimensions": false
+      "has_medium": true,
+      "has_dimensions": true
     },
     "prediction_ready": true
   },
@@ -230,6 +250,10 @@
     "source_url": "https://www.christies.com/en/lot/lot-6585920?ldp_breadcrumb=back",
     "record_source": "Christie's public auction result page",
     "notes": "Starting price and prior sale price were not exposed in the public lot-list payload.",
+    "medium": "",
+    "dimensions": "",
+    "provenance": "",
+    "literature": "",
     "quality_flags": {
       "has_artist": true,
       "has_title": true,
@@ -271,6 +295,10 @@
     "source_url": "https://www.christies.com/en/lot/lot-6585921?ldp_breadcrumb=back",
     "record_source": "Christie's public auction result page",
     "notes": "Starting price and prior sale price were not exposed in the public lot-list payload.",
+    "medium": "",
+    "dimensions": "",
+    "provenance": "",
+    "literature": "",
     "quality_flags": {
       "has_artist": true,
       "has_title": true,
@@ -312,6 +340,10 @@
     "source_url": "https://www.christies.com/en/lot/lot-6585922?ldp_breadcrumb=back",
     "record_source": "Christie's public auction result page",
     "notes": "Starting price and prior sale price were not exposed in the public lot-list payload.",
+    "medium": "",
+    "dimensions": "",
+    "provenance": "",
+    "literature": "",
     "quality_flags": {
       "has_artist": true,
       "has_title": true,
@@ -353,6 +385,10 @@
     "source_url": "https://www.christies.com/en/lot/lot-6585923?ldp_breadcrumb=back",
     "record_source": "Christie's public auction result page",
     "notes": "Starting price and prior sale price were not exposed in the public lot-list payload.",
+    "medium": "",
+    "dimensions": "",
+    "provenance": "",
+    "literature": "",
     "quality_flags": {
       "has_artist": true,
       "has_title": true,
@@ -394,6 +430,10 @@
     "source_url": "https://www.christies.com/en/lot/lot-6585924?ldp_breadcrumb=back",
     "record_source": "Christie's public auction result page",
     "notes": "Starting price and prior sale price were not exposed in the public lot-list payload.",
+    "medium": "",
+    "dimensions": "",
+    "provenance": "",
+    "literature": "",
     "quality_flags": {
       "has_artist": true,
       "has_title": true,
@@ -435,6 +475,10 @@
     "source_url": "https://www.christies.com/en/lot/lot-6585925?ldp_breadcrumb=back",
     "record_source": "Christie's public auction result page",
     "notes": "Starting price and prior sale price were not exposed in the public lot-list payload.",
+    "medium": "",
+    "dimensions": "",
+    "provenance": "",
+    "literature": "",
     "quality_flags": {
       "has_artist": true,
       "has_title": true,
@@ -476,6 +520,10 @@
     "source_url": "https://www.christies.com/en/lot/lot-6585926?ldp_breadcrumb=back",
     "record_source": "Christie's public auction result page",
     "notes": "Starting price and prior sale price were not exposed in the public lot-list payload.",
+    "medium": "",
+    "dimensions": "",
+    "provenance": "",
+    "literature": "",
     "quality_flags": {
       "has_artist": true,
       "has_title": true,

@@ -74,6 +74,8 @@ class AuctionStore:
               medium TEXT,
               dimensions TEXT,
               description TEXT,
+              provenance TEXT,
+              literature TEXT,
               record_source TEXT,
               notes TEXT,
               quality_flags_json TEXT,
@@ -89,7 +91,17 @@ class AuctionStore:
             CREATE INDEX IF NOT EXISTS idx_auction_lots_prediction_ready ON auction_lots(prediction_ready);
             """
         )
+        self.ensure_column("auction_lots", "provenance", "TEXT")
+        self.ensure_column("auction_lots", "literature", "TEXT")
         self.connection.commit()
+
+    def ensure_column(self, table: str, column: str, definition: str) -> None:
+        columns = {
+            row["name"]
+            for row in self.connection.execute(f"PRAGMA table_info({table})")
+        }
+        if column not in columns:
+            self.connection.execute(f"ALTER TABLE {table} ADD COLUMN {column} {definition}")
 
     def start_run(
         self,
@@ -150,7 +162,7 @@ class AuctionStore:
                   starting_price_amount, starting_price_display, result_price_amount,
                   result_price_display, last_sold_price_amount, last_sold_price_display,
                   last_sold_date, source_url, image_url, medium, dimensions, description,
-                  record_source, notes, quality_flags_json, prediction_ready,
+                  provenance, literature, record_source, notes, quality_flags_json, prediction_ready,
                   first_seen_at, last_seen_at, raw_json
                 )
                 VALUES (
@@ -160,7 +172,7 @@ class AuctionStore:
                   :starting_price_amount, :starting_price_display, :result_price_amount,
                   :result_price_display, :last_sold_price_amount, :last_sold_price_display,
                   :last_sold_date, :source_url, :image_url, :medium, :dimensions, :description,
-                  :record_source, :notes, :quality_flags_json, :prediction_ready,
+                  :provenance, :literature, :record_source, :notes, :quality_flags_json, :prediction_ready,
                   :first_seen_at, :last_seen_at, :raw_json
                 )
                 ON CONFLICT(identity_key) DO UPDATE SET
@@ -191,6 +203,8 @@ class AuctionStore:
                   medium = excluded.medium,
                   dimensions = excluded.dimensions,
                   description = excluded.description,
+                  provenance = excluded.provenance,
+                  literature = excluded.literature,
                   record_source = excluded.record_source,
                   notes = excluded.notes,
                   quality_flags_json = excluded.quality_flags_json,

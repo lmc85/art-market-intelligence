@@ -9,6 +9,8 @@ fetch source page
   -> save raw snapshot
   -> parse source payload
   -> normalize to canonical auction lots
+  -> optionally fetch lot detail pages
+  -> enrich medium, dimensions, provenance, literature, and image metadata
   -> validate quality flags
   -> upsert into SQLite by stable identity key
   -> export dashboard JSON
@@ -30,6 +32,12 @@ Fetch Christie’s public auction results, store them, and publish the feed:
 
 ```bash
 python3 scripts/ingest_christies_auction_feed.py --limit 12 --sale-query contemporary --replace
+```
+
+Fetch the same sale and enrich selected lots from their public detail pages:
+
+```bash
+python3 scripts/ingest_christies_auction_feed.py --limit 12 --sale-query contemporary --replace --enrich-details --detail-limit 5
 ```
 
 Export feed files from the existing SQLite store:
@@ -61,4 +69,4 @@ Each normalized lot stores booleans for:
 - `has_medium`
 - `has_dimensions`
 
-`prediction_ready` is currently true when a lot has artist, title, auction date, estimate, result price, and source URL. For stronger valuation work, the next enrichment target is lot detail pages for medium, dimensions, provenance, and prior-sale context.
+`prediction_ready` is currently true when a lot has artist, title, auction date, estimate, result price, and source URL. Detail enrichment improves confidence for valuation work by adding medium, dimensions, provenance, literature, and stronger image metadata; prior-sale context still needs a matching source such as official archive pages or a terms-reviewed realized-price database.

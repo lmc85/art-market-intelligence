@@ -5,7 +5,7 @@
     <link>http://localhost:4173/</link>
     <description>Auction and sale records normalized for art market intelligence.</description>
     <language>en-us</language>
-    <lastBuildDate>Sun, 24 May 2026 23:17:47 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 25 May 2026 12:38:50 +0000</lastBuildDate>
     <ttl>60</ttl>
     <atom:link href="http://localhost:4173/feeds/auction-results.xml" rel="self" type="application/rss+xml" />
     <item>
@@ -16,13 +16,17 @@
       <category>sold</category>
       <description>Artist(s): GERHARD RICHTER (B. 1932)
 Style: Post-War and Contemporary Art Day Sale
+Medium: oil on photograph
+Dimensions: 5 ¾ x 4 in. (14.6 x 10.2 cm.)
 Auction house: Christie's
 Auction date: 2026-05-21
 Starting price: Not available
 Estimated selling price: USD 60,000 - 80,000
 Result price: USD 330,200
 Last sold price: Not available
-Notes: Starting price and prior sale price were not exposed in the public lot-list payload.</description>
+Provenance: Acquired directly from the artist by the late owner, 1989
+Literature: J. Hage and H. U. Obrist, eds., Gerhard Richter: The Overpainted Photographs, A Comprehensive Catalogue, London, 2024, p. 9.
+Notes: Starting price and prior sale price were not exposed in the public lot-list payload. Enriched from Christie's public lot detail page.</description>
       <artmi:title>Untitled (7.2.89)</artmi:title>
       <artmi:artists>GERHARD RICHTER (B. 1932)</artmi:artists>
       <artmi:style>Post-War and Contemporary Art Day Sale</artmi:style>
@@ -31,6 +35,10 @@ Notes: Starting price and prior sale price were not exposed in the public lot-li
       <artmi:status>sold</artmi:status>
       <artmi:estimatedSellingPrice>USD 60,000 - 80,000</artmi:estimatedSellingPrice>
       <artmi:resultPrice>USD 330,200</artmi:resultPrice>
+      <artmi:medium>oil on photograph</artmi:medium>
+      <artmi:dimensions>5 ¾ x 4 in. (14.6 x 10.2 cm.)</artmi:dimensions>
+      <artmi:provenance>Acquired directly from the artist by the late owner, 1989</artmi:provenance>
+      <artmi:literature>J. Hage and H. U. Obrist, eds., Gerhard Richter: The Overpainted Photographs, A Comprehensive Catalogue, London, 2024, p. 9.</artmi:literature>
       <artmi:predictionReady>true</artmi:predictionReady>
       <artmi:recordSource>Christie's public auction result page</artmi:recordSource>
     </item>
@@ -42,13 +50,17 @@ Notes: Starting price and prior sale price were not exposed in the public lot-li
       <category>sold</category>
       <description>Artist(s): FRANZ KLINE (1910-1962)
 Style: Post-War and Contemporary Art Day Sale
+Medium: oil on paper mounted on panel
+Dimensions: 11 ¾ x 13 1⁄8 in. (28.7 x 33.3 cm.)
 Auction house: Christie's
 Auction date: 2026-05-21
 Starting price: Not available
 Estimated selling price: USD 120,000 - 180,000
 Result price: USD 254,000
 Last sold price: Not available
-Notes: Starting price and prior sale price were not exposed in the public lot-list payload.</description>
+Provenance: Gift of the artist to the late owner
+Literature: T. Atencio Demirdjian, For Art's Sake: Inside the Homes of Art Dealers, New York, 2020, pp. 208, 216 and 218-219 (illustrated in situ).
+Notes: Starting price and prior sale price were not exposed in the public lot-list payload. Enriched from Christie's public lot detail page.</description>
       <artmi:title>Untitled</artmi:title>
       <artmi:artists>FRANZ KLINE (1910-1962)</artmi:artists>
       <artmi:style>Post-War and Contemporary Art Day Sale</artmi:style>
@@ -57,6 +69,10 @@ Notes: Starting price and prior sale price were not exposed in the public lot-li
       <artmi:status>sold</artmi:status>
       <artmi:estimatedSellingPrice>USD 120,000 - 180,000</artmi:estimatedSellingPrice>
       <artmi:resultPrice>USD 254,000</artmi:resultPrice>
+      <artmi:medium>oil on paper mounted on panel</artmi:medium>
+      <artmi:dimensions>11 ¾ x 13 1⁄8 in. (28.7 x 33.3 cm.)</artmi:dimensions>
+      <artmi:provenance>Gift of the artist to the late owner</artmi:provenance>
+      <artmi:literature>T. Atencio Demirdjian, For Art's Sake: Inside the Homes of Art Dealers, New York, 2020, pp. 208, 216 and 218-219 (illustrated in situ).</artmi:literature>
       <artmi:predictionReady>true</artmi:predictionReady>
       <artmi:recordSource>Christie's public auction result page</artmi:recordSource>
     </item>
@@ -68,13 +84,16 @@ Notes: Starting price and prior sale price were not exposed in the public lot-li
       <category>sold</category>
       <description>Artist(s): GERHARD RICHTER (B. 1932)
 Style: Post-War and Contemporary Art Day Sale
+Medium: enameled lacquer on printed paper
+Dimensions: 5 5⁄8 x 8 1⁄8 in. (13.8 x 20.6 cm.)
 Auction house: Christie's
 Auction date: 2026-05-21
 Starting price: Not available
 Estimated selling price: USD 80,000 - 120,000
 Result price: USD 482,600
 Last sold price: Not available
-Notes: Starting price and prior sale price were not exposed in the public lot-list payload.</description>
+Provenance: Gift of the artist to the late owner
+Notes: Starting price and prior sale price were not exposed in the public lot-list payload. Enriched from Christie's public lot detail page.</description>
       <artmi:title>18 December 2008</artmi:title>
       <artmi:artists>GERHARD RICHTER (B. 1932)</artmi:artists>
       <artmi:style>Post-War and Contemporary Art Day Sale</artmi:style>
@@ -83,6 +102,9 @@ Notes: Starting price and prior sale price were not exposed in the public lot-li
       <artmi:status>sold</artmi:status>
       <artmi:estimatedSellingPrice>USD 80,000 - 120,000</artmi:estimatedSellingPrice>
       <artmi:resultPrice>USD 482,600</artmi:resultPrice>
+      <artmi:medium>enameled lacquer on printed paper</artmi:medium>
+      <artmi:dimensions>5 5⁄8 x 8 1⁄8 in. (13.8 x 20.6 cm.)</artmi:dimensions>
+      <artmi:provenance>Gift of the artist to the late owner</artmi:provenance>
       <artmi:predictionReady>true</artmi:predictionReady>
       <artmi:recordSource>Christie's public auction result page</artmi:recordSource>
     </item>
@@ -94,13 +116,17 @@ Notes: Starting price and prior sale price were not exposed in the public lot-li
       <category>sold</category>
       <description>Artist(s): JASPER JOHNS (B. 1930)
 Style: Post-War and Contemporary Art Day Sale
+Medium: screenprint in colors on Kurotani Kozo paper
+Dimensions: image: 27 ½ x 45 7⁄8 in. (69.9 x 116.5 cm.)
 Auction house: Christie's
 Auction date: 2026-05-21
 Starting price: Not available
 Estimated selling price: USD 100,000 - 150,000
 Result price: USD 381,000
 Last sold price: Not available
-Notes: Starting price and prior sale price were not exposed in the public lot-list payload.</description>
+Provenance: Acquired directly from the artist by the late owner
+Literature: R. S. Field, The Prints of Jasper Johns 1960-1993: A Catalogue Raisonné, West Islip, New York, 1994, n.p., no. 227 (another example illustrated).
+Notes: Starting price and prior sale price were not exposed in the public lot-list payload. Enriched from Christie's public lot detail page.</description>
       <artmi:title>Usuyuki</artmi:title>
       <artmi:artists>JASPER JOHNS (B. 1930)</artmi:artists>
       <artmi:style>Post-War and Contemporary Art Day Sale</artmi:style>
@@ -109,6 +135,10 @@ Notes: Starting price and prior sale price were not exposed in the public lot-li
       <artmi:status>sold</artmi:status>
       <artmi:estimatedSellingPrice>USD 100,000 - 150,000</artmi:estimatedSellingPrice>
       <artmi:resultPrice>USD 381,000</artmi:resultPrice>
+      <artmi:medium>screenprint in colors on Kurotani Kozo paper</artmi:medium>
+      <artmi:dimensions>image: 27 ½ x 45 7⁄8 in. (69.9 x 116.5 cm.)</artmi:dimensions>
+      <artmi:provenance>Acquired directly from the artist by the late owner</artmi:provenance>
+      <artmi:literature>R. S. Field, The Prints of Jasper Johns 1960-1993: A Catalogue Raisonné, West Islip, New York, 1994, n.p., no. 227 (another example illustrated).</artmi:literature>
       <artmi:predictionReady>true</artmi:predictionReady>
       <artmi:recordSource>Christie's public auction result page</artmi:recordSource>
     </item>
@@ -120,13 +150,19 @@ Notes: Starting price and prior sale price were not exposed in the public lot-li
       <category>sold</category>
       <description>Artist(s): GERHARD RICHTER (B. 1932)
 Style: Post-War and Contemporary Art Day Sale
+Medium: oil on canvas
+Dimensions: 16 x 14 1⁄8 in. (40.6 x 36 cm.)
 Auction house: Christie's
 Auction date: 2026-05-21
 Starting price: Not available
 Estimated selling price: USD 750,000 - 1,000,000
 Result price: USD 889,000
 Last sold price: Not available
-Notes: Starting price and prior sale price were not exposed in the public lot-list payload.</description>
+Provenance: Acquired directly from the artist by the late owner, 1999
+Literature: Gerhard Richter, exh. cat., London, Anthony d'Offay Gallery, 1998, pp. 94 and 106 (illustrated).
+A. Zweite, Gerhard Richter: Catalogue Raisonné 1993-2004, Düsseldorf, 2005, pp. 276 and 311, no. 833-4 (illustrated).
+D. Elger, ed., Gerhard Richter Catalogue Raisonné, Volume 5, Nos. 806-899, 1994-2006, Berlin, 2019, p. 180, no. 833-4 (illustrated).
+Notes: Starting price and prior sale price were not exposed in the public lot-list payload. Enriched from Christie's public lot detail page.</description>
       <artmi:title>Abstraktes Bild</artmi:title>
       <artmi:artists>GERHARD RICHTER (B. 1932)</artmi:artists>
       <artmi:style>Post-War and Contemporary Art Day Sale</artmi:style>
@@ -135,6 +171,12 @@ Notes: Starting price and prior sale price were not exposed in the public lot-li
       <artmi:status>sold</artmi:status>
       <artmi:estimatedSellingPrice>USD 750,000 - 1,000,000</artmi:estimatedSellingPrice>
       <artmi:resultPrice>USD 889,000</artmi:resultPrice>
+      <artmi:medium>oil on canvas</artmi:medium>
+      <artmi:dimensions>16 x 14 1⁄8 in. (40.6 x 36 cm.)</artmi:dimensions>
+      <artmi:provenance>Acquired directly from the artist by the late owner, 1999</artmi:provenance>
+      <artmi:literature>Gerhard Richter, exh. cat., London, Anthony d'Offay Gallery, 1998, pp. 94 and 106 (illustrated).
+A. Zweite, Gerhard Richter: Catalogue Raisonné 1993-2004, Düsseldorf, 2005, pp. 276 and 311, no. 833-4 (illustrated).
+D. Elger, ed., Gerhard Richter Catalogue Raisonné, Volume 5, Nos. 806-899, 1994-2006, Berlin, 2019, p. 180, no. 833-4 (illustrated).</artmi:literature>
       <artmi:predictionReady>true</artmi:predictionReady>
       <artmi:recordSource>Christie's public auction result page</artmi:recordSource>
     </item>
@@ -146,6 +188,8 @@ Notes: Starting price and prior sale price were not exposed in the public lot-li
       <category>sold</category>
       <description>Artist(s): GERHARD RICHTER (B. 1932)
 Style: Post-War and Contemporary Art Day Sale
+Medium: Not available
+Dimensions: Not available
 Auction house: Christie's
 Auction date: 2026-05-21
 Starting price: Not available
@@ -172,6 +216,8 @@ Notes: Starting price and prior sale price were not exposed in the public lot-li
       <category>sold</category>
       <description>Artist(s): ANSELM KIEFER (B. 1945)
 Style: Post-War and Contemporary Art Day Sale
+Medium: Not available
+Dimensions: Not available
 Auction house: Christie's
 Auction date: 2026-05-21
 Starting price: Not available
@@ -198,6 +244,8 @@ Notes: Starting price and prior sale price were not exposed in the public lot-li
       <category>sold</category>
       <description>Artist(s): THOMAS SCHÜTTE (B. 1954)
 Style: Post-War and Contemporary Art Day Sale
+Medium: Not available
+Dimensions: Not available
 Auction house: Christie's
 Auction date: 2026-05-21
 Starting price: Not available
@@ -224,6 +272,8 @@ Notes: Starting price and prior sale price were not exposed in the public lot-li
       <category>sold</category>
       <description>Artist(s): ANSELM KIEFER (B. 1945)
 Style: Post-War and Contemporary Art Day Sale
+Medium: Not available
+Dimensions: Not available
 Auction house: Christie's
 Auction date: 2026-05-21
 Starting price: Not available
@@ -250,6 +300,8 @@ Notes: Starting price and prior sale price were not exposed in the public lot-li
       <category>sold</category>
       <description>Artist(s): GERHARD RICHTER (B. 1932)
 Style: Post-War and Contemporary Art Day Sale
+Medium: Not available
+Dimensions: Not available
 Auction house: Christie's
 Auction date: 2026-05-21
 Starting price: Not available
@@ -276,6 +328,8 @@ Notes: Starting price and prior sale price were not exposed in the public lot-li
       <category>sold</category>
       <description>Artist(s): GERHARD RICHTER (B. 1932)
 Style: Post-War and Contemporary Art Day Sale
+Medium: Not available
+Dimensions: Not available
 Auction house: Christie's
 Auction date: 2026-05-21
 Starting price: Not available
@@ -302,6 +356,8 @@ Notes: Starting price and prior sale price were not exposed in the public lot-li
       <category>sold</category>
       <description>Artist(s): WILLIAM KENTRIDGE (B. 1955)
 Style: Post-War and Contemporary Art Day Sale
+Medium: Not available
+Dimensions: Not available
 Auction house: Christie's
 Auction date: 2026-05-21
 Starting price: Not available

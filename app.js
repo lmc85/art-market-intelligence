@@ -88,6 +88,8 @@ const fallbackAuctionItems = [
     starting_price: { display: "$18,000" },
     estimated_selling_price: { display: "$24,000-$32,000" },
     last_sold_price: { display: "$28,000" },
+    medium: "Screenprint",
+    dimensions: "24 x 32 in.",
   },
 ];
 
@@ -278,10 +280,14 @@ function renderAuctionFeed() {
         item.style,
         item.auction_house,
         item.auction_date,
-      priceLabel(item.starting_price),
-      priceLabel(item.estimated_selling_price),
-      priceLabel(item.result_price),
-      priceLabel(item.last_sold_price),
+        item.medium,
+        item.dimensions,
+        item.provenance,
+        item.literature,
+        priceLabel(item.starting_price),
+        priceLabel(item.estimated_selling_price),
+        priceLabel(item.result_price),
+        priceLabel(item.last_sold_price),
       ]
         .join(" ")
         .toLowerCase()
@@ -306,6 +312,7 @@ function renderAuctionFeed() {
           <td>
             <strong class="auction-title">${escapeHtml(item.title || "Untitled lot")}</strong>
             <span class="auction-artist">${escapeHtml(artistsLabel(item))}</span>
+            ${lotDetailsLabel(item) ? `<span class="auction-detail">${escapeHtml(lotDetailsLabel(item))}</span>` : ""}
           </td>
           <td>${escapeHtml(item.style || "Not available")}</td>
           <td>${escapeHtml(item.auction_house || "Not available")}</td>
@@ -467,6 +474,10 @@ function countBy(records, key) {
 
 function artistsLabel(item) {
   return (item.artists || []).join(", ") || "Artist not available";
+}
+
+function lotDetailsLabel(item) {
+  return [item.medium, item.dimensions].filter(Boolean).join(" / ");
 }
 
 function priceLabel(price) {

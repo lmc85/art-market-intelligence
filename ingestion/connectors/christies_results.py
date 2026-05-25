@@ -5,6 +5,7 @@ from __future__ import annotations
 import html
 import json
 import re
+import time
 from dataclasses import dataclass
 from datetime import datetime
 from html.parser import HTMLParser
@@ -76,6 +77,51 @@ class ChristiesResultsConnector:
                 lots.append(item)
         return snapshot, lots
 
+    def fetch_lot_detail_html(self, lot_url: str) -> str:
+        return self.client.get_text(lot_url)
+
+    def enrich_lots_with_details(
+        self,
+        lots: List[AuctionLot],
+        limit: int = 0,
+        delay_seconds: float = 0.2,
+    ) -> Tuple[List[AuctionLot], List[Dict[str, Any]]]:
+        detail_limit = len(lots) if limit <= 0 else min(limit, len(lots))
+        snapshots: List[Dict[str, Any]] = []
+
+        for index, lot in enumerate(lots):
+            if index >= detail_limit or not lot.source_url:
+                continue
+
+            try:
+                raw_html = self.fetch_lot_detail_html(lot.source_url)
+                enrich_lot_from_detail(lot, raw_html)
+                snapshots.append(
+                    {
+                        "status": "ok",
+                        "lot_id": lot.lot_id,
+                        "source_record_id": lot.source_record_id,
+                        "source_url": lot.source_url,
+                        "raw_html": raw_html,
+                    }
+                )
+            except Exception as exc:
+                lot.notes = append_note(lot.notes, f"Detail enrichment failed: {exc}")
+                snapshots.append(
+                    {
+                        "status": "error",
+                        "lot_id": lot.lot_id,
+                        "source_record_id": lot.source_record_id,
+                        "source_url": lot.source_url,
+                        "error": str(exc),
+                    }
+                )
+
+            if delay_seconds > 0 and index < detail_limit - 1:
+                time.sleep(delay_seconds)
+
+        return lots, snapshots
+
     def fetch_sale_snapshot(
         self,
         sale_url: Optional[str] = None,
@@ -120,6 +166,47 @@ class ChristiesResultsConnector:
                 return landing_url
 
         raise ValueError("No Christie's public auction result URL found on the results page")
+
+
+def enrich_lot_from_detail(lot: AuctionLot, detail_html: str) -> AuctionLot:
+    header_data = extract_lot_header_data(detail_html)
+    header_lot = first_lot_header_record(header_data)
+    sections = extract_detail_sections(detail_html)
+    details_lines = section_lines(sections.get("details", ""))
+    medium, dimensions = extract_medium_dimensions(details_lines, header_lot)
+
+    if medium:
+        lot.medium = medium
+    if dimensions:
+        lot.dimensions = dimensions
+    if sections.get("details"):
+        lot.description = sections["details"]
+    if sections.get("provenance"):
+        lot.provenance = sections["provenance"]
+    if sections.get("literature"):
+        lot.literature = sections["literature"]
+
+    if header_lot:
+        assets = header_lot.get("lot_assets") or []
+        if assets:
+            primary_asset = assets[0] or {}
+            lot.image_url = lot.image_url or primary_asset.get("image_url") or ""
+            lot.dimensions = lot.dimensions or clean_text(primary_asset.get("measurements_txt") or "")
+
+        lot.raw = {
+            **(lot.raw or {}),
+            "detail_enrichment": {
+                "sections": sorted(sections.keys()),
+                "asset_count": len(assets),
+                "object_id": header_lot.get("object_id"),
+                "lot_id_txt": header_lot.get("lot_id_txt"),
+            },
+        }
+
+    if lot.medium or lot.dimensions or lot.provenance or lot.literature:
+        lot.notes = append_note(lot.notes, "Enriched from Christie's public lot detail page.")
+
+    return lot
 
 
 def lot_to_feed_item(lot: Dict[str, Any], sale_title: str, sale_url: str) -> Optional[Dict[str, Any]]:
@@ -201,6 +288,92 @@ def extract_component_data(html_text: str, assignment: str) -> Dict[str, Any]:
     text = balanced_json_object(html_text, object_start)
     payload = json.loads(text)
     return payload.get("data", payload)
+
+
+def extract_lot_header_data(html_text: str) -> Dict[str, Any]:
+    match = re.search(r"window\.chrComponents\.lotHeader_[A-Za-z0-9_]+\s*=", html_text)
+    if not match:
+        return {}
+    assignment = match.group(0).split("=", 1)[0].strip()
+    return extract_component_data(html_text, assignment)
+
+
+def first_lot_header_record(header_data: Dict[str, Any]) -> Dict[str, Any]:
+    lots = header_data.get("lots") or []
+    return lots[0] if lots else {}
+
+
+def extract_detail_sections(html_text: str) -> Dict[str, str]:
+    sections: Dict[str, str] = {}
+    for block in re.findall(r"<chr-accordion-item\b.*?</chr-accordion-item>", html_text, flags=re.IGNORECASE | re.DOTALL):
+        header_match = re.search(
+            r'<div[^>]*slot="header"[^>]*>(.*?)</div>',
+            block,
+            flags=re.IGNORECASE | re.DOTALL,
+        )
+        text_match = re.search(
+            r'<span[^>]*class="[^"]*chr-lot-section__accordion--text[^"]*"[^>]*>(.*?)</span>',
+            block,
+            flags=re.IGNORECASE | re.DOTALL,
+        )
+        if not text_match:
+            continue
+
+        header = clean_text(header_match.group(1)) if header_match else "Details"
+        key = header.lower().strip() or "details"
+        sections[key] = "\n".join(clean_html_lines(text_match.group(1)))
+    return sections
+
+
+def clean_html_lines(value: Any) -> List[str]:
+    text = "" if value is None else str(value)
+    text = re.sub(r"<br\s*/?>", "\n", text, flags=re.IGNORECASE)
+    text = re.sub(r"</(?:p|div|li)>", "\n", text, flags=re.IGNORECASE)
+    text = re.sub(r"<[^>]+>", "", text)
+    decoded = html.unescape(text)
+    return [clean_text(line) for line in decoded.splitlines() if clean_text(line)]
+
+
+def section_lines(text: str) -> List[str]:
+    return [line.strip() for line in text.splitlines() if line.strip()]
+
+
+def extract_medium_dimensions(
+    details_lines: List[str],
+    header_lot: Optional[Dict[str, Any]] = None,
+) -> Tuple[str, str]:
+    for index, line in enumerate(details_lines):
+        if looks_like_dimensions(line):
+            return previous_catalogue_line(details_lines, index), clean_text(line)
+
+    assets = (header_lot or {}).get("lot_assets") or []
+    for asset in assets:
+        measurements = clean_text(asset.get("measurements_txt") or "")
+        if measurements:
+            return "", measurements
+
+    return "", ""
+
+
+def previous_catalogue_line(lines: List[str], index: int) -> str:
+    for candidate in reversed(lines[:index]):
+        text = clean_text(candidate)
+        lower = text.lower()
+        if not text:
+            continue
+        if lower.startswith(("signed", "dated", "titled", "numbered", "stamped", "executed", "painted")):
+            continue
+        if text.isupper():
+            continue
+        return text
+    return ""
+
+
+def looks_like_dimensions(value: str) -> bool:
+    lower = value.lower()
+    has_measure_unit = any(unit in lower for unit in (" cm", " mm", " in.", " in "))
+    has_separator = " x " in lower or "\u00d7" in lower
+    return has_measure_unit and has_separator
 
 
 def balanced_json_object(text: str, start: int) -> str:
@@ -311,6 +484,14 @@ def clean_text(value: Any) -> str:
     text = re.sub(r"<br\s*/?>", " ", text, flags=re.IGNORECASE)
     text = re.sub(r"<[^>]+>", "", text)
     return html.unescape(" ".join(text.split()))
+
+
+def append_note(existing: str, note: str) -> str:
+    if not existing:
+        return note
+    if note in existing:
+        return existing
+    return f"{existing} {note}"
 
 
 class LinkTextParser(HTMLParser):

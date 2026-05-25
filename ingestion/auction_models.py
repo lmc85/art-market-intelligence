@@ -58,6 +58,8 @@ class AuctionLot:
     medium: str = ""
     dimensions: str = ""
     description: str = ""
+    provenance: str = ""
+    literature: str = ""
     record_source: str = ""
     notes: str = ""
     raw: Optional[Dict[str, Any]] = None
@@ -122,6 +124,10 @@ class AuctionLot:
             "source_url": self.source_url,
             "record_source": self.record_source,
             "notes": self.notes,
+            "medium": self.medium,
+            "dimensions": self.dimensions,
+            "provenance": self.provenance,
+            "literature": self.literature,
             "quality_flags": self.quality_flags(),
             "prediction_ready": self.prediction_ready(),
         }
@@ -163,6 +169,8 @@ class AuctionLot:
             "medium": self.medium,
             "dimensions": self.dimensions,
             "description": self.description,
+            "provenance": self.provenance,
+            "literature": self.literature,
             "record_source": self.record_source,
             "notes": self.notes,
             "quality_flags_json": json.dumps(flags, ensure_ascii=False, sort_keys=True),
@@ -202,6 +210,8 @@ def lot_from_row(row: Dict[str, Any]) -> AuctionLot:
         medium=row["medium"],
         dimensions=row["dimensions"],
         description=row["description"],
+        provenance=row.get("provenance", ""),
+        literature=row.get("literature", ""),
         record_source=row["record_source"],
         notes=row["notes"],
         raw=json.loads(row["raw_json"] or "{}"),

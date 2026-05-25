@@ -62,7 +62,13 @@ Fetch live first-pass Christie's result records into the RSS feed:
 python3 scripts/ingest_christies_auction_feed.py --limit 12 --sale-query contemporary --replace
 ```
 
-The Christie’s script now stores lots in `data/auction/auction_pipeline.sqlite`, saves raw snapshots under `data/auction/raw_snapshots/`, then exports the dashboard JSON and RSS feed.
+Add public lot-detail enrichment for medium, dimensions, provenance, literature, and stronger image metadata:
+
+```bash
+python3 scripts/ingest_christies_auction_feed.py --limit 12 --sale-query contemporary --replace --enrich-details --detail-limit 5
+```
+
+The Christie’s script stores lots in `data/auction/auction_pipeline.sqlite`, saves sale and detail raw snapshots under `data/auction/raw_snapshots/`, then exports the dashboard JSON and RSS feed.
 
 ## Near-Term Data Work
 

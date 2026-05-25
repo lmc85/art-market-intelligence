@@ -90,6 +90,10 @@ def add_item(channel: ET.Element, item: Dict[str, Any]) -> None:
     add_artmi(node, "estimatedSellingPrice", money_display(item.get("estimated_selling_price")))
     add_artmi(node, "resultPrice", money_display(item.get("result_price")))
     add_artmi(node, "lastSoldPrice", money_display(item.get("last_sold_price")))
+    add_artmi(node, "medium", item.get("medium"))
+    add_artmi(node, "dimensions", item.get("dimensions"))
+    add_artmi(node, "provenance", item.get("provenance"))
+    add_artmi(node, "literature", item.get("literature"))
     add_artmi(node, "predictionReady", str(bool(item.get("prediction_ready"))).lower())
     add_artmi(node, "recordSource", item.get("record_source"))
 
@@ -98,6 +102,8 @@ def description(item: Dict[str, Any]) -> str:
     lines = [
         f"Artist(s): {', '.join(item.get('artists') or []) or 'Not available'}",
         f"Style: {item.get('style') or 'Not available'}",
+        f"Medium: {item.get('medium') or 'Not available'}",
+        f"Dimensions: {item.get('dimensions') or 'Not available'}",
         f"Auction house: {item.get('auction_house') or 'Not available'}",
         f"Auction date: {item.get('auction_date') or 'Not available'}",
         f"Starting price: {money_display(item.get('starting_price')) or 'Not available'}",
@@ -105,6 +111,10 @@ def description(item: Dict[str, Any]) -> str:
         f"Result price: {money_display(item.get('result_price')) or 'Not available'}",
         f"Last sold price: {money_display(item.get('last_sold_price')) or 'Not available'}",
     ]
+    if item.get("provenance"):
+        lines.append(f"Provenance: {item['provenance']}")
+    if item.get("literature"):
+        lines.append(f"Literature: {item['literature']}")
     if item.get("notes"):
         lines.append(f"Notes: {item['notes']}")
     return "\n".join(lines)
