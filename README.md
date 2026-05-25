@@ -76,6 +76,14 @@ python3 scripts/ingest_auction_house_feed.py --source phillips_auctions --sale-q
 python3 scripts/ingest_auction_house_feed.py --source sothebys_results --sale-query modern --limit 12 --replace-source
 ```
 
+Add detail enrichment where public lot pages expose medium, dimensions, provenance, literature, and images:
+
+```bash
+python3 scripts/ingest_auction_house_feed.py --source bonhams_results --sale-query contemporary --limit 12 --replace-source --enrich-details --detail-limit 12
+python3 scripts/ingest_auction_house_feed.py --source phillips_auctions --sale-query contemporary --limit 12 --replace-source --enrich-details --detail-limit 12
+python3 scripts/ingest_auction_house_feed.py --source sothebys_results --sale-query modern --limit 12 --replace-source --enrich-details --detail-limit 12
+```
+
 Add public lot-detail enrichment for medium, dimensions, provenance, literature, and stronger image metadata:
 
 ```bash
@@ -102,6 +110,6 @@ Set `COURTLISTENER_TOKEN` and pass `--enrich-documents` when document text enric
 
 1. Expand open collection ingestion to bulk CSV sources: National Gallery of Art, MoMA, Tate, Smithsonian, and V&A.
 2. Add macro and demand signals from UN Comtrade, World Bank, FRED, BLS, and FX sources.
-3. Deepen auction-house detail enrichment for medium, dimensions, provenance, literature, and prior-sale cues.
+3. Add prior-sale matching and duplicate detection across official auction-house records.
 4. Deduplicate aggregator records against official auction-house records.
 5. Add historical OCR workflows for provenance and older sale catalogs.

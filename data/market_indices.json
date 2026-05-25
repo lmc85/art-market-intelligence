@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-05-25T13:48:59Z",
+  "generated_at": "2026-05-25T19:49:37Z",
   "source": {
     "type": "internal_auction_results",
     "db_path": "data/auction/auction_pipeline.sqlite",
@@ -8,9 +8,9 @@
   },
   "summary": {
     "lot_count": 22,
-    "index_count": 22,
+    "index_count": 23,
     "history_ready_count": 0,
-    "needs_more_history_count": 22
+    "needs_more_history_count": 23
   },
   "indices": [
     {
@@ -61,6 +61,32 @@
           "median_result": 139700.0,
           "median_estimate": 70000.0,
           "estimate_ratio": 1.545
+        }
+      ],
+      "notes": "Needs at least two observed periods before this behaves like a trend index."
+    },
+    {
+      "id": "medium:paintings",
+      "series_type": "medium",
+      "label": "Paintings",
+      "status": "needs_more_history",
+      "confidence": "low",
+      "period_count": 1,
+      "lot_count": 10,
+      "latest_period": "2026",
+      "latest_index_value": 100.0,
+      "latest_lots_sold": 10,
+      "latest_median_result": 62720.0,
+      "latest_estimate_ratio": 1.574,
+      "points": [
+        {
+          "period": "2026",
+          "index_value": 100.0,
+          "lots_sold": 10,
+          "total_value": 1776160.0,
+          "median_result": 62720.0,
+          "median_estimate": 50000.0,
+          "estimate_ratio": 1.574
         }
       ],
       "notes": "Needs at least two observed periods before this behaves like a trend index."
@@ -196,32 +222,6 @@
       "notes": "Needs at least two observed periods before this behaves like a trend index."
     },
     {
-      "id": "medium:paintings",
-      "series_type": "medium",
-      "label": "Paintings",
-      "status": "needs_more_history",
-      "confidence": "low",
-      "period_count": 1,
-      "lot_count": 2,
-      "latest_period": "2026",
-      "latest_index_value": 100.0,
-      "latest_lots_sold": 2,
-      "latest_median_result": 571500.0,
-      "latest_estimate_ratio": 1.355,
-      "points": [
-        {
-          "period": "2026",
-          "index_value": 100.0,
-          "lots_sold": 2,
-          "total_value": 1143000.0,
-          "median_result": 571500.0,
-          "median_estimate": 512500.0,
-          "estimate_ratio": 1.355
-        }
-      ],
-      "notes": "Needs at least two observed periods before this behaves like a trend index."
-    },
-    {
       "id": "medium:prints-and-editions",
       "series_type": "medium",
       "label": "Prints and editions",
@@ -243,6 +243,32 @@
           "median_result": 431800.0,
           "median_estimate": 112500.0,
           "estimate_ratio": 3.937
+        }
+      ],
+      "notes": "Needs at least two observed periods before this behaves like a trend index."
+    },
+    {
+      "id": "medium:works-on-paper",
+      "series_type": "medium",
+      "label": "Works on paper",
+      "status": "needs_more_history",
+      "confidence": "low",
+      "period_count": 1,
+      "lot_count": 2,
+      "latest_period": "2026",
+      "latest_index_value": 100.0,
+      "latest_lots_sold": 2,
+      "latest_median_result": 59070.0,
+      "latest_estimate_ratio": 1.477,
+      "points": [
+        {
+          "period": "2026",
+          "index_value": 100.0,
+          "lots_sold": 2,
+          "total_value": 118140.0,
+          "median_result": 59070.0,
+          "median_estimate": 40000.0,
+          "estimate_ratio": 1.477
         }
       ],
       "notes": "Needs at least two observed periods before this behaves like a trend index."

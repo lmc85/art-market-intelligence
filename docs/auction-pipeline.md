@@ -49,6 +49,14 @@ python3 scripts/ingest_auction_house_feed.py --source sothebys_results --sale-qu
 python3 scripts/ingest_auction_house_feed.py --source heritage_auctions --sale-query "fine art" --limit 12
 ```
 
+Fetch those lanes with public detail enrichment:
+
+```bash
+python3 scripts/ingest_auction_house_feed.py --source bonhams_results --sale-query contemporary --limit 12 --replace-source --enrich-details --detail-limit 12
+python3 scripts/ingest_auction_house_feed.py --source phillips_auctions --sale-query contemporary --limit 12 --replace-source --enrich-details --detail-limit 12
+python3 scripts/ingest_auction_house_feed.py --source sothebys_results --sale-query modern --limit 12 --replace-source --enrich-details --detail-limit 12
+```
+
 The Heritage lane is intentionally nonfatal: local direct HTTP currently returns 403, so the connector records a blocked run and preserves the source as a terms/access review target.
 
 Export feed files from the existing SQLite store:

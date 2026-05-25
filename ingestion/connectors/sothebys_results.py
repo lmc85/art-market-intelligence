@@ -3,14 +3,18 @@
 from __future__ import annotations
 
 import re
+import time
 from typing import Any, Dict, List, Optional, Tuple
 
 from ingestion.auction_models import AuctionLot, MoneyValue
 from ingestion.connectors.auction_results_common import (
     AuctionHouseSaleSnapshot,
     absolute_url,
+    clean_html_lines,
+    clean_multiline_text,
     clean_text,
     estimate_money,
+    extract_medium_dimensions_from_lines,
     extract_meta,
     extract_next_data,
     iso_date,
@@ -75,6 +79,53 @@ class SothebysResultsConnector:
             if lot:
                 lots.append(lot)
         return snapshot, lots
+
+    def fetch_lot_detail_html(self, lot_url: str) -> str:
+        return self.client.get_text(lot_url)
+
+    def enrich_lots_with_details(
+        self,
+        lots: List[AuctionLot],
+        limit: int = 0,
+        delay_seconds: float = 0.2,
+    ) -> Tuple[List[AuctionLot], List[Dict[str, Any]]]:
+        detail_limit = len(lots) if limit <= 0 else min(limit, len(lots))
+        snapshots: List[Dict[str, Any]] = []
+
+        for index, lot in enumerate(lots[:detail_limit]):
+            if not lot.source_url:
+                continue
+
+            try:
+                raw_html = self.fetch_lot_detail_html(lot.source_url)
+                detail_payload = extract_sothebys_lot_detail_payload(raw_html)
+                enrich_sothebys_lot_from_detail(lot, detail_payload)
+                snapshots.append(
+                    {
+                        "status": "ok",
+                        "lot_id": lot.lot_id,
+                        "source_record_id": lot.source_record_id,
+                        "source_url": lot.source_url,
+                        "detail_payload": detail_payload,
+                        "raw_html": raw_html,
+                    }
+                )
+            except Exception as exc:
+                lot.notes = append_detail_note(lot.notes, f"Detail enrichment failed: {exc}")
+                snapshots.append(
+                    {
+                        "status": "error",
+                        "lot_id": lot.lot_id,
+                        "source_record_id": lot.source_record_id,
+                        "source_url": lot.source_url,
+                        "error": str(exc),
+                    }
+                )
+
+            if delay_seconds > 0 and index < detail_limit - 1:
+                time.sleep(delay_seconds)
+
+        return lots, snapshots
 
     def fetch_sale_snapshot(
         self,
@@ -175,6 +226,72 @@ def lot_card_to_auction_lot(
         notes=notes,
         raw={"lot_card": lot_card, "algolia_hit": algolia_hit or {}},
     )
+
+
+def extract_sothebys_lot_detail_payload(raw_html: str) -> Dict[str, Any]:
+    data = extract_next_data(raw_html)
+    cache = data.get("props", {}).get("pageProps", {}).get("apolloCache", {})
+    for key, value in cache.items():
+        if str(key).startswith("LotV2:") and isinstance(value, dict):
+            return value
+    for value in cache.values():
+        if isinstance(value, dict) and value.get("__typename") == "LotV2":
+            return value
+    return {}
+
+
+def enrich_sothebys_lot_from_detail(lot: AuctionLot, detail: Dict[str, Any]) -> AuctionLot:
+    description_lines = clean_html_lines(detail.get("description") or "")
+    medium, dimensions = extract_medium_dimensions_from_lines(description_lines)
+    image_url = sothebys_detail_image(detail)
+    session = detail.get("session") or {}
+
+    if description_lines:
+        lot.description = "\n".join(description_lines)
+    if medium:
+        lot.medium = medium
+    if dimensions:
+        lot.dimensions = dimensions
+    if detail.get("provenance"):
+        lot.provenance = clean_multiline_text(detail.get("provenance"))
+    if detail.get("literature"):
+        lot.literature = clean_multiline_text(detail.get("literature"))
+    if image_url:
+        lot.image_url = lot.image_url or image_url
+    if not lot.auction_date and session.get("scheduledOpeningDate"):
+        lot.auction_date = iso_date(session.get("scheduledOpeningDate"))
+
+    lot.notes = append_detail_note(lot.notes, "Enriched from Sotheby's public lot detail page.")
+    lot.raw = {
+        **(lot.raw or {}),
+        "detail_enrichment": {
+            "has_description": bool(description_lines),
+            "has_provenance": bool(lot.provenance),
+            "has_literature": bool(lot.literature),
+            "has_image": bool(image_url),
+        },
+    }
+    return lot
+
+
+def sothebys_detail_image(detail: Dict[str, Any]) -> str:
+    for key, value in detail.items():
+        if not str(key).startswith("media") or not isinstance(value, dict):
+            continue
+        for image in value.get("images") or []:
+            renditions = image.get("renditions") or []
+            if renditions:
+                preferred = sorted(renditions, key=lambda item: item.get("width") or 0, reverse=True)[0]
+                return clean_text(preferred.get("url") or "")
+    return ""
+
+
+def append_detail_note(existing: str, note: str) -> str:
+    if not existing:
+        return note
+    if note in existing:
+        return existing
+    return f"{existing} {note}"
 
 
 def sothebys_estimate(

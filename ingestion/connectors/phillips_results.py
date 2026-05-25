@@ -4,6 +4,7 @@ from __future__ import annotations
 
 import json
 import re
+import time
 from functools import lru_cache
 from typing import Any, Dict, List, Optional, Tuple
 
@@ -11,6 +12,7 @@ from ingestion.auction_models import AuctionLot, MoneyValue
 from ingestion.connectors.auction_results_common import (
     AuctionHouseSaleSnapshot,
     absolute_url,
+    clean_multiline_text,
     clean_text,
     estimate_money,
     extract_meta,
@@ -68,6 +70,48 @@ class PhillipsResultsConnector:
             if item:
                 lots.append(item)
         return snapshot, lots
+
+    def fetch_lot_detail_html(self, lot_url: str) -> str:
+        return self.client.get_text(lot_url)
+
+    def enrich_lots_with_details(
+        self,
+        lots: List[AuctionLot],
+        limit: int = 0,
+        delay_seconds: float = 0.2,
+    ) -> Tuple[List[AuctionLot], List[Dict[str, Any]]]:
+        detail_urls = []
+        seen = set()
+        for lot in lots:
+            if lot.source_url and lot.source_url not in seen:
+                seen.add(lot.source_url)
+                detail_urls.append(lot.source_url)
+
+        detail_limit = 1 if limit <= 0 else min(limit, len(detail_urls))
+        snapshots: List[Dict[str, Any]] = []
+
+        for index, detail_url in enumerate(detail_urls[:detail_limit]):
+            try:
+                raw_html = self.fetch_lot_detail_html(detail_url)
+                data = extract_react_router_data(raw_html)
+                detail_lots = extract_lot_detail_payloads(data)
+                enrich_phillips_lots_from_detail_payloads(lots, detail_lots)
+                snapshots.append(
+                    {
+                        "status": "ok",
+                        "source_url": detail_url,
+                        "detail_lot_count": len(detail_lots),
+                        "detail_payloads": detail_lots,
+                        "raw_html": raw_html,
+                    }
+                )
+            except Exception as exc:
+                snapshots.append({"status": "error", "source_url": detail_url, "error": str(exc)})
+
+            if delay_seconds > 0 and index < detail_limit - 1:
+                time.sleep(delay_seconds)
+
+        return lots, snapshots
 
     def fetch_sale_snapshot(
         self,
@@ -184,15 +228,65 @@ def phillips_lot_to_auction_lot(
         result_price=MoneyValue.from_dict(sold_price) if clean_text(lot.get("lotStatus")).lower() == "sold" else None,
         source_url=absolute_url(clean_text(lot.get("detailLink")), BASE_URL) or snapshot.sale_url,
         image_url=clean_text(lot.get("mainImagePath") or ""),
-        medium=clean_text(lot.get("medium") or ""),
-        dimensions=clean_text(lot.get("dimensions") or ""),
-        description=clean_text(lot.get("sigEdtMan") or ""),
-        provenance=clean_text(lot.get("provenance") or ""),
-        literature=clean_text(lot.get("literature") or ""),
+        medium=clean_multiline_text(lot.get("medium") or ""),
+        dimensions=clean_multiline_text(lot.get("dimensions") or ""),
+        description=clean_multiline_text(lot.get("sigEdtMan") or ""),
+        provenance=clean_multiline_text(lot.get("provenance") or ""),
+        literature=clean_multiline_text(lot.get("literature") or ""),
         record_source=RECORD_SOURCE,
         notes="Starting price and prior sale price were not exposed in the public Phillips sale payload.",
         raw=lot,
     )
+
+
+def enrich_phillips_lots_from_detail_payloads(
+    lots: List[AuctionLot],
+    detail_lots: List[Dict[str, Any]],
+) -> List[AuctionLot]:
+    details_by_record = {
+        clean_text(detail.get("objectNumber")): detail
+        for detail in detail_lots
+        if detail.get("objectNumber")
+    }
+    details_by_lot = {
+        clean_text(detail.get("lotNumberFull") or detail.get("lotNumber")): detail
+        for detail in detail_lots
+        if detail.get("lotNumberFull") or detail.get("lotNumber")
+    }
+
+    for lot in lots:
+        detail = details_by_record.get(lot.source_record_id) or details_by_lot.get(lot.lot_id)
+        if detail:
+            enrich_phillips_lot_from_detail(lot, detail)
+    return lots
+
+
+def enrich_phillips_lot_from_detail(lot: AuctionLot, detail: Dict[str, Any]) -> AuctionLot:
+    if detail.get("medium"):
+        lot.medium = clean_multiline_text(detail.get("medium"))
+    if detail.get("dimensions"):
+        lot.dimensions = clean_multiline_text(detail.get("dimensions"))
+    if detail.get("sigEdtMan"):
+        lot.description = clean_multiline_text(detail.get("sigEdtMan"))
+    if detail.get("provenance"):
+        lot.provenance = clean_multiline_text(detail.get("provenance"))
+    if detail.get("literature"):
+        lot.literature = clean_multiline_text(detail.get("literature"))
+    if detail.get("mainImagePath"):
+        lot.image_url = lot.image_url or clean_text(detail.get("mainImagePath"))
+
+    lot.notes = append_detail_note(lot.notes, "Enriched from Phillips public lot detail page.")
+    lot.raw = {
+        **(lot.raw or {}),
+        "detail_enrichment": {
+            "objectNumber": detail.get("objectNumber"),
+            "has_medium": bool(lot.medium),
+            "has_dimensions": bool(lot.dimensions),
+            "has_provenance": bool(lot.provenance),
+            "has_literature": bool(lot.literature),
+        },
+    }
+    return lot
 
 
 def extract_auction_payload(data: Dict[str, Any]) -> Dict[str, Any]:
@@ -208,6 +302,19 @@ def extract_past_auctions(data: Dict[str, Any]) -> List[Dict[str, Any]]:
     for value in loader_data.values():
         if isinstance(value, dict) and isinstance(value.get("pastAuctions"), list):
             return value["pastAuctions"]
+    return []
+
+
+def extract_lot_detail_payloads(data: Dict[str, Any]) -> List[Dict[str, Any]]:
+    loader_data = data.get("loaderData") or {}
+    for value in loader_data.values():
+        if not isinstance(value, dict):
+            continue
+        lot_payload = value.get("lot")
+        if isinstance(lot_payload, list):
+            return [lot for lot in lot_payload if isinstance(lot, dict)]
+        if isinstance(lot_payload, dict):
+            return [lot_payload]
     return []
 
 
@@ -231,12 +338,7 @@ def phillips_auction_haystack(auction: Dict[str, Any]) -> str:
 
 
 def extract_react_router_data(html_text: str) -> Dict[str, Any]:
-    for match in re.finditer(
-        r"window\.__reactRouterContext\.streamController\.enqueue\((.*?)\);",
-        html_text,
-        flags=re.DOTALL,
-    ):
-        arg = match.group(1).strip()
+    for arg in react_router_enqueue_args(html_text):
         try:
             stream_payload = json.loads(arg)
             values = json.loads(stream_payload)
@@ -248,6 +350,57 @@ def extract_react_router_data(html_text: str) -> Dict[str, Any]:
                 return decoded
 
     raise ValueError("Could not decode Phillips React Router payload")
+
+
+def react_router_enqueue_args(html_text: str) -> List[str]:
+    needle = "window.__reactRouterContext.streamController.enqueue("
+    args = []
+    offset = 0
+    while True:
+        start = html_text.find(needle, offset)
+        if start < 0:
+            break
+        arg_start = start + len(needle)
+        arg, end = read_js_call_argument(html_text, arg_start)
+        if arg:
+            args.append(arg.strip())
+        offset = end + 2
+    return args
+
+
+def read_js_call_argument(text: str, start: int) -> Tuple[str, int]:
+    in_string = False
+    quote = ""
+    escaped = False
+
+    for index in range(start, len(text)):
+        char = text[index]
+        if in_string:
+            if escaped:
+                escaped = False
+            elif char == "\\":
+                escaped = True
+            elif char == quote:
+                in_string = False
+            continue
+
+        if char in ("'", '"'):
+            in_string = True
+            quote = char
+            continue
+
+        if char == ")" and text[index : index + 2] == ");":
+            return text[start:index], index
+
+    return "", len(text)
+
+
+def append_detail_note(existing: str, note: str) -> str:
+    if not existing:
+        return note
+    if note in existing:
+        return existing
+    return f"{existing} {note}"
 
 
 def decode_react_router_values(values: List[Any]) -> Any:

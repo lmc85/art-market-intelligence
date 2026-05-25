@@ -42,6 +42,9 @@ def build_parser() -> argparse.ArgumentParser:
     parser.add_argument("--rss-output", type=Path, default=Path("feeds/auction-results.xml"))
     parser.add_argument("--feed-limit", type=int, default=100, help="Maximum stored lots to publish to feed files.")
     parser.add_argument("--replace-source", action="store_true", help="Clear existing lots for this source before storing this run.")
+    parser.add_argument("--enrich-details", action="store_true", help="Fetch public lot detail pages when the connector supports it.")
+    parser.add_argument("--detail-limit", type=int, default=0, help="Maximum detail pages to fetch; 0 means connector default.")
+    parser.add_argument("--detail-delay", type=float, default=0.2, help="Delay between detail-page requests.")
     return parser
 
 
@@ -67,6 +70,19 @@ def main() -> int:
             sale_query=args.sale_query,
         )
         raw_snapshot_path = write_raw_snapshot(snapshot, args.raw_dir)
+        detail_snapshot_paths = []
+        if args.enrich_details and hasattr(connector, "enrich_lots_with_details"):
+            lots, detail_snapshots = connector.enrich_lots_with_details(
+                lots,
+                limit=args.detail_limit,
+                delay_seconds=args.detail_delay,
+            )
+            detail_snapshot_paths = write_detail_snapshots(
+                detail_snapshots,
+                args.raw_dir,
+                connector.source_id,
+                snapshot.sale_id or snapshot.sale_number,
+            )
         records_written = store.upsert_lots(lots)
         feed_items = store.lots_for_feed(args.feed_limit)
         write_feed_json(feed_items, args.output)
@@ -96,6 +112,8 @@ def main() -> int:
     print(f"status: {status}")
     print(f"stored {records_written} lots in {args.db_path}")
     print(f"wrote raw snapshot to {raw_snapshot_path}")
+    if detail_snapshot_paths:
+        print(f"wrote {len(detail_snapshot_paths)} detail snapshots to {args.raw_dir}")
     if snapshot.notes:
         print("notes:")
         for note in snapshot.notes:
@@ -140,6 +158,24 @@ def write_raw_snapshot(snapshot, raw_dir: Path) -> Path:
     }
     path.write_text(json.dumps(payload, ensure_ascii=False), encoding="utf-8")
     return path
+
+
+def write_detail_snapshots(snapshots, raw_dir: Path, source_id: str, sale_id: str) -> list[Path]:
+    raw_dir.mkdir(parents=True, exist_ok=True)
+    sale_key = sale_id or "sale"
+    timestamp = utc_now_iso().replace(":", "").replace("-", "")
+    paths = []
+    for index, snapshot in enumerate(snapshots, start=1):
+        lot_key = snapshot.get("lot_id") or snapshot.get("source_record_id") or str(index)
+        path = raw_dir / f"{source_id}_{sale_key}_detail_{lot_key}_{timestamp}.json"
+        payload = {
+            "source_id": source_id,
+            "captured_at": utc_now_iso(),
+            **snapshot,
+        }
+        path.write_text(json.dumps(payload, ensure_ascii=False), encoding="utf-8")
+        paths.append(path)
+    return paths
 
 
 if __name__ == "__main__":

@@ -5,149 +5,9 @@
     <link>http://localhost:4173/</link>
     <description>Auction and sale records normalized for art market intelligence.</description>
     <language>en-us</language>
-    <lastBuildDate>Mon, 25 May 2026 13:48:57 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 25 May 2026 19:49:30 +0000</lastBuildDate>
     <ttl>60</ttl>
     <atom:link href="http://localhost:4173/feeds/auction-results.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>The girls take their places - Phillips</title>
-      <link>https://www.phillips.com/detail/michaela-yearwooddan/234217</link>
-      <guid>phillips_auctions|phillips|NY010526|301</guid>
-      <pubDate>Thu, 21 May 2026 12:00:00 +0000</pubDate>
-      <category>sold</category>
-      <description>Artist(s): Michaela Yearwood-Dan
-Style: Modern &amp; Contemporary Art: Afternoon Session
-Medium: Not available
-Dimensions: Not available
-Auction house: Phillips
-Auction date: 2026-05-21
-Starting price: Not available
-Estimated selling price: $ 80,000 - 120,000
-Result price: $ 167,700
-Last sold price: Not available
-Notes: Starting price and prior sale price were not exposed in the public Phillips sale payload.</description>
-      <artmi:title>The girls take their places</artmi:title>
-      <artmi:artists>Michaela Yearwood-Dan</artmi:artists>
-      <artmi:style>Modern &amp; Contemporary Art: Afternoon Session</artmi:style>
-      <artmi:auctionHouse>Phillips</artmi:auctionHouse>
-      <artmi:auctionDate>2026-05-21</artmi:auctionDate>
-      <artmi:status>sold</artmi:status>
-      <artmi:estimatedSellingPrice>$ 80,000 - 120,000</artmi:estimatedSellingPrice>
-      <artmi:resultPrice>$ 167,700</artmi:resultPrice>
-      <artmi:predictionReady>true</artmi:predictionReady>
-      <artmi:recordSource>Phillips public auction result page</artmi:recordSource>
-    </item>
-    <item>
-      <title>The First to Arrive - Phillips</title>
-      <link>https://www.phillips.com/detail/cynthia-hawkins/234922</link>
-      <guid>phillips_auctions|phillips|NY010526|302</guid>
-      <pubDate>Thu, 21 May 2026 12:00:00 +0000</pubDate>
-      <category>sold</category>
-      <description>Artist(s): Cynthia Hawkins
-Style: Modern &amp; Contemporary Art: Afternoon Session
-Medium: Not available
-Dimensions: Not available
-Auction house: Phillips
-Auction date: 2026-05-21
-Starting price: Not available
-Estimated selling price: $ 40,000 - 60,000
-Result price: $ 38,700
-Last sold price: Not available
-Notes: Starting price and prior sale price were not exposed in the public Phillips sale payload.</description>
-      <artmi:title>The First to Arrive</artmi:title>
-      <artmi:artists>Cynthia Hawkins</artmi:artists>
-      <artmi:style>Modern &amp; Contemporary Art: Afternoon Session</artmi:style>
-      <artmi:auctionHouse>Phillips</artmi:auctionHouse>
-      <artmi:auctionDate>2026-05-21</artmi:auctionDate>
-      <artmi:status>sold</artmi:status>
-      <artmi:estimatedSellingPrice>$ 40,000 - 60,000</artmi:estimatedSellingPrice>
-      <artmi:resultPrice>$ 38,700</artmi:resultPrice>
-      <artmi:predictionReady>true</artmi:predictionReady>
-      <artmi:recordSource>Phillips public auction result page</artmi:recordSource>
-    </item>
-    <item>
-      <title>Automne - Phillips</title>
-      <link>https://www.phillips.com/detail/etel-adnan/234838</link>
-      <guid>phillips_auctions|phillips|NY010526|303</guid>
-      <pubDate>Thu, 21 May 2026 12:00:00 +0000</pubDate>
-      <category>sold</category>
-      <description>Artist(s): Etel Adnan
-Style: Modern &amp; Contemporary Art: Afternoon Session
-Medium: Not available
-Dimensions: Not available
-Auction house: Phillips
-Auction date: 2026-05-21
-Starting price: Not available
-Estimated selling price: $ 100,000 - 150,000
-Result price: $ 193,500
-Last sold price: Not available
-Notes: Starting price and prior sale price were not exposed in the public Phillips sale payload.</description>
-      <artmi:title>Automne</artmi:title>
-      <artmi:artists>Etel Adnan</artmi:artists>
-      <artmi:style>Modern &amp; Contemporary Art: Afternoon Session</artmi:style>
-      <artmi:auctionHouse>Phillips</artmi:auctionHouse>
-      <artmi:auctionDate>2026-05-21</artmi:auctionDate>
-      <artmi:status>sold</artmi:status>
-      <artmi:estimatedSellingPrice>$ 100,000 - 150,000</artmi:estimatedSellingPrice>
-      <artmi:resultPrice>$ 193,500</artmi:resultPrice>
-      <artmi:predictionReady>true</artmi:predictionReady>
-      <artmi:recordSource>Phillips public auction result page</artmi:recordSource>
-    </item>
-    <item>
-      <title>Everything in order - Phillips</title>
-      <link>https://www.phillips.com/detail/alexis-ralaivao/234485</link>
-      <guid>phillips_auctions|phillips|NY010526|304</guid>
-      <pubDate>Thu, 21 May 2026 12:00:00 +0000</pubDate>
-      <category>sold</category>
-      <description>Artist(s): Alexis Ralaivao
-Style: Modern &amp; Contemporary Art: Afternoon Session
-Medium: Not available
-Dimensions: Not available
-Auction house: Phillips
-Auction date: 2026-05-21
-Starting price: Not available
-Estimated selling price: $ 15,000 - 20,000
-Result price: $ 38,700
-Last sold price: Not available
-Notes: Starting price and prior sale price were not exposed in the public Phillips sale payload.</description>
-      <artmi:title>Everything in order</artmi:title>
-      <artmi:artists>Alexis Ralaivao</artmi:artists>
-      <artmi:style>Modern &amp; Contemporary Art: Afternoon Session</artmi:style>
-      <artmi:auctionHouse>Phillips</artmi:auctionHouse>
-      <artmi:auctionDate>2026-05-21</artmi:auctionDate>
-      <artmi:status>sold</artmi:status>
-      <artmi:estimatedSellingPrice>$ 15,000 - 20,000</artmi:estimatedSellingPrice>
-      <artmi:resultPrice>$ 38,700</artmi:resultPrice>
-      <artmi:predictionReady>true</artmi:predictionReady>
-      <artmi:recordSource>Phillips public auction result page</artmi:recordSource>
-    </item>
-    <item>
-      <title>Ellipsis - Phillips</title>
-      <link>https://www.phillips.com/detail/joseph-yaeger/233881</link>
-      <guid>phillips_auctions|phillips|NY010526|305</guid>
-      <pubDate>Thu, 21 May 2026 12:00:00 +0000</pubDate>
-      <category>sold</category>
-      <description>Artist(s): Joseph Yaeger
-Style: Modern &amp; Contemporary Art: Afternoon Session
-Medium: Not available
-Dimensions: Not available
-Auction house: Phillips
-Auction date: 2026-05-21
-Starting price: Not available
-Estimated selling price: $ 30,000 - 50,000
-Result price: $ 51,600
-Last sold price: Not available
-Notes: Starting price and prior sale price were not exposed in the public Phillips sale payload.</description>
-      <artmi:title>Ellipsis</artmi:title>
-      <artmi:artists>Joseph Yaeger</artmi:artists>
-      <artmi:style>Modern &amp; Contemporary Art: Afternoon Session</artmi:style>
-      <artmi:auctionHouse>Phillips</artmi:auctionHouse>
-      <artmi:auctionDate>2026-05-21</artmi:auctionDate>
-      <artmi:status>sold</artmi:status>
-      <artmi:estimatedSellingPrice>$ 30,000 - 50,000</artmi:estimatedSellingPrice>
-      <artmi:resultPrice>$ 51,600</artmi:resultPrice>
-      <artmi:predictionReady>true</artmi:predictionReady>
-      <artmi:recordSource>Phillips public auction result page</artmi:recordSource>
-    </item>
     <item>
       <title>Spending Scarlet - Bonhams</title>
       <link>https://www.bonhams.com/auction/31876/lot/201/emily-mason-1932-2019-spending-scarlet-32-x-23-78-in-811-x-606-cm-painted-in-2000/</link>
@@ -156,7 +16,7 @@ Notes: Starting price and prior sale price were not exposed in the public Philli
       <category>sold</category>
       <description>Artist(s): EMILY MASON (1932-2019)
 Style: Post-War and Contemporary Art
-Medium: Not available
+Medium: oil on canvas
 Dimensions: 32 x 23 7/8 in (81.1 x 60.6 cm)
 Auction house: Bonhams
 Auction date: 2026-05-21
@@ -164,7 +24,9 @@ Starting price: Not available
 Estimated selling price: US$ 30,000 - 50,000
 Result price: US$ 64,000
 Last sold price: Not available
-Notes: Starting price and prior sale price were not exposed in the public Bonhams lot-list payload.</description>
+Provenance: M B Modern, New York.
+Acquired from the above by the present owner in 2001.
+Notes: Starting price and prior sale price were not exposed in the public Bonhams lot-list payload. Enriched from Bonhams public lot detail page.</description>
       <artmi:title>Spending Scarlet</artmi:title>
       <artmi:artists>EMILY MASON (1932-2019)</artmi:artists>
       <artmi:style>Post-War and Contemporary Art</artmi:style>
@@ -173,7 +35,10 @@ Notes: Starting price and prior sale price were not exposed in the public Bonham
       <artmi:status>sold</artmi:status>
       <artmi:estimatedSellingPrice>US$ 30,000 - 50,000</artmi:estimatedSellingPrice>
       <artmi:resultPrice>US$ 64,000</artmi:resultPrice>
+      <artmi:medium>oil on canvas</artmi:medium>
       <artmi:dimensions>32 x 23 7/8 in (81.1 x 60.6 cm)</artmi:dimensions>
+      <artmi:provenance>M B Modern, New York.
+Acquired from the above by the present owner in 2001.</artmi:provenance>
       <artmi:predictionReady>true</artmi:predictionReady>
       <artmi:recordSource>Bonhams public auction result page</artmi:recordSource>
     </item>
@@ -185,7 +50,7 @@ Notes: Starting price and prior sale price were not exposed in the public Bonham
       <category>sold</category>
       <description>Artist(s): EMILY MASON (1932-2019)
 Style: Post-War and Contemporary Art
-Medium: Not available
+Medium: oil on canvas
 Dimensions: 24 x 48 in (60.9 x 121.9 cm)
 Auction house: Bonhams
 Auction date: 2026-05-21
@@ -193,7 +58,9 @@ Starting price: Not available
 Estimated selling price: US$ 40,000 - 60,000
 Result price: US$ 61,440
 Last sold price: Not available
-Notes: Starting price and prior sale price were not exposed in the public Bonhams lot-list payload.</description>
+Provenance: David Findlay Jr., Inc., New York.
+Acquired from the above by the present owner in 2003.
+Notes: Starting price and prior sale price were not exposed in the public Bonhams lot-list payload. Enriched from Bonhams public lot detail page.</description>
       <artmi:title>Mind the Bridges</artmi:title>
       <artmi:artists>EMILY MASON (1932-2019)</artmi:artists>
       <artmi:style>Post-War and Contemporary Art</artmi:style>
@@ -202,7 +69,10 @@ Notes: Starting price and prior sale price were not exposed in the public Bonham
       <artmi:status>sold</artmi:status>
       <artmi:estimatedSellingPrice>US$ 40,000 - 60,000</artmi:estimatedSellingPrice>
       <artmi:resultPrice>US$ 61,440</artmi:resultPrice>
+      <artmi:medium>oil on canvas</artmi:medium>
       <artmi:dimensions>24 x 48 in (60.9 x 121.9 cm)</artmi:dimensions>
+      <artmi:provenance>David Findlay Jr., Inc., New York.
+Acquired from the above by the present owner in 2003.</artmi:provenance>
       <artmi:predictionReady>true</artmi:predictionReady>
       <artmi:recordSource>Bonhams public auction result page</artmi:recordSource>
     </item>
@@ -214,7 +84,7 @@ Notes: Starting price and prior sale price were not exposed in the public Bonham
       <category>sold</category>
       <description>Artist(s): DOROTHY FRATT (1923-2017)
 Style: Post-War and Contemporary Art
-Medium: Not available
+Medium: acrylic on canvas
 Dimensions: 26 x 21 in (66 x 53.4 cm)
 Auction house: Bonhams
 Auction date: 2026-05-21
@@ -222,7 +92,9 @@ Starting price: Not available
 Estimated selling price: US$ 35,000 - 55,000
 Result price: US$ 44,800
 Last sold price: Not available
-Notes: Starting price and prior sale price were not exposed in the public Bonhams lot-list payload.</description>
+Provenance: Estate of the artist.
+Acquired directly from the above by the present owner.
+Notes: Starting price and prior sale price were not exposed in the public Bonhams lot-list payload. Enriched from Bonhams public lot detail page.</description>
       <artmi:title>Midnight Choir</artmi:title>
       <artmi:artists>DOROTHY FRATT (1923-2017)</artmi:artists>
       <artmi:style>Post-War and Contemporary Art</artmi:style>
@@ -231,7 +103,10 @@ Notes: Starting price and prior sale price were not exposed in the public Bonham
       <artmi:status>sold</artmi:status>
       <artmi:estimatedSellingPrice>US$ 35,000 - 55,000</artmi:estimatedSellingPrice>
       <artmi:resultPrice>US$ 44,800</artmi:resultPrice>
+      <artmi:medium>acrylic on canvas</artmi:medium>
       <artmi:dimensions>26 x 21 in (66 x 53.4 cm)</artmi:dimensions>
+      <artmi:provenance>Estate of the artist.
+Acquired directly from the above by the present owner.</artmi:provenance>
       <artmi:predictionReady>true</artmi:predictionReady>
       <artmi:recordSource>Bonhams public auction result page</artmi:recordSource>
     </item>
@@ -243,7 +118,7 @@ Notes: Starting price and prior sale price were not exposed in the public Bonham
       <category>sold</category>
       <description>Artist(s): JANICE BIALA (1903-2000)
 Style: Post-War and Contemporary Art
-Medium: Not available
+Medium: oil on canvas
 Dimensions: 13 x 18 in (33 x 45.9 cm)
 Auction house: Bonhams
 Auction date: 2026-05-21
@@ -251,7 +126,10 @@ Starting price: Not available
 Estimated selling price: US$ 10,000 - 15,000
 Result price: US$ 24,320
 Last sold price: Not available
-Notes: Starting price and prior sale price were not exposed in the public Bonhams lot-list payload.</description>
+Provenance: Estate of the artist.
+The Tibor de Nagy Gallery, New York.
+Acquired from the above by the present owner.
+Notes: Starting price and prior sale price were not exposed in the public Bonhams lot-list payload. Enriched from Bonhams public lot detail page.</description>
       <artmi:title>Untitled (Coucou, Monsieur Ingres)</artmi:title>
       <artmi:artists>JANICE BIALA (1903-2000)</artmi:artists>
       <artmi:style>Post-War and Contemporary Art</artmi:style>
@@ -260,7 +138,11 @@ Notes: Starting price and prior sale price were not exposed in the public Bonham
       <artmi:status>sold</artmi:status>
       <artmi:estimatedSellingPrice>US$ 10,000 - 15,000</artmi:estimatedSellingPrice>
       <artmi:resultPrice>US$ 24,320</artmi:resultPrice>
+      <artmi:medium>oil on canvas</artmi:medium>
       <artmi:dimensions>13 x 18 in (33 x 45.9 cm)</artmi:dimensions>
+      <artmi:provenance>Estate of the artist.
+The Tibor de Nagy Gallery, New York.
+Acquired from the above by the present owner.</artmi:provenance>
       <artmi:predictionReady>true</artmi:predictionReady>
       <artmi:recordSource>Bonhams public auction result page</artmi:recordSource>
     </item>
@@ -272,7 +154,7 @@ Notes: Starting price and prior sale price were not exposed in the public Bonham
       <category>sold</category>
       <description>Artist(s): LYNNE DREXLER (1928-1999)
 Style: Post-War and Contemporary Art
-Medium: Not available
+Medium: gouache and watercolor on paper board
 Dimensions: 16 1/8 x 13 in (40.9 x 33 cm)
 Auction house: Bonhams
 Auction date: 2026-05-21
@@ -280,7 +162,10 @@ Starting price: Not available
 Estimated selling price: US$ 30,000 - 50,000
 Result price: US$ 66,540
 Last sold price: Not available
-Notes: Starting price and prior sale price were not exposed in the public Bonhams lot-list payload.</description>
+Provenance: Private collection, Connecticut (acquired directly from the artist).
+Sale: Shannon's, Milford, Connecticut, Fine Art Auction, May 2, 2024, Lot 21.
+Acquired from the above by the present owner.
+Notes: Starting price and prior sale price were not exposed in the public Bonhams lot-list payload. Enriched from Bonhams public lot detail page.</description>
       <artmi:title>Foliage Study</artmi:title>
       <artmi:artists>LYNNE DREXLER (1928-1999)</artmi:artists>
       <artmi:style>Post-War and Contemporary Art</artmi:style>
@@ -289,9 +174,187 @@ Notes: Starting price and prior sale price were not exposed in the public Bonham
       <artmi:status>sold</artmi:status>
       <artmi:estimatedSellingPrice>US$ 30,000 - 50,000</artmi:estimatedSellingPrice>
       <artmi:resultPrice>US$ 66,540</artmi:resultPrice>
+      <artmi:medium>gouache and watercolor on paper board</artmi:medium>
       <artmi:dimensions>16 1/8 x 13 in (40.9 x 33 cm)</artmi:dimensions>
+      <artmi:provenance>Private collection, Connecticut (acquired directly from the artist).
+Sale: Shannon's, Milford, Connecticut, Fine Art Auction, May 2, 2024, Lot 21.
+Acquired from the above by the present owner.</artmi:provenance>
       <artmi:predictionReady>true</artmi:predictionReady>
       <artmi:recordSource>Bonhams public auction result page</artmi:recordSource>
+    </item>
+    <item>
+      <title>The girls take their places - Phillips</title>
+      <link>https://www.phillips.com/detail/michaela-yearwooddan/234217</link>
+      <guid>phillips_auctions|phillips|NY010526|301</guid>
+      <pubDate>Thu, 21 May 2026 12:00:00 +0000</pubDate>
+      <category>sold</category>
+      <description>Artist(s): Michaela Yearwood-Dan
+Style: Modern &amp; Contemporary Art: Afternoon Session
+Medium: oil, beads and ceramic on canvas
+Dimensions: 82 5/8 x 64 in. (209.9 x 162.6 cm)
+Auction house: Phillips
+Auction date: 2026-05-21
+Starting price: Not available
+Estimated selling price: $ 80,000 - 120,000
+Result price: $ 167,700
+Last sold price: Not available
+Provenance: Marianne Boesky Gallery, New York
+Private Collection
+Acquired from the above by the present owner
+Literature: Charles Hutchinson, “Michaela Yearwood-Dan brings flower power 2024 style to York Art Gallery for National Treasures: Monet in York,” CharlesHutchPress, May 16, 2024, online (illustrated)
+Notes: Starting price and prior sale price were not exposed in the public Phillips sale payload. Enriched from Phillips public lot detail page.</description>
+      <artmi:title>The girls take their places</artmi:title>
+      <artmi:artists>Michaela Yearwood-Dan</artmi:artists>
+      <artmi:style>Modern &amp; Contemporary Art: Afternoon Session</artmi:style>
+      <artmi:auctionHouse>Phillips</artmi:auctionHouse>
+      <artmi:auctionDate>2026-05-21</artmi:auctionDate>
+      <artmi:status>sold</artmi:status>
+      <artmi:estimatedSellingPrice>$ 80,000 - 120,000</artmi:estimatedSellingPrice>
+      <artmi:resultPrice>$ 167,700</artmi:resultPrice>
+      <artmi:medium>oil, beads and ceramic on canvas</artmi:medium>
+      <artmi:dimensions>82 5/8 x 64 in. (209.9 x 162.6 cm)</artmi:dimensions>
+      <artmi:provenance>Marianne Boesky Gallery, New York
+Private Collection
+Acquired from the above by the present owner</artmi:provenance>
+      <artmi:literature>Charles Hutchinson, “Michaela Yearwood-Dan brings flower power 2024 style to York Art Gallery for National Treasures: Monet in York,” CharlesHutchPress, May 16, 2024, online (illustrated)</artmi:literature>
+      <artmi:predictionReady>true</artmi:predictionReady>
+      <artmi:recordSource>Phillips public auction result page</artmi:recordSource>
+    </item>
+    <item>
+      <title>The First to Arrive - Phillips</title>
+      <link>https://www.phillips.com/detail/cynthia-hawkins/234922</link>
+      <guid>phillips_auctions|phillips|NY010526|302</guid>
+      <pubDate>Thu, 21 May 2026 12:00:00 +0000</pubDate>
+      <category>sold</category>
+      <description>Artist(s): Cynthia Hawkins
+Style: Modern &amp; Contemporary Art: Afternoon Session
+Medium: acrylic on canvas, in 2 parts
+Dimensions: each 47 7/8 x 59 3/4 in. (121.6 x 151.8 cm)
+overall 95 3/4 x 59 3/4 in. (243.2 x 151.8 cm)
+Auction house: Phillips
+Auction date: 2026-05-21
+Starting price: Not available
+Estimated selling price: $ 40,000 - 60,000
+Result price: $ 38,700
+Last sold price: Not available
+Provenance: STARS Gallery, Los Angeles
+Acquired from the above by the present owner
+Notes: Starting price and prior sale price were not exposed in the public Phillips sale payload. Enriched from Phillips public lot detail page.</description>
+      <artmi:title>The First to Arrive</artmi:title>
+      <artmi:artists>Cynthia Hawkins</artmi:artists>
+      <artmi:style>Modern &amp; Contemporary Art: Afternoon Session</artmi:style>
+      <artmi:auctionHouse>Phillips</artmi:auctionHouse>
+      <artmi:auctionDate>2026-05-21</artmi:auctionDate>
+      <artmi:status>sold</artmi:status>
+      <artmi:estimatedSellingPrice>$ 40,000 - 60,000</artmi:estimatedSellingPrice>
+      <artmi:resultPrice>$ 38,700</artmi:resultPrice>
+      <artmi:medium>acrylic on canvas, in 2 parts</artmi:medium>
+      <artmi:dimensions>each 47 7/8 x 59 3/4 in. (121.6 x 151.8 cm)
+overall 95 3/4 x 59 3/4 in. (243.2 x 151.8 cm)</artmi:dimensions>
+      <artmi:provenance>STARS Gallery, Los Angeles
+Acquired from the above by the present owner</artmi:provenance>
+      <artmi:predictionReady>true</artmi:predictionReady>
+      <artmi:recordSource>Phillips public auction result page</artmi:recordSource>
+    </item>
+    <item>
+      <title>Automne - Phillips</title>
+      <link>https://www.phillips.com/detail/etel-adnan/234838</link>
+      <guid>phillips_auctions|phillips|NY010526|303</guid>
+      <pubDate>Thu, 21 May 2026 12:00:00 +0000</pubDate>
+      <category>sold</category>
+      <description>Artist(s): Etel Adnan
+Style: Modern &amp; Contemporary Art: Afternoon Session
+Medium: oil on canvas
+Dimensions: 13 x 16 1/8 in. (33.1 x 41 cm)
+Auction house: Phillips
+Auction date: 2026-05-21
+Starting price: Not available
+Estimated selling price: $ 100,000 - 150,000
+Result price: $ 193,500
+Last sold price: Not available
+Provenance: Acquired directly from the artist by the present owner in 2020
+Notes: Starting price and prior sale price were not exposed in the public Phillips sale payload. Enriched from Phillips public lot detail page.</description>
+      <artmi:title>Automne</artmi:title>
+      <artmi:artists>Etel Adnan</artmi:artists>
+      <artmi:style>Modern &amp; Contemporary Art: Afternoon Session</artmi:style>
+      <artmi:auctionHouse>Phillips</artmi:auctionHouse>
+      <artmi:auctionDate>2026-05-21</artmi:auctionDate>
+      <artmi:status>sold</artmi:status>
+      <artmi:estimatedSellingPrice>$ 100,000 - 150,000</artmi:estimatedSellingPrice>
+      <artmi:resultPrice>$ 193,500</artmi:resultPrice>
+      <artmi:medium>oil on canvas</artmi:medium>
+      <artmi:dimensions>13 x 16 1/8 in. (33.1 x 41 cm)</artmi:dimensions>
+      <artmi:provenance>Acquired directly from the artist by the present owner in 2020</artmi:provenance>
+      <artmi:predictionReady>true</artmi:predictionReady>
+      <artmi:recordSource>Phillips public auction result page</artmi:recordSource>
+    </item>
+    <item>
+      <title>Everything in order - Phillips</title>
+      <link>https://www.phillips.com/detail/alexis-ralaivao/234485</link>
+      <guid>phillips_auctions|phillips|NY010526|304</guid>
+      <pubDate>Thu, 21 May 2026 12:00:00 +0000</pubDate>
+      <category>sold</category>
+      <description>Artist(s): Alexis Ralaivao
+Style: Modern &amp; Contemporary Art: Afternoon Session
+Medium: oil on canvas
+Dimensions: 39 3/8 x 28 3/4 in. (100 x 73 cm)
+Auction house: Phillips
+Auction date: 2026-05-21
+Starting price: Not available
+Estimated selling price: $ 15,000 - 20,000
+Result price: $ 38,700
+Last sold price: Not available
+Provenance: Bill Brady Gallery, Miami
+Estate of Bill Brady
+Notes: Starting price and prior sale price were not exposed in the public Phillips sale payload. Enriched from Phillips public lot detail page.</description>
+      <artmi:title>Everything in order</artmi:title>
+      <artmi:artists>Alexis Ralaivao</artmi:artists>
+      <artmi:style>Modern &amp; Contemporary Art: Afternoon Session</artmi:style>
+      <artmi:auctionHouse>Phillips</artmi:auctionHouse>
+      <artmi:auctionDate>2026-05-21</artmi:auctionDate>
+      <artmi:status>sold</artmi:status>
+      <artmi:estimatedSellingPrice>$ 15,000 - 20,000</artmi:estimatedSellingPrice>
+      <artmi:resultPrice>$ 38,700</artmi:resultPrice>
+      <artmi:medium>oil on canvas</artmi:medium>
+      <artmi:dimensions>39 3/8 x 28 3/4 in. (100 x 73 cm)</artmi:dimensions>
+      <artmi:provenance>Bill Brady Gallery, Miami
+Estate of Bill Brady</artmi:provenance>
+      <artmi:predictionReady>true</artmi:predictionReady>
+      <artmi:recordSource>Phillips public auction result page</artmi:recordSource>
+    </item>
+    <item>
+      <title>Ellipsis - Phillips</title>
+      <link>https://www.phillips.com/detail/joseph-yaeger/233881</link>
+      <guid>phillips_auctions|phillips|NY010526|305</guid>
+      <pubDate>Thu, 21 May 2026 12:00:00 +0000</pubDate>
+      <category>sold</category>
+      <description>Artist(s): Joseph Yaeger
+Style: Modern &amp; Contemporary Art: Afternoon Session
+Medium: watercolor on gessoed canvas
+Dimensions: 20 1/8 x 24 1/8 in. (51.1 x 61.3 cm)
+Auction house: Phillips
+Auction date: 2026-05-21
+Starting price: Not available
+Estimated selling price: $ 30,000 - 50,000
+Result price: $ 51,600
+Last sold price: Not available
+Provenance: Project Native Informant LTD, London
+Acquired from the above by the present owner
+Notes: Starting price and prior sale price were not exposed in the public Phillips sale payload. Enriched from Phillips public lot detail page.</description>
+      <artmi:title>Ellipsis</artmi:title>
+      <artmi:artists>Joseph Yaeger</artmi:artists>
+      <artmi:style>Modern &amp; Contemporary Art: Afternoon Session</artmi:style>
+      <artmi:auctionHouse>Phillips</artmi:auctionHouse>
+      <artmi:auctionDate>2026-05-21</artmi:auctionDate>
+      <artmi:status>sold</artmi:status>
+      <artmi:estimatedSellingPrice>$ 30,000 - 50,000</artmi:estimatedSellingPrice>
+      <artmi:resultPrice>$ 51,600</artmi:resultPrice>
+      <artmi:medium>watercolor on gessoed canvas</artmi:medium>
+      <artmi:dimensions>20 1/8 x 24 1/8 in. (51.1 x 61.3 cm)</artmi:dimensions>
+      <artmi:provenance>Project Native Informant LTD, London
+Acquired from the above by the present owner</artmi:provenance>
+      <artmi:predictionReady>true</artmi:predictionReady>
+      <artmi:recordSource>Phillips public auction result page</artmi:recordSource>
     </item>
     <item>
       <title>Untitled (7.2.89) - Christie's</title>
@@ -669,15 +732,18 @@ Notes: Starting price and prior sale price were not exposed in the public lot-li
       <category>auctioned</category>
       <description>Artist(s): Bridget Bate Tichenor
 Style: Modern Day Auction
-Medium: Not available
-Dimensions: Not available
+Medium: oil on canvas
+Dimensions: 8 by 8 in.
 Auction house: Sotheby's
 Auction date: 2026-05-20
 Starting price: Not available
 Estimated selling price: USD 40,000 - 60,000
 Result price: Not available
 Last sold price: Not available
-Notes: Starting price, realized price, and prior sale price were not exposed in the sampled public Sotheby's payload.</description>
+Provenance: Private Collection, Mexico City (acquired directly from the artist)
+Private Collection, Mexico City (acquired from the above circa 2010)
+Acquired from the above by the present owner
+Notes: Starting price, realized price, and prior sale price were not exposed in the sampled public Sotheby's payload. Enriched from Sotheby's public lot detail page.</description>
       <artmi:title>Sin título</artmi:title>
       <artmi:artists>Bridget Bate Tichenor</artmi:artists>
       <artmi:style>Modern Day Auction</artmi:style>
@@ -685,6 +751,11 @@ Notes: Starting price, realized price, and prior sale price were not exposed in 
       <artmi:auctionDate>2026-05-20</artmi:auctionDate>
       <artmi:status>auctioned</artmi:status>
       <artmi:estimatedSellingPrice>USD 40,000 - 60,000</artmi:estimatedSellingPrice>
+      <artmi:medium>oil on canvas</artmi:medium>
+      <artmi:dimensions>8 by 8 in.</artmi:dimensions>
+      <artmi:provenance>Private Collection, Mexico City (acquired directly from the artist)
+Private Collection, Mexico City (acquired from the above circa 2010)
+Acquired from the above by the present owner</artmi:provenance>
       <artmi:predictionReady>false</artmi:predictionReady>
       <artmi:recordSource>Sotheby's public auction result page</artmi:recordSource>
     </item>
@@ -696,15 +767,20 @@ Notes: Starting price, realized price, and prior sale price were not exposed in 
       <category>auctioned</category>
       <description>Artist(s): Anna Güntner
 Style: Modern Day Auction
-Medium: Not available
-Dimensions: Not available
+Medium: oil on canvas
+Dimensions: 43 by 27 ⅝ in.
 Auction house: Sotheby's
 Auction date: 2026-05-20
 Starting price: Not available
 Estimated selling price: USD 50,000 - 70,000
 Result price: Not available
 Last sold price: Not available
-Notes: Starting price, realized price, and prior sale price were not exposed in the sampled public Sotheby's payload.</description>
+Provenance: DESA Foreign Trade Company, Warsaw
+Bodley Gallery, New York
+Ewa Pape, New York
+Acquired from the above circa 1971 by the present owner
+Literature: Exh. Cat., Kraków, Nowa Huta Cultural Centre and Galeria Artemis, Anna Güntner, Painting, 2022, p. 154, illustrated in color (with incorrect dimensions)
+Notes: Starting price, realized price, and prior sale price were not exposed in the sampled public Sotheby's payload. Enriched from Sotheby's public lot detail page.</description>
       <artmi:title>Błąd (Error)</artmi:title>
       <artmi:artists>Anna Güntner</artmi:artists>
       <artmi:style>Modern Day Auction</artmi:style>
@@ -712,6 +788,13 @@ Notes: Starting price, realized price, and prior sale price were not exposed in 
       <artmi:auctionDate>2026-05-20</artmi:auctionDate>
       <artmi:status>auctioned</artmi:status>
       <artmi:estimatedSellingPrice>USD 50,000 - 70,000</artmi:estimatedSellingPrice>
+      <artmi:medium>oil on canvas</artmi:medium>
+      <artmi:dimensions>43 by 27 ⅝ in.</artmi:dimensions>
+      <artmi:provenance>DESA Foreign Trade Company, Warsaw
+Bodley Gallery, New York
+Ewa Pape, New York
+Acquired from the above circa 1971 by the present owner</artmi:provenance>
+      <artmi:literature>Exh. Cat., Kraków, Nowa Huta Cultural Centre and Galeria Artemis, Anna Güntner, Painting, 2022, p. 154, illustrated in color (with incorrect dimensions)</artmi:literature>
       <artmi:predictionReady>false</artmi:predictionReady>
       <artmi:recordSource>Sotheby's public auction result page</artmi:recordSource>
     </item>
@@ -723,15 +806,17 @@ Notes: Starting price, realized price, and prior sale price were not exposed in 
       <category>auctioned</category>
       <description>Artist(s): Jane Graverol
 Style: Modern Day Auction
-Medium: Not available
-Dimensions: Not available
+Medium: oil on board
+Dimensions: 15 ⅝ by 19 ⅝ in.
 Auction house: Sotheby's
 Auction date: 2026-05-20
 Starting price: Not available
 Estimated selling price: USD 30,000 - 50,000
 Result price: Not available
 Last sold price: Not available
-Notes: Starting price, realized price, and prior sale price were not exposed in the sampled public Sotheby's payload.</description>
+Provenance: Private Collection, Uccle, Belgium (acquired in the 1960s)
+Thence by descent to the present owner
+Notes: Starting price, realized price, and prior sale price were not exposed in the sampled public Sotheby's payload. Enriched from Sotheby's public lot detail page.</description>
       <artmi:title>Le Temps</artmi:title>
       <artmi:artists>Jane Graverol</artmi:artists>
       <artmi:style>Modern Day Auction</artmi:style>
@@ -739,6 +824,10 @@ Notes: Starting price, realized price, and prior sale price were not exposed in 
       <artmi:auctionDate>2026-05-20</artmi:auctionDate>
       <artmi:status>auctioned</artmi:status>
       <artmi:estimatedSellingPrice>USD 30,000 - 50,000</artmi:estimatedSellingPrice>
+      <artmi:medium>oil on board</artmi:medium>
+      <artmi:dimensions>15 ⅝ by 19 ⅝ in.</artmi:dimensions>
+      <artmi:provenance>Private Collection, Uccle, Belgium (acquired in the 1960s)
+Thence by descent to the present owner</artmi:provenance>
       <artmi:predictionReady>false</artmi:predictionReady>
       <artmi:recordSource>Sotheby's public auction result page</artmi:recordSource>
     </item>
@@ -750,15 +839,21 @@ Notes: Starting price, realized price, and prior sale price were not exposed in 
       <category>auctioned</category>
       <description>Artist(s): René Magritte
 Style: Modern Day Auction
-Medium: Not available
-Dimensions: Not available
+Medium: gouache on paper
+Dimensions: 9 ½ by 7 ½ in.
 Auction house: Sotheby's
 Auction date: 2026-05-20
 Starting price: Not available
 Estimated selling price: USD 800,000 - 1,200,000
 Result price: Not available
 Last sold price: Not available
-Notes: Starting price, realized price, and prior sale price were not exposed in the sampled public Sotheby's payload.</description>
+Provenance: Alexander Iolas Gallery, New York (acquired directly from the artist)
+Bodley Gallery, New York (acquired from the above in January 1959)
+Mr. and Mrs. Marvin Notkins, New York (acquired from the above on 10 December 1959)
+Acquired by descent from the above by the present owner
+Literature: Letter from René Magritte to Alexander Iolas, 12 November 1958
+David Sylvester, Sarah Whitfield and Michael Raeburn, eds., René Magritte, Catalogue Raisonné: Gouaches, Temperas, Watercolours and Papiers Collés 1918-1967, vol. IV, London, 1994, no. 1450, p. 211, illustrated
+Notes: Starting price, realized price, and prior sale price were not exposed in the sampled public Sotheby's payload. Enriched from Sotheby's public lot detail page.</description>
       <artmi:title>Le Compotier</artmi:title>
       <artmi:artists>René Magritte</artmi:artists>
       <artmi:style>Modern Day Auction</artmi:style>
@@ -766,6 +861,14 @@ Notes: Starting price, realized price, and prior sale price were not exposed in 
       <artmi:auctionDate>2026-05-20</artmi:auctionDate>
       <artmi:status>auctioned</artmi:status>
       <artmi:estimatedSellingPrice>USD 800,000 - 1,200,000</artmi:estimatedSellingPrice>
+      <artmi:medium>gouache on paper</artmi:medium>
+      <artmi:dimensions>9 ½ by 7 ½ in.</artmi:dimensions>
+      <artmi:provenance>Alexander Iolas Gallery, New York (acquired directly from the artist)
+Bodley Gallery, New York (acquired from the above in January 1959)
+Mr. and Mrs. Marvin Notkins, New York (acquired from the above on 10 December 1959)
+Acquired by descent from the above by the present owner</artmi:provenance>
+      <artmi:literature>Letter from René Magritte to Alexander Iolas, 12 November 1958
+David Sylvester, Sarah Whitfield and Michael Raeburn, eds., René Magritte, Catalogue Raisonné: Gouaches, Temperas, Watercolours and Papiers Collés 1918-1967, vol. IV, London, 1994, no. 1450, p. 211, illustrated</artmi:literature>
       <artmi:predictionReady>false</artmi:predictionReady>
       <artmi:recordSource>Sotheby's public auction result page</artmi:recordSource>
     </item>
@@ -777,15 +880,19 @@ Notes: Starting price, realized price, and prior sale price were not exposed in 
       <category>auctioned</category>
       <description>Artist(s): René Magritte
 Style: Modern Day Auction
-Medium: Not available
-Dimensions: Not available
+Medium: gouache on paper
+Dimensions: 11 ⅜ by 19 ¼ in.
 Auction house: Sotheby's
 Auction date: 2026-05-20
 Starting price: Not available
 Estimated selling price: USD 250,000 - 350,000
 Result price: Not available
 Last sold price: Not available
-Notes: Starting price, realized price, and prior sale price were not exposed in the sampled public Sotheby's payload.</description>
+Provenance: Galerie Tarica, Paris
+Gunter Sachs, Switzerland (acquired from the above in 1963)
+Sotheby's, London, 22 May 2012, lot 34 (consigned by the above)
+Acquired at the above sale by the present owner
+Notes: Starting price, realized price, and prior sale price were not exposed in the sampled public Sotheby's payload. Enriched from Sotheby's public lot detail page.</description>
       <artmi:title>Le Calcul mental</artmi:title>
       <artmi:artists>René Magritte</artmi:artists>
       <artmi:style>Modern Day Auction</artmi:style>
@@ -793,6 +900,12 @@ Notes: Starting price, realized price, and prior sale price were not exposed in 
       <artmi:auctionDate>2026-05-20</artmi:auctionDate>
       <artmi:status>auctioned</artmi:status>
       <artmi:estimatedSellingPrice>USD 250,000 - 350,000</artmi:estimatedSellingPrice>
+      <artmi:medium>gouache on paper</artmi:medium>
+      <artmi:dimensions>11 ⅜ by 19 ¼ in.</artmi:dimensions>
+      <artmi:provenance>Galerie Tarica, Paris
+Gunter Sachs, Switzerland (acquired from the above in 1963)
+Sotheby's, London, 22 May 2012, lot 34 (consigned by the above)
+Acquired at the above sale by the present owner</artmi:provenance>
       <artmi:predictionReady>false</artmi:predictionReady>
       <artmi:recordSource>Sotheby's public auction result page</artmi:recordSource>
     </item>

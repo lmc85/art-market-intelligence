@@ -3,6 +3,7 @@
 from __future__ import annotations
 
 import re
+import time
 from typing import Any, Dict, List, Optional, Tuple
 
 from ingestion.auction_models import AuctionLot, MoneyValue
@@ -10,12 +11,15 @@ from ingestion.connectors.auction_results_common import (
     AuctionHouseSaleSnapshot,
     absolute_url,
     clean_html_lines,
+    clean_multiline_text,
     clean_text,
     estimate_money,
+    extract_medium_dimensions_from_lines,
     extract_meta,
     extract_next_data,
     iso_date,
     money_value,
+    parse_float,
 )
 from ingestion.http import HttpClient
 
@@ -71,6 +75,53 @@ class BonhamsResultsConnector:
             if item:
                 lots.append(item)
         return snapshot, lots
+
+    def fetch_lot_detail_html(self, lot_url: str) -> str:
+        return self.client.get_text(lot_url)
+
+    def enrich_lots_with_details(
+        self,
+        lots: List[AuctionLot],
+        limit: int = 0,
+        delay_seconds: float = 0.2,
+    ) -> Tuple[List[AuctionLot], List[Dict[str, Any]]]:
+        detail_limit = len(lots) if limit <= 0 else min(limit, len(lots))
+        snapshots: List[Dict[str, Any]] = []
+
+        for index, lot in enumerate(lots[:detail_limit]):
+            if not lot.source_url:
+                continue
+
+            try:
+                raw_html = self.fetch_lot_detail_html(lot.source_url)
+                detail_payload = extract_bonhams_lot_detail_payload(raw_html)
+                enrich_bonhams_lot_from_detail(lot, detail_payload)
+                snapshots.append(
+                    {
+                        "status": "ok",
+                        "lot_id": lot.lot_id,
+                        "source_record_id": lot.source_record_id,
+                        "source_url": lot.source_url,
+                        "detail_payload": detail_payload,
+                        "raw_html": raw_html,
+                    }
+                )
+            except Exception as exc:
+                lot.notes = f"{lot.notes} Detail enrichment failed: {exc}".strip()
+                snapshots.append(
+                    {
+                        "status": "error",
+                        "lot_id": lot.lot_id,
+                        "source_record_id": lot.source_record_id,
+                        "source_url": lot.source_url,
+                        "error": str(exc),
+                    }
+                )
+
+            if delay_seconds > 0 and index < detail_limit - 1:
+                time.sleep(delay_seconds)
+
+        return lots, snapshots
 
     def fetch_sale_snapshot(
         self,
@@ -181,6 +232,80 @@ def bonhams_lot_to_auction_lot(lot: Dict[str, Any], snapshot: AuctionHouseSaleSn
         notes="Starting price and prior sale price were not exposed in the public Bonhams lot-list payload.",
         raw=lot,
     )
+
+
+def extract_bonhams_lot_detail_payload(raw_html: str) -> Dict[str, Any]:
+    data = extract_next_data(raw_html)
+    return data.get("props", {}).get("pageProps", {}).get("lot") or {}
+
+
+def enrich_bonhams_lot_from_detail(lot: AuctionLot, detail: Dict[str, Any]) -> AuctionLot:
+    currency = clean_text((detail.get("currency") or {}).get("iso_code") or lot.currency)
+    currency_symbol = clean_text(detail.get("sCurrencySymbol") or "")
+    estimate = estimate_money(currency, detail.get("dEstimateLow"), detail.get("dEstimateHigh"), symbol=currency_symbol)
+    result = money_value(currency, detail.get("dHammerPremium") or detail.get("dHammerPrice"), symbol=currency_symbol)
+    starting_amount = parse_float(detail.get("dStartingBidAmt"))
+    starting = (
+        money_value(currency, starting_amount, symbol=currency_symbol)
+        if starting_amount is not None and starting_amount > 0
+        else None
+    )
+
+    catalog_lines = clean_html_lines(detail.get("sCatalogDesc") or detail.get("sDesc") or "")
+    medium, dimensions = extract_medium_dimensions_from_lines(catalog_lines)
+    sections = extract_bonhams_footnote_sections(detail.get("footnote_sExtraDesc") or detail.get("sExtraDesc") or "")
+    images = detail.get("images") or []
+
+    if currency:
+        lot.currency = currency
+    if estimate:
+        lot.estimate = MoneyValue.from_dict(estimate)
+    if result and clean_text(detail.get("sLotStatus")).upper() == "SOLD":
+        lot.result_price = MoneyValue.from_dict(result)
+    if starting:
+        lot.starting_price = MoneyValue.from_dict(starting)
+    if catalog_lines:
+        lot.description = "\n".join(catalog_lines)
+    if medium:
+        lot.medium = medium
+    if dimensions:
+        lot.dimensions = dimensions
+    if sections.get("provenance"):
+        lot.provenance = sections["provenance"]
+    if sections.get("literature"):
+        lot.literature = sections["literature"]
+    if sections.get("exhibited") and not lot.literature:
+        lot.literature = sections["exhibited"]
+    if images:
+        lot.image_url = lot.image_url or clean_text(images[0].get("image_url") or "")
+
+    lot.notes = append_detail_note(lot.notes, "Enriched from Bonhams public lot detail page.")
+    lot.raw = {**(lot.raw or {}), "detail_enrichment": {"sections": sorted(sections), "image_count": len(images)}}
+    return lot
+
+
+def extract_bonhams_footnote_sections(raw_html: str) -> Dict[str, str]:
+    sections: Dict[str, str] = {}
+    if not raw_html:
+        return sections
+
+    parts = re.split(r"<b>(.*?)</b>\s*<br\s*/?>", raw_html, flags=re.IGNORECASE | re.DOTALL)
+    for index in range(1, len(parts), 2):
+        key = clean_text(parts[index]).lower()
+        section_html = parts[index + 1] if index + 1 < len(parts) else ""
+        section_html = re.split(r"<br\s*/?>\s*<br\s*/?>", section_html, maxsplit=1, flags=re.IGNORECASE)[0]
+        value = clean_multiline_text(section_html)
+        if key and value:
+            sections[key] = value
+    return sections
+
+
+def append_detail_note(existing: str, note: str) -> str:
+    if not existing:
+        return note
+    if note in existing:
+        return existing
+    return f"{existing} {note}"
 
 
 def parse_bonhams_artist_title(lot: Dict[str, Any]) -> Tuple[str, str]:

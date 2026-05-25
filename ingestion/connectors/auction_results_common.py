@@ -80,6 +80,10 @@ def clean_html_lines(value: Any) -> List[str]:
     return [clean_text(line) for line in decoded.splitlines() if clean_text(line)]
 
 
+def clean_multiline_text(value: Any) -> str:
+    return "\n".join(clean_html_lines(value))
+
+
 def clean_text(value: Any) -> str:
     text = "" if value is None else str(value)
     text = re.sub(r"<br\s*/?>", " ", text, flags=re.IGNORECASE)
@@ -170,6 +174,34 @@ def amount_display(currency: str, amount: Optional[float], symbol: str = "") -> 
         return ""
     prefix = symbol or currency
     return f"{prefix} {amount:,.0f}".strip()
+
+
+def extract_medium_dimensions_from_lines(lines: List[str]) -> tuple[str, str]:
+    for index, line in enumerate(lines):
+        if looks_like_dimensions(line):
+            return previous_catalogue_line(lines, index), clean_text(line)
+    return "", ""
+
+
+def previous_catalogue_line(lines: List[str], index: int) -> str:
+    for candidate in reversed(lines[:index]):
+        text = clean_text(candidate)
+        lower = text.lower()
+        if not text:
+            continue
+        if lower.startswith(("signed", "dated", "titled", "numbered", "stamped", "executed", "painted")):
+            continue
+        if text.isupper():
+            continue
+        return text
+    return ""
+
+
+def looks_like_dimensions(value: str) -> bool:
+    lower = value.lower()
+    has_measure_unit = any(unit in lower for unit in (" cm", " mm", " in.", " in ", " inch"))
+    has_separator = " x " in lower or "\u00d7" in lower or " by " in lower
+    return has_measure_unit and has_separator
 
 
 def append_note(existing: str, note: str) -> str:

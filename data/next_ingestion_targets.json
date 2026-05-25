@@ -40,8 +40,8 @@
     "source_name": "Sotheby's Results",
     "priority": "P0",
     "target_type": "Official auction result",
-    "stage": "Implemented first pass",
-    "rss_use": "Official sale dates, auction house, lot titles, artists, and estimates; realized prices may be gated",
+    "stage": "Implemented with detail enrichment",
+    "rss_use": "Official sale dates, auction house, lot titles, artists, estimates, medium, dimensions, provenance, and images; realized prices may be gated",
     "next_action": "Add realized-price enrichment if public detail pages or an approved access path exposes sold prices."
   },
   {
@@ -49,18 +49,18 @@
     "source_name": "Bonhams Results",
     "priority": "P0",
     "target_type": "Official auction result",
-    "stage": "Implemented first pass",
-    "rss_use": "Mid-market sale results with title, artist, estimate, hammer/premium result, sale date, and source URL",
-    "next_action": "Add pagination and optional detail-page enrichment for condition/provenance/medium fields."
+    "stage": "Implemented with detail enrichment",
+    "rss_use": "Mid-market sale results with title, artist, estimate, hammer/premium result, sale date, medium, dimensions, provenance, and source URL",
+    "next_action": "Add pagination and prior-sale matching."
   },
   {
     "source_id": "phillips_auctions",
     "source_name": "Phillips Auctions",
     "priority": "P0",
     "target_type": "Official auction result",
-    "stage": "Implemented first pass",
-    "rss_use": "Contemporary art, design, editions, and photographs with estimates, sold price, date, and detail URL",
-    "next_action": "Add detail-page enrichment for medium, dimensions, provenance, literature, and image fields."
+    "stage": "Implemented with detail enrichment",
+    "rss_use": "Contemporary art, design, editions, and photographs with estimates, sold price, date, medium, dimensions, provenance, and detail URL",
+    "next_action": "Add pagination and prior-sale matching."
   },
   {
     "source_id": "liveauctioneers",
