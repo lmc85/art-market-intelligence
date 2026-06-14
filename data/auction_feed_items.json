@@ -2537,6 +2537,411 @@
     "prediction_ready": true
   },
   {
+    "id": "phillips_auctions|phillips|NY050226|61",
+    "status": "sold",
+    "title": "Low table, model no. DC1716, from the \"Baroquisme\" series",
+    "artists": [
+      "Vincenzo De Cotiis"
+    ],
+    "style": "Design",
+    "auction_house": "Phillips",
+    "auction_date": "2026-06-12",
+    "starting_price": null,
+    "estimated_selling_price": {
+      "currency": "USD",
+      "low": 20000.0,
+      "high": 30000.0,
+      "display": "$ 20,000 - 30,000"
+    },
+    "result_price": {
+      "currency": "USD",
+      "amount": 70950.0,
+      "display": "$ 70,950"
+    },
+    "last_sold_price": null,
+    "source_url": "https://www.phillips.com/detail/vincenzo-de-cotiis/234433",
+    "record_source": "Phillips public auction result page",
+    "notes": "Starting price and prior sale price were not exposed in the public Phillips sale payload.",
+    "medium": "",
+    "dimensions": "",
+    "provenance": "",
+    "literature": "",
+    "quality_flags": {
+      "has_artist": true,
+      "has_title": true,
+      "has_auction_date": true,
+      "has_estimate": true,
+      "has_result_price": true,
+      "has_starting_price": false,
+      "has_prior_sale": false,
+      "has_source_url": true,
+      "has_image": false,
+      "has_medium": false,
+      "has_dimensions": false
+    },
+    "prediction_ready": true
+  },
+  {
+    "id": "phillips_auctions|phillips|NY050226|62",
+    "status": "sold",
+    "title": "\"Cellula 15\"",
+    "artists": [
+      "Ritsue Mishima"
+    ],
+    "style": "Design",
+    "auction_house": "Phillips",
+    "auction_date": "2026-06-12",
+    "starting_price": null,
+    "estimated_selling_price": {
+      "currency": "USD",
+      "low": 6000.0,
+      "high": 8000.0,
+      "display": "$ 6,000 - 8,000"
+    },
+    "result_price": {
+      "currency": "USD",
+      "amount": 7740.0,
+      "display": "$ 7,740"
+    },
+    "last_sold_price": null,
+    "source_url": "https://www.phillips.com/detail/ritsue-mishima/234119",
+    "record_source": "Phillips public auction result page",
+    "notes": "Starting price and prior sale price were not exposed in the public Phillips sale payload.",
+    "medium": "",
+    "dimensions": "",
+    "provenance": "",
+    "literature": "",
+    "quality_flags": {
+      "has_artist": true,
+      "has_title": true,
+      "has_auction_date": true,
+      "has_estimate": true,
+      "has_result_price": true,
+      "has_starting_price": false,
+      "has_prior_sale": false,
+      "has_source_url": true,
+      "has_image": false,
+      "has_medium": false,
+      "has_dimensions": false
+    },
+    "prediction_ready": true
+  },
+  {
+    "id": "phillips_auctions|phillips|NY050226|63",
+    "status": "sold",
+    "title": "\"Nucleo 3\"",
+    "artists": [
+      "Ritsue Mishima"
+    ],
+    "style": "Design",
+    "auction_house": "Phillips",
+    "auction_date": "2026-06-12",
+    "starting_price": null,
+    "estimated_selling_price": {
+      "currency": "USD",
+      "low": 3000.0,
+      "high": 5000.0,
+      "display": "$ 3,000 - 5,000"
+    },
+    "result_price": {
+      "currency": "USD",
+      "amount": 3870.0,
+      "display": "$ 3,870"
+    },
+    "last_sold_price": null,
+    "source_url": "https://www.phillips.com/detail/ritsue-mishima/234120",
+    "record_source": "Phillips public auction result page",
+    "notes": "Starting price and prior sale price were not exposed in the public Phillips sale payload.",
+    "medium": "",
+    "dimensions": "",
+    "provenance": "",
+    "literature": "",
+    "quality_flags": {
+      "has_artist": true,
+      "has_title": true,
+      "has_auction_date": true,
+      "has_estimate": true,
+      "has_result_price": true,
+      "has_starting_price": false,
+      "has_prior_sale": false,
+      "has_source_url": true,
+      "has_image": false,
+      "has_medium": false,
+      "has_dimensions": false
+    },
+    "prediction_ready": true
+  },
+  {
+    "id": "phillips_auctions|phillips|NY050226|64",
+    "status": "sold",
+    "title": "\"Moraine\" sofa, from the \"Z-Scape\" series",
+    "artists": [
+      "Zaha Hadid"
+    ],
+    "style": "Design",
+    "auction_house": "Phillips",
+    "auction_date": "2026-06-12",
+    "starting_price": null,
+    "estimated_selling_price": {
+      "currency": "USD",
+      "low": 20000.0,
+      "high": 30000.0,
+      "display": "$ 20,000 - 30,000"
+    },
+    "result_price": {
+      "currency": "USD",
+      "amount": 41280.0,
+      "display": "$ 41,280"
+    },
+    "last_sold_price": null,
+    "source_url": "https://www.phillips.com/detail/zaha-hadid/234963",
+    "record_source": "Phillips public auction result page",
+    "notes": "Starting price and prior sale price were not exposed in the public Phillips sale payload.",
+    "medium": "",
+    "dimensions": "",
+    "provenance": "",
+    "literature": "",
+    "quality_flags": {
+      "has_artist": true,
+      "has_title": true,
+      "has_auction_date": true,
+      "has_estimate": true,
+      "has_result_price": true,
+      "has_starting_price": false,
+      "has_prior_sale": false,
+      "has_source_url": true,
+      "has_image": false,
+      "has_medium": false,
+      "has_dimensions": false
+    },
+    "prediction_ready": true
+  },
+  {
+    "id": "phillips_auctions|phillips|NY050226|65",
+    "status": "sold",
+    "title": "Floor lamp, model no. 1063",
+    "artists": [
+      "Gino Sarfatti"
+    ],
+    "style": "Design",
+    "auction_house": "Phillips",
+    "auction_date": "2026-06-12",
+    "starting_price": null,
+    "estimated_selling_price": {
+      "currency": "USD",
+      "low": 6000.0,
+      "high": 8000.0,
+      "display": "$ 6,000 - 8,000"
+    },
+    "result_price": {
+      "currency": "USD",
+      "amount": 9675.0,
+      "display": "$ 9,675"
+    },
+    "last_sold_price": null,
+    "source_url": "https://www.phillips.com/detail/gino-sarfatti/233422",
+    "record_source": "Phillips public auction result page",
+    "notes": "Starting price and prior sale price were not exposed in the public Phillips sale payload.",
+    "medium": "",
+    "dimensions": "",
+    "provenance": "",
+    "literature": "",
+    "quality_flags": {
+      "has_artist": true,
+      "has_title": true,
+      "has_auction_date": true,
+      "has_estimate": true,
+      "has_result_price": true,
+      "has_starting_price": false,
+      "has_prior_sale": false,
+      "has_source_url": true,
+      "has_image": false,
+      "has_medium": false,
+      "has_dimensions": false
+    },
+    "prediction_ready": true
+  },
+  {
+    "id": "phillips_auctions|phillips|NY050226|66",
+    "status": "sold",
+    "title": "\"you are here\"",
+    "artists": [
+      "Edmund de Waal"
+    ],
+    "style": "Design",
+    "auction_house": "Phillips",
+    "auction_date": "2026-06-12",
+    "starting_price": null,
+    "estimated_selling_price": {
+      "currency": "USD",
+      "low": 6000.0,
+      "high": 8000.0,
+      "display": "$ 6,000 - 8,000"
+    },
+    "result_price": {
+      "currency": "USD",
+      "amount": 6450.0,
+      "display": "$ 6,450"
+    },
+    "last_sold_price": null,
+    "source_url": "https://www.phillips.com/detail/edmund-de-waal/229454",
+    "record_source": "Phillips public auction result page",
+    "notes": "Starting price and prior sale price were not exposed in the public Phillips sale payload.",
+    "medium": "",
+    "dimensions": "",
+    "provenance": "",
+    "literature": "",
+    "quality_flags": {
+      "has_artist": true,
+      "has_title": true,
+      "has_auction_date": true,
+      "has_estimate": true,
+      "has_result_price": true,
+      "has_starting_price": false,
+      "has_prior_sale": false,
+      "has_source_url": true,
+      "has_image": false,
+      "has_medium": false,
+      "has_dimensions": false
+    },
+    "prediction_ready": true
+  },
+  {
+    "id": "phillips_auctions|phillips|NY050226|67",
+    "status": "sold",
+    "title": "\"a voice, an instrument\"",
+    "artists": [
+      "Edmund de Waal"
+    ],
+    "style": "Design",
+    "auction_house": "Phillips",
+    "auction_date": "2026-06-12",
+    "starting_price": null,
+    "estimated_selling_price": {
+      "currency": "USD",
+      "low": 4000.0,
+      "high": 6000.0,
+      "display": "$ 4,000 - 6,000"
+    },
+    "result_price": {
+      "currency": "USD",
+      "amount": 7740.0,
+      "display": "$ 7,740"
+    },
+    "last_sold_price": null,
+    "source_url": "https://www.phillips.com/detail/edmund-de-waal/229455",
+    "record_source": "Phillips public auction result page",
+    "notes": "Starting price and prior sale price were not exposed in the public Phillips sale payload.",
+    "medium": "",
+    "dimensions": "",
+    "provenance": "",
+    "literature": "",
+    "quality_flags": {
+      "has_artist": true,
+      "has_title": true,
+      "has_auction_date": true,
+      "has_estimate": true,
+      "has_result_price": true,
+      "has_starting_price": false,
+      "has_prior_sale": false,
+      "has_source_url": true,
+      "has_image": false,
+      "has_medium": false,
+      "has_dimensions": false
+    },
+    "prediction_ready": true
+  },
+  {
+    "id": "phillips_auctions|phillips|NY050226|68",
+    "status": "sold",
+    "title": "\"Glass Chair\"",
+    "artists": [
+      "Shiro Kuramata"
+    ],
+    "style": "Design",
+    "auction_house": "Phillips",
+    "auction_date": "2026-06-12",
+    "starting_price": null,
+    "estimated_selling_price": {
+      "currency": "USD",
+      "low": 18000.0,
+      "high": 24000.0,
+      "display": "$ 18,000 - 24,000"
+    },
+    "result_price": {
+      "currency": "USD",
+      "amount": 33540.0,
+      "display": "$ 33,540"
+    },
+    "last_sold_price": null,
+    "source_url": "https://www.phillips.com/detail/shiro-kuramata/235449",
+    "record_source": "Phillips public auction result page",
+    "notes": "Starting price and prior sale price were not exposed in the public Phillips sale payload.",
+    "medium": "",
+    "dimensions": "",
+    "provenance": "",
+    "literature": "",
+    "quality_flags": {
+      "has_artist": true,
+      "has_title": true,
+      "has_auction_date": true,
+      "has_estimate": true,
+      "has_result_price": true,
+      "has_starting_price": false,
+      "has_prior_sale": false,
+      "has_source_url": true,
+      "has_image": false,
+      "has_medium": false,
+      "has_dimensions": false
+    },
+    "prediction_ready": true
+  },
+  {
+    "id": "phillips_auctions|phillips|NY050226|69",
+    "status": "sold",
+    "title": "Large \"Macchia\"",
+    "artists": [
+      "Dale Chihuly"
+    ],
+    "style": "Design",
+    "auction_house": "Phillips",
+    "auction_date": "2026-06-12",
+    "starting_price": null,
+    "estimated_selling_price": {
+      "currency": "USD",
+      "low": 8000.0,
+      "high": 12000.0,
+      "display": "$ 8,000 - 12,000"
+    },
+    "result_price": {
+      "currency": "USD",
+      "amount": 12255.0,
+      "display": "$ 12,255"
+    },
+    "last_sold_price": null,
+    "source_url": "https://www.phillips.com/detail/dale-chihuly/230843",
+    "record_source": "Phillips public auction result page",
+    "notes": "Starting price and prior sale price were not exposed in the public Phillips sale payload.",
+    "medium": "",
+    "dimensions": "",
+    "provenance": "",
+    "literature": "",
+    "quality_flags": {
+      "has_artist": true,
+      "has_title": true,
+      "has_auction_date": true,
+      "has_estimate": true,
+      "has_result_price": true,
+      "has_starting_price": false,
+      "has_prior_sale": false,
+      "has_source_url": true,
+      "has_image": false,
+      "has_medium": false,
+      "has_dimensions": false
+    },
+    "prediction_ready": true
+  },
+  {
     "id": "phillips_auctions|phillips|NY050226|7",
     "status": "sold",
     "title": "\"Rodéo\" desk and armchair",
@@ -2560,6 +2965,321 @@
     },
     "last_sold_price": null,
     "source_url": "https://www.phillips.com/detail/elizabeth-garouste-and-mattia-bonetti/235120",
+    "record_source": "Phillips public auction result page",
+    "notes": "Starting price and prior sale price were not exposed in the public Phillips sale payload.",
+    "medium": "",
+    "dimensions": "",
+    "provenance": "",
+    "literature": "",
+    "quality_flags": {
+      "has_artist": true,
+      "has_title": true,
+      "has_auction_date": true,
+      "has_estimate": true,
+      "has_result_price": true,
+      "has_starting_price": false,
+      "has_prior_sale": false,
+      "has_source_url": true,
+      "has_image": false,
+      "has_medium": false,
+      "has_dimensions": false
+    },
+    "prediction_ready": true
+  },
+  {
+    "id": "phillips_auctions|phillips|NY050226|70",
+    "status": "sold",
+    "title": "\"Blanket Cylinder\"",
+    "artists": [
+      "Dale Chihuly"
+    ],
+    "style": "Design",
+    "auction_house": "Phillips",
+    "auction_date": "2026-06-12",
+    "starting_price": null,
+    "estimated_selling_price": {
+      "currency": "USD",
+      "low": 6000.0,
+      "high": 8000.0,
+      "display": "$ 6,000 - 8,000"
+    },
+    "result_price": {
+      "currency": "USD",
+      "amount": 21930.0,
+      "display": "$ 21,930"
+    },
+    "last_sold_price": null,
+    "source_url": "https://www.phillips.com/detail/dale-chihuly/230845",
+    "record_source": "Phillips public auction result page",
+    "notes": "Starting price and prior sale price were not exposed in the public Phillips sale payload.",
+    "medium": "",
+    "dimensions": "",
+    "provenance": "",
+    "literature": "",
+    "quality_flags": {
+      "has_artist": true,
+      "has_title": true,
+      "has_auction_date": true,
+      "has_estimate": true,
+      "has_result_price": true,
+      "has_starting_price": false,
+      "has_prior_sale": false,
+      "has_source_url": true,
+      "has_image": false,
+      "has_medium": false,
+      "has_dimensions": false
+    },
+    "prediction_ready": true
+  },
+  {
+    "id": "phillips_auctions|phillips|NY050226|71",
+    "status": "sold",
+    "title": "\"Macchia\"",
+    "artists": [
+      "Dale Chihuly"
+    ],
+    "style": "Design",
+    "auction_house": "Phillips",
+    "auction_date": "2026-06-12",
+    "starting_price": null,
+    "estimated_selling_price": {
+      "currency": "USD",
+      "low": 6000.0,
+      "high": 8000.0,
+      "display": "$ 6,000 - 8,000"
+    },
+    "result_price": {
+      "currency": "USD",
+      "amount": 14190.0,
+      "display": "$ 14,190"
+    },
+    "last_sold_price": null,
+    "source_url": "https://www.phillips.com/detail/dale-chihuly/230844",
+    "record_source": "Phillips public auction result page",
+    "notes": "Starting price and prior sale price were not exposed in the public Phillips sale payload.",
+    "medium": "",
+    "dimensions": "",
+    "provenance": "",
+    "literature": "",
+    "quality_flags": {
+      "has_artist": true,
+      "has_title": true,
+      "has_auction_date": true,
+      "has_estimate": true,
+      "has_result_price": true,
+      "has_starting_price": false,
+      "has_prior_sale": false,
+      "has_source_url": true,
+      "has_image": false,
+      "has_medium": false,
+      "has_dimensions": false
+    },
+    "prediction_ready": true
+  },
+  {
+    "id": "phillips_auctions|phillips|NY050226|72",
+    "status": "sold",
+    "title": "\"Suspended Artifact\"",
+    "artists": [
+      "William Morris"
+    ],
+    "style": "Design",
+    "auction_house": "Phillips",
+    "auction_date": "2026-06-12",
+    "starting_price": null,
+    "estimated_selling_price": {
+      "currency": "USD",
+      "low": 12000.0,
+      "high": 18000.0,
+      "display": "$ 12,000 - 18,000"
+    },
+    "result_price": {
+      "currency": "USD",
+      "amount": 12255.0,
+      "display": "$ 12,255"
+    },
+    "last_sold_price": null,
+    "source_url": "https://www.phillips.com/detail/william-morris/230850",
+    "record_source": "Phillips public auction result page",
+    "notes": "Starting price and prior sale price were not exposed in the public Phillips sale payload.",
+    "medium": "",
+    "dimensions": "",
+    "provenance": "",
+    "literature": "",
+    "quality_flags": {
+      "has_artist": true,
+      "has_title": true,
+      "has_auction_date": true,
+      "has_estimate": true,
+      "has_result_price": true,
+      "has_starting_price": false,
+      "has_prior_sale": false,
+      "has_source_url": true,
+      "has_image": false,
+      "has_medium": false,
+      "has_dimensions": false
+    },
+    "prediction_ready": true
+  },
+  {
+    "id": "phillips_auctions|phillips|NY050226|73",
+    "status": "sold",
+    "title": "\"Hanging Petroglyph\"",
+    "artists": [
+      "William Morris"
+    ],
+    "style": "Design",
+    "auction_house": "Phillips",
+    "auction_date": "2026-06-12",
+    "starting_price": null,
+    "estimated_selling_price": {
+      "currency": "USD",
+      "low": 15000.0,
+      "high": 20000.0,
+      "display": "$ 15,000 - 20,000"
+    },
+    "result_price": {
+      "currency": "USD",
+      "amount": 15480.0,
+      "display": "$ 15,480"
+    },
+    "last_sold_price": null,
+    "source_url": "https://www.phillips.com/detail/william-morris/230848",
+    "record_source": "Phillips public auction result page",
+    "notes": "Starting price and prior sale price were not exposed in the public Phillips sale payload.",
+    "medium": "",
+    "dimensions": "",
+    "provenance": "",
+    "literature": "",
+    "quality_flags": {
+      "has_artist": true,
+      "has_title": true,
+      "has_auction_date": true,
+      "has_estimate": true,
+      "has_result_price": true,
+      "has_starting_price": false,
+      "has_prior_sale": false,
+      "has_source_url": true,
+      "has_image": false,
+      "has_medium": false,
+      "has_dimensions": false
+    },
+    "prediction_ready": true
+  },
+  {
+    "id": "phillips_auctions|phillips|NY050226|74",
+    "status": "sold",
+    "title": "\"Petroglyph\"",
+    "artists": [
+      "William Morris"
+    ],
+    "style": "Design",
+    "auction_house": "Phillips",
+    "auction_date": "2026-06-12",
+    "starting_price": null,
+    "estimated_selling_price": {
+      "currency": "USD",
+      "low": 6000.0,
+      "high": 8000.0,
+      "display": "$ 6,000 - 8,000"
+    },
+    "result_price": {
+      "currency": "USD",
+      "amount": 6192.0,
+      "display": "$ 6,192"
+    },
+    "last_sold_price": null,
+    "source_url": "https://www.phillips.com/detail/william-morris/230854",
+    "record_source": "Phillips public auction result page",
+    "notes": "Starting price and prior sale price were not exposed in the public Phillips sale payload.",
+    "medium": "",
+    "dimensions": "",
+    "provenance": "",
+    "literature": "",
+    "quality_flags": {
+      "has_artist": true,
+      "has_title": true,
+      "has_auction_date": true,
+      "has_estimate": true,
+      "has_result_price": true,
+      "has_starting_price": false,
+      "has_prior_sale": false,
+      "has_source_url": true,
+      "has_image": false,
+      "has_medium": false,
+      "has_dimensions": false
+    },
+    "prediction_ready": true
+  },
+  {
+    "id": "phillips_auctions|phillips|NY050226|75",
+    "status": "sold",
+    "title": "\"Mogollon Woman\"",
+    "artists": [
+      "William Morris"
+    ],
+    "style": "Design",
+    "auction_house": "Phillips",
+    "auction_date": "2026-06-12",
+    "starting_price": null,
+    "estimated_selling_price": {
+      "currency": "USD",
+      "low": 8000.0,
+      "high": 12000.0,
+      "display": "$ 8,000 - 12,000"
+    },
+    "result_price": {
+      "currency": "USD",
+      "amount": 8385.0,
+      "display": "$ 8,385"
+    },
+    "last_sold_price": null,
+    "source_url": "https://www.phillips.com/detail/william-morris/230851",
+    "record_source": "Phillips public auction result page",
+    "notes": "Starting price and prior sale price were not exposed in the public Phillips sale payload.",
+    "medium": "",
+    "dimensions": "",
+    "provenance": "",
+    "literature": "",
+    "quality_flags": {
+      "has_artist": true,
+      "has_title": true,
+      "has_auction_date": true,
+      "has_estimate": true,
+      "has_result_price": true,
+      "has_starting_price": false,
+      "has_prior_sale": false,
+      "has_source_url": true,
+      "has_image": false,
+      "has_medium": false,
+      "has_dimensions": false
+    },
+    "prediction_ready": true
+  },
+  {
+    "id": "phillips_auctions|phillips|NY050226|76",
+    "status": "sold",
+    "title": "\"Idolo\"",
+    "artists": [
+      "William Morris"
+    ],
+    "style": "Design",
+    "auction_house": "Phillips",
+    "auction_date": "2026-06-12",
+    "starting_price": null,
+    "estimated_selling_price": {
+      "currency": "USD",
+      "low": 15000.0,
+      "high": 20000.0,
+      "display": "$ 15,000 - 20,000"
+    },
+    "result_price": {
+      "currency": "USD",
+      "amount": 9675.0,
+      "display": "$ 9,675"
+    },
+    "last_sold_price": null,
+    "source_url": "https://www.phillips.com/detail/william-morris/230849",
     "record_source": "Phillips public auction result page",
     "notes": "Starting price and prior sale price were not exposed in the public Phillips sale payload.",
     "medium": "",
@@ -2672,1355 +3392,29 @@
     "prediction_ready": true
   },
   {
-    "id": "bonhams_results|bonhams|31876|201",
+    "id": "phillips_auctions|phillips|UK030226|1",
     "status": "sold",
-    "title": "Spending Scarlet",
+    "title": "Pop Shop I: one print (L. p. 83)",
     "artists": [
-      "EMILY MASON (1932-2019)"
+      "Keith Haring"
     ],
-    "style": "Post-War and Contemporary Art",
-    "auction_house": "Bonhams",
-    "auction_date": "2026-05-21",
-    "starting_price": null,
-    "estimated_selling_price": {
-      "currency": "USD",
-      "low": 30000.0,
-      "high": 50000.0,
-      "display": "US$ 30,000 - 50,000"
-    },
-    "result_price": {
-      "currency": "USD",
-      "amount": 64000.0,
-      "display": "US$ 64,000"
-    },
-    "last_sold_price": null,
-    "source_url": "https://www.bonhams.com/auction/31876/lot/201/emily-mason-1932-2019-spending-scarlet-32-x-23-78-in-811-x-606-cm-painted-in-2000/",
-    "record_source": "Bonhams public auction result page",
-    "notes": "Starting price and prior sale price were not exposed in the public Bonhams lot-list payload. Enriched from Bonhams public lot detail page.",
-    "medium": "oil on canvas",
-    "dimensions": "32 x 23 7/8 in (81.1 x 60.6 cm)",
-    "provenance": "M B Modern, New York.\nAcquired from the above by the present owner in 2001.",
-    "literature": "",
-    "quality_flags": {
-      "has_artist": true,
-      "has_title": true,
-      "has_auction_date": true,
-      "has_estimate": true,
-      "has_result_price": true,
-      "has_starting_price": false,
-      "has_prior_sale": false,
-      "has_source_url": true,
-      "has_image": true,
-      "has_medium": true,
-      "has_dimensions": true
-    },
-    "prediction_ready": true
-  },
-  {
-    "id": "bonhams_results|bonhams|31876|202",
-    "status": "sold",
-    "title": "Mind the Bridges",
-    "artists": [
-      "EMILY MASON (1932-2019)"
-    ],
-    "style": "Post-War and Contemporary Art",
-    "auction_house": "Bonhams",
-    "auction_date": "2026-05-21",
-    "starting_price": null,
-    "estimated_selling_price": {
-      "currency": "USD",
-      "low": 40000.0,
-      "high": 60000.0,
-      "display": "US$ 40,000 - 60,000"
-    },
-    "result_price": {
-      "currency": "USD",
-      "amount": 61440.0,
-      "display": "US$ 61,440"
-    },
-    "last_sold_price": null,
-    "source_url": "https://www.bonhams.com/auction/31876/lot/202/emily-mason-1932-2019-mind-the-bridges-24-x-48-in-609-x-1219-cm-painted-in-2002/",
-    "record_source": "Bonhams public auction result page",
-    "notes": "Starting price and prior sale price were not exposed in the public Bonhams lot-list payload. Enriched from Bonhams public lot detail page.",
-    "medium": "oil on canvas",
-    "dimensions": "24 x 48 in (60.9 x 121.9 cm)",
-    "provenance": "David Findlay Jr., Inc., New York.\nAcquired from the above by the present owner in 2003.",
-    "literature": "",
-    "quality_flags": {
-      "has_artist": true,
-      "has_title": true,
-      "has_auction_date": true,
-      "has_estimate": true,
-      "has_result_price": true,
-      "has_starting_price": false,
-      "has_prior_sale": false,
-      "has_source_url": true,
-      "has_image": true,
-      "has_medium": true,
-      "has_dimensions": true
-    },
-    "prediction_ready": true
-  },
-  {
-    "id": "bonhams_results|bonhams|31876|203",
-    "status": "sold",
-    "title": "Midnight Choir",
-    "artists": [
-      "DOROTHY FRATT (1923-2017)"
-    ],
-    "style": "Post-War and Contemporary Art",
-    "auction_house": "Bonhams",
-    "auction_date": "2026-05-21",
-    "starting_price": null,
-    "estimated_selling_price": {
-      "currency": "USD",
-      "low": 35000.0,
-      "high": 55000.0,
-      "display": "US$ 35,000 - 55,000"
-    },
-    "result_price": {
-      "currency": "USD",
-      "amount": 44800.0,
-      "display": "US$ 44,800"
-    },
-    "last_sold_price": null,
-    "source_url": "https://www.bonhams.com/auction/31876/lot/203/dorothy-fratt-1923-2017-midnight-choir-26-x-21-in-66-x-534-cm-painted-in-1989/",
-    "record_source": "Bonhams public auction result page",
-    "notes": "Starting price and prior sale price were not exposed in the public Bonhams lot-list payload. Enriched from Bonhams public lot detail page.",
-    "medium": "acrylic on canvas",
-    "dimensions": "26 x 21 in (66 x 53.4 cm)",
-    "provenance": "Estate of the artist.\nAcquired directly from the above by the present owner.",
-    "literature": "",
-    "quality_flags": {
-      "has_artist": true,
-      "has_title": true,
-      "has_auction_date": true,
-      "has_estimate": true,
-      "has_result_price": true,
-      "has_starting_price": false,
-      "has_prior_sale": false,
-      "has_source_url": true,
-      "has_image": true,
-      "has_medium": true,
-      "has_dimensions": true
-    },
-    "prediction_ready": true
-  },
-  {
-    "id": "bonhams_results|bonhams|31876|204",
-    "status": "sold",
-    "title": "Untitled (Coucou, Monsieur Ingres)",
-    "artists": [
-      "JANICE BIALA (1903-2000)"
-    ],
-    "style": "Post-War and Contemporary Art",
-    "auction_house": "Bonhams",
-    "auction_date": "2026-05-21",
-    "starting_price": null,
-    "estimated_selling_price": {
-      "currency": "USD",
-      "low": 10000.0,
-      "high": 15000.0,
-      "display": "US$ 10,000 - 15,000"
-    },
-    "result_price": {
-      "currency": "USD",
-      "amount": 24320.0,
-      "display": "US$ 24,320"
-    },
-    "last_sold_price": null,
-    "source_url": "https://www.bonhams.com/auction/31876/lot/204/janice-biala-1903-2000-untitled-coucou-monsieur-ingres-13-x-18-in-33-x-459-cm-painted-circa-1969/",
-    "record_source": "Bonhams public auction result page",
-    "notes": "Starting price and prior sale price were not exposed in the public Bonhams lot-list payload. Enriched from Bonhams public lot detail page.",
-    "medium": "oil on canvas",
-    "dimensions": "13 x 18 in (33 x 45.9 cm)",
-    "provenance": "Estate of the artist.\nThe Tibor de Nagy Gallery, New York.\nAcquired from the above by the present owner.",
-    "literature": "",
-    "quality_flags": {
-      "has_artist": true,
-      "has_title": true,
-      "has_auction_date": true,
-      "has_estimate": true,
-      "has_result_price": true,
-      "has_starting_price": false,
-      "has_prior_sale": false,
-      "has_source_url": true,
-      "has_image": true,
-      "has_medium": true,
-      "has_dimensions": true
-    },
-    "prediction_ready": true
-  },
-  {
-    "id": "bonhams_results|bonhams|31876|205",
-    "status": "sold",
-    "title": "Foliage Study",
-    "artists": [
-      "LYNNE DREXLER (1928-1999)"
-    ],
-    "style": "Post-War and Contemporary Art",
-    "auction_house": "Bonhams",
-    "auction_date": "2026-05-21",
-    "starting_price": null,
-    "estimated_selling_price": {
-      "currency": "USD",
-      "low": 30000.0,
-      "high": 50000.0,
-      "display": "US$ 30,000 - 50,000"
-    },
-    "result_price": {
-      "currency": "USD",
-      "amount": 66540.0,
-      "display": "US$ 66,540"
-    },
-    "last_sold_price": null,
-    "source_url": "https://www.bonhams.com/auction/31876/lot/205/lynne-drexler-1928-1999-foliage-study-16-18-x-13-in-409-x-33-cm-executed-in-1962/",
-    "record_source": "Bonhams public auction result page",
-    "notes": "Starting price and prior sale price were not exposed in the public Bonhams lot-list payload. Enriched from Bonhams public lot detail page.",
-    "medium": "gouache and watercolor on paper board",
-    "dimensions": "16 1/8 x 13 in (40.9 x 33 cm)",
-    "provenance": "Private collection, Connecticut (acquired directly from the artist).\nSale: Shannon's, Milford, Connecticut, Fine Art Auction, May 2, 2024, Lot 21.\nAcquired from the above by the present owner.",
-    "literature": "",
-    "quality_flags": {
-      "has_artist": true,
-      "has_title": true,
-      "has_auction_date": true,
-      "has_estimate": true,
-      "has_result_price": true,
-      "has_starting_price": false,
-      "has_prior_sale": false,
-      "has_source_url": true,
-      "has_image": true,
-      "has_medium": true,
-      "has_dimensions": true
-    },
-    "prediction_ready": true
-  },
-  {
-    "id": "phillips_auctions|phillips|NY010526|301",
-    "status": "sold",
-    "title": "The girls take their places",
-    "artists": [
-      "Michaela Yearwood-Dan"
-    ],
-    "style": "Modern & Contemporary Art: Afternoon Session",
+    "style": "Modern & Contemporary Editions: Evening Sale",
     "auction_house": "Phillips",
-    "auction_date": "2026-05-21",
+    "auction_date": "2026-06-04",
     "starting_price": null,
     "estimated_selling_price": {
-      "currency": "USD",
-      "low": 80000.0,
-      "high": 120000.0,
-      "display": "$ 80,000 - 120,000"
+      "currency": "GBP",
+      "low": 12000.0,
+      "high": 18000.0,
+      "display": "£ 12,000 - 18,000"
     },
     "result_price": {
-      "currency": "USD",
-      "amount": 167700.0,
-      "display": "$ 167,700"
-    },
-    "last_sold_price": null,
-    "source_url": "https://www.phillips.com/detail/michaela-yearwooddan/234217",
-    "record_source": "Phillips public auction result page",
-    "notes": "Starting price and prior sale price were not exposed in the public Phillips sale payload. Enriched from Phillips public lot detail page.",
-    "medium": "oil, beads and ceramic on canvas",
-    "dimensions": "82 5/8 x 64 in. (209.9 x 162.6 cm)",
-    "provenance": "Marianne Boesky Gallery, New York\nPrivate Collection\nAcquired from the above by the present owner",
-    "literature": "Charles Hutchinson, “Michaela Yearwood-Dan brings flower power 2024 style to York Art Gallery for National Treasures: Monet in York,” CharlesHutchPress, May 16, 2024, online (illustrated)",
-    "quality_flags": {
-      "has_artist": true,
-      "has_title": true,
-      "has_auction_date": true,
-      "has_estimate": true,
-      "has_result_price": true,
-      "has_starting_price": false,
-      "has_prior_sale": false,
-      "has_source_url": true,
-      "has_image": true,
-      "has_medium": true,
-      "has_dimensions": true
-    },
-    "prediction_ready": true
-  },
-  {
-    "id": "phillips_auctions|phillips|NY010526|302",
-    "status": "sold",
-    "title": "The First to Arrive",
-    "artists": [
-      "Cynthia Hawkins"
-    ],
-    "style": "Modern & Contemporary Art: Afternoon Session",
-    "auction_house": "Phillips",
-    "auction_date": "2026-05-21",
-    "starting_price": null,
-    "estimated_selling_price": {
-      "currency": "USD",
-      "low": 40000.0,
-      "high": 60000.0,
-      "display": "$ 40,000 - 60,000"
-    },
-    "result_price": {
-      "currency": "USD",
-      "amount": 38700.0,
-      "display": "$ 38,700"
-    },
-    "last_sold_price": null,
-    "source_url": "https://www.phillips.com/detail/cynthia-hawkins/234922",
-    "record_source": "Phillips public auction result page",
-    "notes": "Starting price and prior sale price were not exposed in the public Phillips sale payload. Enriched from Phillips public lot detail page.",
-    "medium": "acrylic on canvas, in 2 parts",
-    "dimensions": "each 47 7/8 x 59 3/4 in. (121.6 x 151.8 cm)\noverall 95 3/4 x 59 3/4 in. (243.2 x 151.8 cm)",
-    "provenance": "STARS Gallery, Los Angeles\nAcquired from the above by the present owner",
-    "literature": "",
-    "quality_flags": {
-      "has_artist": true,
-      "has_title": true,
-      "has_auction_date": true,
-      "has_estimate": true,
-      "has_result_price": true,
-      "has_starting_price": false,
-      "has_prior_sale": false,
-      "has_source_url": true,
-      "has_image": true,
-      "has_medium": true,
-      "has_dimensions": true
-    },
-    "prediction_ready": true
-  },
-  {
-    "id": "phillips_auctions|phillips|NY010526|303",
-    "status": "sold",
-    "title": "Automne",
-    "artists": [
-      "Etel Adnan"
-    ],
-    "style": "Modern & Contemporary Art: Afternoon Session",
-    "auction_house": "Phillips",
-    "auction_date": "2026-05-21",
-    "starting_price": null,
-    "estimated_selling_price": {
-      "currency": "USD",
-      "low": 100000.0,
-      "high": 150000.0,
-      "display": "$ 100,000 - 150,000"
-    },
-    "result_price": {
-      "currency": "USD",
-      "amount": 193500.0,
-      "display": "$ 193,500"
-    },
-    "last_sold_price": null,
-    "source_url": "https://www.phillips.com/detail/etel-adnan/234838",
-    "record_source": "Phillips public auction result page",
-    "notes": "Starting price and prior sale price were not exposed in the public Phillips sale payload. Enriched from Phillips public lot detail page.",
-    "medium": "oil on canvas",
-    "dimensions": "13 x 16 1/8 in. (33.1 x 41 cm)",
-    "provenance": "Acquired directly from the artist by the present owner in 2020",
-    "literature": "",
-    "quality_flags": {
-      "has_artist": true,
-      "has_title": true,
-      "has_auction_date": true,
-      "has_estimate": true,
-      "has_result_price": true,
-      "has_starting_price": false,
-      "has_prior_sale": false,
-      "has_source_url": true,
-      "has_image": true,
-      "has_medium": true,
-      "has_dimensions": true
-    },
-    "prediction_ready": true
-  },
-  {
-    "id": "phillips_auctions|phillips|NY010526|304",
-    "status": "sold",
-    "title": "Everything in order",
-    "artists": [
-      "Alexis Ralaivao"
-    ],
-    "style": "Modern & Contemporary Art: Afternoon Session",
-    "auction_house": "Phillips",
-    "auction_date": "2026-05-21",
-    "starting_price": null,
-    "estimated_selling_price": {
-      "currency": "USD",
-      "low": 15000.0,
-      "high": 20000.0,
-      "display": "$ 15,000 - 20,000"
-    },
-    "result_price": {
-      "currency": "USD",
-      "amount": 38700.0,
-      "display": "$ 38,700"
-    },
-    "last_sold_price": null,
-    "source_url": "https://www.phillips.com/detail/alexis-ralaivao/234485",
-    "record_source": "Phillips public auction result page",
-    "notes": "Starting price and prior sale price were not exposed in the public Phillips sale payload. Enriched from Phillips public lot detail page.",
-    "medium": "oil on canvas",
-    "dimensions": "39 3/8 x 28 3/4 in. (100 x 73 cm)",
-    "provenance": "Bill Brady Gallery, Miami\nEstate of Bill Brady",
-    "literature": "",
-    "quality_flags": {
-      "has_artist": true,
-      "has_title": true,
-      "has_auction_date": true,
-      "has_estimate": true,
-      "has_result_price": true,
-      "has_starting_price": false,
-      "has_prior_sale": false,
-      "has_source_url": true,
-      "has_image": true,
-      "has_medium": true,
-      "has_dimensions": true
-    },
-    "prediction_ready": true
-  },
-  {
-    "id": "phillips_auctions|phillips|NY010526|305",
-    "status": "sold",
-    "title": "Ellipsis",
-    "artists": [
-      "Joseph Yaeger"
-    ],
-    "style": "Modern & Contemporary Art: Afternoon Session",
-    "auction_house": "Phillips",
-    "auction_date": "2026-05-21",
-    "starting_price": null,
-    "estimated_selling_price": {
-      "currency": "USD",
-      "low": 30000.0,
-      "high": 50000.0,
-      "display": "$ 30,000 - 50,000"
-    },
-    "result_price": {
-      "currency": "USD",
-      "amount": 51600.0,
-      "display": "$ 51,600"
-    },
-    "last_sold_price": null,
-    "source_url": "https://www.phillips.com/detail/joseph-yaeger/233881",
-    "record_source": "Phillips public auction result page",
-    "notes": "Starting price and prior sale price were not exposed in the public Phillips sale payload. Enriched from Phillips public lot detail page.",
-    "medium": "watercolor on gessoed canvas",
-    "dimensions": "20 1/8 x 24 1/8 in. (51.1 x 61.3 cm)",
-    "provenance": "Project Native Informant LTD, London\nAcquired from the above by the present owner",
-    "literature": "",
-    "quality_flags": {
-      "has_artist": true,
-      "has_title": true,
-      "has_auction_date": true,
-      "has_estimate": true,
-      "has_result_price": true,
-      "has_starting_price": false,
-      "has_prior_sale": false,
-      "has_source_url": true,
-      "has_image": true,
-      "has_medium": true,
-      "has_dimensions": true
-    },
-    "prediction_ready": true
-  },
-  {
-    "id": "christies_results|christie's|31036|401",
-    "status": "sold",
-    "title": "Untitled (7.2.89)",
-    "artists": [
-      "GERHARD RICHTER (B. 1932)"
-    ],
-    "style": "Post-War and Contemporary Art Day Sale",
-    "auction_house": "Christie's",
-    "auction_date": "2026-05-21",
-    "starting_price": null,
-    "estimated_selling_price": {
-      "currency": "USD",
-      "low": 60000.0,
-      "high": 80000.0,
-      "display": "USD 60,000 - 80,000"
-    },
-    "result_price": {
-      "currency": "USD",
-      "amount": 330200.0,
-      "display": "USD 330,200"
-    },
-    "last_sold_price": null,
-    "source_url": "https://www.christies.com/en/lot/lot-6585915?ldp_breadcrumb=back",
-    "record_source": "Christie's public auction result page",
-    "notes": "Starting price and prior sale price were not exposed in the public lot-list payload. Enriched from Christie's public lot detail page.",
-    "medium": "oil on photograph",
-    "dimensions": "5 ¾ x 4 in. (14.6 x 10.2 cm.)",
-    "provenance": "Acquired directly from the artist by the late owner, 1989",
-    "literature": "J. Hage and H. U. Obrist, eds., Gerhard Richter: The Overpainted Photographs, A Comprehensive Catalogue, London, 2024, p. 9.",
-    "quality_flags": {
-      "has_artist": true,
-      "has_title": true,
-      "has_auction_date": true,
-      "has_estimate": true,
-      "has_result_price": true,
-      "has_starting_price": false,
-      "has_prior_sale": false,
-      "has_source_url": true,
-      "has_image": true,
-      "has_medium": true,
-      "has_dimensions": true
-    },
-    "prediction_ready": true
-  },
-  {
-    "id": "christies_results|christie's|31036|402",
-    "status": "sold",
-    "title": "Untitled",
-    "artists": [
-      "FRANZ KLINE (1910-1962)"
-    ],
-    "style": "Post-War and Contemporary Art Day Sale",
-    "auction_house": "Christie's",
-    "auction_date": "2026-05-21",
-    "starting_price": null,
-    "estimated_selling_price": {
-      "currency": "USD",
-      "low": 120000.0,
-      "high": 180000.0,
-      "display": "USD 120,000 - 180,000"
-    },
-    "result_price": {
-      "currency": "USD",
-      "amount": 254000.0,
-      "display": "USD 254,000"
-    },
-    "last_sold_price": null,
-    "source_url": "https://www.christies.com/en/lot/lot-6585916?ldp_breadcrumb=back",
-    "record_source": "Christie's public auction result page",
-    "notes": "Starting price and prior sale price were not exposed in the public lot-list payload. Enriched from Christie's public lot detail page.",
-    "medium": "oil on paper mounted on panel",
-    "dimensions": "11 ¾ x 13 1⁄8 in. (28.7 x 33.3 cm.)",
-    "provenance": "Gift of the artist to the late owner",
-    "literature": "T. Atencio Demirdjian, For Art's Sake: Inside the Homes of Art Dealers, New York, 2020, pp. 208, 216 and 218-219 (illustrated in situ).",
-    "quality_flags": {
-      "has_artist": true,
-      "has_title": true,
-      "has_auction_date": true,
-      "has_estimate": true,
-      "has_result_price": true,
-      "has_starting_price": false,
-      "has_prior_sale": false,
-      "has_source_url": true,
-      "has_image": true,
-      "has_medium": true,
-      "has_dimensions": true
-    },
-    "prediction_ready": true
-  },
-  {
-    "id": "christies_results|christie's|31036|403",
-    "status": "sold",
-    "title": "18 December 2008",
-    "artists": [
-      "GERHARD RICHTER (B. 1932)"
-    ],
-    "style": "Post-War and Contemporary Art Day Sale",
-    "auction_house": "Christie's",
-    "auction_date": "2026-05-21",
-    "starting_price": null,
-    "estimated_selling_price": {
-      "currency": "USD",
-      "low": 80000.0,
-      "high": 120000.0,
-      "display": "USD 80,000 - 120,000"
-    },
-    "result_price": {
-      "currency": "USD",
-      "amount": 482600.0,
-      "display": "USD 482,600"
-    },
-    "last_sold_price": null,
-    "source_url": "https://www.christies.com/en/lot/lot-6585917?ldp_breadcrumb=back",
-    "record_source": "Christie's public auction result page",
-    "notes": "Starting price and prior sale price were not exposed in the public lot-list payload. Enriched from Christie's public lot detail page.",
-    "medium": "enameled lacquer on printed paper",
-    "dimensions": "5 5⁄8 x 8 1⁄8 in. (13.8 x 20.6 cm.)",
-    "provenance": "Gift of the artist to the late owner",
-    "literature": "",
-    "quality_flags": {
-      "has_artist": true,
-      "has_title": true,
-      "has_auction_date": true,
-      "has_estimate": true,
-      "has_result_price": true,
-      "has_starting_price": false,
-      "has_prior_sale": false,
-      "has_source_url": true,
-      "has_image": true,
-      "has_medium": true,
-      "has_dimensions": true
-    },
-    "prediction_ready": true
-  },
-  {
-    "id": "christies_results|christie's|31036|404",
-    "status": "sold",
-    "title": "Usuyuki",
-    "artists": [
-      "JASPER JOHNS (B. 1930)"
-    ],
-    "style": "Post-War and Contemporary Art Day Sale",
-    "auction_house": "Christie's",
-    "auction_date": "2026-05-21",
-    "starting_price": null,
-    "estimated_selling_price": {
-      "currency": "USD",
-      "low": 100000.0,
-      "high": 150000.0,
-      "display": "USD 100,000 - 150,000"
-    },
-    "result_price": {
-      "currency": "USD",
-      "amount": 381000.0,
-      "display": "USD 381,000"
-    },
-    "last_sold_price": null,
-    "source_url": "https://www.christies.com/en/lot/lot-6585918?ldp_breadcrumb=back",
-    "record_source": "Christie's public auction result page",
-    "notes": "Starting price and prior sale price were not exposed in the public lot-list payload. Enriched from Christie's public lot detail page.",
-    "medium": "screenprint in colors on Kurotani Kozo paper",
-    "dimensions": "image: 27 ½ x 45 7⁄8 in. (69.9 x 116.5 cm.)",
-    "provenance": "Acquired directly from the artist by the late owner",
-    "literature": "R. S. Field, The Prints of Jasper Johns 1960-1993: A Catalogue Raisonné, West Islip, New York, 1994, n.p., no. 227 (another example illustrated).",
-    "quality_flags": {
-      "has_artist": true,
-      "has_title": true,
-      "has_auction_date": true,
-      "has_estimate": true,
-      "has_result_price": true,
-      "has_starting_price": false,
-      "has_prior_sale": false,
-      "has_source_url": true,
-      "has_image": true,
-      "has_medium": true,
-      "has_dimensions": true
-    },
-    "prediction_ready": true
-  },
-  {
-    "id": "christies_results|christie's|31036|405",
-    "status": "sold",
-    "title": "Abstraktes Bild",
-    "artists": [
-      "GERHARD RICHTER (B. 1932)"
-    ],
-    "style": "Post-War and Contemporary Art Day Sale",
-    "auction_house": "Christie's",
-    "auction_date": "2026-05-21",
-    "starting_price": null,
-    "estimated_selling_price": {
-      "currency": "USD",
-      "low": 750000.0,
-      "high": 1000000.0,
-      "display": "USD 750,000 - 1,000,000"
-    },
-    "result_price": {
-      "currency": "USD",
-      "amount": 889000.0,
-      "display": "USD 889,000"
-    },
-    "last_sold_price": null,
-    "source_url": "https://www.christies.com/en/lot/lot-6585919?ldp_breadcrumb=back",
-    "record_source": "Christie's public auction result page",
-    "notes": "Starting price and prior sale price were not exposed in the public lot-list payload. Enriched from Christie's public lot detail page.",
-    "medium": "oil on canvas",
-    "dimensions": "16 x 14 1⁄8 in. (40.6 x 36 cm.)",
-    "provenance": "Acquired directly from the artist by the late owner, 1999",
-    "literature": "Gerhard Richter, exh. cat., London, Anthony d'Offay Gallery, 1998, pp. 94 and 106 (illustrated).\nA. Zweite, Gerhard Richter: Catalogue Raisonné 1993-2004, Düsseldorf, 2005, pp. 276 and 311, no. 833-4 (illustrated).\nD. Elger, ed., Gerhard Richter Catalogue Raisonné, Volume 5, Nos. 806-899, 1994-2006, Berlin, 2019, p. 180, no. 833-4 (illustrated).",
-    "quality_flags": {
-      "has_artist": true,
-      "has_title": true,
-      "has_auction_date": true,
-      "has_estimate": true,
-      "has_result_price": true,
-      "has_starting_price": false,
-      "has_prior_sale": false,
-      "has_source_url": true,
-      "has_image": true,
-      "has_medium": true,
-      "has_dimensions": true
-    },
-    "prediction_ready": true
-  },
-  {
-    "id": "christies_results|christie's|31036|406",
-    "status": "sold",
-    "title": "3. Juli 2015",
-    "artists": [
-      "GERHARD RICHTER (B. 1932)"
-    ],
-    "style": "Post-War and Contemporary Art Day Sale",
-    "auction_house": "Christie's",
-    "auction_date": "2026-05-21",
-    "starting_price": null,
-    "estimated_selling_price": {
-      "currency": "USD",
-      "low": 60000.0,
-      "high": 80000.0,
-      "display": "USD 60,000 - 80,000"
-    },
-    "result_price": {
-      "currency": "USD",
-      "amount": 69850.0,
-      "display": "USD 69,850"
-    },
-    "last_sold_price": null,
-    "source_url": "https://www.christies.com/en/lot/lot-6585920?ldp_breadcrumb=back",
-    "record_source": "Christie's public auction result page",
-    "notes": "Starting price and prior sale price were not exposed in the public lot-list payload.",
-    "medium": "",
-    "dimensions": "",
-    "provenance": "",
-    "literature": "",
-    "quality_flags": {
-      "has_artist": true,
-      "has_title": true,
-      "has_auction_date": true,
-      "has_estimate": true,
-      "has_result_price": true,
-      "has_starting_price": false,
-      "has_prior_sale": false,
-      "has_source_url": true,
-      "has_image": true,
-      "has_medium": false,
-      "has_dimensions": false
-    },
-    "prediction_ready": true
-  },
-  {
-    "id": "christies_results|christie's|31036|407",
-    "status": "sold",
-    "title": "Johannisnacht IV",
-    "artists": [
-      "ANSELM KIEFER (B. 1945)"
-    ],
-    "style": "Post-War and Contemporary Art Day Sale",
-    "auction_house": "Christie's",
-    "auction_date": "2026-05-21",
-    "starting_price": null,
-    "estimated_selling_price": {
-      "currency": "USD",
-      "low": 80000.0,
-      "high": 120000.0,
-      "display": "USD 80,000 - 120,000"
-    },
-    "result_price": {
-      "currency": "USD",
-      "amount": 139700.0,
-      "display": "USD 139,700"
-    },
-    "last_sold_price": null,
-    "source_url": "https://www.christies.com/en/lot/lot-6585921?ldp_breadcrumb=back",
-    "record_source": "Christie's public auction result page",
-    "notes": "Starting price and prior sale price were not exposed in the public lot-list payload.",
-    "medium": "",
-    "dimensions": "",
-    "provenance": "",
-    "literature": "",
-    "quality_flags": {
-      "has_artist": true,
-      "has_title": true,
-      "has_auction_date": true,
-      "has_estimate": true,
-      "has_result_price": true,
-      "has_starting_price": false,
-      "has_prior_sale": false,
-      "has_source_url": true,
-      "has_image": true,
-      "has_medium": false,
-      "has_dimensions": false
-    },
-    "prediction_ready": true
-  },
-  {
-    "id": "christies_results|christie's|31036|408",
-    "status": "sold",
-    "title": "Ceramic Sketch",
-    "artists": [
-      "THOMAS SCHÜTTE (B. 1954)"
-    ],
-    "style": "Post-War and Contemporary Art Day Sale",
-    "auction_house": "Christie's",
-    "auction_date": "2026-05-21",
-    "starting_price": null,
-    "estimated_selling_price": {
-      "currency": "USD",
-      "low": 50000.0,
-      "high": 70000.0,
-      "display": "USD 50,000 - 70,000"
-    },
-    "result_price": {
-      "currency": "USD",
-      "amount": 27940.0,
-      "display": "USD 27,940"
-    },
-    "last_sold_price": null,
-    "source_url": "https://www.christies.com/en/lot/lot-6585922?ldp_breadcrumb=back",
-    "record_source": "Christie's public auction result page",
-    "notes": "Starting price and prior sale price were not exposed in the public lot-list payload.",
-    "medium": "",
-    "dimensions": "",
-    "provenance": "",
-    "literature": "",
-    "quality_flags": {
-      "has_artist": true,
-      "has_title": true,
-      "has_auction_date": true,
-      "has_estimate": true,
-      "has_result_price": true,
-      "has_starting_price": false,
-      "has_prior_sale": false,
-      "has_source_url": true,
-      "has_image": true,
-      "has_medium": false,
-      "has_dimensions": false
-    },
-    "prediction_ready": true
-  },
-  {
-    "id": "christies_results|christie's|31036|409",
-    "status": "sold",
-    "title": "Der Kyffhäuser",
-    "artists": [
-      "ANSELM KIEFER (B. 1945)"
-    ],
-    "style": "Post-War and Contemporary Art Day Sale",
-    "auction_house": "Christie's",
-    "auction_date": "2026-05-21",
-    "starting_price": null,
-    "estimated_selling_price": {
-      "currency": "USD",
-      "low": 30000.0,
-      "high": 50000.0,
-      "display": "USD 30,000 - 50,000"
-    },
-    "result_price": {
-      "currency": "USD",
-      "amount": 44450.0,
-      "display": "USD 44,450"
-    },
-    "last_sold_price": null,
-    "source_url": "https://www.christies.com/en/lot/lot-6585923?ldp_breadcrumb=back",
-    "record_source": "Christie's public auction result page",
-    "notes": "Starting price and prior sale price were not exposed in the public lot-list payload.",
-    "medium": "",
-    "dimensions": "",
-    "provenance": "",
-    "literature": "",
-    "quality_flags": {
-      "has_artist": true,
-      "has_title": true,
-      "has_auction_date": true,
-      "has_estimate": true,
-      "has_result_price": true,
-      "has_starting_price": false,
-      "has_prior_sale": false,
-      "has_source_url": true,
-      "has_image": true,
-      "has_medium": false,
-      "has_dimensions": false
-    },
-    "prediction_ready": true
-  },
-  {
-    "id": "christies_results|christie's|31036|410",
-    "status": "sold",
-    "title": "Ella",
-    "artists": [
-      "GERHARD RICHTER (B. 1932)"
-    ],
-    "style": "Post-War and Contemporary Art Day Sale",
-    "auction_house": "Christie's",
-    "auction_date": "2026-05-21",
-    "starting_price": null,
-    "estimated_selling_price": {
-      "currency": "USD",
-      "low": 25000.0,
-      "high": 35000.0,
-      "display": "USD 25,000 - 35,000"
-    },
-    "result_price": {
-      "currency": "USD",
-      "amount": 78740.0,
-      "display": "USD 78,740"
-    },
-    "last_sold_price": null,
-    "source_url": "https://www.christies.com/en/lot/lot-6585924?ldp_breadcrumb=back",
-    "record_source": "Christie's public auction result page",
-    "notes": "Starting price and prior sale price were not exposed in the public lot-list payload.",
-    "medium": "",
-    "dimensions": "",
-    "provenance": "",
-    "literature": "",
-    "quality_flags": {
-      "has_artist": true,
-      "has_title": true,
-      "has_auction_date": true,
-      "has_estimate": true,
-      "has_result_price": true,
-      "has_starting_price": false,
-      "has_prior_sale": false,
-      "has_source_url": true,
-      "has_image": true,
-      "has_medium": false,
-      "has_dimensions": false
-    },
-    "prediction_ready": true
-  },
-  {
-    "id": "christies_results|christie's|31036|411",
-    "status": "sold",
-    "title": "20 February 2002",
-    "artists": [
-      "GERHARD RICHTER (B. 1932)"
-    ],
-    "style": "Post-War and Contemporary Art Day Sale",
-    "auction_house": "Christie's",
-    "auction_date": "2026-05-21",
-    "starting_price": null,
-    "estimated_selling_price": {
-      "currency": "USD",
-      "low": 30000.0,
-      "high": 50000.0,
-      "display": "USD 30,000 - 50,000"
-    },
-    "result_price": {
-      "currency": "USD",
-      "amount": 139700.0,
-      "display": "USD 139,700"
-    },
-    "last_sold_price": null,
-    "source_url": "https://www.christies.com/en/lot/lot-6585925?ldp_breadcrumb=back",
-    "record_source": "Christie's public auction result page",
-    "notes": "Starting price and prior sale price were not exposed in the public lot-list payload.",
-    "medium": "",
-    "dimensions": "",
-    "provenance": "",
-    "literature": "",
-    "quality_flags": {
-      "has_artist": true,
-      "has_title": true,
-      "has_auction_date": true,
-      "has_estimate": true,
-      "has_result_price": true,
-      "has_starting_price": false,
-      "has_prior_sale": false,
-      "has_source_url": true,
-      "has_image": true,
-      "has_medium": false,
-      "has_dimensions": false
-    },
-    "prediction_ready": true
-  },
-  {
-    "id": "christies_results|christie's|31036|412",
-    "status": "sold",
-    "title": "Map Drawing (Sud-Polar-Karte)",
-    "artists": [
-      "WILLIAM KENTRIDGE (B. 1955)"
-    ],
-    "style": "Post-War and Contemporary Art Day Sale",
-    "auction_house": "Christie's",
-    "auction_date": "2026-05-21",
-    "starting_price": null,
-    "estimated_selling_price": {
-      "currency": "USD",
-      "low": 30000.0,
-      "high": 50000.0,
-      "display": "USD 30,000 - 50,000"
-    },
-    "result_price": {
-      "currency": "USD",
-      "amount": 48260.0,
-      "display": "USD 48,260"
-    },
-    "last_sold_price": null,
-    "source_url": "https://www.christies.com/en/lot/lot-6585926?ldp_breadcrumb=back",
-    "record_source": "Christie's public auction result page",
-    "notes": "Starting price and prior sale price were not exposed in the public lot-list payload.",
-    "medium": "",
-    "dimensions": "",
-    "provenance": "",
-    "literature": "",
-    "quality_flags": {
-      "has_artist": true,
-      "has_title": true,
-      "has_auction_date": true,
-      "has_estimate": true,
-      "has_result_price": true,
-      "has_starting_price": false,
-      "has_prior_sale": false,
-      "has_source_url": true,
-      "has_image": true,
-      "has_medium": false,
-      "has_dimensions": false
-    },
-    "prediction_ready": true
-  },
-  {
-    "id": "sothebys_results|sotheby's|016637c6-b78d-430c-a043-475a3aa5b654|301",
-    "status": "auctioned",
-    "title": "Sin título",
-    "artists": [
-      "Bridget Bate Tichenor"
-    ],
-    "style": "Modern Day Auction",
-    "auction_house": "Sotheby's",
-    "auction_date": "2026-05-20",
-    "starting_price": null,
-    "estimated_selling_price": {
-      "currency": "USD",
-      "low": 40000.0,
-      "high": 60000.0,
-      "display": "USD 40,000 - 60,000"
-    },
-    "result_price": null,
-    "last_sold_price": null,
-    "source_url": "https://www.sothebys.com/en/buy/auction/2026/modern-day-auction/sin-titulo-4",
-    "record_source": "Sotheby's public auction result page",
-    "notes": "Starting price, realized price, and prior sale price were not exposed in the sampled public Sotheby's payload. Enriched from Sotheby's public lot detail page.",
-    "medium": "oil on canvas",
-    "dimensions": "8 by 8 in.",
-    "provenance": "Private Collection, Mexico City (acquired directly from the artist)\nPrivate Collection, Mexico City (acquired from the above circa 2010)\nAcquired from the above by the present owner",
-    "literature": "",
-    "quality_flags": {
-      "has_artist": true,
-      "has_title": true,
-      "has_auction_date": true,
-      "has_estimate": true,
-      "has_result_price": false,
-      "has_starting_price": false,
-      "has_prior_sale": false,
-      "has_source_url": true,
-      "has_image": true,
-      "has_medium": true,
-      "has_dimensions": true
-    },
-    "prediction_ready": false
-  },
-  {
-    "id": "sothebys_results|sotheby's|016637c6-b78d-430c-a043-475a3aa5b654|302",
-    "status": "auctioned",
-    "title": "Błąd (Error)",
-    "artists": [
-      "Anna Güntner"
-    ],
-    "style": "Modern Day Auction",
-    "auction_house": "Sotheby's",
-    "auction_date": "2026-05-20",
-    "starting_price": null,
-    "estimated_selling_price": {
-      "currency": "USD",
-      "low": 50000.0,
-      "high": 70000.0,
-      "display": "USD 50,000 - 70,000"
-    },
-    "result_price": null,
-    "last_sold_price": null,
-    "source_url": "https://www.sothebys.com/en/buy/auction/2026/modern-day-auction/blad-error",
-    "record_source": "Sotheby's public auction result page",
-    "notes": "Starting price, realized price, and prior sale price were not exposed in the sampled public Sotheby's payload. Enriched from Sotheby's public lot detail page.",
-    "medium": "oil on canvas",
-    "dimensions": "43 by 27 ⅝ in.",
-    "provenance": "DESA Foreign Trade Company, Warsaw\nBodley Gallery, New York\nEwa Pape, New York\nAcquired from the above circa 1971 by the present owner",
-    "literature": "Exh. Cat., Kraków, Nowa Huta Cultural Centre and Galeria Artemis, Anna Güntner, Painting, 2022, p. 154, illustrated in color (with incorrect dimensions)",
-    "quality_flags": {
-      "has_artist": true,
-      "has_title": true,
-      "has_auction_date": true,
-      "has_estimate": true,
-      "has_result_price": false,
-      "has_starting_price": false,
-      "has_prior_sale": false,
-      "has_source_url": true,
-      "has_image": true,
-      "has_medium": true,
-      "has_dimensions": true
-    },
-    "prediction_ready": false
-  },
-  {
-    "id": "sothebys_results|sotheby's|016637c6-b78d-430c-a043-475a3aa5b654|303",
-    "status": "auctioned",
-    "title": "Le Temps",
-    "artists": [
-      "Jane Graverol"
-    ],
-    "style": "Modern Day Auction",
-    "auction_house": "Sotheby's",
-    "auction_date": "2026-05-20",
-    "starting_price": null,
-    "estimated_selling_price": {
-      "currency": "USD",
-      "low": 30000.0,
-      "high": 50000.0,
-      "display": "USD 30,000 - 50,000"
-    },
-    "result_price": null,
-    "last_sold_price": null,
-    "source_url": "https://www.sothebys.com/en/buy/auction/2026/modern-day-auction/le-temps",
-    "record_source": "Sotheby's public auction result page",
-    "notes": "Starting price, realized price, and prior sale price were not exposed in the sampled public Sotheby's payload. Enriched from Sotheby's public lot detail page.",
-    "medium": "oil on board",
-    "dimensions": "15 ⅝ by 19 ⅝ in.",
-    "provenance": "Private Collection, Uccle, Belgium (acquired in the 1960s)\nThence by descent to the present owner",
-    "literature": "",
-    "quality_flags": {
-      "has_artist": true,
-      "has_title": true,
-      "has_auction_date": true,
-      "has_estimate": true,
-      "has_result_price": false,
-      "has_starting_price": false,
-      "has_prior_sale": false,
-      "has_source_url": true,
-      "has_image": true,
-      "has_medium": true,
-      "has_dimensions": true
-    },
-    "prediction_ready": false
-  },
-  {
-    "id": "sothebys_results|sotheby's|016637c6-b78d-430c-a043-475a3aa5b654|304",
-    "status": "auctioned",
-    "title": "Le Compotier",
-    "artists": [
-      "René Magritte"
-    ],
-    "style": "Modern Day Auction",
-    "auction_house": "Sotheby's",
-    "auction_date": "2026-05-20",
-    "starting_price": null,
-    "estimated_selling_price": {
-      "currency": "USD",
-      "low": 800000.0,
-      "high": 1200000.0,
-      "display": "USD 800,000 - 1,200,000"
-    },
-    "result_price": null,
-    "last_sold_price": null,
-    "source_url": "https://www.sothebys.com/en/buy/auction/2026/modern-day-auction/le-compotier",
-    "record_source": "Sotheby's public auction result page",
-    "notes": "Starting price, realized price, and prior sale price were not exposed in the sampled public Sotheby's payload. Enriched from Sotheby's public lot detail page.",
-    "medium": "gouache on paper",
-    "dimensions": "9 ½ by 7 ½ in.",
-    "provenance": "Alexander Iolas Gallery, New York (acquired directly from the artist)\nBodley Gallery, New York (acquired from the above in January 1959)\nMr. and Mrs. Marvin Notkins, New York (acquired from the above on 10 December 1959)\nAcquired by descent from the above by the present owner",
-    "literature": "Letter from René Magritte to Alexander Iolas, 12 November 1958\nDavid Sylvester, Sarah Whitfield and Michael Raeburn, eds., René Magritte, Catalogue Raisonné: Gouaches, Temperas, Watercolours and Papiers Collés 1918-1967, vol. IV, London, 1994, no. 1450, p. 211, illustrated",
-    "quality_flags": {
-      "has_artist": true,
-      "has_title": true,
-      "has_auction_date": true,
-      "has_estimate": true,
-      "has_result_price": false,
-      "has_starting_price": false,
-      "has_prior_sale": false,
-      "has_source_url": true,
-      "has_image": true,
-      "has_medium": true,
-      "has_dimensions": true
-    },
-    "prediction_ready": false
-  },
-  {
-    "id": "sothebys_results|sotheby's|016637c6-b78d-430c-a043-475a3aa5b654|305",
-    "status": "auctioned",
-    "title": "Le Calcul mental",
-    "artists": [
-      "René Magritte"
-    ],
-    "style": "Modern Day Auction",
-    "auction_house": "Sotheby's",
-    "auction_date": "2026-05-20",
-    "starting_price": null,
-    "estimated_selling_price": {
-      "currency": "USD",
-      "low": 250000.0,
-      "high": 350000.0,
-      "display": "USD 250,000 - 350,000"
-    },
-    "result_price": null,
-    "last_sold_price": null,
-    "source_url": "https://www.sothebys.com/en/buy/auction/2026/modern-day-auction/le-calcul-mental",
-    "record_source": "Sotheby's public auction result page",
-    "notes": "Starting price, realized price, and prior sale price were not exposed in the sampled public Sotheby's payload. Enriched from Sotheby's public lot detail page.",
-    "medium": "gouache on paper",
-    "dimensions": "11 ⅜ by 19 ¼ in.",
-    "provenance": "Galerie Tarica, Paris\nGunter Sachs, Switzerland (acquired from the above in 1963)\nSotheby's, London, 22 May 2012, lot 34 (consigned by the above)\nAcquired at the above sale by the present owner",
-    "literature": "",
-    "quality_flags": {
-      "has_artist": true,
-      "has_title": true,
-      "has_auction_date": true,
-      "has_estimate": true,
-      "has_result_price": false,
-      "has_starting_price": false,
-      "has_prior_sale": false,
-      "has_source_url": true,
-      "has_image": true,
-      "has_medium": true,
-      "has_dimensions": true
-    },
-    "prediction_ready": false
-  },
-  {
-    "id": "phillips_auctions|phillips|NY050325|1",
-    "status": "sold",
-    "title": "\"Bush\" sculpture",
-    "artists": [
-      "Harry Bertoia"
-    ],
-    "style": "Design",
-    "auction_house": "Phillips",
-    "auction_date": "2025-12-13",
-    "starting_price": null,
-    "estimated_selling_price": {
-      "currency": "USD",
-      "low": 30000.0,
-      "high": 50000.0,
-      "display": "$ 30,000 - 50,000"
-    },
-    "result_price": {
-      "currency": "USD",
-      "amount": 70950.0,
-      "display": "$ 70,950"
-    },
-    "last_sold_price": null,
-    "source_url": "https://www.phillips.com/detail/harry-bertoia/224059",
-    "record_source": "Phillips public auction result page",
-    "notes": "Starting price and prior sale price were not exposed in the public Phillips sale payload.",
-    "medium": "",
-    "dimensions": "",
-    "provenance": "",
-    "literature": "",
-    "quality_flags": {
-      "has_artist": true,
-      "has_title": true,
-      "has_auction_date": true,
-      "has_estimate": true,
-      "has_result_price": true,
-      "has_starting_price": false,
-      "has_prior_sale": false,
-      "has_source_url": true,
-      "has_image": false,
-      "has_medium": false,
-      "has_dimensions": false
-    },
-    "prediction_ready": true
-  },
-  {
-    "id": "phillips_auctions|phillips|NY050325|10",
-    "status": "sold",
-    "title": "Set of three “Mira” chairs",
-    "artists": [
-      "George Nakashima"
-    ],
-    "style": "Design",
-    "auction_house": "Phillips",
-    "auction_date": "2025-12-13",
-    "starting_price": null,
-    "estimated_selling_price": {
-      "currency": "USD",
-      "low": 2000.0,
-      "high": 3000.0,
-      "display": "$ 2,000 - 3,000"
-    },
-    "result_price": {
-      "currency": "USD",
-      "amount": 7095.0,
-      "display": "$ 7,095"
-    },
-    "last_sold_price": null,
-    "source_url": "https://www.phillips.com/detail/george-nakashima/228171",
-    "record_source": "Phillips public auction result page",
-    "notes": "Starting price and prior sale price were not exposed in the public Phillips sale payload.",
-    "medium": "",
-    "dimensions": "",
-    "provenance": "",
-    "literature": "",
-    "quality_flags": {
-      "has_artist": true,
-      "has_title": true,
-      "has_auction_date": true,
-      "has_estimate": true,
-      "has_result_price": true,
-      "has_starting_price": false,
-      "has_prior_sale": false,
-      "has_source_url": true,
-      "has_image": false,
-      "has_medium": false,
-      "has_dimensions": false
-    },
-    "prediction_ready": true
-  },
-  {
-    "id": "phillips_auctions|phillips|NY050325|11",
-    "status": "auctioned",
-    "title": "\"Minguren II\" coffee table",
-    "artists": [
-      "George Nakashima"
-    ],
-    "style": "Design",
-    "auction_house": "Phillips",
-    "auction_date": "2025-12-13",
-    "starting_price": null,
-    "estimated_selling_price": {
-      "currency": "USD",
-      "low": 80000.0,
-      "high": 120000.0,
-      "display": "$ 80,000 - 120,000"
-    },
-    "result_price": null,
-    "last_sold_price": null,
-    "source_url": "https://www.phillips.com/detail/george-nakashima/226053",
-    "record_source": "Phillips public auction result page",
-    "notes": "Starting price and prior sale price were not exposed in the public Phillips sale payload.",
-    "medium": "",
-    "dimensions": "",
-    "provenance": "",
-    "literature": "",
-    "quality_flags": {
-      "has_artist": true,
-      "has_title": true,
-      "has_auction_date": true,
-      "has_estimate": true,
-      "has_result_price": false,
-      "has_starting_price": false,
-      "has_prior_sale": false,
-      "has_source_url": true,
-      "has_image": false,
-      "has_medium": false,
-      "has_dimensions": false
-    },
-    "prediction_ready": false
-  },
-  {
-    "id": "phillips_auctions|phillips|NY050325|12",
-    "status": "sold",
-    "title": "\"Rutig Blå halvflossa\" (Chequered Blue Half Pile) carpet",
-    "artists": [
-      "Märta Måås-Fjetterström"
-    ],
-    "style": "Design",
-    "auction_house": "Phillips",
-    "auction_date": "2025-12-13",
-    "starting_price": null,
-    "estimated_selling_price": {
-      "currency": "USD",
-      "low": 15000.0,
-      "high": 20000.0,
-      "display": "$ 15,000 - 20,000"
-    },
-    "result_price": {
-      "currency": "USD",
+      "currency": "GBP",
       "amount": 19350.0,
-      "display": "$ 19,350"
+      "display": "£ 19,350"
     },
     "last_sold_price": null,
-    "source_url": "https://www.phillips.com/detail/marta-maasfjetterstrom/222829",
+    "source_url": "https://www.phillips.com/detail/keith-haring/234395",
     "record_source": "Phillips public auction result page",
     "notes": "Starting price and prior sale price were not exposed in the public Phillips sale payload.",
     "medium": "",
@@ -4043,29 +3437,29 @@
     "prediction_ready": true
   },
   {
-    "id": "phillips_auctions|phillips|NY050325|13",
+    "id": "phillips_auctions|phillips|UK030226|10",
     "status": "sold",
-    "title": "Cabinet, model no. PE-42",
+    "title": "Skulls (F. & S. 157-160)",
     "artists": [
-      "Paul Evans"
+      "Andy Warhol"
     ],
-    "style": "Design",
+    "style": "Modern & Contemporary Editions: Evening Sale",
     "auction_house": "Phillips",
-    "auction_date": "2025-12-13",
+    "auction_date": "2026-06-04",
     "starting_price": null,
     "estimated_selling_price": {
-      "currency": "USD",
-      "low": 25000.0,
-      "high": 35000.0,
-      "display": "$ 25,000 - 35,000"
+      "currency": "GBP",
+      "low": 60000.0,
+      "high": 80000.0,
+      "display": "£ 60,000 - 80,000"
     },
     "result_price": {
-      "currency": "USD",
-      "amount": 25800.0,
-      "display": "$ 25,800"
+      "currency": "GBP",
+      "amount": 96750.0,
+      "display": "£ 96,750"
     },
     "last_sold_price": null,
-    "source_url": "https://www.phillips.com/detail/paul-evans/225933",
+    "source_url": "https://www.phillips.com/detail/andy-warhol/234270",
     "record_source": "Phillips public auction result page",
     "notes": "Starting price and prior sale price were not exposed in the public Phillips sale payload.",
     "medium": "",
@@ -4088,29 +3482,29 @@
     "prediction_ready": true
   },
   {
-    "id": "phillips_auctions|phillips|NY050325|14",
+    "id": "phillips_auctions|phillips|UK030226|11",
     "status": "sold",
-    "title": "\"Royal Spathe\" and \"Seed\" sculptures",
+    "title": "Shadows II: one print (see F. & S. 210-215)",
     "artists": [
-      "Michele Oka Doner"
+      "Andy Warhol"
     ],
-    "style": "Design",
+    "style": "Modern & Contemporary Editions: Evening Sale",
     "auction_house": "Phillips",
-    "auction_date": "2025-12-13",
+    "auction_date": "2026-06-04",
     "starting_price": null,
     "estimated_selling_price": {
-      "currency": "USD",
-      "low": 2000.0,
-      "high": 3000.0,
-      "display": "$ 2,000 - 3,000"
+      "currency": "GBP",
+      "low": 15000.0,
+      "high": 20000.0,
+      "display": "£ 15,000 - 20,000"
     },
     "result_price": {
-      "currency": "USD",
-      "amount": 2838.0,
-      "display": "$ 2,838"
+      "currency": "GBP",
+      "amount": 19350.0,
+      "display": "£ 19,350"
     },
     "last_sold_price": null,
-    "source_url": "https://www.phillips.com/detail/michele-oka-doner/211724",
+    "source_url": "https://www.phillips.com/detail/andy-warhol/235002",
     "record_source": "Phillips public auction result page",
     "notes": "Starting price and prior sale price were not exposed in the public Phillips sale payload.",
     "medium": "",
@@ -4133,29 +3527,29 @@
     "prediction_ready": true
   },
   {
-    "id": "phillips_auctions|phillips|NY050325|15",
+    "id": "phillips_auctions|phillips|UK030226|12",
     "status": "sold",
-    "title": "Dining table",
+    "title": "Calves Head Giant and Stewed Cepes, from Wild Raspberries (F. & S. IV.129)",
     "artists": [
-      "Wendell Castle"
+      "Andy Warhol"
     ],
-    "style": "Design",
+    "style": "Modern & Contemporary Editions: Evening Sale",
     "auction_house": "Phillips",
-    "auction_date": "2025-12-13",
+    "auction_date": "2026-06-04",
     "starting_price": null,
     "estimated_selling_price": {
-      "currency": "USD",
-      "low": 150000.0,
-      "high": 200000.0,
-      "display": "$ 150,000 - 200,000"
+      "currency": "GBP",
+      "low": 1000.0,
+      "high": 1200.0,
+      "display": "£ 1,000 - 1,200"
     },
     "result_price": {
-      "currency": "USD",
-      "amount": 141900.0,
-      "display": "$ 141,900"
+      "currency": "GBP",
+      "amount": 1677.0,
+      "display": "£ 1,677"
     },
     "last_sold_price": null,
-    "source_url": "https://www.phillips.com/detail/wendell-castle/227973",
+    "source_url": "https://www.phillips.com/detail/andy-warhol/234471",
     "record_source": "Phillips public auction result page",
     "notes": "Starting price and prior sale price were not exposed in the public Phillips sale payload.",
     "medium": "",
@@ -4178,119 +3572,29 @@
     "prediction_ready": true
   },
   {
-    "id": "phillips_auctions|phillips|NY050325|16",
+    "id": "phillips_auctions|phillips|UK030226|13",
     "status": "sold",
-    "title": "Set of six chairs",
+    "title": "F-111 (G. 73)",
     "artists": [
-      "Wendell Castle"
+      "James Rosenquist"
     ],
-    "style": "Design",
+    "style": "Modern & Contemporary Editions: Evening Sale",
     "auction_house": "Phillips",
-    "auction_date": "2025-12-13",
+    "auction_date": "2026-06-04",
     "starting_price": null,
     "estimated_selling_price": {
-      "currency": "USD",
-      "low": 50000.0,
-      "high": 70000.0,
-      "display": "$ 50,000 - 70,000"
-    },
-    "result_price": {
-      "currency": "USD",
-      "amount": 51600.0,
-      "display": "$ 51,600"
-    },
-    "last_sold_price": null,
-    "source_url": "https://www.phillips.com/detail/wendell-castle/227974",
-    "record_source": "Phillips public auction result page",
-    "notes": "Starting price and prior sale price were not exposed in the public Phillips sale payload.",
-    "medium": "",
-    "dimensions": "",
-    "provenance": "",
-    "literature": "",
-    "quality_flags": {
-      "has_artist": true,
-      "has_title": true,
-      "has_auction_date": true,
-      "has_estimate": true,
-      "has_result_price": true,
-      "has_starting_price": false,
-      "has_prior_sale": false,
-      "has_source_url": true,
-      "has_image": false,
-      "has_medium": false,
-      "has_dimensions": false
-    },
-    "prediction_ready": true
-  },
-  {
-    "id": "phillips_auctions|phillips|NY050325|17",
-    "status": "sold",
-    "title": "Side chair, designed for the John Pierpont Morgan residence, Madison Avenue, New York",
-    "artists": [
-      "Herter Brothers"
-    ],
-    "style": "Design",
-    "auction_house": "Phillips",
-    "auction_date": "2025-12-13",
-    "starting_price": null,
-    "estimated_selling_price": {
-      "currency": "USD",
-      "low": 10000.0,
-      "high": 15000.0,
-      "display": "$ 10,000 - 15,000"
-    },
-    "result_price": {
-      "currency": "USD",
-      "amount": 37410.0,
-      "display": "$ 37,410"
-    },
-    "last_sold_price": null,
-    "source_url": "https://www.phillips.com/detail/herter-brothers/228040",
-    "record_source": "Phillips public auction result page",
-    "notes": "Starting price and prior sale price were not exposed in the public Phillips sale payload.",
-    "medium": "",
-    "dimensions": "",
-    "provenance": "",
-    "literature": "",
-    "quality_flags": {
-      "has_artist": true,
-      "has_title": true,
-      "has_auction_date": true,
-      "has_estimate": true,
-      "has_result_price": true,
-      "has_starting_price": false,
-      "has_prior_sale": false,
-      "has_source_url": true,
-      "has_image": false,
-      "has_medium": false,
-      "has_dimensions": false
-    },
-    "prediction_ready": true
-  },
-  {
-    "id": "phillips_auctions|phillips|NY050325|18",
-    "status": "sold",
-    "title": "Pair of mirrors",
-    "artists": [
-      "Carlo Bugatti"
-    ],
-    "style": "Design",
-    "auction_house": "Phillips",
-    "auction_date": "2025-12-13",
-    "starting_price": null,
-    "estimated_selling_price": {
-      "currency": "USD",
+      "currency": "GBP",
       "low": 30000.0,
       "high": 50000.0,
-      "display": "$ 30,000 - 50,000"
+      "display": "£ 30,000 - 50,000"
     },
     "result_price": {
-      "currency": "USD",
-      "amount": 41280.0,
-      "display": "$ 41,280"
+      "currency": "GBP",
+      "amount": 33540.0,
+      "display": "£ 33,540"
     },
     "last_sold_price": null,
-    "source_url": "https://www.phillips.com/detail/carlo-bugatti/224768",
+    "source_url": "https://www.phillips.com/detail/james-rosenquist/233165",
     "record_source": "Phillips public auction result page",
     "notes": "Starting price and prior sale price were not exposed in the public Phillips sale payload.",
     "medium": "",
@@ -4313,70 +3617,115 @@
     "prediction_ready": true
   },
   {
-    "id": "phillips_auctions|phillips|NY050325|19",
+    "id": "phillips_auctions|phillips|UK030226|14",
     "status": "auctioned",
-    "title": "\"Flammé\" vase",
+    "title": "The Magic Sleeves",
     "artists": [
-      "Taxile Doat"
+      "Jim Dine"
     ],
-    "style": "Design",
+    "style": "Modern & Contemporary Editions: Evening Sale",
     "auction_house": "Phillips",
-    "auction_date": "2025-12-13",
+    "auction_date": "2026-06-04",
     "starting_price": null,
     "estimated_selling_price": {
-      "currency": "USD",
+      "currency": "GBP",
+      "low": 3000.0,
+      "high": 5000.0,
+      "display": "£ 3,000 - 5,000"
+    },
+    "result_price": null,
+    "last_sold_price": null,
+    "source_url": "https://www.phillips.com/detail/jim-dine/230101",
+    "record_source": "Phillips public auction result page",
+    "notes": "Starting price and prior sale price were not exposed in the public Phillips sale payload.",
+    "medium": "",
+    "dimensions": "",
+    "provenance": "",
+    "literature": "",
+    "quality_flags": {
+      "has_artist": true,
+      "has_title": true,
+      "has_auction_date": true,
+      "has_estimate": true,
+      "has_result_price": false,
+      "has_starting_price": false,
+      "has_prior_sale": false,
+      "has_source_url": true,
+      "has_image": false,
+      "has_medium": false,
+      "has_dimensions": false
+    },
+    "prediction_ready": false
+  },
+  {
+    "id": "phillips_auctions|phillips|UK030226|15",
+    "status": "sold",
+    "title": "Brigitte Bardot; and Baby Baby Wild Things (H. & I. 22-27)",
+    "artists": [
+      "Gerald Laing"
+    ],
+    "style": "Modern & Contemporary Editions: Evening Sale",
+    "auction_house": "Phillips",
+    "auction_date": "2026-06-04",
+    "starting_price": null,
+    "estimated_selling_price": {
+      "currency": "GBP",
+      "low": 15000.0,
+      "high": 20000.0,
+      "display": "£ 15,000 - 20,000"
+    },
+    "result_price": {
+      "currency": "GBP",
+      "amount": 28380.0,
+      "display": "£ 28,380"
+    },
+    "last_sold_price": null,
+    "source_url": "https://www.phillips.com/detail/gerald-laing/235567",
+    "record_source": "Phillips public auction result page",
+    "notes": "Starting price and prior sale price were not exposed in the public Phillips sale payload.",
+    "medium": "",
+    "dimensions": "",
+    "provenance": "",
+    "literature": "",
+    "quality_flags": {
+      "has_artist": true,
+      "has_title": true,
+      "has_auction_date": true,
+      "has_estimate": true,
+      "has_result_price": true,
+      "has_starting_price": false,
+      "has_prior_sale": false,
+      "has_source_url": true,
+      "has_image": false,
+      "has_medium": false,
+      "has_dimensions": false
+    },
+    "prediction_ready": true
+  },
+  {
+    "id": "phillips_auctions|phillips|UK030226|16",
+    "status": "sold",
+    "title": "The London Suite",
+    "artists": [
+      "Peter Blake"
+    ],
+    "style": "Modern & Contemporary Editions: Evening Sale",
+    "auction_house": "Phillips",
+    "auction_date": "2026-06-04",
+    "starting_price": null,
+    "estimated_selling_price": {
+      "currency": "GBP",
       "low": 5000.0,
       "high": 7000.0,
-      "display": "$ 5,000 - 7,000"
-    },
-    "result_price": null,
-    "last_sold_price": null,
-    "source_url": "https://www.phillips.com/detail/taxile-doat/228416",
-    "record_source": "Phillips public auction result page",
-    "notes": "Starting price and prior sale price were not exposed in the public Phillips sale payload.",
-    "medium": "",
-    "dimensions": "",
-    "provenance": "",
-    "literature": "",
-    "quality_flags": {
-      "has_artist": true,
-      "has_title": true,
-      "has_auction_date": true,
-      "has_estimate": true,
-      "has_result_price": false,
-      "has_starting_price": false,
-      "has_prior_sale": false,
-      "has_source_url": true,
-      "has_image": false,
-      "has_medium": false,
-      "has_dimensions": false
-    },
-    "prediction_ready": false
-  },
-  {
-    "id": "phillips_auctions|phillips|NY050325|2",
-    "status": "sold",
-    "title": "Pair of \"Greenrock\" ottomans",
-    "artists": [
-      "George Nakashima"
-    ],
-    "style": "Design",
-    "auction_house": "Phillips",
-    "auction_date": "2025-12-13",
-    "starting_price": null,
-    "estimated_selling_price": {
-      "currency": "USD",
-      "low": 12000.0,
-      "high": 18000.0,
-      "display": "$ 12,000 - 18,000"
+      "display": "£ 5,000 - 7,000"
     },
     "result_price": {
-      "currency": "USD",
-      "amount": 30960.0,
-      "display": "$ 30,960"
+      "currency": "GBP",
+      "amount": 6450.0,
+      "display": "£ 6,450"
     },
     "last_sold_price": null,
-    "source_url": "https://www.phillips.com/detail/george-nakashima/227966",
+    "source_url": "https://www.phillips.com/detail/peter-blake/233380",
     "record_source": "Phillips public auction result page",
     "notes": "Starting price and prior sale price were not exposed in the public Phillips sale payload.",
     "medium": "",
@@ -4399,29 +3748,692 @@
     "prediction_ready": true
   },
   {
-    "id": "phillips_auctions|phillips|NY050325|20",
+    "id": "phillips_auctions|phillips|UK030226|17",
     "status": "sold",
-    "title": "Side table",
+    "title": "Wrapped Building, Project for 1 Times Square, New York (S. 128)",
     "artists": [
-      "Carlo Bugatti"
+      "Christo and Jeanne-Claude"
     ],
-    "style": "Design",
+    "style": "Modern & Contemporary Editions: Evening Sale",
     "auction_house": "Phillips",
-    "auction_date": "2025-12-13",
+    "auction_date": "2026-06-04",
     "starting_price": null,
     "estimated_selling_price": {
-      "currency": "USD",
-      "low": 12000.0,
-      "high": 18000.0,
-      "display": "$ 12,000 - 18,000"
+      "currency": "GBP",
+      "low": 5000.0,
+      "high": 7000.0,
+      "display": "£ 5,000 - 7,000"
     },
     "result_price": {
-      "currency": "USD",
-      "amount": 38700.0,
-      "display": "$ 38,700"
+      "currency": "GBP",
+      "amount": 7095.0,
+      "display": "£ 7,095"
     },
     "last_sold_price": null,
-    "source_url": "https://www.phillips.com/detail/carlo-bugatti/227366",
+    "source_url": "https://www.phillips.com/detail/christo-and-jeanneclaude/235501",
+    "record_source": "Phillips public auction result page",
+    "notes": "Starting price and prior sale price were not exposed in the public Phillips sale payload.",
+    "medium": "",
+    "dimensions": "",
+    "provenance": "",
+    "literature": "",
+    "quality_flags": {
+      "has_artist": true,
+      "has_title": true,
+      "has_auction_date": true,
+      "has_estimate": true,
+      "has_result_price": true,
+      "has_starting_price": false,
+      "has_prior_sale": false,
+      "has_source_url": true,
+      "has_image": false,
+      "has_medium": false,
+      "has_dimensions": false
+    },
+    "prediction_ready": true
+  },
+  {
+    "id": "phillips_auctions|phillips|UK030226|18",
+    "status": "auctioned",
+    "title": "Vignette (L. 75)",
+    "artists": [
+      "Richard Hamilton"
+    ],
+    "style": "Modern & Contemporary Editions: Evening Sale",
+    "auction_house": "Phillips",
+    "auction_date": "2026-06-04",
+    "starting_price": null,
+    "estimated_selling_price": {
+      "currency": "GBP",
+      "low": 1000.0,
+      "high": 1500.0,
+      "display": "£ 1,000 - 1,500"
+    },
+    "result_price": null,
+    "last_sold_price": null,
+    "source_url": "https://www.phillips.com/detail/richard-hamilton/234204",
+    "record_source": "Phillips public auction result page",
+    "notes": "Starting price and prior sale price were not exposed in the public Phillips sale payload.",
+    "medium": "",
+    "dimensions": "",
+    "provenance": "",
+    "literature": "",
+    "quality_flags": {
+      "has_artist": true,
+      "has_title": true,
+      "has_auction_date": true,
+      "has_estimate": true,
+      "has_result_price": false,
+      "has_starting_price": false,
+      "has_prior_sale": false,
+      "has_source_url": true,
+      "has_image": false,
+      "has_medium": false,
+      "has_dimensions": false
+    },
+    "prediction_ready": false
+  },
+  {
+    "id": "phillips_auctions|phillips|UK030226|19",
+    "status": "sold",
+    "title": "A Portrait of the Artist by Francis Bacon (L. 78)",
+    "artists": [
+      "Richard Hamilton"
+    ],
+    "style": "Modern & Contemporary Editions: Evening Sale",
+    "auction_house": "Phillips",
+    "auction_date": "2026-06-04",
+    "starting_price": null,
+    "estimated_selling_price": {
+      "currency": "GBP",
+      "low": 1000.0,
+      "high": 1500.0,
+      "display": "£ 1,000 - 1,500"
+    },
+    "result_price": {
+      "currency": "GBP",
+      "amount": 1096.0,
+      "display": "£ 1,096"
+    },
+    "last_sold_price": null,
+    "source_url": "https://www.phillips.com/detail/richard-hamilton/234203",
+    "record_source": "Phillips public auction result page",
+    "notes": "Starting price and prior sale price were not exposed in the public Phillips sale payload.",
+    "medium": "",
+    "dimensions": "",
+    "provenance": "",
+    "literature": "",
+    "quality_flags": {
+      "has_artist": true,
+      "has_title": true,
+      "has_auction_date": true,
+      "has_estimate": true,
+      "has_result_price": true,
+      "has_starting_price": false,
+      "has_prior_sale": false,
+      "has_source_url": true,
+      "has_image": false,
+      "has_medium": false,
+      "has_dimensions": false
+    },
+    "prediction_ready": true
+  },
+  {
+    "id": "phillips_auctions|phillips|UK030226|2",
+    "status": "sold",
+    "title": "Silence = Death (L. p. 152)",
+    "artists": [
+      "Keith Haring"
+    ],
+    "style": "Modern & Contemporary Editions: Evening Sale",
+    "auction_house": "Phillips",
+    "auction_date": "2026-06-04",
+    "starting_price": null,
+    "estimated_selling_price": {
+      "currency": "GBP",
+      "low": 30000.0,
+      "high": 50000.0,
+      "display": "£ 30,000 - 50,000"
+    },
+    "result_price": {
+      "currency": "GBP",
+      "amount": 58050.0,
+      "display": "£ 58,050"
+    },
+    "last_sold_price": null,
+    "source_url": "https://www.phillips.com/detail/keith-haring/234868",
+    "record_source": "Phillips public auction result page",
+    "notes": "Starting price and prior sale price were not exposed in the public Phillips sale payload.",
+    "medium": "",
+    "dimensions": "",
+    "provenance": "",
+    "literature": "",
+    "quality_flags": {
+      "has_artist": true,
+      "has_title": true,
+      "has_auction_date": true,
+      "has_estimate": true,
+      "has_result_price": true,
+      "has_starting_price": false,
+      "has_prior_sale": false,
+      "has_source_url": true,
+      "has_image": false,
+      "has_medium": false,
+      "has_dimensions": false
+    },
+    "prediction_ready": true
+  },
+  {
+    "id": "phillips_auctions|phillips|UK030226|20",
+    "status": "sold",
+    "title": "The Orangeman (L. 174)",
+    "artists": [
+      "Richard Hamilton"
+    ],
+    "style": "Modern & Contemporary Editions: Evening Sale",
+    "auction_house": "Phillips",
+    "auction_date": "2026-06-04",
+    "starting_price": null,
+    "estimated_selling_price": {
+      "currency": "GBP",
+      "low": 1500.0,
+      "high": 2000.0,
+      "display": "£ 1,500 - 2,000"
+    },
+    "result_price": {
+      "currency": "GBP",
+      "amount": 2451.0,
+      "display": "£ 2,451"
+    },
+    "last_sold_price": null,
+    "source_url": "https://www.phillips.com/detail/richard-hamilton/232153",
+    "record_source": "Phillips public auction result page",
+    "notes": "Starting price and prior sale price were not exposed in the public Phillips sale payload.",
+    "medium": "",
+    "dimensions": "",
+    "provenance": "",
+    "literature": "",
+    "quality_flags": {
+      "has_artist": true,
+      "has_title": true,
+      "has_auction_date": true,
+      "has_estimate": true,
+      "has_result_price": true,
+      "has_starting_price": false,
+      "has_prior_sale": false,
+      "has_source_url": true,
+      "has_image": false,
+      "has_medium": false,
+      "has_dimensions": false
+    },
+    "prediction_ready": true
+  },
+  {
+    "id": "phillips_auctions|phillips|UK030226|21",
+    "status": "sold",
+    "title": "Pumpkin 2000 (Red) (K. 299)",
+    "artists": [
+      "Yayoi Kusama"
+    ],
+    "style": "Modern & Contemporary Editions: Evening Sale",
+    "auction_house": "Phillips",
+    "auction_date": "2026-06-04",
+    "starting_price": null,
+    "estimated_selling_price": {
+      "currency": "GBP",
+      "low": 20000.0,
+      "high": 30000.0,
+      "display": "£ 20,000 - 30,000"
+    },
+    "result_price": {
+      "currency": "GBP",
+      "amount": 38700.0,
+      "display": "£ 38,700"
+    },
+    "last_sold_price": null,
+    "source_url": "https://www.phillips.com/detail/yayoi-kusama/235363",
+    "record_source": "Phillips public auction result page",
+    "notes": "Starting price and prior sale price were not exposed in the public Phillips sale payload.",
+    "medium": "",
+    "dimensions": "",
+    "provenance": "",
+    "literature": "",
+    "quality_flags": {
+      "has_artist": true,
+      "has_title": true,
+      "has_auction_date": true,
+      "has_estimate": true,
+      "has_result_price": true,
+      "has_starting_price": false,
+      "has_prior_sale": false,
+      "has_source_url": true,
+      "has_image": false,
+      "has_medium": false,
+      "has_dimensions": false
+    },
+    "prediction_ready": true
+  },
+  {
+    "id": "phillips_auctions|phillips|UK030226|22",
+    "status": "sold",
+    "title": "Untitled (La lune en rodage – Carlo Belloli) (S. 6, T. & G. 7)",
+    "artists": [
+      "Bridget Riley"
+    ],
+    "style": "Modern & Contemporary Editions: Evening Sale",
+    "auction_house": "Phillips",
+    "auction_date": "2026-06-04",
+    "starting_price": null,
+    "estimated_selling_price": {
+      "currency": "GBP",
+      "low": 8000.0,
+      "high": 12000.0,
+      "display": "£ 8,000 - 12,000"
+    },
+    "result_price": {
+      "currency": "GBP",
+      "amount": 21930.0,
+      "display": "£ 21,930"
+    },
+    "last_sold_price": null,
+    "source_url": "https://www.phillips.com/detail/bridget-riley/230789",
+    "record_source": "Phillips public auction result page",
+    "notes": "Starting price and prior sale price were not exposed in the public Phillips sale payload.",
+    "medium": "",
+    "dimensions": "",
+    "provenance": "",
+    "literature": "",
+    "quality_flags": {
+      "has_artist": true,
+      "has_title": true,
+      "has_auction_date": true,
+      "has_estimate": true,
+      "has_result_price": true,
+      "has_starting_price": false,
+      "has_prior_sale": false,
+      "has_source_url": true,
+      "has_image": false,
+      "has_medium": false,
+      "has_dimensions": false
+    },
+    "prediction_ready": true
+  },
+  {
+    "id": "phillips_auctions|phillips|UK030226|23",
+    "status": "sold",
+    "title": "Horizon Shadow",
+    "artists": [
+      "Anish Kapoor"
+    ],
+    "style": "Modern & Contemporary Editions: Evening Sale",
+    "auction_house": "Phillips",
+    "auction_date": "2026-06-04",
+    "starting_price": null,
+    "estimated_selling_price": {
+      "currency": "GBP",
+      "low": 10000.0,
+      "high": 15000.0,
+      "display": "£ 10,000 - 15,000"
+    },
+    "result_price": {
+      "currency": "GBP",
+      "amount": 15480.0,
+      "display": "£ 15,480"
+    },
+    "last_sold_price": null,
+    "source_url": "https://www.phillips.com/detail/anish-kapoor/227714",
+    "record_source": "Phillips public auction result page",
+    "notes": "Starting price and prior sale price were not exposed in the public Phillips sale payload.",
+    "medium": "",
+    "dimensions": "",
+    "provenance": "",
+    "literature": "",
+    "quality_flags": {
+      "has_artist": true,
+      "has_title": true,
+      "has_auction_date": true,
+      "has_estimate": true,
+      "has_result_price": true,
+      "has_starting_price": false,
+      "has_prior_sale": false,
+      "has_source_url": true,
+      "has_image": false,
+      "has_medium": false,
+      "has_dimensions": false
+    },
+    "prediction_ready": true
+  },
+  {
+    "id": "phillips_auctions|phillips|UK030226|24",
+    "status": "sold",
+    "title": "Bonne Bay, from Newfoundland Series (G. 275, A. 55)",
+    "artists": [
+      "Frank Stella"
+    ],
+    "style": "Modern & Contemporary Editions: Evening Sale",
+    "auction_house": "Phillips",
+    "auction_date": "2026-06-04",
+    "starting_price": null,
+    "estimated_selling_price": {
+      "currency": "GBP",
+      "low": 7000.0,
+      "high": 10000.0,
+      "display": "£ 7,000 - 10,000"
+    },
+    "result_price": {
+      "currency": "GBP",
+      "amount": 12255.0,
+      "display": "£ 12,255"
+    },
+    "last_sold_price": null,
+    "source_url": "https://www.phillips.com/detail/frank-stella/233166",
+    "record_source": "Phillips public auction result page",
+    "notes": "Starting price and prior sale price were not exposed in the public Phillips sale payload.",
+    "medium": "",
+    "dimensions": "",
+    "provenance": "",
+    "literature": "",
+    "quality_flags": {
+      "has_artist": true,
+      "has_title": true,
+      "has_auction_date": true,
+      "has_estimate": true,
+      "has_result_price": true,
+      "has_starting_price": false,
+      "has_prior_sale": false,
+      "has_source_url": true,
+      "has_image": false,
+      "has_medium": false,
+      "has_dimensions": false
+    },
+    "prediction_ready": true
+  },
+  {
+    "id": "phillips_auctions|phillips|UK030226|25",
+    "status": "sold",
+    "title": "Eau-forte XXIX (Etching XXIX) (E. & M. 31)",
+    "artists": [
+      "Pierre Soulages"
+    ],
+    "style": "Modern & Contemporary Editions: Evening Sale",
+    "auction_house": "Phillips",
+    "auction_date": "2026-06-04",
+    "starting_price": null,
+    "estimated_selling_price": {
+      "currency": "GBP",
+      "low": 8000.0,
+      "high": 12000.0,
+      "display": "£ 8,000 - 12,000"
+    },
+    "result_price": {
+      "currency": "GBP",
+      "amount": 9030.0,
+      "display": "£ 9,030"
+    },
+    "last_sold_price": null,
+    "source_url": "https://www.phillips.com/detail/pierre-soulages/235798",
+    "record_source": "Phillips public auction result page",
+    "notes": "Starting price and prior sale price were not exposed in the public Phillips sale payload.",
+    "medium": "",
+    "dimensions": "",
+    "provenance": "",
+    "literature": "",
+    "quality_flags": {
+      "has_artist": true,
+      "has_title": true,
+      "has_auction_date": true,
+      "has_estimate": true,
+      "has_result_price": true,
+      "has_starting_price": false,
+      "has_prior_sale": false,
+      "has_source_url": true,
+      "has_image": false,
+      "has_medium": false,
+      "has_dimensions": false
+    },
+    "prediction_ready": true
+  },
+  {
+    "id": "phillips_auctions|phillips|UK030226|26",
+    "status": "sold",
+    "title": "Venice, Evening, from Venetian Views (H. 95)",
+    "artists": [
+      "Howard Hodgkin"
+    ],
+    "style": "Modern & Contemporary Editions: Evening Sale",
+    "auction_house": "Phillips",
+    "auction_date": "2026-06-04",
+    "starting_price": null,
+    "estimated_selling_price": {
+      "currency": "GBP",
+      "low": 6000.0,
+      "high": 8000.0,
+      "display": "£ 6,000 - 8,000"
+    },
+    "result_price": {
+      "currency": "GBP",
+      "amount": 9030.0,
+      "display": "£ 9,030"
+    },
+    "last_sold_price": null,
+    "source_url": "https://www.phillips.com/detail/howard-hodgkin/230099",
+    "record_source": "Phillips public auction result page",
+    "notes": "Starting price and prior sale price were not exposed in the public Phillips sale payload.",
+    "medium": "",
+    "dimensions": "",
+    "provenance": "",
+    "literature": "",
+    "quality_flags": {
+      "has_artist": true,
+      "has_title": true,
+      "has_auction_date": true,
+      "has_estimate": true,
+      "has_result_price": true,
+      "has_starting_price": false,
+      "has_prior_sale": false,
+      "has_source_url": true,
+      "has_image": false,
+      "has_medium": false,
+      "has_dimensions": false
+    },
+    "prediction_ready": true
+  },
+  {
+    "id": "phillips_auctions|phillips|UK030226|27",
+    "status": "auctioned",
+    "title": "Untitled (S. 195)",
+    "artists": [
+      "Donald Judd"
+    ],
+    "style": "Modern & Contemporary Editions: Evening Sale",
+    "auction_house": "Phillips",
+    "auction_date": "2026-06-04",
+    "starting_price": null,
+    "estimated_selling_price": {
+      "currency": "GBP",
+      "low": 8000.0,
+      "high": 10000.0,
+      "display": "£ 8,000 - 10,000"
+    },
+    "result_price": null,
+    "last_sold_price": null,
+    "source_url": "https://www.phillips.com/detail/donald-judd/234902",
+    "record_source": "Phillips public auction result page",
+    "notes": "Starting price and prior sale price were not exposed in the public Phillips sale payload.",
+    "medium": "",
+    "dimensions": "",
+    "provenance": "",
+    "literature": "",
+    "quality_flags": {
+      "has_artist": true,
+      "has_title": true,
+      "has_auction_date": true,
+      "has_estimate": true,
+      "has_result_price": false,
+      "has_starting_price": false,
+      "has_prior_sale": false,
+      "has_source_url": true,
+      "has_image": false,
+      "has_medium": false,
+      "has_dimensions": false
+    },
+    "prediction_ready": false
+  },
+  {
+    "id": "phillips_auctions|phillips|UK030226|28",
+    "status": "sold",
+    "title": "Untitled (S. 24)",
+    "artists": [
+      "Donald Judd"
+    ],
+    "style": "Modern & Contemporary Editions: Evening Sale",
+    "auction_house": "Phillips",
+    "auction_date": "2026-06-04",
+    "starting_price": null,
+    "estimated_selling_price": {
+      "currency": "GBP",
+      "low": 60000.0,
+      "high": 80000.0,
+      "display": "£ 60,000 - 80,000"
+    },
+    "result_price": {
+      "currency": "GBP",
+      "amount": 129000.0,
+      "display": "£ 129,000"
+    },
+    "last_sold_price": null,
+    "source_url": "https://www.phillips.com/detail/donald-judd/234897",
+    "record_source": "Phillips public auction result page",
+    "notes": "Starting price and prior sale price were not exposed in the public Phillips sale payload.",
+    "medium": "",
+    "dimensions": "",
+    "provenance": "",
+    "literature": "",
+    "quality_flags": {
+      "has_artist": true,
+      "has_title": true,
+      "has_auction_date": true,
+      "has_estimate": true,
+      "has_result_price": true,
+      "has_starting_price": false,
+      "has_prior_sale": false,
+      "has_source_url": true,
+      "has_image": false,
+      "has_medium": false,
+      "has_dimensions": false
+    },
+    "prediction_ready": true
+  },
+  {
+    "id": "phillips_auctions|phillips|UK030226|29",
+    "status": "auctioned",
+    "title": "Untitled, from Door Cycle",
+    "artists": [
+      "Katharina Grosse"
+    ],
+    "style": "Modern & Contemporary Editions: Evening Sale",
+    "auction_house": "Phillips",
+    "auction_date": "2026-06-04",
+    "starting_price": null,
+    "estimated_selling_price": {
+      "currency": "GBP",
+      "low": 15000.0,
+      "high": 20000.0,
+      "display": "£ 15,000 - 20,000"
+    },
+    "result_price": null,
+    "last_sold_price": null,
+    "source_url": "https://www.phillips.com/detail/katharina-grosse/234898",
+    "record_source": "Phillips public auction result page",
+    "notes": "Starting price and prior sale price were not exposed in the public Phillips sale payload.",
+    "medium": "",
+    "dimensions": "",
+    "provenance": "",
+    "literature": "",
+    "quality_flags": {
+      "has_artist": true,
+      "has_title": true,
+      "has_auction_date": true,
+      "has_estimate": true,
+      "has_result_price": false,
+      "has_starting_price": false,
+      "has_prior_sale": false,
+      "has_source_url": true,
+      "has_image": false,
+      "has_medium": false,
+      "has_dimensions": false
+    },
+    "prediction_ready": false
+  },
+  {
+    "id": "phillips_auctions|phillips|UK030226|3",
+    "status": "sold",
+    "title": "Tomato, from Campbell's Soup I (F. & S. 46)",
+    "artists": [
+      "Andy Warhol"
+    ],
+    "style": "Modern & Contemporary Editions: Evening Sale",
+    "auction_house": "Phillips",
+    "auction_date": "2026-06-04",
+    "starting_price": null,
+    "estimated_selling_price": {
+      "currency": "GBP",
+      "low": 60000.0,
+      "high": 80000.0,
+      "display": "£ 60,000 - 80,000"
+    },
+    "result_price": {
+      "currency": "GBP",
+      "amount": 154800.0,
+      "display": "£ 154,800"
+    },
+    "last_sold_price": null,
+    "source_url": "https://www.phillips.com/detail/andy-warhol/234269",
+    "record_source": "Phillips public auction result page",
+    "notes": "Starting price and prior sale price were not exposed in the public Phillips sale payload.",
+    "medium": "",
+    "dimensions": "",
+    "provenance": "",
+    "literature": "",
+    "quality_flags": {
+      "has_artist": true,
+      "has_title": true,
+      "has_auction_date": true,
+      "has_estimate": true,
+      "has_result_price": true,
+      "has_starting_price": false,
+      "has_prior_sale": false,
+      "has_source_url": true,
+      "has_image": false,
+      "has_medium": false,
+      "has_dimensions": false
+    },
+    "prediction_ready": true
+  },
+  {
+    "id": "phillips_auctions|phillips|UK030226|30",
+    "status": "sold",
+    "title": "Die Argonauten (The Argonauts)",
+    "artists": [
+      "Anselm Kiefer"
+    ],
+    "style": "Modern & Contemporary Editions: Evening Sale",
+    "auction_house": "Phillips",
+    "auction_date": "2026-06-04",
+    "starting_price": null,
+    "estimated_selling_price": {
+      "currency": "GBP",
+      "low": 12000.0,
+      "high": 18000.0,
+      "display": "£ 12,000 - 18,000"
+    },
+    "result_price": {
+      "currency": "GBP",
+      "amount": 10320.0,
+      "display": "£ 10,320"
+    },
+    "last_sold_price": null,
+    "source_url": "https://www.phillips.com/detail/anselm-kiefer/234920",
     "record_source": "Phillips public auction result page",
     "notes": "Starting price and prior sale price were not exposed in the public Phillips sale payload.",
     "medium": "",

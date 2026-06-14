@@ -5,7 +5,7 @@
     <link>http://localhost:4173/</link>
     <description>Auction and sale records normalized for art market intelligence.</description>
     <language>en-us</language>
-    <lastBuildDate>Sun, 14 Jun 2026 00:13:26 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 14 Jun 2026 11:57:54 +0000</lastBuildDate>
     <ttl>60</ttl>
     <atom:link href="http://localhost:4173/feeds/auction-results.xml" rel="self" type="application/rss+xml" />
     <item>
@@ -1598,6 +1598,258 @@ Notes: Starting price and prior sale price were not exposed in the public Philli
       <artmi:recordSource>Phillips public auction result page</artmi:recordSource>
     </item>
     <item>
+      <title>Low table, model no. DC1716, from the "Baroquisme" series - Phillips</title>
+      <link>https://www.phillips.com/detail/vincenzo-de-cotiis/234433</link>
+      <guid>phillips_auctions|phillips|NY050226|61</guid>
+      <pubDate>Fri, 12 Jun 2026 12:00:00 +0000</pubDate>
+      <category>sold</category>
+      <description>Artist(s): Vincenzo De Cotiis
+Style: Design
+Medium: Not available
+Dimensions: Not available
+Auction house: Phillips
+Auction date: 2026-06-12
+Starting price: Not available
+Estimated selling price: $ 20,000 - 30,000
+Result price: $ 70,950
+Last sold price: Not available
+Notes: Starting price and prior sale price were not exposed in the public Phillips sale payload.</description>
+      <artmi:title>Low table, model no. DC1716, from the "Baroquisme" series</artmi:title>
+      <artmi:artists>Vincenzo De Cotiis</artmi:artists>
+      <artmi:style>Design</artmi:style>
+      <artmi:auctionHouse>Phillips</artmi:auctionHouse>
+      <artmi:auctionDate>2026-06-12</artmi:auctionDate>
+      <artmi:status>sold</artmi:status>
+      <artmi:estimatedSellingPrice>$ 20,000 - 30,000</artmi:estimatedSellingPrice>
+      <artmi:resultPrice>$ 70,950</artmi:resultPrice>
+      <artmi:predictionReady>true</artmi:predictionReady>
+      <artmi:recordSource>Phillips public auction result page</artmi:recordSource>
+    </item>
+    <item>
+      <title>"Cellula 15" - Phillips</title>
+      <link>https://www.phillips.com/detail/ritsue-mishima/234119</link>
+      <guid>phillips_auctions|phillips|NY050226|62</guid>
+      <pubDate>Fri, 12 Jun 2026 12:00:00 +0000</pubDate>
+      <category>sold</category>
+      <description>Artist(s): Ritsue Mishima
+Style: Design
+Medium: Not available
+Dimensions: Not available
+Auction house: Phillips
+Auction date: 2026-06-12
+Starting price: Not available
+Estimated selling price: $ 6,000 - 8,000
+Result price: $ 7,740
+Last sold price: Not available
+Notes: Starting price and prior sale price were not exposed in the public Phillips sale payload.</description>
+      <artmi:title>"Cellula 15"</artmi:title>
+      <artmi:artists>Ritsue Mishima</artmi:artists>
+      <artmi:style>Design</artmi:style>
+      <artmi:auctionHouse>Phillips</artmi:auctionHouse>
+      <artmi:auctionDate>2026-06-12</artmi:auctionDate>
+      <artmi:status>sold</artmi:status>
+      <artmi:estimatedSellingPrice>$ 6,000 - 8,000</artmi:estimatedSellingPrice>
+      <artmi:resultPrice>$ 7,740</artmi:resultPrice>
+      <artmi:predictionReady>true</artmi:predictionReady>
+      <artmi:recordSource>Phillips public auction result page</artmi:recordSource>
+    </item>
+    <item>
+      <title>"Nucleo 3" - Phillips</title>
+      <link>https://www.phillips.com/detail/ritsue-mishima/234120</link>
+      <guid>phillips_auctions|phillips|NY050226|63</guid>
+      <pubDate>Fri, 12 Jun 2026 12:00:00 +0000</pubDate>
+      <category>sold</category>
+      <description>Artist(s): Ritsue Mishima
+Style: Design
+Medium: Not available
+Dimensions: Not available
+Auction house: Phillips
+Auction date: 2026-06-12
+Starting price: Not available
+Estimated selling price: $ 3,000 - 5,000
+Result price: $ 3,870
+Last sold price: Not available
+Notes: Starting price and prior sale price were not exposed in the public Phillips sale payload.</description>
+      <artmi:title>"Nucleo 3"</artmi:title>
+      <artmi:artists>Ritsue Mishima</artmi:artists>
+      <artmi:style>Design</artmi:style>
+      <artmi:auctionHouse>Phillips</artmi:auctionHouse>
+      <artmi:auctionDate>2026-06-12</artmi:auctionDate>
+      <artmi:status>sold</artmi:status>
+      <artmi:estimatedSellingPrice>$ 3,000 - 5,000</artmi:estimatedSellingPrice>
+      <artmi:resultPrice>$ 3,870</artmi:resultPrice>
+      <artmi:predictionReady>true</artmi:predictionReady>
+      <artmi:recordSource>Phillips public auction result page</artmi:recordSource>
+    </item>
+    <item>
+      <title>"Moraine" sofa, from the "Z-Scape" series - Phillips</title>
+      <link>https://www.phillips.com/detail/zaha-hadid/234963</link>
+      <guid>phillips_auctions|phillips|NY050226|64</guid>
+      <pubDate>Fri, 12 Jun 2026 12:00:00 +0000</pubDate>
+      <category>sold</category>
+      <description>Artist(s): Zaha Hadid
+Style: Design
+Medium: Not available
+Dimensions: Not available
+Auction house: Phillips
+Auction date: 2026-06-12
+Starting price: Not available
+Estimated selling price: $ 20,000 - 30,000
+Result price: $ 41,280
+Last sold price: Not available
+Notes: Starting price and prior sale price were not exposed in the public Phillips sale payload.</description>
+      <artmi:title>"Moraine" sofa, from the "Z-Scape" series</artmi:title>
+      <artmi:artists>Zaha Hadid</artmi:artists>
+      <artmi:style>Design</artmi:style>
+      <artmi:auctionHouse>Phillips</artmi:auctionHouse>
+      <artmi:auctionDate>2026-06-12</artmi:auctionDate>
+      <artmi:status>sold</artmi:status>
+      <artmi:estimatedSellingPrice>$ 20,000 - 30,000</artmi:estimatedSellingPrice>
+      <artmi:resultPrice>$ 41,280</artmi:resultPrice>
+      <artmi:predictionReady>true</artmi:predictionReady>
+      <artmi:recordSource>Phillips public auction result page</artmi:recordSource>
+    </item>
+    <item>
+      <title>Floor lamp, model no. 1063 - Phillips</title>
+      <link>https://www.phillips.com/detail/gino-sarfatti/233422</link>
+      <guid>phillips_auctions|phillips|NY050226|65</guid>
+      <pubDate>Fri, 12 Jun 2026 12:00:00 +0000</pubDate>
+      <category>sold</category>
+      <description>Artist(s): Gino Sarfatti
+Style: Design
+Medium: Not available
+Dimensions: Not available
+Auction house: Phillips
+Auction date: 2026-06-12
+Starting price: Not available
+Estimated selling price: $ 6,000 - 8,000
+Result price: $ 9,675
+Last sold price: Not available
+Notes: Starting price and prior sale price were not exposed in the public Phillips sale payload.</description>
+      <artmi:title>Floor lamp, model no. 1063</artmi:title>
+      <artmi:artists>Gino Sarfatti</artmi:artists>
+      <artmi:style>Design</artmi:style>
+      <artmi:auctionHouse>Phillips</artmi:auctionHouse>
+      <artmi:auctionDate>2026-06-12</artmi:auctionDate>
+      <artmi:status>sold</artmi:status>
+      <artmi:estimatedSellingPrice>$ 6,000 - 8,000</artmi:estimatedSellingPrice>
+      <artmi:resultPrice>$ 9,675</artmi:resultPrice>
+      <artmi:predictionReady>true</artmi:predictionReady>
+      <artmi:recordSource>Phillips public auction result page</artmi:recordSource>
+    </item>
+    <item>
+      <title>"you are here" - Phillips</title>
+      <link>https://www.phillips.com/detail/edmund-de-waal/229454</link>
+      <guid>phillips_auctions|phillips|NY050226|66</guid>
+      <pubDate>Fri, 12 Jun 2026 12:00:00 +0000</pubDate>
+      <category>sold</category>
+      <description>Artist(s): Edmund de Waal
+Style: Design
+Medium: Not available
+Dimensions: Not available
+Auction house: Phillips
+Auction date: 2026-06-12
+Starting price: Not available
+Estimated selling price: $ 6,000 - 8,000
+Result price: $ 6,450
+Last sold price: Not available
+Notes: Starting price and prior sale price were not exposed in the public Phillips sale payload.</description>
+      <artmi:title>"you are here"</artmi:title>
+      <artmi:artists>Edmund de Waal</artmi:artists>
+      <artmi:style>Design</artmi:style>
+      <artmi:auctionHouse>Phillips</artmi:auctionHouse>
+      <artmi:auctionDate>2026-06-12</artmi:auctionDate>
+      <artmi:status>sold</artmi:status>
+      <artmi:estimatedSellingPrice>$ 6,000 - 8,000</artmi:estimatedSellingPrice>
+      <artmi:resultPrice>$ 6,450</artmi:resultPrice>
+      <artmi:predictionReady>true</artmi:predictionReady>
+      <artmi:recordSource>Phillips public auction result page</artmi:recordSource>
+    </item>
+    <item>
+      <title>"a voice, an instrument" - Phillips</title>
+      <link>https://www.phillips.com/detail/edmund-de-waal/229455</link>
+      <guid>phillips_auctions|phillips|NY050226|67</guid>
+      <pubDate>Fri, 12 Jun 2026 12:00:00 +0000</pubDate>
+      <category>sold</category>
+      <description>Artist(s): Edmund de Waal
+Style: Design
+Medium: Not available
+Dimensions: Not available
+Auction house: Phillips
+Auction date: 2026-06-12
+Starting price: Not available
+Estimated selling price: $ 4,000 - 6,000
+Result price: $ 7,740
+Last sold price: Not available
+Notes: Starting price and prior sale price were not exposed in the public Phillips sale payload.</description>
+      <artmi:title>"a voice, an instrument"</artmi:title>
+      <artmi:artists>Edmund de Waal</artmi:artists>
+      <artmi:style>Design</artmi:style>
+      <artmi:auctionHouse>Phillips</artmi:auctionHouse>
+      <artmi:auctionDate>2026-06-12</artmi:auctionDate>
+      <artmi:status>sold</artmi:status>
+      <artmi:estimatedSellingPrice>$ 4,000 - 6,000</artmi:estimatedSellingPrice>
+      <artmi:resultPrice>$ 7,740</artmi:resultPrice>
+      <artmi:predictionReady>true</artmi:predictionReady>
+      <artmi:recordSource>Phillips public auction result page</artmi:recordSource>
+    </item>
+    <item>
+      <title>"Glass Chair" - Phillips</title>
+      <link>https://www.phillips.com/detail/shiro-kuramata/235449</link>
+      <guid>phillips_auctions|phillips|NY050226|68</guid>
+      <pubDate>Fri, 12 Jun 2026 12:00:00 +0000</pubDate>
+      <category>sold</category>
+      <description>Artist(s): Shiro Kuramata
+Style: Design
+Medium: Not available
+Dimensions: Not available
+Auction house: Phillips
+Auction date: 2026-06-12
+Starting price: Not available
+Estimated selling price: $ 18,000 - 24,000
+Result price: $ 33,540
+Last sold price: Not available
+Notes: Starting price and prior sale price were not exposed in the public Phillips sale payload.</description>
+      <artmi:title>"Glass Chair"</artmi:title>
+      <artmi:artists>Shiro Kuramata</artmi:artists>
+      <artmi:style>Design</artmi:style>
+      <artmi:auctionHouse>Phillips</artmi:auctionHouse>
+      <artmi:auctionDate>2026-06-12</artmi:auctionDate>
+      <artmi:status>sold</artmi:status>
+      <artmi:estimatedSellingPrice>$ 18,000 - 24,000</artmi:estimatedSellingPrice>
+      <artmi:resultPrice>$ 33,540</artmi:resultPrice>
+      <artmi:predictionReady>true</artmi:predictionReady>
+      <artmi:recordSource>Phillips public auction result page</artmi:recordSource>
+    </item>
+    <item>
+      <title>Large "Macchia" - Phillips</title>
+      <link>https://www.phillips.com/detail/dale-chihuly/230843</link>
+      <guid>phillips_auctions|phillips|NY050226|69</guid>
+      <pubDate>Fri, 12 Jun 2026 12:00:00 +0000</pubDate>
+      <category>sold</category>
+      <description>Artist(s): Dale Chihuly
+Style: Design
+Medium: Not available
+Dimensions: Not available
+Auction house: Phillips
+Auction date: 2026-06-12
+Starting price: Not available
+Estimated selling price: $ 8,000 - 12,000
+Result price: $ 12,255
+Last sold price: Not available
+Notes: Starting price and prior sale price were not exposed in the public Phillips sale payload.</description>
+      <artmi:title>Large "Macchia"</artmi:title>
+      <artmi:artists>Dale Chihuly</artmi:artists>
+      <artmi:style>Design</artmi:style>
+      <artmi:auctionHouse>Phillips</artmi:auctionHouse>
+      <artmi:auctionDate>2026-06-12</artmi:auctionDate>
+      <artmi:status>sold</artmi:status>
+      <artmi:estimatedSellingPrice>$ 8,000 - 12,000</artmi:estimatedSellingPrice>
+      <artmi:resultPrice>$ 12,255</artmi:resultPrice>
+      <artmi:predictionReady>true</artmi:predictionReady>
+      <artmi:recordSource>Phillips public auction result page</artmi:recordSource>
+    </item>
+    <item>
       <title>"Rodéo" desk and armchair - Phillips</title>
       <link>https://www.phillips.com/detail/elizabeth-garouste-and-mattia-bonetti/235120</link>
       <guid>phillips_auctions|phillips|NY050226|7</guid>
@@ -1622,6 +1874,202 @@ Notes: Starting price and prior sale price were not exposed in the public Philli
       <artmi:status>sold</artmi:status>
       <artmi:estimatedSellingPrice>$ 30,000 - 50,000</artmi:estimatedSellingPrice>
       <artmi:resultPrice>$ 167,700</artmi:resultPrice>
+      <artmi:predictionReady>true</artmi:predictionReady>
+      <artmi:recordSource>Phillips public auction result page</artmi:recordSource>
+    </item>
+    <item>
+      <title>"Blanket Cylinder" - Phillips</title>
+      <link>https://www.phillips.com/detail/dale-chihuly/230845</link>
+      <guid>phillips_auctions|phillips|NY050226|70</guid>
+      <pubDate>Fri, 12 Jun 2026 12:00:00 +0000</pubDate>
+      <category>sold</category>
+      <description>Artist(s): Dale Chihuly
+Style: Design
+Medium: Not available
+Dimensions: Not available
+Auction house: Phillips
+Auction date: 2026-06-12
+Starting price: Not available
+Estimated selling price: $ 6,000 - 8,000
+Result price: $ 21,930
+Last sold price: Not available
+Notes: Starting price and prior sale price were not exposed in the public Phillips sale payload.</description>
+      <artmi:title>"Blanket Cylinder"</artmi:title>
+      <artmi:artists>Dale Chihuly</artmi:artists>
+      <artmi:style>Design</artmi:style>
+      <artmi:auctionHouse>Phillips</artmi:auctionHouse>
+      <artmi:auctionDate>2026-06-12</artmi:auctionDate>
+      <artmi:status>sold</artmi:status>
+      <artmi:estimatedSellingPrice>$ 6,000 - 8,000</artmi:estimatedSellingPrice>
+      <artmi:resultPrice>$ 21,930</artmi:resultPrice>
+      <artmi:predictionReady>true</artmi:predictionReady>
+      <artmi:recordSource>Phillips public auction result page</artmi:recordSource>
+    </item>
+    <item>
+      <title>"Macchia" - Phillips</title>
+      <link>https://www.phillips.com/detail/dale-chihuly/230844</link>
+      <guid>phillips_auctions|phillips|NY050226|71</guid>
+      <pubDate>Fri, 12 Jun 2026 12:00:00 +0000</pubDate>
+      <category>sold</category>
+      <description>Artist(s): Dale Chihuly
+Style: Design
+Medium: Not available
+Dimensions: Not available
+Auction house: Phillips
+Auction date: 2026-06-12
+Starting price: Not available
+Estimated selling price: $ 6,000 - 8,000
+Result price: $ 14,190
+Last sold price: Not available
+Notes: Starting price and prior sale price were not exposed in the public Phillips sale payload.</description>
+      <artmi:title>"Macchia"</artmi:title>
+      <artmi:artists>Dale Chihuly</artmi:artists>
+      <artmi:style>Design</artmi:style>
+      <artmi:auctionHouse>Phillips</artmi:auctionHouse>
+      <artmi:auctionDate>2026-06-12</artmi:auctionDate>
+      <artmi:status>sold</artmi:status>
+      <artmi:estimatedSellingPrice>$ 6,000 - 8,000</artmi:estimatedSellingPrice>
+      <artmi:resultPrice>$ 14,190</artmi:resultPrice>
+      <artmi:predictionReady>true</artmi:predictionReady>
+      <artmi:recordSource>Phillips public auction result page</artmi:recordSource>
+    </item>
+    <item>
+      <title>"Suspended Artifact" - Phillips</title>
+      <link>https://www.phillips.com/detail/william-morris/230850</link>
+      <guid>phillips_auctions|phillips|NY050226|72</guid>
+      <pubDate>Fri, 12 Jun 2026 12:00:00 +0000</pubDate>
+      <category>sold</category>
+      <description>Artist(s): William Morris
+Style: Design
+Medium: Not available
+Dimensions: Not available
+Auction house: Phillips
+Auction date: 2026-06-12
+Starting price: Not available
+Estimated selling price: $ 12,000 - 18,000
+Result price: $ 12,255
+Last sold price: Not available
+Notes: Starting price and prior sale price were not exposed in the public Phillips sale payload.</description>
+      <artmi:title>"Suspended Artifact"</artmi:title>
+      <artmi:artists>William Morris</artmi:artists>
+      <artmi:style>Design</artmi:style>
+      <artmi:auctionHouse>Phillips</artmi:auctionHouse>
+      <artmi:auctionDate>2026-06-12</artmi:auctionDate>
+      <artmi:status>sold</artmi:status>
+      <artmi:estimatedSellingPrice>$ 12,000 - 18,000</artmi:estimatedSellingPrice>
+      <artmi:resultPrice>$ 12,255</artmi:resultPrice>
+      <artmi:predictionReady>true</artmi:predictionReady>
+      <artmi:recordSource>Phillips public auction result page</artmi:recordSource>
+    </item>
+    <item>
+      <title>"Hanging Petroglyph" - Phillips</title>
+      <link>https://www.phillips.com/detail/william-morris/230848</link>
+      <guid>phillips_auctions|phillips|NY050226|73</guid>
+      <pubDate>Fri, 12 Jun 2026 12:00:00 +0000</pubDate>
+      <category>sold</category>
+      <description>Artist(s): William Morris
+Style: Design
+Medium: Not available
+Dimensions: Not available
+Auction house: Phillips
+Auction date: 2026-06-12
+Starting price: Not available
+Estimated selling price: $ 15,000 - 20,000
+Result price: $ 15,480
+Last sold price: Not available
+Notes: Starting price and prior sale price were not exposed in the public Phillips sale payload.</description>
+      <artmi:title>"Hanging Petroglyph"</artmi:title>
+      <artmi:artists>William Morris</artmi:artists>
+      <artmi:style>Design</artmi:style>
+      <artmi:auctionHouse>Phillips</artmi:auctionHouse>
+      <artmi:auctionDate>2026-06-12</artmi:auctionDate>
+      <artmi:status>sold</artmi:status>
+      <artmi:estimatedSellingPrice>$ 15,000 - 20,000</artmi:estimatedSellingPrice>
+      <artmi:resultPrice>$ 15,480</artmi:resultPrice>
+      <artmi:predictionReady>true</artmi:predictionReady>
+      <artmi:recordSource>Phillips public auction result page</artmi:recordSource>
+    </item>
+    <item>
+      <title>"Petroglyph" - Phillips</title>
+      <link>https://www.phillips.com/detail/william-morris/230854</link>
+      <guid>phillips_auctions|phillips|NY050226|74</guid>
+      <pubDate>Fri, 12 Jun 2026 12:00:00 +0000</pubDate>
+      <category>sold</category>
+      <description>Artist(s): William Morris
+Style: Design
+Medium: Not available
+Dimensions: Not available
+Auction house: Phillips
+Auction date: 2026-06-12
+Starting price: Not available
+Estimated selling price: $ 6,000 - 8,000
+Result price: $ 6,192
+Last sold price: Not available
+Notes: Starting price and prior sale price were not exposed in the public Phillips sale payload.</description>
+      <artmi:title>"Petroglyph"</artmi:title>
+      <artmi:artists>William Morris</artmi:artists>
+      <artmi:style>Design</artmi:style>
+      <artmi:auctionHouse>Phillips</artmi:auctionHouse>
+      <artmi:auctionDate>2026-06-12</artmi:auctionDate>
+      <artmi:status>sold</artmi:status>
+      <artmi:estimatedSellingPrice>$ 6,000 - 8,000</artmi:estimatedSellingPrice>
+      <artmi:resultPrice>$ 6,192</artmi:resultPrice>
+      <artmi:predictionReady>true</artmi:predictionReady>
+      <artmi:recordSource>Phillips public auction result page</artmi:recordSource>
+    </item>
+    <item>
+      <title>"Mogollon Woman" - Phillips</title>
+      <link>https://www.phillips.com/detail/william-morris/230851</link>
+      <guid>phillips_auctions|phillips|NY050226|75</guid>
+      <pubDate>Fri, 12 Jun 2026 12:00:00 +0000</pubDate>
+      <category>sold</category>
+      <description>Artist(s): William Morris
+Style: Design
+Medium: Not available
+Dimensions: Not available
+Auction house: Phillips
+Auction date: 2026-06-12
+Starting price: Not available
+Estimated selling price: $ 8,000 - 12,000
+Result price: $ 8,385
+Last sold price: Not available
+Notes: Starting price and prior sale price were not exposed in the public Phillips sale payload.</description>
+      <artmi:title>"Mogollon Woman"</artmi:title>
+      <artmi:artists>William Morris</artmi:artists>
+      <artmi:style>Design</artmi:style>
+      <artmi:auctionHouse>Phillips</artmi:auctionHouse>
+      <artmi:auctionDate>2026-06-12</artmi:auctionDate>
+      <artmi:status>sold</artmi:status>
+      <artmi:estimatedSellingPrice>$ 8,000 - 12,000</artmi:estimatedSellingPrice>
+      <artmi:resultPrice>$ 8,385</artmi:resultPrice>
+      <artmi:predictionReady>true</artmi:predictionReady>
+      <artmi:recordSource>Phillips public auction result page</artmi:recordSource>
+    </item>
+    <item>
+      <title>"Idolo" - Phillips</title>
+      <link>https://www.phillips.com/detail/william-morris/230849</link>
+      <guid>phillips_auctions|phillips|NY050226|76</guid>
+      <pubDate>Fri, 12 Jun 2026 12:00:00 +0000</pubDate>
+      <category>sold</category>
+      <description>Artist(s): William Morris
+Style: Design
+Medium: Not available
+Dimensions: Not available
+Auction house: Phillips
+Auction date: 2026-06-12
+Starting price: Not available
+Estimated selling price: $ 15,000 - 20,000
+Result price: $ 9,675
+Last sold price: Not available
+Notes: Starting price and prior sale price were not exposed in the public Phillips sale payload.</description>
+      <artmi:title>"Idolo"</artmi:title>
+      <artmi:artists>William Morris</artmi:artists>
+      <artmi:style>Design</artmi:style>
+      <artmi:auctionHouse>Phillips</artmi:auctionHouse>
+      <artmi:auctionDate>2026-06-12</artmi:auctionDate>
+      <artmi:status>sold</artmi:status>
+      <artmi:estimatedSellingPrice>$ 15,000 - 20,000</artmi:estimatedSellingPrice>
+      <artmi:resultPrice>$ 9,675</artmi:resultPrice>
       <artmi:predictionReady>true</artmi:predictionReady>
       <artmi:recordSource>Phillips public auction result page</artmi:recordSource>
     </item>
@@ -1682,1265 +2130,670 @@ Notes: Starting price and prior sale price were not exposed in the public Philli
       <artmi:recordSource>Phillips public auction result page</artmi:recordSource>
     </item>
     <item>
-      <title>Spending Scarlet - Bonhams</title>
-      <link>https://www.bonhams.com/auction/31876/lot/201/emily-mason-1932-2019-spending-scarlet-32-x-23-78-in-811-x-606-cm-painted-in-2000/</link>
-      <guid>bonhams_results|bonhams|31876|201</guid>
-      <pubDate>Thu, 21 May 2026 12:00:00 +0000</pubDate>
+      <title>Pop Shop I: one print (L. p. 83) - Phillips</title>
+      <link>https://www.phillips.com/detail/keith-haring/234395</link>
+      <guid>phillips_auctions|phillips|UK030226|1</guid>
+      <pubDate>Thu, 04 Jun 2026 12:00:00 +0000</pubDate>
       <category>sold</category>
-      <description>Artist(s): EMILY MASON (1932-2019)
-Style: Post-War and Contemporary Art
-Medium: oil on canvas
-Dimensions: 32 x 23 7/8 in (81.1 x 60.6 cm)
-Auction house: Bonhams
-Auction date: 2026-05-21
-Starting price: Not available
-Estimated selling price: US$ 30,000 - 50,000
-Result price: US$ 64,000
-Last sold price: Not available
-Provenance: M B Modern, New York.
-Acquired from the above by the present owner in 2001.
-Notes: Starting price and prior sale price were not exposed in the public Bonhams lot-list payload. Enriched from Bonhams public lot detail page.</description>
-      <artmi:title>Spending Scarlet</artmi:title>
-      <artmi:artists>EMILY MASON (1932-2019)</artmi:artists>
-      <artmi:style>Post-War and Contemporary Art</artmi:style>
-      <artmi:auctionHouse>Bonhams</artmi:auctionHouse>
-      <artmi:auctionDate>2026-05-21</artmi:auctionDate>
-      <artmi:status>sold</artmi:status>
-      <artmi:estimatedSellingPrice>US$ 30,000 - 50,000</artmi:estimatedSellingPrice>
-      <artmi:resultPrice>US$ 64,000</artmi:resultPrice>
-      <artmi:medium>oil on canvas</artmi:medium>
-      <artmi:dimensions>32 x 23 7/8 in (81.1 x 60.6 cm)</artmi:dimensions>
-      <artmi:provenance>M B Modern, New York.
-Acquired from the above by the present owner in 2001.</artmi:provenance>
-      <artmi:predictionReady>true</artmi:predictionReady>
-      <artmi:recordSource>Bonhams public auction result page</artmi:recordSource>
-    </item>
-    <item>
-      <title>Mind the Bridges - Bonhams</title>
-      <link>https://www.bonhams.com/auction/31876/lot/202/emily-mason-1932-2019-mind-the-bridges-24-x-48-in-609-x-1219-cm-painted-in-2002/</link>
-      <guid>bonhams_results|bonhams|31876|202</guid>
-      <pubDate>Thu, 21 May 2026 12:00:00 +0000</pubDate>
-      <category>sold</category>
-      <description>Artist(s): EMILY MASON (1932-2019)
-Style: Post-War and Contemporary Art
-Medium: oil on canvas
-Dimensions: 24 x 48 in (60.9 x 121.9 cm)
-Auction house: Bonhams
-Auction date: 2026-05-21
-Starting price: Not available
-Estimated selling price: US$ 40,000 - 60,000
-Result price: US$ 61,440
-Last sold price: Not available
-Provenance: David Findlay Jr., Inc., New York.
-Acquired from the above by the present owner in 2003.
-Notes: Starting price and prior sale price were not exposed in the public Bonhams lot-list payload. Enriched from Bonhams public lot detail page.</description>
-      <artmi:title>Mind the Bridges</artmi:title>
-      <artmi:artists>EMILY MASON (1932-2019)</artmi:artists>
-      <artmi:style>Post-War and Contemporary Art</artmi:style>
-      <artmi:auctionHouse>Bonhams</artmi:auctionHouse>
-      <artmi:auctionDate>2026-05-21</artmi:auctionDate>
-      <artmi:status>sold</artmi:status>
-      <artmi:estimatedSellingPrice>US$ 40,000 - 60,000</artmi:estimatedSellingPrice>
-      <artmi:resultPrice>US$ 61,440</artmi:resultPrice>
-      <artmi:medium>oil on canvas</artmi:medium>
-      <artmi:dimensions>24 x 48 in (60.9 x 121.9 cm)</artmi:dimensions>
-      <artmi:provenance>David Findlay Jr., Inc., New York.
-Acquired from the above by the present owner in 2003.</artmi:provenance>
-      <artmi:predictionReady>true</artmi:predictionReady>
-      <artmi:recordSource>Bonhams public auction result page</artmi:recordSource>
-    </item>
-    <item>
-      <title>Midnight Choir - Bonhams</title>
-      <link>https://www.bonhams.com/auction/31876/lot/203/dorothy-fratt-1923-2017-midnight-choir-26-x-21-in-66-x-534-cm-painted-in-1989/</link>
-      <guid>bonhams_results|bonhams|31876|203</guid>
-      <pubDate>Thu, 21 May 2026 12:00:00 +0000</pubDate>
-      <category>sold</category>
-      <description>Artist(s): DOROTHY FRATT (1923-2017)
-Style: Post-War and Contemporary Art
-Medium: acrylic on canvas
-Dimensions: 26 x 21 in (66 x 53.4 cm)
-Auction house: Bonhams
-Auction date: 2026-05-21
-Starting price: Not available
-Estimated selling price: US$ 35,000 - 55,000
-Result price: US$ 44,800
-Last sold price: Not available
-Provenance: Estate of the artist.
-Acquired directly from the above by the present owner.
-Notes: Starting price and prior sale price were not exposed in the public Bonhams lot-list payload. Enriched from Bonhams public lot detail page.</description>
-      <artmi:title>Midnight Choir</artmi:title>
-      <artmi:artists>DOROTHY FRATT (1923-2017)</artmi:artists>
-      <artmi:style>Post-War and Contemporary Art</artmi:style>
-      <artmi:auctionHouse>Bonhams</artmi:auctionHouse>
-      <artmi:auctionDate>2026-05-21</artmi:auctionDate>
-      <artmi:status>sold</artmi:status>
-      <artmi:estimatedSellingPrice>US$ 35,000 - 55,000</artmi:estimatedSellingPrice>
-      <artmi:resultPrice>US$ 44,800</artmi:resultPrice>
-      <artmi:medium>acrylic on canvas</artmi:medium>
-      <artmi:dimensions>26 x 21 in (66 x 53.4 cm)</artmi:dimensions>
-      <artmi:provenance>Estate of the artist.
-Acquired directly from the above by the present owner.</artmi:provenance>
-      <artmi:predictionReady>true</artmi:predictionReady>
-      <artmi:recordSource>Bonhams public auction result page</artmi:recordSource>
-    </item>
-    <item>
-      <title>Untitled (Coucou, Monsieur Ingres) - Bonhams</title>
-      <link>https://www.bonhams.com/auction/31876/lot/204/janice-biala-1903-2000-untitled-coucou-monsieur-ingres-13-x-18-in-33-x-459-cm-painted-circa-1969/</link>
-      <guid>bonhams_results|bonhams|31876|204</guid>
-      <pubDate>Thu, 21 May 2026 12:00:00 +0000</pubDate>
-      <category>sold</category>
-      <description>Artist(s): JANICE BIALA (1903-2000)
-Style: Post-War and Contemporary Art
-Medium: oil on canvas
-Dimensions: 13 x 18 in (33 x 45.9 cm)
-Auction house: Bonhams
-Auction date: 2026-05-21
-Starting price: Not available
-Estimated selling price: US$ 10,000 - 15,000
-Result price: US$ 24,320
-Last sold price: Not available
-Provenance: Estate of the artist.
-The Tibor de Nagy Gallery, New York.
-Acquired from the above by the present owner.
-Notes: Starting price and prior sale price were not exposed in the public Bonhams lot-list payload. Enriched from Bonhams public lot detail page.</description>
-      <artmi:title>Untitled (Coucou, Monsieur Ingres)</artmi:title>
-      <artmi:artists>JANICE BIALA (1903-2000)</artmi:artists>
-      <artmi:style>Post-War and Contemporary Art</artmi:style>
-      <artmi:auctionHouse>Bonhams</artmi:auctionHouse>
-      <artmi:auctionDate>2026-05-21</artmi:auctionDate>
-      <artmi:status>sold</artmi:status>
-      <artmi:estimatedSellingPrice>US$ 10,000 - 15,000</artmi:estimatedSellingPrice>
-      <artmi:resultPrice>US$ 24,320</artmi:resultPrice>
-      <artmi:medium>oil on canvas</artmi:medium>
-      <artmi:dimensions>13 x 18 in (33 x 45.9 cm)</artmi:dimensions>
-      <artmi:provenance>Estate of the artist.
-The Tibor de Nagy Gallery, New York.
-Acquired from the above by the present owner.</artmi:provenance>
-      <artmi:predictionReady>true</artmi:predictionReady>
-      <artmi:recordSource>Bonhams public auction result page</artmi:recordSource>
-    </item>
-    <item>
-      <title>Foliage Study - Bonhams</title>
-      <link>https://www.bonhams.com/auction/31876/lot/205/lynne-drexler-1928-1999-foliage-study-16-18-x-13-in-409-x-33-cm-executed-in-1962/</link>
-      <guid>bonhams_results|bonhams|31876|205</guid>
-      <pubDate>Thu, 21 May 2026 12:00:00 +0000</pubDate>
-      <category>sold</category>
-      <description>Artist(s): LYNNE DREXLER (1928-1999)
-Style: Post-War and Contemporary Art
-Medium: gouache and watercolor on paper board
-Dimensions: 16 1/8 x 13 in (40.9 x 33 cm)
-Auction house: Bonhams
-Auction date: 2026-05-21
-Starting price: Not available
-Estimated selling price: US$ 30,000 - 50,000
-Result price: US$ 66,540
-Last sold price: Not available
-Provenance: Private collection, Connecticut (acquired directly from the artist).
-Sale: Shannon's, Milford, Connecticut, Fine Art Auction, May 2, 2024, Lot 21.
-Acquired from the above by the present owner.
-Notes: Starting price and prior sale price were not exposed in the public Bonhams lot-list payload. Enriched from Bonhams public lot detail page.</description>
-      <artmi:title>Foliage Study</artmi:title>
-      <artmi:artists>LYNNE DREXLER (1928-1999)</artmi:artists>
-      <artmi:style>Post-War and Contemporary Art</artmi:style>
-      <artmi:auctionHouse>Bonhams</artmi:auctionHouse>
-      <artmi:auctionDate>2026-05-21</artmi:auctionDate>
-      <artmi:status>sold</artmi:status>
-      <artmi:estimatedSellingPrice>US$ 30,000 - 50,000</artmi:estimatedSellingPrice>
-      <artmi:resultPrice>US$ 66,540</artmi:resultPrice>
-      <artmi:medium>gouache and watercolor on paper board</artmi:medium>
-      <artmi:dimensions>16 1/8 x 13 in (40.9 x 33 cm)</artmi:dimensions>
-      <artmi:provenance>Private collection, Connecticut (acquired directly from the artist).
-Sale: Shannon's, Milford, Connecticut, Fine Art Auction, May 2, 2024, Lot 21.
-Acquired from the above by the present owner.</artmi:provenance>
-      <artmi:predictionReady>true</artmi:predictionReady>
-      <artmi:recordSource>Bonhams public auction result page</artmi:recordSource>
-    </item>
-    <item>
-      <title>The girls take their places - Phillips</title>
-      <link>https://www.phillips.com/detail/michaela-yearwooddan/234217</link>
-      <guid>phillips_auctions|phillips|NY010526|301</guid>
-      <pubDate>Thu, 21 May 2026 12:00:00 +0000</pubDate>
-      <category>sold</category>
-      <description>Artist(s): Michaela Yearwood-Dan
-Style: Modern &amp; Contemporary Art: Afternoon Session
-Medium: oil, beads and ceramic on canvas
-Dimensions: 82 5/8 x 64 in. (209.9 x 162.6 cm)
-Auction house: Phillips
-Auction date: 2026-05-21
-Starting price: Not available
-Estimated selling price: $ 80,000 - 120,000
-Result price: $ 167,700
-Last sold price: Not available
-Provenance: Marianne Boesky Gallery, New York
-Private Collection
-Acquired from the above by the present owner
-Literature: Charles Hutchinson, “Michaela Yearwood-Dan brings flower power 2024 style to York Art Gallery for National Treasures: Monet in York,” CharlesHutchPress, May 16, 2024, online (illustrated)
-Notes: Starting price and prior sale price were not exposed in the public Phillips sale payload. Enriched from Phillips public lot detail page.</description>
-      <artmi:title>The girls take their places</artmi:title>
-      <artmi:artists>Michaela Yearwood-Dan</artmi:artists>
-      <artmi:style>Modern &amp; Contemporary Art: Afternoon Session</artmi:style>
-      <artmi:auctionHouse>Phillips</artmi:auctionHouse>
-      <artmi:auctionDate>2026-05-21</artmi:auctionDate>
-      <artmi:status>sold</artmi:status>
-      <artmi:estimatedSellingPrice>$ 80,000 - 120,000</artmi:estimatedSellingPrice>
-      <artmi:resultPrice>$ 167,700</artmi:resultPrice>
-      <artmi:medium>oil, beads and ceramic on canvas</artmi:medium>
-      <artmi:dimensions>82 5/8 x 64 in. (209.9 x 162.6 cm)</artmi:dimensions>
-      <artmi:provenance>Marianne Boesky Gallery, New York
-Private Collection
-Acquired from the above by the present owner</artmi:provenance>
-      <artmi:literature>Charles Hutchinson, “Michaela Yearwood-Dan brings flower power 2024 style to York Art Gallery for National Treasures: Monet in York,” CharlesHutchPress, May 16, 2024, online (illustrated)</artmi:literature>
-      <artmi:predictionReady>true</artmi:predictionReady>
-      <artmi:recordSource>Phillips public auction result page</artmi:recordSource>
-    </item>
-    <item>
-      <title>The First to Arrive - Phillips</title>
-      <link>https://www.phillips.com/detail/cynthia-hawkins/234922</link>
-      <guid>phillips_auctions|phillips|NY010526|302</guid>
-      <pubDate>Thu, 21 May 2026 12:00:00 +0000</pubDate>
-      <category>sold</category>
-      <description>Artist(s): Cynthia Hawkins
-Style: Modern &amp; Contemporary Art: Afternoon Session
-Medium: acrylic on canvas, in 2 parts
-Dimensions: each 47 7/8 x 59 3/4 in. (121.6 x 151.8 cm)
-overall 95 3/4 x 59 3/4 in. (243.2 x 151.8 cm)
-Auction house: Phillips
-Auction date: 2026-05-21
-Starting price: Not available
-Estimated selling price: $ 40,000 - 60,000
-Result price: $ 38,700
-Last sold price: Not available
-Provenance: STARS Gallery, Los Angeles
-Acquired from the above by the present owner
-Notes: Starting price and prior sale price were not exposed in the public Phillips sale payload. Enriched from Phillips public lot detail page.</description>
-      <artmi:title>The First to Arrive</artmi:title>
-      <artmi:artists>Cynthia Hawkins</artmi:artists>
-      <artmi:style>Modern &amp; Contemporary Art: Afternoon Session</artmi:style>
-      <artmi:auctionHouse>Phillips</artmi:auctionHouse>
-      <artmi:auctionDate>2026-05-21</artmi:auctionDate>
-      <artmi:status>sold</artmi:status>
-      <artmi:estimatedSellingPrice>$ 40,000 - 60,000</artmi:estimatedSellingPrice>
-      <artmi:resultPrice>$ 38,700</artmi:resultPrice>
-      <artmi:medium>acrylic on canvas, in 2 parts</artmi:medium>
-      <artmi:dimensions>each 47 7/8 x 59 3/4 in. (121.6 x 151.8 cm)
-overall 95 3/4 x 59 3/4 in. (243.2 x 151.8 cm)</artmi:dimensions>
-      <artmi:provenance>STARS Gallery, Los Angeles
-Acquired from the above by the present owner</artmi:provenance>
-      <artmi:predictionReady>true</artmi:predictionReady>
-      <artmi:recordSource>Phillips public auction result page</artmi:recordSource>
-    </item>
-    <item>
-      <title>Automne - Phillips</title>
-      <link>https://www.phillips.com/detail/etel-adnan/234838</link>
-      <guid>phillips_auctions|phillips|NY010526|303</guid>
-      <pubDate>Thu, 21 May 2026 12:00:00 +0000</pubDate>
-      <category>sold</category>
-      <description>Artist(s): Etel Adnan
-Style: Modern &amp; Contemporary Art: Afternoon Session
-Medium: oil on canvas
-Dimensions: 13 x 16 1/8 in. (33.1 x 41 cm)
-Auction house: Phillips
-Auction date: 2026-05-21
-Starting price: Not available
-Estimated selling price: $ 100,000 - 150,000
-Result price: $ 193,500
-Last sold price: Not available
-Provenance: Acquired directly from the artist by the present owner in 2020
-Notes: Starting price and prior sale price were not exposed in the public Phillips sale payload. Enriched from Phillips public lot detail page.</description>
-      <artmi:title>Automne</artmi:title>
-      <artmi:artists>Etel Adnan</artmi:artists>
-      <artmi:style>Modern &amp; Contemporary Art: Afternoon Session</artmi:style>
-      <artmi:auctionHouse>Phillips</artmi:auctionHouse>
-      <artmi:auctionDate>2026-05-21</artmi:auctionDate>
-      <artmi:status>sold</artmi:status>
-      <artmi:estimatedSellingPrice>$ 100,000 - 150,000</artmi:estimatedSellingPrice>
-      <artmi:resultPrice>$ 193,500</artmi:resultPrice>
-      <artmi:medium>oil on canvas</artmi:medium>
-      <artmi:dimensions>13 x 16 1/8 in. (33.1 x 41 cm)</artmi:dimensions>
-      <artmi:provenance>Acquired directly from the artist by the present owner in 2020</artmi:provenance>
-      <artmi:predictionReady>true</artmi:predictionReady>
-      <artmi:recordSource>Phillips public auction result page</artmi:recordSource>
-    </item>
-    <item>
-      <title>Everything in order - Phillips</title>
-      <link>https://www.phillips.com/detail/alexis-ralaivao/234485</link>
-      <guid>phillips_auctions|phillips|NY010526|304</guid>
-      <pubDate>Thu, 21 May 2026 12:00:00 +0000</pubDate>
-      <category>sold</category>
-      <description>Artist(s): Alexis Ralaivao
-Style: Modern &amp; Contemporary Art: Afternoon Session
-Medium: oil on canvas
-Dimensions: 39 3/8 x 28 3/4 in. (100 x 73 cm)
-Auction house: Phillips
-Auction date: 2026-05-21
-Starting price: Not available
-Estimated selling price: $ 15,000 - 20,000
-Result price: $ 38,700
-Last sold price: Not available
-Provenance: Bill Brady Gallery, Miami
-Estate of Bill Brady
-Notes: Starting price and prior sale price were not exposed in the public Phillips sale payload. Enriched from Phillips public lot detail page.</description>
-      <artmi:title>Everything in order</artmi:title>
-      <artmi:artists>Alexis Ralaivao</artmi:artists>
-      <artmi:style>Modern &amp; Contemporary Art: Afternoon Session</artmi:style>
-      <artmi:auctionHouse>Phillips</artmi:auctionHouse>
-      <artmi:auctionDate>2026-05-21</artmi:auctionDate>
-      <artmi:status>sold</artmi:status>
-      <artmi:estimatedSellingPrice>$ 15,000 - 20,000</artmi:estimatedSellingPrice>
-      <artmi:resultPrice>$ 38,700</artmi:resultPrice>
-      <artmi:medium>oil on canvas</artmi:medium>
-      <artmi:dimensions>39 3/8 x 28 3/4 in. (100 x 73 cm)</artmi:dimensions>
-      <artmi:provenance>Bill Brady Gallery, Miami
-Estate of Bill Brady</artmi:provenance>
-      <artmi:predictionReady>true</artmi:predictionReady>
-      <artmi:recordSource>Phillips public auction result page</artmi:recordSource>
-    </item>
-    <item>
-      <title>Ellipsis - Phillips</title>
-      <link>https://www.phillips.com/detail/joseph-yaeger/233881</link>
-      <guid>phillips_auctions|phillips|NY010526|305</guid>
-      <pubDate>Thu, 21 May 2026 12:00:00 +0000</pubDate>
-      <category>sold</category>
-      <description>Artist(s): Joseph Yaeger
-Style: Modern &amp; Contemporary Art: Afternoon Session
-Medium: watercolor on gessoed canvas
-Dimensions: 20 1/8 x 24 1/8 in. (51.1 x 61.3 cm)
-Auction house: Phillips
-Auction date: 2026-05-21
-Starting price: Not available
-Estimated selling price: $ 30,000 - 50,000
-Result price: $ 51,600
-Last sold price: Not available
-Provenance: Project Native Informant LTD, London
-Acquired from the above by the present owner
-Notes: Starting price and prior sale price were not exposed in the public Phillips sale payload. Enriched from Phillips public lot detail page.</description>
-      <artmi:title>Ellipsis</artmi:title>
-      <artmi:artists>Joseph Yaeger</artmi:artists>
-      <artmi:style>Modern &amp; Contemporary Art: Afternoon Session</artmi:style>
-      <artmi:auctionHouse>Phillips</artmi:auctionHouse>
-      <artmi:auctionDate>2026-05-21</artmi:auctionDate>
-      <artmi:status>sold</artmi:status>
-      <artmi:estimatedSellingPrice>$ 30,000 - 50,000</artmi:estimatedSellingPrice>
-      <artmi:resultPrice>$ 51,600</artmi:resultPrice>
-      <artmi:medium>watercolor on gessoed canvas</artmi:medium>
-      <artmi:dimensions>20 1/8 x 24 1/8 in. (51.1 x 61.3 cm)</artmi:dimensions>
-      <artmi:provenance>Project Native Informant LTD, London
-Acquired from the above by the present owner</artmi:provenance>
-      <artmi:predictionReady>true</artmi:predictionReady>
-      <artmi:recordSource>Phillips public auction result page</artmi:recordSource>
-    </item>
-    <item>
-      <title>Untitled (7.2.89) - Christie's</title>
-      <link>https://www.christies.com/en/lot/lot-6585915?ldp_breadcrumb=back</link>
-      <guid>christies_results|christie's|31036|401</guid>
-      <pubDate>Thu, 21 May 2026 12:00:00 +0000</pubDate>
-      <category>sold</category>
-      <description>Artist(s): GERHARD RICHTER (B. 1932)
-Style: Post-War and Contemporary Art Day Sale
-Medium: oil on photograph
-Dimensions: 5 ¾ x 4 in. (14.6 x 10.2 cm.)
-Auction house: Christie's
-Auction date: 2026-05-21
-Starting price: Not available
-Estimated selling price: USD 60,000 - 80,000
-Result price: USD 330,200
-Last sold price: Not available
-Provenance: Acquired directly from the artist by the late owner, 1989
-Literature: J. Hage and H. U. Obrist, eds., Gerhard Richter: The Overpainted Photographs, A Comprehensive Catalogue, London, 2024, p. 9.
-Notes: Starting price and prior sale price were not exposed in the public lot-list payload. Enriched from Christie's public lot detail page.</description>
-      <artmi:title>Untitled (7.2.89)</artmi:title>
-      <artmi:artists>GERHARD RICHTER (B. 1932)</artmi:artists>
-      <artmi:style>Post-War and Contemporary Art Day Sale</artmi:style>
-      <artmi:auctionHouse>Christie's</artmi:auctionHouse>
-      <artmi:auctionDate>2026-05-21</artmi:auctionDate>
-      <artmi:status>sold</artmi:status>
-      <artmi:estimatedSellingPrice>USD 60,000 - 80,000</artmi:estimatedSellingPrice>
-      <artmi:resultPrice>USD 330,200</artmi:resultPrice>
-      <artmi:medium>oil on photograph</artmi:medium>
-      <artmi:dimensions>5 ¾ x 4 in. (14.6 x 10.2 cm.)</artmi:dimensions>
-      <artmi:provenance>Acquired directly from the artist by the late owner, 1989</artmi:provenance>
-      <artmi:literature>J. Hage and H. U. Obrist, eds., Gerhard Richter: The Overpainted Photographs, A Comprehensive Catalogue, London, 2024, p. 9.</artmi:literature>
-      <artmi:predictionReady>true</artmi:predictionReady>
-      <artmi:recordSource>Christie's public auction result page</artmi:recordSource>
-    </item>
-    <item>
-      <title>Untitled - Christie's</title>
-      <link>https://www.christies.com/en/lot/lot-6585916?ldp_breadcrumb=back</link>
-      <guid>christies_results|christie's|31036|402</guid>
-      <pubDate>Thu, 21 May 2026 12:00:00 +0000</pubDate>
-      <category>sold</category>
-      <description>Artist(s): FRANZ KLINE (1910-1962)
-Style: Post-War and Contemporary Art Day Sale
-Medium: oil on paper mounted on panel
-Dimensions: 11 ¾ x 13 1⁄8 in. (28.7 x 33.3 cm.)
-Auction house: Christie's
-Auction date: 2026-05-21
-Starting price: Not available
-Estimated selling price: USD 120,000 - 180,000
-Result price: USD 254,000
-Last sold price: Not available
-Provenance: Gift of the artist to the late owner
-Literature: T. Atencio Demirdjian, For Art's Sake: Inside the Homes of Art Dealers, New York, 2020, pp. 208, 216 and 218-219 (illustrated in situ).
-Notes: Starting price and prior sale price were not exposed in the public lot-list payload. Enriched from Christie's public lot detail page.</description>
-      <artmi:title>Untitled</artmi:title>
-      <artmi:artists>FRANZ KLINE (1910-1962)</artmi:artists>
-      <artmi:style>Post-War and Contemporary Art Day Sale</artmi:style>
-      <artmi:auctionHouse>Christie's</artmi:auctionHouse>
-      <artmi:auctionDate>2026-05-21</artmi:auctionDate>
-      <artmi:status>sold</artmi:status>
-      <artmi:estimatedSellingPrice>USD 120,000 - 180,000</artmi:estimatedSellingPrice>
-      <artmi:resultPrice>USD 254,000</artmi:resultPrice>
-      <artmi:medium>oil on paper mounted on panel</artmi:medium>
-      <artmi:dimensions>11 ¾ x 13 1⁄8 in. (28.7 x 33.3 cm.)</artmi:dimensions>
-      <artmi:provenance>Gift of the artist to the late owner</artmi:provenance>
-      <artmi:literature>T. Atencio Demirdjian, For Art's Sake: Inside the Homes of Art Dealers, New York, 2020, pp. 208, 216 and 218-219 (illustrated in situ).</artmi:literature>
-      <artmi:predictionReady>true</artmi:predictionReady>
-      <artmi:recordSource>Christie's public auction result page</artmi:recordSource>
-    </item>
-    <item>
-      <title>18 December 2008 - Christie's</title>
-      <link>https://www.christies.com/en/lot/lot-6585917?ldp_breadcrumb=back</link>
-      <guid>christies_results|christie's|31036|403</guid>
-      <pubDate>Thu, 21 May 2026 12:00:00 +0000</pubDate>
-      <category>sold</category>
-      <description>Artist(s): GERHARD RICHTER (B. 1932)
-Style: Post-War and Contemporary Art Day Sale
-Medium: enameled lacquer on printed paper
-Dimensions: 5 5⁄8 x 8 1⁄8 in. (13.8 x 20.6 cm.)
-Auction house: Christie's
-Auction date: 2026-05-21
-Starting price: Not available
-Estimated selling price: USD 80,000 - 120,000
-Result price: USD 482,600
-Last sold price: Not available
-Provenance: Gift of the artist to the late owner
-Notes: Starting price and prior sale price were not exposed in the public lot-list payload. Enriched from Christie's public lot detail page.</description>
-      <artmi:title>18 December 2008</artmi:title>
-      <artmi:artists>GERHARD RICHTER (B. 1932)</artmi:artists>
-      <artmi:style>Post-War and Contemporary Art Day Sale</artmi:style>
-      <artmi:auctionHouse>Christie's</artmi:auctionHouse>
-      <artmi:auctionDate>2026-05-21</artmi:auctionDate>
-      <artmi:status>sold</artmi:status>
-      <artmi:estimatedSellingPrice>USD 80,000 - 120,000</artmi:estimatedSellingPrice>
-      <artmi:resultPrice>USD 482,600</artmi:resultPrice>
-      <artmi:medium>enameled lacquer on printed paper</artmi:medium>
-      <artmi:dimensions>5 5⁄8 x 8 1⁄8 in. (13.8 x 20.6 cm.)</artmi:dimensions>
-      <artmi:provenance>Gift of the artist to the late owner</artmi:provenance>
-      <artmi:predictionReady>true</artmi:predictionReady>
-      <artmi:recordSource>Christie's public auction result page</artmi:recordSource>
-    </item>
-    <item>
-      <title>Usuyuki - Christie's</title>
-      <link>https://www.christies.com/en/lot/lot-6585918?ldp_breadcrumb=back</link>
-      <guid>christies_results|christie's|31036|404</guid>
-      <pubDate>Thu, 21 May 2026 12:00:00 +0000</pubDate>
-      <category>sold</category>
-      <description>Artist(s): JASPER JOHNS (B. 1930)
-Style: Post-War and Contemporary Art Day Sale
-Medium: screenprint in colors on Kurotani Kozo paper
-Dimensions: image: 27 ½ x 45 7⁄8 in. (69.9 x 116.5 cm.)
-Auction house: Christie's
-Auction date: 2026-05-21
-Starting price: Not available
-Estimated selling price: USD 100,000 - 150,000
-Result price: USD 381,000
-Last sold price: Not available
-Provenance: Acquired directly from the artist by the late owner
-Literature: R. S. Field, The Prints of Jasper Johns 1960-1993: A Catalogue Raisonné, West Islip, New York, 1994, n.p., no. 227 (another example illustrated).
-Notes: Starting price and prior sale price were not exposed in the public lot-list payload. Enriched from Christie's public lot detail page.</description>
-      <artmi:title>Usuyuki</artmi:title>
-      <artmi:artists>JASPER JOHNS (B. 1930)</artmi:artists>
-      <artmi:style>Post-War and Contemporary Art Day Sale</artmi:style>
-      <artmi:auctionHouse>Christie's</artmi:auctionHouse>
-      <artmi:auctionDate>2026-05-21</artmi:auctionDate>
-      <artmi:status>sold</artmi:status>
-      <artmi:estimatedSellingPrice>USD 100,000 - 150,000</artmi:estimatedSellingPrice>
-      <artmi:resultPrice>USD 381,000</artmi:resultPrice>
-      <artmi:medium>screenprint in colors on Kurotani Kozo paper</artmi:medium>
-      <artmi:dimensions>image: 27 ½ x 45 7⁄8 in. (69.9 x 116.5 cm.)</artmi:dimensions>
-      <artmi:provenance>Acquired directly from the artist by the late owner</artmi:provenance>
-      <artmi:literature>R. S. Field, The Prints of Jasper Johns 1960-1993: A Catalogue Raisonné, West Islip, New York, 1994, n.p., no. 227 (another example illustrated).</artmi:literature>
-      <artmi:predictionReady>true</artmi:predictionReady>
-      <artmi:recordSource>Christie's public auction result page</artmi:recordSource>
-    </item>
-    <item>
-      <title>Abstraktes Bild - Christie's</title>
-      <link>https://www.christies.com/en/lot/lot-6585919?ldp_breadcrumb=back</link>
-      <guid>christies_results|christie's|31036|405</guid>
-      <pubDate>Thu, 21 May 2026 12:00:00 +0000</pubDate>
-      <category>sold</category>
-      <description>Artist(s): GERHARD RICHTER (B. 1932)
-Style: Post-War and Contemporary Art Day Sale
-Medium: oil on canvas
-Dimensions: 16 x 14 1⁄8 in. (40.6 x 36 cm.)
-Auction house: Christie's
-Auction date: 2026-05-21
-Starting price: Not available
-Estimated selling price: USD 750,000 - 1,000,000
-Result price: USD 889,000
-Last sold price: Not available
-Provenance: Acquired directly from the artist by the late owner, 1999
-Literature: Gerhard Richter, exh. cat., London, Anthony d'Offay Gallery, 1998, pp. 94 and 106 (illustrated).
-A. Zweite, Gerhard Richter: Catalogue Raisonné 1993-2004, Düsseldorf, 2005, pp. 276 and 311, no. 833-4 (illustrated).
-D. Elger, ed., Gerhard Richter Catalogue Raisonné, Volume 5, Nos. 806-899, 1994-2006, Berlin, 2019, p. 180, no. 833-4 (illustrated).
-Notes: Starting price and prior sale price were not exposed in the public lot-list payload. Enriched from Christie's public lot detail page.</description>
-      <artmi:title>Abstraktes Bild</artmi:title>
-      <artmi:artists>GERHARD RICHTER (B. 1932)</artmi:artists>
-      <artmi:style>Post-War and Contemporary Art Day Sale</artmi:style>
-      <artmi:auctionHouse>Christie's</artmi:auctionHouse>
-      <artmi:auctionDate>2026-05-21</artmi:auctionDate>
-      <artmi:status>sold</artmi:status>
-      <artmi:estimatedSellingPrice>USD 750,000 - 1,000,000</artmi:estimatedSellingPrice>
-      <artmi:resultPrice>USD 889,000</artmi:resultPrice>
-      <artmi:medium>oil on canvas</artmi:medium>
-      <artmi:dimensions>16 x 14 1⁄8 in. (40.6 x 36 cm.)</artmi:dimensions>
-      <artmi:provenance>Acquired directly from the artist by the late owner, 1999</artmi:provenance>
-      <artmi:literature>Gerhard Richter, exh. cat., London, Anthony d'Offay Gallery, 1998, pp. 94 and 106 (illustrated).
-A. Zweite, Gerhard Richter: Catalogue Raisonné 1993-2004, Düsseldorf, 2005, pp. 276 and 311, no. 833-4 (illustrated).
-D. Elger, ed., Gerhard Richter Catalogue Raisonné, Volume 5, Nos. 806-899, 1994-2006, Berlin, 2019, p. 180, no. 833-4 (illustrated).</artmi:literature>
-      <artmi:predictionReady>true</artmi:predictionReady>
-      <artmi:recordSource>Christie's public auction result page</artmi:recordSource>
-    </item>
-    <item>
-      <title>3. Juli 2015 - Christie's</title>
-      <link>https://www.christies.com/en/lot/lot-6585920?ldp_breadcrumb=back</link>
-      <guid>christies_results|christie's|31036|406</guid>
-      <pubDate>Thu, 21 May 2026 12:00:00 +0000</pubDate>
-      <category>sold</category>
-      <description>Artist(s): GERHARD RICHTER (B. 1932)
-Style: Post-War and Contemporary Art Day Sale
-Medium: Not available
-Dimensions: Not available
-Auction house: Christie's
-Auction date: 2026-05-21
-Starting price: Not available
-Estimated selling price: USD 60,000 - 80,000
-Result price: USD 69,850
-Last sold price: Not available
-Notes: Starting price and prior sale price were not exposed in the public lot-list payload.</description>
-      <artmi:title>3. Juli 2015</artmi:title>
-      <artmi:artists>GERHARD RICHTER (B. 1932)</artmi:artists>
-      <artmi:style>Post-War and Contemporary Art Day Sale</artmi:style>
-      <artmi:auctionHouse>Christie's</artmi:auctionHouse>
-      <artmi:auctionDate>2026-05-21</artmi:auctionDate>
-      <artmi:status>sold</artmi:status>
-      <artmi:estimatedSellingPrice>USD 60,000 - 80,000</artmi:estimatedSellingPrice>
-      <artmi:resultPrice>USD 69,850</artmi:resultPrice>
-      <artmi:predictionReady>true</artmi:predictionReady>
-      <artmi:recordSource>Christie's public auction result page</artmi:recordSource>
-    </item>
-    <item>
-      <title>Johannisnacht IV - Christie's</title>
-      <link>https://www.christies.com/en/lot/lot-6585921?ldp_breadcrumb=back</link>
-      <guid>christies_results|christie's|31036|407</guid>
-      <pubDate>Thu, 21 May 2026 12:00:00 +0000</pubDate>
-      <category>sold</category>
-      <description>Artist(s): ANSELM KIEFER (B. 1945)
-Style: Post-War and Contemporary Art Day Sale
-Medium: Not available
-Dimensions: Not available
-Auction house: Christie's
-Auction date: 2026-05-21
-Starting price: Not available
-Estimated selling price: USD 80,000 - 120,000
-Result price: USD 139,700
-Last sold price: Not available
-Notes: Starting price and prior sale price were not exposed in the public lot-list payload.</description>
-      <artmi:title>Johannisnacht IV</artmi:title>
-      <artmi:artists>ANSELM KIEFER (B. 1945)</artmi:artists>
-      <artmi:style>Post-War and Contemporary Art Day Sale</artmi:style>
-      <artmi:auctionHouse>Christie's</artmi:auctionHouse>
-      <artmi:auctionDate>2026-05-21</artmi:auctionDate>
-      <artmi:status>sold</artmi:status>
-      <artmi:estimatedSellingPrice>USD 80,000 - 120,000</artmi:estimatedSellingPrice>
-      <artmi:resultPrice>USD 139,700</artmi:resultPrice>
-      <artmi:predictionReady>true</artmi:predictionReady>
-      <artmi:recordSource>Christie's public auction result page</artmi:recordSource>
-    </item>
-    <item>
-      <title>Ceramic Sketch - Christie's</title>
-      <link>https://www.christies.com/en/lot/lot-6585922?ldp_breadcrumb=back</link>
-      <guid>christies_results|christie's|31036|408</guid>
-      <pubDate>Thu, 21 May 2026 12:00:00 +0000</pubDate>
-      <category>sold</category>
-      <description>Artist(s): THOMAS SCHÜTTE (B. 1954)
-Style: Post-War and Contemporary Art Day Sale
-Medium: Not available
-Dimensions: Not available
-Auction house: Christie's
-Auction date: 2026-05-21
-Starting price: Not available
-Estimated selling price: USD 50,000 - 70,000
-Result price: USD 27,940
-Last sold price: Not available
-Notes: Starting price and prior sale price were not exposed in the public lot-list payload.</description>
-      <artmi:title>Ceramic Sketch</artmi:title>
-      <artmi:artists>THOMAS SCHÜTTE (B. 1954)</artmi:artists>
-      <artmi:style>Post-War and Contemporary Art Day Sale</artmi:style>
-      <artmi:auctionHouse>Christie's</artmi:auctionHouse>
-      <artmi:auctionDate>2026-05-21</artmi:auctionDate>
-      <artmi:status>sold</artmi:status>
-      <artmi:estimatedSellingPrice>USD 50,000 - 70,000</artmi:estimatedSellingPrice>
-      <artmi:resultPrice>USD 27,940</artmi:resultPrice>
-      <artmi:predictionReady>true</artmi:predictionReady>
-      <artmi:recordSource>Christie's public auction result page</artmi:recordSource>
-    </item>
-    <item>
-      <title>Der Kyffhäuser - Christie's</title>
-      <link>https://www.christies.com/en/lot/lot-6585923?ldp_breadcrumb=back</link>
-      <guid>christies_results|christie's|31036|409</guid>
-      <pubDate>Thu, 21 May 2026 12:00:00 +0000</pubDate>
-      <category>sold</category>
-      <description>Artist(s): ANSELM KIEFER (B. 1945)
-Style: Post-War and Contemporary Art Day Sale
-Medium: Not available
-Dimensions: Not available
-Auction house: Christie's
-Auction date: 2026-05-21
-Starting price: Not available
-Estimated selling price: USD 30,000 - 50,000
-Result price: USD 44,450
-Last sold price: Not available
-Notes: Starting price and prior sale price were not exposed in the public lot-list payload.</description>
-      <artmi:title>Der Kyffhäuser</artmi:title>
-      <artmi:artists>ANSELM KIEFER (B. 1945)</artmi:artists>
-      <artmi:style>Post-War and Contemporary Art Day Sale</artmi:style>
-      <artmi:auctionHouse>Christie's</artmi:auctionHouse>
-      <artmi:auctionDate>2026-05-21</artmi:auctionDate>
-      <artmi:status>sold</artmi:status>
-      <artmi:estimatedSellingPrice>USD 30,000 - 50,000</artmi:estimatedSellingPrice>
-      <artmi:resultPrice>USD 44,450</artmi:resultPrice>
-      <artmi:predictionReady>true</artmi:predictionReady>
-      <artmi:recordSource>Christie's public auction result page</artmi:recordSource>
-    </item>
-    <item>
-      <title>Ella - Christie's</title>
-      <link>https://www.christies.com/en/lot/lot-6585924?ldp_breadcrumb=back</link>
-      <guid>christies_results|christie's|31036|410</guid>
-      <pubDate>Thu, 21 May 2026 12:00:00 +0000</pubDate>
-      <category>sold</category>
-      <description>Artist(s): GERHARD RICHTER (B. 1932)
-Style: Post-War and Contemporary Art Day Sale
-Medium: Not available
-Dimensions: Not available
-Auction house: Christie's
-Auction date: 2026-05-21
-Starting price: Not available
-Estimated selling price: USD 25,000 - 35,000
-Result price: USD 78,740
-Last sold price: Not available
-Notes: Starting price and prior sale price were not exposed in the public lot-list payload.</description>
-      <artmi:title>Ella</artmi:title>
-      <artmi:artists>GERHARD RICHTER (B. 1932)</artmi:artists>
-      <artmi:style>Post-War and Contemporary Art Day Sale</artmi:style>
-      <artmi:auctionHouse>Christie's</artmi:auctionHouse>
-      <artmi:auctionDate>2026-05-21</artmi:auctionDate>
-      <artmi:status>sold</artmi:status>
-      <artmi:estimatedSellingPrice>USD 25,000 - 35,000</artmi:estimatedSellingPrice>
-      <artmi:resultPrice>USD 78,740</artmi:resultPrice>
-      <artmi:predictionReady>true</artmi:predictionReady>
-      <artmi:recordSource>Christie's public auction result page</artmi:recordSource>
-    </item>
-    <item>
-      <title>20 February 2002 - Christie's</title>
-      <link>https://www.christies.com/en/lot/lot-6585925?ldp_breadcrumb=back</link>
-      <guid>christies_results|christie's|31036|411</guid>
-      <pubDate>Thu, 21 May 2026 12:00:00 +0000</pubDate>
-      <category>sold</category>
-      <description>Artist(s): GERHARD RICHTER (B. 1932)
-Style: Post-War and Contemporary Art Day Sale
-Medium: Not available
-Dimensions: Not available
-Auction house: Christie's
-Auction date: 2026-05-21
-Starting price: Not available
-Estimated selling price: USD 30,000 - 50,000
-Result price: USD 139,700
-Last sold price: Not available
-Notes: Starting price and prior sale price were not exposed in the public lot-list payload.</description>
-      <artmi:title>20 February 2002</artmi:title>
-      <artmi:artists>GERHARD RICHTER (B. 1932)</artmi:artists>
-      <artmi:style>Post-War and Contemporary Art Day Sale</artmi:style>
-      <artmi:auctionHouse>Christie's</artmi:auctionHouse>
-      <artmi:auctionDate>2026-05-21</artmi:auctionDate>
-      <artmi:status>sold</artmi:status>
-      <artmi:estimatedSellingPrice>USD 30,000 - 50,000</artmi:estimatedSellingPrice>
-      <artmi:resultPrice>USD 139,700</artmi:resultPrice>
-      <artmi:predictionReady>true</artmi:predictionReady>
-      <artmi:recordSource>Christie's public auction result page</artmi:recordSource>
-    </item>
-    <item>
-      <title>Map Drawing (Sud-Polar-Karte) - Christie's</title>
-      <link>https://www.christies.com/en/lot/lot-6585926?ldp_breadcrumb=back</link>
-      <guid>christies_results|christie's|31036|412</guid>
-      <pubDate>Thu, 21 May 2026 12:00:00 +0000</pubDate>
-      <category>sold</category>
-      <description>Artist(s): WILLIAM KENTRIDGE (B. 1955)
-Style: Post-War and Contemporary Art Day Sale
-Medium: Not available
-Dimensions: Not available
-Auction house: Christie's
-Auction date: 2026-05-21
-Starting price: Not available
-Estimated selling price: USD 30,000 - 50,000
-Result price: USD 48,260
-Last sold price: Not available
-Notes: Starting price and prior sale price were not exposed in the public lot-list payload.</description>
-      <artmi:title>Map Drawing (Sud-Polar-Karte)</artmi:title>
-      <artmi:artists>WILLIAM KENTRIDGE (B. 1955)</artmi:artists>
-      <artmi:style>Post-War and Contemporary Art Day Sale</artmi:style>
-      <artmi:auctionHouse>Christie's</artmi:auctionHouse>
-      <artmi:auctionDate>2026-05-21</artmi:auctionDate>
-      <artmi:status>sold</artmi:status>
-      <artmi:estimatedSellingPrice>USD 30,000 - 50,000</artmi:estimatedSellingPrice>
-      <artmi:resultPrice>USD 48,260</artmi:resultPrice>
-      <artmi:predictionReady>true</artmi:predictionReady>
-      <artmi:recordSource>Christie's public auction result page</artmi:recordSource>
-    </item>
-    <item>
-      <title>Sin título - Sotheby's</title>
-      <link>https://www.sothebys.com/en/buy/auction/2026/modern-day-auction/sin-titulo-4</link>
-      <guid>sothebys_results|sotheby's|016637c6-b78d-430c-a043-475a3aa5b654|301</guid>
-      <pubDate>Wed, 20 May 2026 12:00:00 +0000</pubDate>
-      <category>auctioned</category>
-      <description>Artist(s): Bridget Bate Tichenor
-Style: Modern Day Auction
-Medium: oil on canvas
-Dimensions: 8 by 8 in.
-Auction house: Sotheby's
-Auction date: 2026-05-20
-Starting price: Not available
-Estimated selling price: USD 40,000 - 60,000
-Result price: Not available
-Last sold price: Not available
-Provenance: Private Collection, Mexico City (acquired directly from the artist)
-Private Collection, Mexico City (acquired from the above circa 2010)
-Acquired from the above by the present owner
-Notes: Starting price, realized price, and prior sale price were not exposed in the sampled public Sotheby's payload. Enriched from Sotheby's public lot detail page.</description>
-      <artmi:title>Sin título</artmi:title>
-      <artmi:artists>Bridget Bate Tichenor</artmi:artists>
-      <artmi:style>Modern Day Auction</artmi:style>
-      <artmi:auctionHouse>Sotheby's</artmi:auctionHouse>
-      <artmi:auctionDate>2026-05-20</artmi:auctionDate>
-      <artmi:status>auctioned</artmi:status>
-      <artmi:estimatedSellingPrice>USD 40,000 - 60,000</artmi:estimatedSellingPrice>
-      <artmi:medium>oil on canvas</artmi:medium>
-      <artmi:dimensions>8 by 8 in.</artmi:dimensions>
-      <artmi:provenance>Private Collection, Mexico City (acquired directly from the artist)
-Private Collection, Mexico City (acquired from the above circa 2010)
-Acquired from the above by the present owner</artmi:provenance>
-      <artmi:predictionReady>false</artmi:predictionReady>
-      <artmi:recordSource>Sotheby's public auction result page</artmi:recordSource>
-    </item>
-    <item>
-      <title>Błąd (Error) - Sotheby's</title>
-      <link>https://www.sothebys.com/en/buy/auction/2026/modern-day-auction/blad-error</link>
-      <guid>sothebys_results|sotheby's|016637c6-b78d-430c-a043-475a3aa5b654|302</guid>
-      <pubDate>Wed, 20 May 2026 12:00:00 +0000</pubDate>
-      <category>auctioned</category>
-      <description>Artist(s): Anna Güntner
-Style: Modern Day Auction
-Medium: oil on canvas
-Dimensions: 43 by 27 ⅝ in.
-Auction house: Sotheby's
-Auction date: 2026-05-20
-Starting price: Not available
-Estimated selling price: USD 50,000 - 70,000
-Result price: Not available
-Last sold price: Not available
-Provenance: DESA Foreign Trade Company, Warsaw
-Bodley Gallery, New York
-Ewa Pape, New York
-Acquired from the above circa 1971 by the present owner
-Literature: Exh. Cat., Kraków, Nowa Huta Cultural Centre and Galeria Artemis, Anna Güntner, Painting, 2022, p. 154, illustrated in color (with incorrect dimensions)
-Notes: Starting price, realized price, and prior sale price were not exposed in the sampled public Sotheby's payload. Enriched from Sotheby's public lot detail page.</description>
-      <artmi:title>Błąd (Error)</artmi:title>
-      <artmi:artists>Anna Güntner</artmi:artists>
-      <artmi:style>Modern Day Auction</artmi:style>
-      <artmi:auctionHouse>Sotheby's</artmi:auctionHouse>
-      <artmi:auctionDate>2026-05-20</artmi:auctionDate>
-      <artmi:status>auctioned</artmi:status>
-      <artmi:estimatedSellingPrice>USD 50,000 - 70,000</artmi:estimatedSellingPrice>
-      <artmi:medium>oil on canvas</artmi:medium>
-      <artmi:dimensions>43 by 27 ⅝ in.</artmi:dimensions>
-      <artmi:provenance>DESA Foreign Trade Company, Warsaw
-Bodley Gallery, New York
-Ewa Pape, New York
-Acquired from the above circa 1971 by the present owner</artmi:provenance>
-      <artmi:literature>Exh. Cat., Kraków, Nowa Huta Cultural Centre and Galeria Artemis, Anna Güntner, Painting, 2022, p. 154, illustrated in color (with incorrect dimensions)</artmi:literature>
-      <artmi:predictionReady>false</artmi:predictionReady>
-      <artmi:recordSource>Sotheby's public auction result page</artmi:recordSource>
-    </item>
-    <item>
-      <title>Le Temps - Sotheby's</title>
-      <link>https://www.sothebys.com/en/buy/auction/2026/modern-day-auction/le-temps</link>
-      <guid>sothebys_results|sotheby's|016637c6-b78d-430c-a043-475a3aa5b654|303</guid>
-      <pubDate>Wed, 20 May 2026 12:00:00 +0000</pubDate>
-      <category>auctioned</category>
-      <description>Artist(s): Jane Graverol
-Style: Modern Day Auction
-Medium: oil on board
-Dimensions: 15 ⅝ by 19 ⅝ in.
-Auction house: Sotheby's
-Auction date: 2026-05-20
-Starting price: Not available
-Estimated selling price: USD 30,000 - 50,000
-Result price: Not available
-Last sold price: Not available
-Provenance: Private Collection, Uccle, Belgium (acquired in the 1960s)
-Thence by descent to the present owner
-Notes: Starting price, realized price, and prior sale price were not exposed in the sampled public Sotheby's payload. Enriched from Sotheby's public lot detail page.</description>
-      <artmi:title>Le Temps</artmi:title>
-      <artmi:artists>Jane Graverol</artmi:artists>
-      <artmi:style>Modern Day Auction</artmi:style>
-      <artmi:auctionHouse>Sotheby's</artmi:auctionHouse>
-      <artmi:auctionDate>2026-05-20</artmi:auctionDate>
-      <artmi:status>auctioned</artmi:status>
-      <artmi:estimatedSellingPrice>USD 30,000 - 50,000</artmi:estimatedSellingPrice>
-      <artmi:medium>oil on board</artmi:medium>
-      <artmi:dimensions>15 ⅝ by 19 ⅝ in.</artmi:dimensions>
-      <artmi:provenance>Private Collection, Uccle, Belgium (acquired in the 1960s)
-Thence by descent to the present owner</artmi:provenance>
-      <artmi:predictionReady>false</artmi:predictionReady>
-      <artmi:recordSource>Sotheby's public auction result page</artmi:recordSource>
-    </item>
-    <item>
-      <title>Le Compotier - Sotheby's</title>
-      <link>https://www.sothebys.com/en/buy/auction/2026/modern-day-auction/le-compotier</link>
-      <guid>sothebys_results|sotheby's|016637c6-b78d-430c-a043-475a3aa5b654|304</guid>
-      <pubDate>Wed, 20 May 2026 12:00:00 +0000</pubDate>
-      <category>auctioned</category>
-      <description>Artist(s): René Magritte
-Style: Modern Day Auction
-Medium: gouache on paper
-Dimensions: 9 ½ by 7 ½ in.
-Auction house: Sotheby's
-Auction date: 2026-05-20
-Starting price: Not available
-Estimated selling price: USD 800,000 - 1,200,000
-Result price: Not available
-Last sold price: Not available
-Provenance: Alexander Iolas Gallery, New York (acquired directly from the artist)
-Bodley Gallery, New York (acquired from the above in January 1959)
-Mr. and Mrs. Marvin Notkins, New York (acquired from the above on 10 December 1959)
-Acquired by descent from the above by the present owner
-Literature: Letter from René Magritte to Alexander Iolas, 12 November 1958
-David Sylvester, Sarah Whitfield and Michael Raeburn, eds., René Magritte, Catalogue Raisonné: Gouaches, Temperas, Watercolours and Papiers Collés 1918-1967, vol. IV, London, 1994, no. 1450, p. 211, illustrated
-Notes: Starting price, realized price, and prior sale price were not exposed in the sampled public Sotheby's payload. Enriched from Sotheby's public lot detail page.</description>
-      <artmi:title>Le Compotier</artmi:title>
-      <artmi:artists>René Magritte</artmi:artists>
-      <artmi:style>Modern Day Auction</artmi:style>
-      <artmi:auctionHouse>Sotheby's</artmi:auctionHouse>
-      <artmi:auctionDate>2026-05-20</artmi:auctionDate>
-      <artmi:status>auctioned</artmi:status>
-      <artmi:estimatedSellingPrice>USD 800,000 - 1,200,000</artmi:estimatedSellingPrice>
-      <artmi:medium>gouache on paper</artmi:medium>
-      <artmi:dimensions>9 ½ by 7 ½ in.</artmi:dimensions>
-      <artmi:provenance>Alexander Iolas Gallery, New York (acquired directly from the artist)
-Bodley Gallery, New York (acquired from the above in January 1959)
-Mr. and Mrs. Marvin Notkins, New York (acquired from the above on 10 December 1959)
-Acquired by descent from the above by the present owner</artmi:provenance>
-      <artmi:literature>Letter from René Magritte to Alexander Iolas, 12 November 1958
-David Sylvester, Sarah Whitfield and Michael Raeburn, eds., René Magritte, Catalogue Raisonné: Gouaches, Temperas, Watercolours and Papiers Collés 1918-1967, vol. IV, London, 1994, no. 1450, p. 211, illustrated</artmi:literature>
-      <artmi:predictionReady>false</artmi:predictionReady>
-      <artmi:recordSource>Sotheby's public auction result page</artmi:recordSource>
-    </item>
-    <item>
-      <title>Le Calcul mental - Sotheby's</title>
-      <link>https://www.sothebys.com/en/buy/auction/2026/modern-day-auction/le-calcul-mental</link>
-      <guid>sothebys_results|sotheby's|016637c6-b78d-430c-a043-475a3aa5b654|305</guid>
-      <pubDate>Wed, 20 May 2026 12:00:00 +0000</pubDate>
-      <category>auctioned</category>
-      <description>Artist(s): René Magritte
-Style: Modern Day Auction
-Medium: gouache on paper
-Dimensions: 11 ⅜ by 19 ¼ in.
-Auction house: Sotheby's
-Auction date: 2026-05-20
-Starting price: Not available
-Estimated selling price: USD 250,000 - 350,000
-Result price: Not available
-Last sold price: Not available
-Provenance: Galerie Tarica, Paris
-Gunter Sachs, Switzerland (acquired from the above in 1963)
-Sotheby's, London, 22 May 2012, lot 34 (consigned by the above)
-Acquired at the above sale by the present owner
-Notes: Starting price, realized price, and prior sale price were not exposed in the sampled public Sotheby's payload. Enriched from Sotheby's public lot detail page.</description>
-      <artmi:title>Le Calcul mental</artmi:title>
-      <artmi:artists>René Magritte</artmi:artists>
-      <artmi:style>Modern Day Auction</artmi:style>
-      <artmi:auctionHouse>Sotheby's</artmi:auctionHouse>
-      <artmi:auctionDate>2026-05-20</artmi:auctionDate>
-      <artmi:status>auctioned</artmi:status>
-      <artmi:estimatedSellingPrice>USD 250,000 - 350,000</artmi:estimatedSellingPrice>
-      <artmi:medium>gouache on paper</artmi:medium>
-      <artmi:dimensions>11 ⅜ by 19 ¼ in.</artmi:dimensions>
-      <artmi:provenance>Galerie Tarica, Paris
-Gunter Sachs, Switzerland (acquired from the above in 1963)
-Sotheby's, London, 22 May 2012, lot 34 (consigned by the above)
-Acquired at the above sale by the present owner</artmi:provenance>
-      <artmi:predictionReady>false</artmi:predictionReady>
-      <artmi:recordSource>Sotheby's public auction result page</artmi:recordSource>
-    </item>
-    <item>
-      <title>"Bush" sculpture - Phillips</title>
-      <link>https://www.phillips.com/detail/harry-bertoia/224059</link>
-      <guid>phillips_auctions|phillips|NY050325|1</guid>
-      <pubDate>Sat, 13 Dec 2025 12:00:00 +0000</pubDate>
-      <category>sold</category>
-      <description>Artist(s): Harry Bertoia
-Style: Design
+      <description>Artist(s): Keith Haring
+Style: Modern &amp; Contemporary Editions: Evening Sale
 Medium: Not available
 Dimensions: Not available
 Auction house: Phillips
-Auction date: 2025-12-13
+Auction date: 2026-06-04
 Starting price: Not available
-Estimated selling price: $ 30,000 - 50,000
-Result price: $ 70,950
+Estimated selling price: £ 12,000 - 18,000
+Result price: £ 19,350
 Last sold price: Not available
 Notes: Starting price and prior sale price were not exposed in the public Phillips sale payload.</description>
-      <artmi:title>"Bush" sculpture</artmi:title>
-      <artmi:artists>Harry Bertoia</artmi:artists>
-      <artmi:style>Design</artmi:style>
+      <artmi:title>Pop Shop I: one print (L. p. 83)</artmi:title>
+      <artmi:artists>Keith Haring</artmi:artists>
+      <artmi:style>Modern &amp; Contemporary Editions: Evening Sale</artmi:style>
       <artmi:auctionHouse>Phillips</artmi:auctionHouse>
-      <artmi:auctionDate>2025-12-13</artmi:auctionDate>
+      <artmi:auctionDate>2026-06-04</artmi:auctionDate>
       <artmi:status>sold</artmi:status>
-      <artmi:estimatedSellingPrice>$ 30,000 - 50,000</artmi:estimatedSellingPrice>
-      <artmi:resultPrice>$ 70,950</artmi:resultPrice>
+      <artmi:estimatedSellingPrice>£ 12,000 - 18,000</artmi:estimatedSellingPrice>
+      <artmi:resultPrice>£ 19,350</artmi:resultPrice>
       <artmi:predictionReady>true</artmi:predictionReady>
       <artmi:recordSource>Phillips public auction result page</artmi:recordSource>
     </item>
     <item>
-      <title>Set of three “Mira” chairs - Phillips</title>
-      <link>https://www.phillips.com/detail/george-nakashima/228171</link>
-      <guid>phillips_auctions|phillips|NY050325|10</guid>
-      <pubDate>Sat, 13 Dec 2025 12:00:00 +0000</pubDate>
+      <title>Skulls (F. &amp; S. 157-160) - Phillips</title>
+      <link>https://www.phillips.com/detail/andy-warhol/234270</link>
+      <guid>phillips_auctions|phillips|UK030226|10</guid>
+      <pubDate>Thu, 04 Jun 2026 12:00:00 +0000</pubDate>
       <category>sold</category>
-      <description>Artist(s): George Nakashima
-Style: Design
+      <description>Artist(s): Andy Warhol
+Style: Modern &amp; Contemporary Editions: Evening Sale
 Medium: Not available
 Dimensions: Not available
 Auction house: Phillips
-Auction date: 2025-12-13
+Auction date: 2026-06-04
 Starting price: Not available
-Estimated selling price: $ 2,000 - 3,000
-Result price: $ 7,095
+Estimated selling price: £ 60,000 - 80,000
+Result price: £ 96,750
 Last sold price: Not available
 Notes: Starting price and prior sale price were not exposed in the public Phillips sale payload.</description>
-      <artmi:title>Set of three “Mira” chairs</artmi:title>
-      <artmi:artists>George Nakashima</artmi:artists>
-      <artmi:style>Design</artmi:style>
+      <artmi:title>Skulls (F. &amp; S. 157-160)</artmi:title>
+      <artmi:artists>Andy Warhol</artmi:artists>
+      <artmi:style>Modern &amp; Contemporary Editions: Evening Sale</artmi:style>
       <artmi:auctionHouse>Phillips</artmi:auctionHouse>
-      <artmi:auctionDate>2025-12-13</artmi:auctionDate>
+      <artmi:auctionDate>2026-06-04</artmi:auctionDate>
       <artmi:status>sold</artmi:status>
-      <artmi:estimatedSellingPrice>$ 2,000 - 3,000</artmi:estimatedSellingPrice>
-      <artmi:resultPrice>$ 7,095</artmi:resultPrice>
+      <artmi:estimatedSellingPrice>£ 60,000 - 80,000</artmi:estimatedSellingPrice>
+      <artmi:resultPrice>£ 96,750</artmi:resultPrice>
       <artmi:predictionReady>true</artmi:predictionReady>
       <artmi:recordSource>Phillips public auction result page</artmi:recordSource>
     </item>
     <item>
-      <title>"Minguren II" coffee table - Phillips</title>
-      <link>https://www.phillips.com/detail/george-nakashima/226053</link>
-      <guid>phillips_auctions|phillips|NY050325|11</guid>
-      <pubDate>Sat, 13 Dec 2025 12:00:00 +0000</pubDate>
-      <category>auctioned</category>
-      <description>Artist(s): George Nakashima
-Style: Design
+      <title>Shadows II: one print (see F. &amp; S. 210-215) - Phillips</title>
+      <link>https://www.phillips.com/detail/andy-warhol/235002</link>
+      <guid>phillips_auctions|phillips|UK030226|11</guid>
+      <pubDate>Thu, 04 Jun 2026 12:00:00 +0000</pubDate>
+      <category>sold</category>
+      <description>Artist(s): Andy Warhol
+Style: Modern &amp; Contemporary Editions: Evening Sale
 Medium: Not available
 Dimensions: Not available
 Auction house: Phillips
-Auction date: 2025-12-13
+Auction date: 2026-06-04
 Starting price: Not available
-Estimated selling price: $ 80,000 - 120,000
+Estimated selling price: £ 15,000 - 20,000
+Result price: £ 19,350
+Last sold price: Not available
+Notes: Starting price and prior sale price were not exposed in the public Phillips sale payload.</description>
+      <artmi:title>Shadows II: one print (see F. &amp; S. 210-215)</artmi:title>
+      <artmi:artists>Andy Warhol</artmi:artists>
+      <artmi:style>Modern &amp; Contemporary Editions: Evening Sale</artmi:style>
+      <artmi:auctionHouse>Phillips</artmi:auctionHouse>
+      <artmi:auctionDate>2026-06-04</artmi:auctionDate>
+      <artmi:status>sold</artmi:status>
+      <artmi:estimatedSellingPrice>£ 15,000 - 20,000</artmi:estimatedSellingPrice>
+      <artmi:resultPrice>£ 19,350</artmi:resultPrice>
+      <artmi:predictionReady>true</artmi:predictionReady>
+      <artmi:recordSource>Phillips public auction result page</artmi:recordSource>
+    </item>
+    <item>
+      <title>Calves Head Giant and Stewed Cepes, from Wild Raspberries (F. &amp; S. IV.129) - Phillips</title>
+      <link>https://www.phillips.com/detail/andy-warhol/234471</link>
+      <guid>phillips_auctions|phillips|UK030226|12</guid>
+      <pubDate>Thu, 04 Jun 2026 12:00:00 +0000</pubDate>
+      <category>sold</category>
+      <description>Artist(s): Andy Warhol
+Style: Modern &amp; Contemporary Editions: Evening Sale
+Medium: Not available
+Dimensions: Not available
+Auction house: Phillips
+Auction date: 2026-06-04
+Starting price: Not available
+Estimated selling price: £ 1,000 - 1,200
+Result price: £ 1,677
+Last sold price: Not available
+Notes: Starting price and prior sale price were not exposed in the public Phillips sale payload.</description>
+      <artmi:title>Calves Head Giant and Stewed Cepes, from Wild Raspberries (F. &amp; S. IV.129)</artmi:title>
+      <artmi:artists>Andy Warhol</artmi:artists>
+      <artmi:style>Modern &amp; Contemporary Editions: Evening Sale</artmi:style>
+      <artmi:auctionHouse>Phillips</artmi:auctionHouse>
+      <artmi:auctionDate>2026-06-04</artmi:auctionDate>
+      <artmi:status>sold</artmi:status>
+      <artmi:estimatedSellingPrice>£ 1,000 - 1,200</artmi:estimatedSellingPrice>
+      <artmi:resultPrice>£ 1,677</artmi:resultPrice>
+      <artmi:predictionReady>true</artmi:predictionReady>
+      <artmi:recordSource>Phillips public auction result page</artmi:recordSource>
+    </item>
+    <item>
+      <title>F-111 (G. 73) - Phillips</title>
+      <link>https://www.phillips.com/detail/james-rosenquist/233165</link>
+      <guid>phillips_auctions|phillips|UK030226|13</guid>
+      <pubDate>Thu, 04 Jun 2026 12:00:00 +0000</pubDate>
+      <category>sold</category>
+      <description>Artist(s): James Rosenquist
+Style: Modern &amp; Contemporary Editions: Evening Sale
+Medium: Not available
+Dimensions: Not available
+Auction house: Phillips
+Auction date: 2026-06-04
+Starting price: Not available
+Estimated selling price: £ 30,000 - 50,000
+Result price: £ 33,540
+Last sold price: Not available
+Notes: Starting price and prior sale price were not exposed in the public Phillips sale payload.</description>
+      <artmi:title>F-111 (G. 73)</artmi:title>
+      <artmi:artists>James Rosenquist</artmi:artists>
+      <artmi:style>Modern &amp; Contemporary Editions: Evening Sale</artmi:style>
+      <artmi:auctionHouse>Phillips</artmi:auctionHouse>
+      <artmi:auctionDate>2026-06-04</artmi:auctionDate>
+      <artmi:status>sold</artmi:status>
+      <artmi:estimatedSellingPrice>£ 30,000 - 50,000</artmi:estimatedSellingPrice>
+      <artmi:resultPrice>£ 33,540</artmi:resultPrice>
+      <artmi:predictionReady>true</artmi:predictionReady>
+      <artmi:recordSource>Phillips public auction result page</artmi:recordSource>
+    </item>
+    <item>
+      <title>The Magic Sleeves - Phillips</title>
+      <link>https://www.phillips.com/detail/jim-dine/230101</link>
+      <guid>phillips_auctions|phillips|UK030226|14</guid>
+      <pubDate>Thu, 04 Jun 2026 12:00:00 +0000</pubDate>
+      <category>auctioned</category>
+      <description>Artist(s): Jim Dine
+Style: Modern &amp; Contemporary Editions: Evening Sale
+Medium: Not available
+Dimensions: Not available
+Auction house: Phillips
+Auction date: 2026-06-04
+Starting price: Not available
+Estimated selling price: £ 3,000 - 5,000
 Result price: Not available
 Last sold price: Not available
 Notes: Starting price and prior sale price were not exposed in the public Phillips sale payload.</description>
-      <artmi:title>"Minguren II" coffee table</artmi:title>
-      <artmi:artists>George Nakashima</artmi:artists>
-      <artmi:style>Design</artmi:style>
+      <artmi:title>The Magic Sleeves</artmi:title>
+      <artmi:artists>Jim Dine</artmi:artists>
+      <artmi:style>Modern &amp; Contemporary Editions: Evening Sale</artmi:style>
       <artmi:auctionHouse>Phillips</artmi:auctionHouse>
-      <artmi:auctionDate>2025-12-13</artmi:auctionDate>
+      <artmi:auctionDate>2026-06-04</artmi:auctionDate>
       <artmi:status>auctioned</artmi:status>
-      <artmi:estimatedSellingPrice>$ 80,000 - 120,000</artmi:estimatedSellingPrice>
+      <artmi:estimatedSellingPrice>£ 3,000 - 5,000</artmi:estimatedSellingPrice>
       <artmi:predictionReady>false</artmi:predictionReady>
       <artmi:recordSource>Phillips public auction result page</artmi:recordSource>
     </item>
     <item>
-      <title>"Rutig Blå halvflossa" (Chequered Blue Half Pile) carpet - Phillips</title>
-      <link>https://www.phillips.com/detail/marta-maasfjetterstrom/222829</link>
-      <guid>phillips_auctions|phillips|NY050325|12</guid>
-      <pubDate>Sat, 13 Dec 2025 12:00:00 +0000</pubDate>
+      <title>Brigitte Bardot; and Baby Baby Wild Things (H. &amp; I. 22-27) - Phillips</title>
+      <link>https://www.phillips.com/detail/gerald-laing/235567</link>
+      <guid>phillips_auctions|phillips|UK030226|15</guid>
+      <pubDate>Thu, 04 Jun 2026 12:00:00 +0000</pubDate>
       <category>sold</category>
-      <description>Artist(s): Märta Måås-Fjetterström
-Style: Design
+      <description>Artist(s): Gerald Laing
+Style: Modern &amp; Contemporary Editions: Evening Sale
 Medium: Not available
 Dimensions: Not available
 Auction house: Phillips
-Auction date: 2025-12-13
+Auction date: 2026-06-04
 Starting price: Not available
-Estimated selling price: $ 15,000 - 20,000
-Result price: $ 19,350
+Estimated selling price: £ 15,000 - 20,000
+Result price: £ 28,380
 Last sold price: Not available
 Notes: Starting price and prior sale price were not exposed in the public Phillips sale payload.</description>
-      <artmi:title>"Rutig Blå halvflossa" (Chequered Blue Half Pile) carpet</artmi:title>
-      <artmi:artists>Märta Måås-Fjetterström</artmi:artists>
-      <artmi:style>Design</artmi:style>
+      <artmi:title>Brigitte Bardot; and Baby Baby Wild Things (H. &amp; I. 22-27)</artmi:title>
+      <artmi:artists>Gerald Laing</artmi:artists>
+      <artmi:style>Modern &amp; Contemporary Editions: Evening Sale</artmi:style>
       <artmi:auctionHouse>Phillips</artmi:auctionHouse>
-      <artmi:auctionDate>2025-12-13</artmi:auctionDate>
+      <artmi:auctionDate>2026-06-04</artmi:auctionDate>
       <artmi:status>sold</artmi:status>
-      <artmi:estimatedSellingPrice>$ 15,000 - 20,000</artmi:estimatedSellingPrice>
-      <artmi:resultPrice>$ 19,350</artmi:resultPrice>
+      <artmi:estimatedSellingPrice>£ 15,000 - 20,000</artmi:estimatedSellingPrice>
+      <artmi:resultPrice>£ 28,380</artmi:resultPrice>
       <artmi:predictionReady>true</artmi:predictionReady>
       <artmi:recordSource>Phillips public auction result page</artmi:recordSource>
     </item>
     <item>
-      <title>Cabinet, model no. PE-42 - Phillips</title>
-      <link>https://www.phillips.com/detail/paul-evans/225933</link>
-      <guid>phillips_auctions|phillips|NY050325|13</guid>
-      <pubDate>Sat, 13 Dec 2025 12:00:00 +0000</pubDate>
+      <title>The London Suite - Phillips</title>
+      <link>https://www.phillips.com/detail/peter-blake/233380</link>
+      <guid>phillips_auctions|phillips|UK030226|16</guid>
+      <pubDate>Thu, 04 Jun 2026 12:00:00 +0000</pubDate>
       <category>sold</category>
-      <description>Artist(s): Paul Evans
-Style: Design
+      <description>Artist(s): Peter Blake
+Style: Modern &amp; Contemporary Editions: Evening Sale
 Medium: Not available
 Dimensions: Not available
 Auction house: Phillips
-Auction date: 2025-12-13
+Auction date: 2026-06-04
 Starting price: Not available
-Estimated selling price: $ 25,000 - 35,000
-Result price: $ 25,800
+Estimated selling price: £ 5,000 - 7,000
+Result price: £ 6,450
 Last sold price: Not available
 Notes: Starting price and prior sale price were not exposed in the public Phillips sale payload.</description>
-      <artmi:title>Cabinet, model no. PE-42</artmi:title>
-      <artmi:artists>Paul Evans</artmi:artists>
-      <artmi:style>Design</artmi:style>
+      <artmi:title>The London Suite</artmi:title>
+      <artmi:artists>Peter Blake</artmi:artists>
+      <artmi:style>Modern &amp; Contemporary Editions: Evening Sale</artmi:style>
       <artmi:auctionHouse>Phillips</artmi:auctionHouse>
-      <artmi:auctionDate>2025-12-13</artmi:auctionDate>
+      <artmi:auctionDate>2026-06-04</artmi:auctionDate>
       <artmi:status>sold</artmi:status>
-      <artmi:estimatedSellingPrice>$ 25,000 - 35,000</artmi:estimatedSellingPrice>
-      <artmi:resultPrice>$ 25,800</artmi:resultPrice>
+      <artmi:estimatedSellingPrice>£ 5,000 - 7,000</artmi:estimatedSellingPrice>
+      <artmi:resultPrice>£ 6,450</artmi:resultPrice>
       <artmi:predictionReady>true</artmi:predictionReady>
       <artmi:recordSource>Phillips public auction result page</artmi:recordSource>
     </item>
     <item>
-      <title>"Royal Spathe" and "Seed" sculptures - Phillips</title>
-      <link>https://www.phillips.com/detail/michele-oka-doner/211724</link>
-      <guid>phillips_auctions|phillips|NY050325|14</guid>
-      <pubDate>Sat, 13 Dec 2025 12:00:00 +0000</pubDate>
+      <title>Wrapped Building, Project for 1 Times Square, New York (S. 128) - Phillips</title>
+      <link>https://www.phillips.com/detail/christo-and-jeanneclaude/235501</link>
+      <guid>phillips_auctions|phillips|UK030226|17</guid>
+      <pubDate>Thu, 04 Jun 2026 12:00:00 +0000</pubDate>
       <category>sold</category>
-      <description>Artist(s): Michele Oka Doner
-Style: Design
+      <description>Artist(s): Christo and Jeanne-Claude
+Style: Modern &amp; Contemporary Editions: Evening Sale
 Medium: Not available
 Dimensions: Not available
 Auction house: Phillips
-Auction date: 2025-12-13
+Auction date: 2026-06-04
 Starting price: Not available
-Estimated selling price: $ 2,000 - 3,000
-Result price: $ 2,838
+Estimated selling price: £ 5,000 - 7,000
+Result price: £ 7,095
 Last sold price: Not available
 Notes: Starting price and prior sale price were not exposed in the public Phillips sale payload.</description>
-      <artmi:title>"Royal Spathe" and "Seed" sculptures</artmi:title>
-      <artmi:artists>Michele Oka Doner</artmi:artists>
-      <artmi:style>Design</artmi:style>
+      <artmi:title>Wrapped Building, Project for 1 Times Square, New York (S. 128)</artmi:title>
+      <artmi:artists>Christo and Jeanne-Claude</artmi:artists>
+      <artmi:style>Modern &amp; Contemporary Editions: Evening Sale</artmi:style>
       <artmi:auctionHouse>Phillips</artmi:auctionHouse>
-      <artmi:auctionDate>2025-12-13</artmi:auctionDate>
+      <artmi:auctionDate>2026-06-04</artmi:auctionDate>
       <artmi:status>sold</artmi:status>
-      <artmi:estimatedSellingPrice>$ 2,000 - 3,000</artmi:estimatedSellingPrice>
-      <artmi:resultPrice>$ 2,838</artmi:resultPrice>
+      <artmi:estimatedSellingPrice>£ 5,000 - 7,000</artmi:estimatedSellingPrice>
+      <artmi:resultPrice>£ 7,095</artmi:resultPrice>
       <artmi:predictionReady>true</artmi:predictionReady>
       <artmi:recordSource>Phillips public auction result page</artmi:recordSource>
     </item>
     <item>
-      <title>Dining table - Phillips</title>
-      <link>https://www.phillips.com/detail/wendell-castle/227973</link>
-      <guid>phillips_auctions|phillips|NY050325|15</guid>
-      <pubDate>Sat, 13 Dec 2025 12:00:00 +0000</pubDate>
-      <category>sold</category>
-      <description>Artist(s): Wendell Castle
-Style: Design
-Medium: Not available
-Dimensions: Not available
-Auction house: Phillips
-Auction date: 2025-12-13
-Starting price: Not available
-Estimated selling price: $ 150,000 - 200,000
-Result price: $ 141,900
-Last sold price: Not available
-Notes: Starting price and prior sale price were not exposed in the public Phillips sale payload.</description>
-      <artmi:title>Dining table</artmi:title>
-      <artmi:artists>Wendell Castle</artmi:artists>
-      <artmi:style>Design</artmi:style>
-      <artmi:auctionHouse>Phillips</artmi:auctionHouse>
-      <artmi:auctionDate>2025-12-13</artmi:auctionDate>
-      <artmi:status>sold</artmi:status>
-      <artmi:estimatedSellingPrice>$ 150,000 - 200,000</artmi:estimatedSellingPrice>
-      <artmi:resultPrice>$ 141,900</artmi:resultPrice>
-      <artmi:predictionReady>true</artmi:predictionReady>
-      <artmi:recordSource>Phillips public auction result page</artmi:recordSource>
-    </item>
-    <item>
-      <title>Set of six chairs - Phillips</title>
-      <link>https://www.phillips.com/detail/wendell-castle/227974</link>
-      <guid>phillips_auctions|phillips|NY050325|16</guid>
-      <pubDate>Sat, 13 Dec 2025 12:00:00 +0000</pubDate>
-      <category>sold</category>
-      <description>Artist(s): Wendell Castle
-Style: Design
-Medium: Not available
-Dimensions: Not available
-Auction house: Phillips
-Auction date: 2025-12-13
-Starting price: Not available
-Estimated selling price: $ 50,000 - 70,000
-Result price: $ 51,600
-Last sold price: Not available
-Notes: Starting price and prior sale price were not exposed in the public Phillips sale payload.</description>
-      <artmi:title>Set of six chairs</artmi:title>
-      <artmi:artists>Wendell Castle</artmi:artists>
-      <artmi:style>Design</artmi:style>
-      <artmi:auctionHouse>Phillips</artmi:auctionHouse>
-      <artmi:auctionDate>2025-12-13</artmi:auctionDate>
-      <artmi:status>sold</artmi:status>
-      <artmi:estimatedSellingPrice>$ 50,000 - 70,000</artmi:estimatedSellingPrice>
-      <artmi:resultPrice>$ 51,600</artmi:resultPrice>
-      <artmi:predictionReady>true</artmi:predictionReady>
-      <artmi:recordSource>Phillips public auction result page</artmi:recordSource>
-    </item>
-    <item>
-      <title>Side chair, designed for the John Pierpont Morgan residence, Madison Avenue, New York - Phillips</title>
-      <link>https://www.phillips.com/detail/herter-brothers/228040</link>
-      <guid>phillips_auctions|phillips|NY050325|17</guid>
-      <pubDate>Sat, 13 Dec 2025 12:00:00 +0000</pubDate>
-      <category>sold</category>
-      <description>Artist(s): Herter Brothers
-Style: Design
-Medium: Not available
-Dimensions: Not available
-Auction house: Phillips
-Auction date: 2025-12-13
-Starting price: Not available
-Estimated selling price: $ 10,000 - 15,000
-Result price: $ 37,410
-Last sold price: Not available
-Notes: Starting price and prior sale price were not exposed in the public Phillips sale payload.</description>
-      <artmi:title>Side chair, designed for the John Pierpont Morgan residence, Madison Avenue, New York</artmi:title>
-      <artmi:artists>Herter Brothers</artmi:artists>
-      <artmi:style>Design</artmi:style>
-      <artmi:auctionHouse>Phillips</artmi:auctionHouse>
-      <artmi:auctionDate>2025-12-13</artmi:auctionDate>
-      <artmi:status>sold</artmi:status>
-      <artmi:estimatedSellingPrice>$ 10,000 - 15,000</artmi:estimatedSellingPrice>
-      <artmi:resultPrice>$ 37,410</artmi:resultPrice>
-      <artmi:predictionReady>true</artmi:predictionReady>
-      <artmi:recordSource>Phillips public auction result page</artmi:recordSource>
-    </item>
-    <item>
-      <title>Pair of mirrors - Phillips</title>
-      <link>https://www.phillips.com/detail/carlo-bugatti/224768</link>
-      <guid>phillips_auctions|phillips|NY050325|18</guid>
-      <pubDate>Sat, 13 Dec 2025 12:00:00 +0000</pubDate>
-      <category>sold</category>
-      <description>Artist(s): Carlo Bugatti
-Style: Design
-Medium: Not available
-Dimensions: Not available
-Auction house: Phillips
-Auction date: 2025-12-13
-Starting price: Not available
-Estimated selling price: $ 30,000 - 50,000
-Result price: $ 41,280
-Last sold price: Not available
-Notes: Starting price and prior sale price were not exposed in the public Phillips sale payload.</description>
-      <artmi:title>Pair of mirrors</artmi:title>
-      <artmi:artists>Carlo Bugatti</artmi:artists>
-      <artmi:style>Design</artmi:style>
-      <artmi:auctionHouse>Phillips</artmi:auctionHouse>
-      <artmi:auctionDate>2025-12-13</artmi:auctionDate>
-      <artmi:status>sold</artmi:status>
-      <artmi:estimatedSellingPrice>$ 30,000 - 50,000</artmi:estimatedSellingPrice>
-      <artmi:resultPrice>$ 41,280</artmi:resultPrice>
-      <artmi:predictionReady>true</artmi:predictionReady>
-      <artmi:recordSource>Phillips public auction result page</artmi:recordSource>
-    </item>
-    <item>
-      <title>"Flammé" vase - Phillips</title>
-      <link>https://www.phillips.com/detail/taxile-doat/228416</link>
-      <guid>phillips_auctions|phillips|NY050325|19</guid>
-      <pubDate>Sat, 13 Dec 2025 12:00:00 +0000</pubDate>
+      <title>Vignette (L. 75) - Phillips</title>
+      <link>https://www.phillips.com/detail/richard-hamilton/234204</link>
+      <guid>phillips_auctions|phillips|UK030226|18</guid>
+      <pubDate>Thu, 04 Jun 2026 12:00:00 +0000</pubDate>
       <category>auctioned</category>
-      <description>Artist(s): Taxile Doat
-Style: Design
+      <description>Artist(s): Richard Hamilton
+Style: Modern &amp; Contemporary Editions: Evening Sale
 Medium: Not available
 Dimensions: Not available
 Auction house: Phillips
-Auction date: 2025-12-13
+Auction date: 2026-06-04
 Starting price: Not available
-Estimated selling price: $ 5,000 - 7,000
+Estimated selling price: £ 1,000 - 1,500
 Result price: Not available
 Last sold price: Not available
 Notes: Starting price and prior sale price were not exposed in the public Phillips sale payload.</description>
-      <artmi:title>"Flammé" vase</artmi:title>
-      <artmi:artists>Taxile Doat</artmi:artists>
-      <artmi:style>Design</artmi:style>
+      <artmi:title>Vignette (L. 75)</artmi:title>
+      <artmi:artists>Richard Hamilton</artmi:artists>
+      <artmi:style>Modern &amp; Contemporary Editions: Evening Sale</artmi:style>
       <artmi:auctionHouse>Phillips</artmi:auctionHouse>
-      <artmi:auctionDate>2025-12-13</artmi:auctionDate>
+      <artmi:auctionDate>2026-06-04</artmi:auctionDate>
       <artmi:status>auctioned</artmi:status>
-      <artmi:estimatedSellingPrice>$ 5,000 - 7,000</artmi:estimatedSellingPrice>
+      <artmi:estimatedSellingPrice>£ 1,000 - 1,500</artmi:estimatedSellingPrice>
       <artmi:predictionReady>false</artmi:predictionReady>
       <artmi:recordSource>Phillips public auction result page</artmi:recordSource>
     </item>
     <item>
-      <title>Pair of "Greenrock" ottomans - Phillips</title>
-      <link>https://www.phillips.com/detail/george-nakashima/227966</link>
-      <guid>phillips_auctions|phillips|NY050325|2</guid>
-      <pubDate>Sat, 13 Dec 2025 12:00:00 +0000</pubDate>
+      <title>A Portrait of the Artist by Francis Bacon (L. 78) - Phillips</title>
+      <link>https://www.phillips.com/detail/richard-hamilton/234203</link>
+      <guid>phillips_auctions|phillips|UK030226|19</guid>
+      <pubDate>Thu, 04 Jun 2026 12:00:00 +0000</pubDate>
       <category>sold</category>
-      <description>Artist(s): George Nakashima
-Style: Design
+      <description>Artist(s): Richard Hamilton
+Style: Modern &amp; Contemporary Editions: Evening Sale
 Medium: Not available
 Dimensions: Not available
 Auction house: Phillips
-Auction date: 2025-12-13
+Auction date: 2026-06-04
 Starting price: Not available
-Estimated selling price: $ 12,000 - 18,000
-Result price: $ 30,960
+Estimated selling price: £ 1,000 - 1,500
+Result price: £ 1,096
 Last sold price: Not available
 Notes: Starting price and prior sale price were not exposed in the public Phillips sale payload.</description>
-      <artmi:title>Pair of "Greenrock" ottomans</artmi:title>
-      <artmi:artists>George Nakashima</artmi:artists>
-      <artmi:style>Design</artmi:style>
+      <artmi:title>A Portrait of the Artist by Francis Bacon (L. 78)</artmi:title>
+      <artmi:artists>Richard Hamilton</artmi:artists>
+      <artmi:style>Modern &amp; Contemporary Editions: Evening Sale</artmi:style>
       <artmi:auctionHouse>Phillips</artmi:auctionHouse>
-      <artmi:auctionDate>2025-12-13</artmi:auctionDate>
+      <artmi:auctionDate>2026-06-04</artmi:auctionDate>
       <artmi:status>sold</artmi:status>
-      <artmi:estimatedSellingPrice>$ 12,000 - 18,000</artmi:estimatedSellingPrice>
-      <artmi:resultPrice>$ 30,960</artmi:resultPrice>
+      <artmi:estimatedSellingPrice>£ 1,000 - 1,500</artmi:estimatedSellingPrice>
+      <artmi:resultPrice>£ 1,096</artmi:resultPrice>
       <artmi:predictionReady>true</artmi:predictionReady>
       <artmi:recordSource>Phillips public auction result page</artmi:recordSource>
     </item>
     <item>
-      <title>Side table - Phillips</title>
-      <link>https://www.phillips.com/detail/carlo-bugatti/227366</link>
-      <guid>phillips_auctions|phillips|NY050325|20</guid>
-      <pubDate>Sat, 13 Dec 2025 12:00:00 +0000</pubDate>
+      <title>Silence = Death (L. p. 152) - Phillips</title>
+      <link>https://www.phillips.com/detail/keith-haring/234868</link>
+      <guid>phillips_auctions|phillips|UK030226|2</guid>
+      <pubDate>Thu, 04 Jun 2026 12:00:00 +0000</pubDate>
       <category>sold</category>
-      <description>Artist(s): Carlo Bugatti
-Style: Design
+      <description>Artist(s): Keith Haring
+Style: Modern &amp; Contemporary Editions: Evening Sale
 Medium: Not available
 Dimensions: Not available
 Auction house: Phillips
-Auction date: 2025-12-13
+Auction date: 2026-06-04
 Starting price: Not available
-Estimated selling price: $ 12,000 - 18,000
-Result price: $ 38,700
+Estimated selling price: £ 30,000 - 50,000
+Result price: £ 58,050
 Last sold price: Not available
 Notes: Starting price and prior sale price were not exposed in the public Phillips sale payload.</description>
-      <artmi:title>Side table</artmi:title>
-      <artmi:artists>Carlo Bugatti</artmi:artists>
-      <artmi:style>Design</artmi:style>
+      <artmi:title>Silence = Death (L. p. 152)</artmi:title>
+      <artmi:artists>Keith Haring</artmi:artists>
+      <artmi:style>Modern &amp; Contemporary Editions: Evening Sale</artmi:style>
       <artmi:auctionHouse>Phillips</artmi:auctionHouse>
-      <artmi:auctionDate>2025-12-13</artmi:auctionDate>
+      <artmi:auctionDate>2026-06-04</artmi:auctionDate>
       <artmi:status>sold</artmi:status>
-      <artmi:estimatedSellingPrice>$ 12,000 - 18,000</artmi:estimatedSellingPrice>
-      <artmi:resultPrice>$ 38,700</artmi:resultPrice>
+      <artmi:estimatedSellingPrice>£ 30,000 - 50,000</artmi:estimatedSellingPrice>
+      <artmi:resultPrice>£ 58,050</artmi:resultPrice>
+      <artmi:predictionReady>true</artmi:predictionReady>
+      <artmi:recordSource>Phillips public auction result page</artmi:recordSource>
+    </item>
+    <item>
+      <title>The Orangeman (L. 174) - Phillips</title>
+      <link>https://www.phillips.com/detail/richard-hamilton/232153</link>
+      <guid>phillips_auctions|phillips|UK030226|20</guid>
+      <pubDate>Thu, 04 Jun 2026 12:00:00 +0000</pubDate>
+      <category>sold</category>
+      <description>Artist(s): Richard Hamilton
+Style: Modern &amp; Contemporary Editions: Evening Sale
+Medium: Not available
+Dimensions: Not available
+Auction house: Phillips
+Auction date: 2026-06-04
+Starting price: Not available
+Estimated selling price: £ 1,500 - 2,000
+Result price: £ 2,451
+Last sold price: Not available
+Notes: Starting price and prior sale price were not exposed in the public Phillips sale payload.</description>
+      <artmi:title>The Orangeman (L. 174)</artmi:title>
+      <artmi:artists>Richard Hamilton</artmi:artists>
+      <artmi:style>Modern &amp; Contemporary Editions: Evening Sale</artmi:style>
+      <artmi:auctionHouse>Phillips</artmi:auctionHouse>
+      <artmi:auctionDate>2026-06-04</artmi:auctionDate>
+      <artmi:status>sold</artmi:status>
+      <artmi:estimatedSellingPrice>£ 1,500 - 2,000</artmi:estimatedSellingPrice>
+      <artmi:resultPrice>£ 2,451</artmi:resultPrice>
+      <artmi:predictionReady>true</artmi:predictionReady>
+      <artmi:recordSource>Phillips public auction result page</artmi:recordSource>
+    </item>
+    <item>
+      <title>Pumpkin 2000 (Red) (K. 299) - Phillips</title>
+      <link>https://www.phillips.com/detail/yayoi-kusama/235363</link>
+      <guid>phillips_auctions|phillips|UK030226|21</guid>
+      <pubDate>Thu, 04 Jun 2026 12:00:00 +0000</pubDate>
+      <category>sold</category>
+      <description>Artist(s): Yayoi Kusama
+Style: Modern &amp; Contemporary Editions: Evening Sale
+Medium: Not available
+Dimensions: Not available
+Auction house: Phillips
+Auction date: 2026-06-04
+Starting price: Not available
+Estimated selling price: £ 20,000 - 30,000
+Result price: £ 38,700
+Last sold price: Not available
+Notes: Starting price and prior sale price were not exposed in the public Phillips sale payload.</description>
+      <artmi:title>Pumpkin 2000 (Red) (K. 299)</artmi:title>
+      <artmi:artists>Yayoi Kusama</artmi:artists>
+      <artmi:style>Modern &amp; Contemporary Editions: Evening Sale</artmi:style>
+      <artmi:auctionHouse>Phillips</artmi:auctionHouse>
+      <artmi:auctionDate>2026-06-04</artmi:auctionDate>
+      <artmi:status>sold</artmi:status>
+      <artmi:estimatedSellingPrice>£ 20,000 - 30,000</artmi:estimatedSellingPrice>
+      <artmi:resultPrice>£ 38,700</artmi:resultPrice>
+      <artmi:predictionReady>true</artmi:predictionReady>
+      <artmi:recordSource>Phillips public auction result page</artmi:recordSource>
+    </item>
+    <item>
+      <title>Untitled (La lune en rodage – Carlo Belloli) (S. 6, T. &amp; G. 7) - Phillips</title>
+      <link>https://www.phillips.com/detail/bridget-riley/230789</link>
+      <guid>phillips_auctions|phillips|UK030226|22</guid>
+      <pubDate>Thu, 04 Jun 2026 12:00:00 +0000</pubDate>
+      <category>sold</category>
+      <description>Artist(s): Bridget Riley
+Style: Modern &amp; Contemporary Editions: Evening Sale
+Medium: Not available
+Dimensions: Not available
+Auction house: Phillips
+Auction date: 2026-06-04
+Starting price: Not available
+Estimated selling price: £ 8,000 - 12,000
+Result price: £ 21,930
+Last sold price: Not available
+Notes: Starting price and prior sale price were not exposed in the public Phillips sale payload.</description>
+      <artmi:title>Untitled (La lune en rodage – Carlo Belloli) (S. 6, T. &amp; G. 7)</artmi:title>
+      <artmi:artists>Bridget Riley</artmi:artists>
+      <artmi:style>Modern &amp; Contemporary Editions: Evening Sale</artmi:style>
+      <artmi:auctionHouse>Phillips</artmi:auctionHouse>
+      <artmi:auctionDate>2026-06-04</artmi:auctionDate>
+      <artmi:status>sold</artmi:status>
+      <artmi:estimatedSellingPrice>£ 8,000 - 12,000</artmi:estimatedSellingPrice>
+      <artmi:resultPrice>£ 21,930</artmi:resultPrice>
+      <artmi:predictionReady>true</artmi:predictionReady>
+      <artmi:recordSource>Phillips public auction result page</artmi:recordSource>
+    </item>
+    <item>
+      <title>Horizon Shadow - Phillips</title>
+      <link>https://www.phillips.com/detail/anish-kapoor/227714</link>
+      <guid>phillips_auctions|phillips|UK030226|23</guid>
+      <pubDate>Thu, 04 Jun 2026 12:00:00 +0000</pubDate>
+      <category>sold</category>
+      <description>Artist(s): Anish Kapoor
+Style: Modern &amp; Contemporary Editions: Evening Sale
+Medium: Not available
+Dimensions: Not available
+Auction house: Phillips
+Auction date: 2026-06-04
+Starting price: Not available
+Estimated selling price: £ 10,000 - 15,000
+Result price: £ 15,480
+Last sold price: Not available
+Notes: Starting price and prior sale price were not exposed in the public Phillips sale payload.</description>
+      <artmi:title>Horizon Shadow</artmi:title>
+      <artmi:artists>Anish Kapoor</artmi:artists>
+      <artmi:style>Modern &amp; Contemporary Editions: Evening Sale</artmi:style>
+      <artmi:auctionHouse>Phillips</artmi:auctionHouse>
+      <artmi:auctionDate>2026-06-04</artmi:auctionDate>
+      <artmi:status>sold</artmi:status>
+      <artmi:estimatedSellingPrice>£ 10,000 - 15,000</artmi:estimatedSellingPrice>
+      <artmi:resultPrice>£ 15,480</artmi:resultPrice>
+      <artmi:predictionReady>true</artmi:predictionReady>
+      <artmi:recordSource>Phillips public auction result page</artmi:recordSource>
+    </item>
+    <item>
+      <title>Bonne Bay, from Newfoundland Series (G. 275, A. 55) - Phillips</title>
+      <link>https://www.phillips.com/detail/frank-stella/233166</link>
+      <guid>phillips_auctions|phillips|UK030226|24</guid>
+      <pubDate>Thu, 04 Jun 2026 12:00:00 +0000</pubDate>
+      <category>sold</category>
+      <description>Artist(s): Frank Stella
+Style: Modern &amp; Contemporary Editions: Evening Sale
+Medium: Not available
+Dimensions: Not available
+Auction house: Phillips
+Auction date: 2026-06-04
+Starting price: Not available
+Estimated selling price: £ 7,000 - 10,000
+Result price: £ 12,255
+Last sold price: Not available
+Notes: Starting price and prior sale price were not exposed in the public Phillips sale payload.</description>
+      <artmi:title>Bonne Bay, from Newfoundland Series (G. 275, A. 55)</artmi:title>
+      <artmi:artists>Frank Stella</artmi:artists>
+      <artmi:style>Modern &amp; Contemporary Editions: Evening Sale</artmi:style>
+      <artmi:auctionHouse>Phillips</artmi:auctionHouse>
+      <artmi:auctionDate>2026-06-04</artmi:auctionDate>
+      <artmi:status>sold</artmi:status>
+      <artmi:estimatedSellingPrice>£ 7,000 - 10,000</artmi:estimatedSellingPrice>
+      <artmi:resultPrice>£ 12,255</artmi:resultPrice>
+      <artmi:predictionReady>true</artmi:predictionReady>
+      <artmi:recordSource>Phillips public auction result page</artmi:recordSource>
+    </item>
+    <item>
+      <title>Eau-forte XXIX (Etching XXIX) (E. &amp; M. 31) - Phillips</title>
+      <link>https://www.phillips.com/detail/pierre-soulages/235798</link>
+      <guid>phillips_auctions|phillips|UK030226|25</guid>
+      <pubDate>Thu, 04 Jun 2026 12:00:00 +0000</pubDate>
+      <category>sold</category>
+      <description>Artist(s): Pierre Soulages
+Style: Modern &amp; Contemporary Editions: Evening Sale
+Medium: Not available
+Dimensions: Not available
+Auction house: Phillips
+Auction date: 2026-06-04
+Starting price: Not available
+Estimated selling price: £ 8,000 - 12,000
+Result price: £ 9,030
+Last sold price: Not available
+Notes: Starting price and prior sale price were not exposed in the public Phillips sale payload.</description>
+      <artmi:title>Eau-forte XXIX (Etching XXIX) (E. &amp; M. 31)</artmi:title>
+      <artmi:artists>Pierre Soulages</artmi:artists>
+      <artmi:style>Modern &amp; Contemporary Editions: Evening Sale</artmi:style>
+      <artmi:auctionHouse>Phillips</artmi:auctionHouse>
+      <artmi:auctionDate>2026-06-04</artmi:auctionDate>
+      <artmi:status>sold</artmi:status>
+      <artmi:estimatedSellingPrice>£ 8,000 - 12,000</artmi:estimatedSellingPrice>
+      <artmi:resultPrice>£ 9,030</artmi:resultPrice>
+      <artmi:predictionReady>true</artmi:predictionReady>
+      <artmi:recordSource>Phillips public auction result page</artmi:recordSource>
+    </item>
+    <item>
+      <title>Venice, Evening, from Venetian Views (H. 95) - Phillips</title>
+      <link>https://www.phillips.com/detail/howard-hodgkin/230099</link>
+      <guid>phillips_auctions|phillips|UK030226|26</guid>
+      <pubDate>Thu, 04 Jun 2026 12:00:00 +0000</pubDate>
+      <category>sold</category>
+      <description>Artist(s): Howard Hodgkin
+Style: Modern &amp; Contemporary Editions: Evening Sale
+Medium: Not available
+Dimensions: Not available
+Auction house: Phillips
+Auction date: 2026-06-04
+Starting price: Not available
+Estimated selling price: £ 6,000 - 8,000
+Result price: £ 9,030
+Last sold price: Not available
+Notes: Starting price and prior sale price were not exposed in the public Phillips sale payload.</description>
+      <artmi:title>Venice, Evening, from Venetian Views (H. 95)</artmi:title>
+      <artmi:artists>Howard Hodgkin</artmi:artists>
+      <artmi:style>Modern &amp; Contemporary Editions: Evening Sale</artmi:style>
+      <artmi:auctionHouse>Phillips</artmi:auctionHouse>
+      <artmi:auctionDate>2026-06-04</artmi:auctionDate>
+      <artmi:status>sold</artmi:status>
+      <artmi:estimatedSellingPrice>£ 6,000 - 8,000</artmi:estimatedSellingPrice>
+      <artmi:resultPrice>£ 9,030</artmi:resultPrice>
+      <artmi:predictionReady>true</artmi:predictionReady>
+      <artmi:recordSource>Phillips public auction result page</artmi:recordSource>
+    </item>
+    <item>
+      <title>Untitled (S. 195) - Phillips</title>
+      <link>https://www.phillips.com/detail/donald-judd/234902</link>
+      <guid>phillips_auctions|phillips|UK030226|27</guid>
+      <pubDate>Thu, 04 Jun 2026 12:00:00 +0000</pubDate>
+      <category>auctioned</category>
+      <description>Artist(s): Donald Judd
+Style: Modern &amp; Contemporary Editions: Evening Sale
+Medium: Not available
+Dimensions: Not available
+Auction house: Phillips
+Auction date: 2026-06-04
+Starting price: Not available
+Estimated selling price: £ 8,000 - 10,000
+Result price: Not available
+Last sold price: Not available
+Notes: Starting price and prior sale price were not exposed in the public Phillips sale payload.</description>
+      <artmi:title>Untitled (S. 195)</artmi:title>
+      <artmi:artists>Donald Judd</artmi:artists>
+      <artmi:style>Modern &amp; Contemporary Editions: Evening Sale</artmi:style>
+      <artmi:auctionHouse>Phillips</artmi:auctionHouse>
+      <artmi:auctionDate>2026-06-04</artmi:auctionDate>
+      <artmi:status>auctioned</artmi:status>
+      <artmi:estimatedSellingPrice>£ 8,000 - 10,000</artmi:estimatedSellingPrice>
+      <artmi:predictionReady>false</artmi:predictionReady>
+      <artmi:recordSource>Phillips public auction result page</artmi:recordSource>
+    </item>
+    <item>
+      <title>Untitled (S. 24) - Phillips</title>
+      <link>https://www.phillips.com/detail/donald-judd/234897</link>
+      <guid>phillips_auctions|phillips|UK030226|28</guid>
+      <pubDate>Thu, 04 Jun 2026 12:00:00 +0000</pubDate>
+      <category>sold</category>
+      <description>Artist(s): Donald Judd
+Style: Modern &amp; Contemporary Editions: Evening Sale
+Medium: Not available
+Dimensions: Not available
+Auction house: Phillips
+Auction date: 2026-06-04
+Starting price: Not available
+Estimated selling price: £ 60,000 - 80,000
+Result price: £ 129,000
+Last sold price: Not available
+Notes: Starting price and prior sale price were not exposed in the public Phillips sale payload.</description>
+      <artmi:title>Untitled (S. 24)</artmi:title>
+      <artmi:artists>Donald Judd</artmi:artists>
+      <artmi:style>Modern &amp; Contemporary Editions: Evening Sale</artmi:style>
+      <artmi:auctionHouse>Phillips</artmi:auctionHouse>
+      <artmi:auctionDate>2026-06-04</artmi:auctionDate>
+      <artmi:status>sold</artmi:status>
+      <artmi:estimatedSellingPrice>£ 60,000 - 80,000</artmi:estimatedSellingPrice>
+      <artmi:resultPrice>£ 129,000</artmi:resultPrice>
+      <artmi:predictionReady>true</artmi:predictionReady>
+      <artmi:recordSource>Phillips public auction result page</artmi:recordSource>
+    </item>
+    <item>
+      <title>Untitled, from Door Cycle - Phillips</title>
+      <link>https://www.phillips.com/detail/katharina-grosse/234898</link>
+      <guid>phillips_auctions|phillips|UK030226|29</guid>
+      <pubDate>Thu, 04 Jun 2026 12:00:00 +0000</pubDate>
+      <category>auctioned</category>
+      <description>Artist(s): Katharina Grosse
+Style: Modern &amp; Contemporary Editions: Evening Sale
+Medium: Not available
+Dimensions: Not available
+Auction house: Phillips
+Auction date: 2026-06-04
+Starting price: Not available
+Estimated selling price: £ 15,000 - 20,000
+Result price: Not available
+Last sold price: Not available
+Notes: Starting price and prior sale price were not exposed in the public Phillips sale payload.</description>
+      <artmi:title>Untitled, from Door Cycle</artmi:title>
+      <artmi:artists>Katharina Grosse</artmi:artists>
+      <artmi:style>Modern &amp; Contemporary Editions: Evening Sale</artmi:style>
+      <artmi:auctionHouse>Phillips</artmi:auctionHouse>
+      <artmi:auctionDate>2026-06-04</artmi:auctionDate>
+      <artmi:status>auctioned</artmi:status>
+      <artmi:estimatedSellingPrice>£ 15,000 - 20,000</artmi:estimatedSellingPrice>
+      <artmi:predictionReady>false</artmi:predictionReady>
+      <artmi:recordSource>Phillips public auction result page</artmi:recordSource>
+    </item>
+    <item>
+      <title>Tomato, from Campbell's Soup I (F. &amp; S. 46) - Phillips</title>
+      <link>https://www.phillips.com/detail/andy-warhol/234269</link>
+      <guid>phillips_auctions|phillips|UK030226|3</guid>
+      <pubDate>Thu, 04 Jun 2026 12:00:00 +0000</pubDate>
+      <category>sold</category>
+      <description>Artist(s): Andy Warhol
+Style: Modern &amp; Contemporary Editions: Evening Sale
+Medium: Not available
+Dimensions: Not available
+Auction house: Phillips
+Auction date: 2026-06-04
+Starting price: Not available
+Estimated selling price: £ 60,000 - 80,000
+Result price: £ 154,800
+Last sold price: Not available
+Notes: Starting price and prior sale price were not exposed in the public Phillips sale payload.</description>
+      <artmi:title>Tomato, from Campbell's Soup I (F. &amp; S. 46)</artmi:title>
+      <artmi:artists>Andy Warhol</artmi:artists>
+      <artmi:style>Modern &amp; Contemporary Editions: Evening Sale</artmi:style>
+      <artmi:auctionHouse>Phillips</artmi:auctionHouse>
+      <artmi:auctionDate>2026-06-04</artmi:auctionDate>
+      <artmi:status>sold</artmi:status>
+      <artmi:estimatedSellingPrice>£ 60,000 - 80,000</artmi:estimatedSellingPrice>
+      <artmi:resultPrice>£ 154,800</artmi:resultPrice>
+      <artmi:predictionReady>true</artmi:predictionReady>
+      <artmi:recordSource>Phillips public auction result page</artmi:recordSource>
+    </item>
+    <item>
+      <title>Die Argonauten (The Argonauts) - Phillips</title>
+      <link>https://www.phillips.com/detail/anselm-kiefer/234920</link>
+      <guid>phillips_auctions|phillips|UK030226|30</guid>
+      <pubDate>Thu, 04 Jun 2026 12:00:00 +0000</pubDate>
+      <category>sold</category>
+      <description>Artist(s): Anselm Kiefer
+Style: Modern &amp; Contemporary Editions: Evening Sale
+Medium: Not available
+Dimensions: Not available
+Auction house: Phillips
+Auction date: 2026-06-04
+Starting price: Not available
+Estimated selling price: £ 12,000 - 18,000
+Result price: £ 10,320
+Last sold price: Not available
+Notes: Starting price and prior sale price were not exposed in the public Phillips sale payload.</description>
+      <artmi:title>Die Argonauten (The Argonauts)</artmi:title>
+      <artmi:artists>Anselm Kiefer</artmi:artists>
+      <artmi:style>Modern &amp; Contemporary Editions: Evening Sale</artmi:style>
+      <artmi:auctionHouse>Phillips</artmi:auctionHouse>
+      <artmi:auctionDate>2026-06-04</artmi:auctionDate>
+      <artmi:status>sold</artmi:status>
+      <artmi:estimatedSellingPrice>£ 12,000 - 18,000</artmi:estimatedSellingPrice>
+      <artmi:resultPrice>£ 10,320</artmi:resultPrice>
       <artmi:predictionReady>true</artmi:predictionReady>
       <artmi:recordSource>Phillips public auction result page</artmi:recordSource>
     </item>

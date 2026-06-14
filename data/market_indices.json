@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-14T00:13:26Z",
+  "generated_at": "2026-06-14T11:57:54Z",
   "source": {
     "type": "internal_auction_results",
     "db_path": "data/auction/auction_pipeline.sqlite",
@@ -7,10 +7,10 @@
     "caveat": "Prototype indices are only as strong as the available normalized lot history."
   },
   "summary": {
-    "lot_count": 8377,
-    "index_count": 145,
-    "history_ready_count": 138,
-    "needs_more_history_count": 7
+    "lot_count": 9858,
+    "index_count": 172,
+    "history_ready_count": 152,
+    "needs_more_history_count": 20
   },
   "indices": [
     {
@@ -20,12 +20,12 @@
       "status": "history_ready",
       "confidence": "high",
       "period_count": 51,
-      "lot_count": 8377,
+      "lot_count": 9858,
       "latest_period": "2026",
       "latest_index_value": 55285.71,
-      "latest_lots_sold": 75,
+      "latest_lots_sold": 194,
       "latest_median_result": 38700.0,
-      "latest_estimate_ratio": 1.663,
+      "latest_estimate_ratio": 1.442,
       "points": [
         {
           "period": "1873",
@@ -362,129 +362,129 @@
         },
         {
           "period": "2013",
-          "index_value": 44642.86,
-          "lots_sold": 47,
-          "total_value": 2243625.0,
-          "median_result": 31250.0,
-          "median_estimate": 17500.0,
-          "estimate_ratio": 1.786
+          "index_value": 33035.71,
+          "lots_sold": 118,
+          "total_value": 4283250.0,
+          "median_result": 23125.0,
+          "median_estimate": 16500.0,
+          "estimate_ratio": 1.363
         },
         {
           "period": "2014",
-          "index_value": 3571.43,
-          "lots_sold": 12,
-          "total_value": 37563.0,
-          "median_result": 2500.0,
-          "median_estimate": 3000.0,
-          "estimate_ratio": 1.042
+          "index_value": 21428.57,
+          "lots_sold": 71,
+          "total_value": 1609138.0,
+          "median_result": 15000.0,
+          "median_estimate": 14000.0,
+          "estimate_ratio": 1.0
         },
         {
           "period": "2015",
-          "index_value": 35714.29,
-          "lots_sold": 33,
-          "total_value": 1052500.0,
-          "median_result": 25000.0,
-          "median_estimate": 21000.0,
-          "estimate_ratio": 1.071
+          "index_value": 66071.43,
+          "lots_sold": 99,
+          "total_value": 6394375.0,
+          "median_result": 46250.0,
+          "median_estimate": 35000.0,
+          "estimate_ratio": 1.25
         },
         {
           "period": "2016",
-          "index_value": 20535.71,
-          "lots_sold": 46,
-          "total_value": 1097625.0,
-          "median_result": 14375.0,
-          "median_estimate": 10000.0,
+          "index_value": 32142.86,
+          "lots_sold": 160,
+          "total_value": 8530125.0,
+          "median_result": 22500.0,
+          "median_estimate": 14500.0,
           "estimate_ratio": 1.5
         },
         {
           "period": "2017",
-          "index_value": 156250.0,
-          "lots_sold": 28,
-          "total_value": 4395250.0,
-          "median_result": 109375.0,
-          "median_estimate": 60000.0,
-          "estimate_ratio": 1.65
+          "index_value": 26785.71,
+          "lots_sold": 159,
+          "total_value": 7152250.0,
+          "median_result": 18750.0,
+          "median_estimate": 10000.0,
+          "estimate_ratio": 1.696
         },
         {
           "period": "2018",
-          "index_value": 25000.0,
-          "lots_sold": 39,
-          "total_value": 1025375.0,
-          "median_result": 17500.0,
-          "median_estimate": 12500.0,
-          "estimate_ratio": 1.328
+          "index_value": 32142.86,
+          "lots_sold": 71,
+          "total_value": 3239125.0,
+          "median_result": 22500.0,
+          "median_estimate": 15000.0,
+          "estimate_ratio": 1.25
         },
         {
           "period": "2019",
-          "index_value": 19642.86,
-          "lots_sold": 53,
-          "total_value": 1985375.0,
-          "median_result": 13750.0,
-          "median_estimate": 8000.0,
-          "estimate_ratio": 1.607
+          "index_value": 37500.0,
+          "lots_sold": 212,
+          "total_value": 25160814.0,
+          "median_result": 26250.0,
+          "median_estimate": 15000.0,
+          "estimate_ratio": 1.444
         },
         {
           "period": "2020",
-          "index_value": 32400.0,
-          "lots_sold": 53,
-          "total_value": 2401207.0,
-          "median_result": 22680.0,
+          "index_value": 43200.0,
+          "lots_sold": 204,
+          "total_value": 24252651.0,
+          "median_result": 30240.0,
           "median_estimate": 17500.0,
-          "estimate_ratio": 1.21
+          "estimate_ratio": 1.596
         },
         {
           "period": "2021",
-          "index_value": 36000.0,
-          "lots_sold": 54,
-          "total_value": 3633124.0,
-          "median_result": 25200.0,
-          "median_estimate": 16250.0,
+          "index_value": 43200.0,
+          "lots_sold": 143,
+          "total_value": 9195394.0,
+          "median_result": 30240.0,
+          "median_estimate": 17500.0,
           "estimate_ratio": 1.764
         },
         {
           "period": "2022",
-          "index_value": 68400.0,
-          "lots_sold": 58,
-          "total_value": 3824730.0,
-          "median_result": 47880.0,
-          "median_estimate": 20000.0,
-          "estimate_ratio": 1.512
+          "index_value": 46800.0,
+          "lots_sold": 169,
+          "total_value": 238085676.0,
+          "median_result": 32760.0,
+          "median_estimate": 17500.0,
+          "estimate_ratio": 1.357
         },
         {
           "period": "2023",
-          "index_value": 20864.29,
-          "lots_sold": 50,
-          "total_value": 792989.0,
-          "median_result": 14605.0,
-          "median_estimate": 12500.0,
-          "estimate_ratio": 1.016
+          "index_value": 19957.14,
+          "lots_sold": 134,
+          "total_value": 6539657.0,
+          "median_result": 13970.0,
+          "median_estimate": 10000.0,
+          "estimate_ratio": 1.084
         },
         {
           "period": "2024",
-          "index_value": 113392.86,
-          "lots_sold": 50,
-          "total_value": 6221730.0,
-          "median_result": 79375.0,
-          "median_estimate": 60000.0,
-          "estimate_ratio": 1.114
+          "index_value": 34471.43,
+          "lots_sold": 213,
+          "total_value": 15143706.0,
+          "median_result": 24130.0,
+          "median_estimate": 17500.0,
+          "estimate_ratio": 1.333
         },
         {
           "period": "2025",
-          "index_value": 44228.57,
-          "lots_sold": 52,
-          "total_value": 2846901.0,
-          "median_result": 30960.0,
-          "median_estimate": 17500.0,
-          "estimate_ratio": 1.5
+          "index_value": 47914.29,
+          "lots_sold": 184,
+          "total_value": 19365738.0,
+          "median_result": 33540.0,
+          "median_estimate": 25000.0,
+          "estimate_ratio": 1.129
         },
         {
           "period": "2026",
           "index_value": 55285.71,
-          "lots_sold": 75,
-          "total_value": 6287561.0,
+          "lots_sold": 194,
+          "total_value": 35756127.0,
           "median_result": 38700.0,
-          "median_estimate": 17500.0,
-          "estimate_ratio": 1.663
+          "median_estimate": 18750.0,
+          "estimate_ratio": 1.442
         }
       ],
       "notes": "Usable directional index; still needs repeat-sale and hedonic controls."
@@ -1154,6 +1154,131 @@
       "notes": "Usable directional index; still needs repeat-sale and hedonic controls."
     },
     {
+      "id": "sale_context:design",
+      "series_type": "sale_context",
+      "label": "Design",
+      "status": "history_ready",
+      "confidence": "high",
+      "period_count": 12,
+      "lot_count": 767,
+      "latest_period": "2026",
+      "latest_index_value": 123.84,
+      "latest_lots_sold": 69,
+      "latest_median_result": 23220.0,
+      "latest_estimate_ratio": 1.613,
+      "points": [
+        {
+          "period": "2013",
+          "index_value": 100.0,
+          "lots_sold": 54,
+          "total_value": 1712000.0,
+          "median_result": 18750.0,
+          "median_estimate": 16000.0,
+          "estimate_ratio": 1.071
+        },
+        {
+          "period": "2014",
+          "index_value": 100.0,
+          "lots_sold": 54,
+          "total_value": 1539825.0,
+          "median_result": 18750.0,
+          "median_estimate": 17500.0,
+          "estimate_ratio": 1.0
+        },
+        {
+          "period": "2015",
+          "index_value": 133.33,
+          "lots_sold": 45,
+          "total_value": 1341875.0,
+          "median_result": 25000.0,
+          "median_estimate": 17500.0,
+          "estimate_ratio": 1.071
+        },
+        {
+          "period": "2016",
+          "index_value": 100.0,
+          "lots_sold": 64,
+          "total_value": 1830125.0,
+          "median_result": 18750.0,
+          "median_estimate": 12500.0,
+          "estimate_ratio": 1.484
+        },
+        {
+          "period": "2017",
+          "index_value": 83.33,
+          "lots_sold": 57,
+          "total_value": 1315375.0,
+          "median_result": 15625.0,
+          "median_estimate": 12500.0,
+          "estimate_ratio": 1.25
+        },
+        {
+          "period": "2019",
+          "index_value": 73.33,
+          "lots_sold": 72,
+          "total_value": 2426750.0,
+          "median_result": 13750.0,
+          "median_estimate": 9000.0,
+          "estimate_ratio": 1.531
+        },
+        {
+          "period": "2020",
+          "index_value": 100.8,
+          "lots_sold": 69,
+          "total_value": 2215332.0,
+          "median_result": 18900.0,
+          "median_estimate": 10000.0,
+          "estimate_ratio": 1.584
+        },
+        {
+          "period": "2021",
+          "index_value": 201.6,
+          "lots_sold": 75,
+          "total_value": 4807908.0,
+          "median_result": 37800.0,
+          "median_estimate": 17500.0,
+          "estimate_ratio": 2.047
+        },
+        {
+          "period": "2022",
+          "index_value": 107.52,
+          "lots_sold": 68,
+          "total_value": 2726640.0,
+          "median_result": 20160.0,
+          "median_estimate": 13750.0,
+          "estimate_ratio": 1.356
+        },
+        {
+          "period": "2024",
+          "index_value": 101.6,
+          "lots_sold": 73,
+          "total_value": 4866866.0,
+          "median_result": 19050.0,
+          "median_estimate": 15000.0,
+          "estimate_ratio": 1.333
+        },
+        {
+          "period": "2025",
+          "index_value": 165.12,
+          "lots_sold": 67,
+          "total_value": 3212616.0,
+          "median_result": 30960.0,
+          "median_estimate": 17500.0,
+          "estimate_ratio": 1.451
+        },
+        {
+          "period": "2026",
+          "index_value": 123.84,
+          "lots_sold": 69,
+          "total_value": 2932428.0,
+          "median_result": 23220.0,
+          "median_estimate": 12500.0,
+          "estimate_ratio": 1.613
+        }
+      ],
+      "notes": "Usable directional index; still needs repeat-sale and hedonic controls."
+    },
+    {
       "id": "sale_context:animals",
       "series_type": "sale_context",
       "label": "Animals",
@@ -1418,6 +1543,68 @@
           "median_result": 950.0,
           "median_estimate": null,
           "estimate_ratio": null
+        }
+      ],
+      "notes": "Usable directional index; still needs repeat-sale and hedonic controls."
+    },
+    {
+      "id": "sale_context:new-now",
+      "series_type": "sale_context",
+      "label": "New Now",
+      "status": "history_ready",
+      "confidence": "high",
+      "period_count": 5,
+      "lot_count": 335,
+      "latest_period": "2023",
+      "latest_index_value": 84.67,
+      "latest_lots_sold": 62,
+      "latest_median_result": 15875.0,
+      "latest_estimate_ratio": 1.154,
+      "points": [
+        {
+          "period": "2019",
+          "index_value": 100.0,
+          "lots_sold": 67,
+          "total_value": 2645439.0,
+          "median_result": 18750.0,
+          "median_estimate": 12500.0,
+          "estimate_ratio": 1.25
+        },
+        {
+          "period": "2020",
+          "index_value": 120.96,
+          "lots_sold": 65,
+          "total_value": 2632669.0,
+          "median_result": 22680.0,
+          "median_estimate": 17500.0,
+          "estimate_ratio": 1.26
+        },
+        {
+          "period": "2021",
+          "index_value": 134.4,
+          "lots_sold": 67,
+          "total_value": 4135486.0,
+          "median_result": 25200.0,
+          "median_estimate": 17500.0,
+          "estimate_ratio": 1.411
+        },
+        {
+          "period": "2022",
+          "index_value": 194.88,
+          "lots_sold": 74,
+          "total_value": 4162536.0,
+          "median_result": 36540.0,
+          "median_estimate": 17500.0,
+          "estimate_ratio": 1.365
+        },
+        {
+          "period": "2023",
+          "index_value": 84.67,
+          "lots_sold": 62,
+          "total_value": 2668759.0,
+          "median_result": 15875.0,
+          "median_estimate": 12500.0,
+          "estimate_ratio": 1.154
         }
       ],
       "notes": "Usable directional index; still needs repeat-sale and hedonic controls."
@@ -1983,59 +2170,6 @@
           "median_result": 25000.0,
           "median_estimate": null,
           "estimate_ratio": null
-        }
-      ],
-      "notes": "Usable directional index; still needs repeat-sale and hedonic controls."
-    },
-    {
-      "id": "sale_context:design",
-      "series_type": "sale_context",
-      "label": "Design",
-      "status": "history_ready",
-      "confidence": "high",
-      "period_count": 4,
-      "lot_count": 191,
-      "latest_period": "2026",
-      "latest_index_value": 113.52,
-      "latest_lots_sold": 53,
-      "latest_median_result": 28380.0,
-      "latest_estimate_ratio": 1.677,
-      "points": [
-        {
-          "period": "2015",
-          "index_value": 100.0,
-          "lots_sold": 33,
-          "total_value": 1052500.0,
-          "median_result": 25000.0,
-          "median_estimate": 21000.0,
-          "estimate_ratio": 1.071
-        },
-        {
-          "period": "2019",
-          "index_value": 55.0,
-          "lots_sold": 53,
-          "total_value": 1985375.0,
-          "median_result": 13750.0,
-          "median_estimate": 8000.0,
-          "estimate_ratio": 1.607
-        },
-        {
-          "period": "2025",
-          "index_value": 123.84,
-          "lots_sold": 52,
-          "total_value": 2846901.0,
-          "median_result": 30960.0,
-          "median_estimate": 17500.0,
-          "estimate_ratio": 1.5
-        },
-        {
-          "period": "2026",
-          "index_value": 113.52,
-          "lots_sold": 53,
-          "total_value": 2650821.0,
-          "median_result": 28380.0,
-          "median_estimate": 12500.0,
-          "estimate_ratio": 1.677
         }
       ],
       "notes": "Usable directional index; still needs repeat-sale and hedonic controls."
@@ -2717,50 +2851,6 @@
           "median_result": 2850.0,
           "median_estimate": null,
           "estimate_ratio": null
-        }
-      ],
-      "notes": "Usable directional index; still needs repeat-sale and hedonic controls."
-    },
-    {
-      "id": "sale_context:new-now",
-      "series_type": "sale_context",
-      "label": "New Now",
-      "status": "history_ready",
-      "confidence": "medium",
-      "period_count": 3,
-      "lot_count": 165,
-      "latest_period": "2022",
-      "latest_index_value": 211.11,
-      "latest_lots_sold": 58,
-      "latest_median_result": 47880.0,
-      "latest_estimate_ratio": 1.512,
-      "points": [
-        {
-          "period": "2020",
-          "index_value": 100.0,
-          "lots_sold": 53,
-          "total_value": 2401207.0,
-          "median_result": 22680.0,
-          "median_estimate": 17500.0,
-          "estimate_ratio": 1.21
-        },
-        {
-          "period": "2021",
-          "index_value": 111.11,
-          "lots_sold": 54,
-          "total_value": 3633124.0,
-          "median_result": 25200.0,
-          "median_estimate": 16250.0,
-          "estimate_ratio": 1.764
-        },
-        {
-          "period": "2022",
-          "index_value": 211.11,
-          "lots_sold": 58,
-          "total_value": 3824730.0,
-          "median_result": 47880.0,
-          "median_estimate": 20000.0,
-          "estimate_ratio": 1.512
         }
       ],
       "notes": "Usable directional index; still needs repeat-sale and hedonic controls."
@@ -3899,6 +3989,104 @@
           "median_result": 5000.0,
           "median_estimate": null,
           "estimate_ratio": null
+        }
+      ],
+      "notes": "Usable directional index; still needs repeat-sale and hedonic controls."
+    },
+    {
+      "id": "artist:lucie-rie",
+      "series_type": "artist",
+      "label": "Lucie Rie",
+      "status": "history_ready",
+      "confidence": "high",
+      "period_count": 9,
+      "lot_count": 107,
+      "latest_period": "2026",
+      "latest_index_value": 182.12,
+      "latest_lots_sold": 1,
+      "latest_median_result": 58050.0,
+      "latest_estimate_ratio": 4.644,
+      "points": [
+        {
+          "period": "2013",
+          "index_value": 100.0,
+          "lots_sold": 18,
+          "total_value": 672500.0,
+          "median_result": 31875.0,
+          "median_estimate": 20750.0,
+          "estimate_ratio": 1.583
+        },
+        {
+          "period": "2014",
+          "index_value": 54.9,
+          "lots_sold": 4,
+          "total_value": 90000.0,
+          "median_result": 17500.0,
+          "median_estimate": 21250.0,
+          "estimate_ratio": 0.918
+        },
+        {
+          "period": "2015",
+          "index_value": 101.96,
+          "lots_sold": 2,
+          "total_value": 65000.0,
+          "median_result": 32500.0,
+          "median_estimate": 27500.0,
+          "estimate_ratio": 1.167
+        },
+        {
+          "period": "2016",
+          "index_value": 137.25,
+          "lots_sold": 5,
+          "total_value": 491250.0,
+          "median_result": 43750.0,
+          "median_estimate": 25000.0,
+          "estimate_ratio": 2.5
+        },
+        {
+          "period": "2017",
+          "index_value": 147.06,
+          "lots_sold": 2,
+          "total_value": 93750.0,
+          "median_result": 46875.0,
+          "median_estimate": 35500.0,
+          "estimate_ratio": 1.542
+        },
+        {
+          "period": "2021",
+          "index_value": 434.82,
+          "lots_sold": 3,
+          "total_value": 321300.0,
+          "median_result": 138600.0,
+          "median_estimate": 40000.0,
+          "estimate_ratio": 3.465
+        },
+        {
+          "period": "2022",
+          "index_value": 177.88,
+          "lots_sold": 1,
+          "total_value": 56700.0,
+          "median_result": 56700.0,
+          "median_estimate": 25000.0,
+          "estimate_ratio": 2.268
+        },
+        {
+          "period": "2024",
+          "index_value": 55.78,
+          "lots_sold": 71,
+          "total_value": 3237865.0,
+          "median_result": 17780.0,
+          "median_estimate": 10500.0,
+          "estimate_ratio": 1.609
+        },
+        {
+          "period": "2026",
+          "index_value": 182.12,
+          "lots_sold": 1,
+          "total_value": 58050.0,
+          "median_result": 58050.0,
+          "median_estimate": 12500.0,
+          "estimate_ratio": 4.644
         }
       ],
       "notes": "Usable directional index; still needs repeat-sale and hedonic controls."
@@ -7504,6 +7692,113 @@
       "notes": "Usable directional index; still needs repeat-sale and hedonic controls."
     },
     {
+      "id": "artist:gio-ponti",
+      "series_type": "artist",
+      "label": "Gio Ponti",
+      "status": "history_ready",
+      "confidence": "high",
+      "period_count": 10,
+      "lot_count": 47,
+      "latest_period": "2025",
+      "latest_index_value": 61.92,
+      "latest_lots_sold": 6,
+      "latest_median_result": 23220.0,
+      "latest_estimate_ratio": 1.79,
+      "points": [
+        {
+          "period": "2013",
+          "index_value": 100.0,
+          "lots_sold": 3,
+          "total_value": 83750.0,
+          "median_result": 37500.0,
+          "median_estimate": 12500.0,
+          "estimate_ratio": 2.143
+        },
+        {
+          "period": "2015",
+          "index_value": 200.0,
+          "lots_sold": 3,
+          "total_value": 235000.0,
+          "median_result": 75000.0,
+          "median_estimate": 17500.0,
+          "estimate_ratio": 2.0
+        },
+        {
+          "period": "2016",
+          "index_value": 173.33,
+          "lots_sold": 6,
+          "total_value": 452500.0,
+          "median_result": 65000.0,
+          "median_estimate": 35500.0,
+          "estimate_ratio": 1.314
+        },
+        {
+          "period": "2017",
+          "index_value": 66.67,
+          "lots_sold": 3,
+          "total_value": 100000.0,
+          "median_result": 25000.0,
+          "median_estimate": 12500.0,
+          "estimate_ratio": 2.1
+        },
+        {
+          "period": "2018",
+          "index_value": 108.33,
+          "lots_sold": 4,
+          "total_value": 180625.0,
+          "median_result": 40625.0,
+          "median_estimate": 32500.0,
+          "estimate_ratio": 1.25
+        },
+        {
+          "period": "2019",
+          "index_value": 43.33,
+          "lots_sold": 4,
+          "total_value": 66875.0,
+          "median_result": 16250.0,
+          "median_estimate": 13750.0,
+          "estimate_ratio": 1.205
+        },
+        {
+          "period": "2020",
+          "index_value": 77.28,
+          "lots_sold": 14,
+          "total_value": 517860.0,
+          "median_result": 28980.0,
+          "median_estimate": 10000.0,
+          "estimate_ratio": 2.654
+        },
+        {
+          "period": "2021",
+          "index_value": 193.2,
+          "lots_sold": 2,
+          "total_value": 144900.0,
+          "median_result": 72450.0,
+          "median_estimate": 25000.0,
+          "estimate_ratio": 2.898
+        },
+        {
+          "period": "2022",
+          "index_value": 30.24,
+          "lots_sold": 2,
+          "total_value": 22680.0,
+          "median_result": 11340.0,
+          "median_estimate": 5000.0,
+          "estimate_ratio": 2.31
+        },
+        {
+          "period": "2025",
+          "index_value": 61.92,
+          "lots_sold": 6,
+          "total_value": 134160.0,
+          "median_result": 23220.0,
+          "median_estimate": 11250.0,
+          "estimate_ratio": 1.79
+        }
+      ],
+      "notes": "Usable directional index; still needs repeat-sale and hedonic controls."
+    },
+    {
       "id": "artist:knaus--ludwig",
       "series_type": "artist",
       "label": "KNAUS, LUDWIG",
@@ -8304,6 +8599,41 @@
           "median_result": 262.5,
           "median_estimate": null,
           "estimate_ratio": null
+        }
+      ],
+      "notes": "Usable directional index; still needs repeat-sale and hedonic controls."
+    },
+    {
+      "id": "sale_context:design-evening",
+      "series_type": "sale_context",
+      "label": "Design Evening",
+      "status": "history_ready",
+      "confidence": "medium",
+      "period_count": 2,
+      "lot_count": 46,
+      "latest_period": "2018",
+      "latest_index_value": 68.57,
+      "latest_lots_sold": 18,
+      "latest_median_result": 75000.0,
+      "latest_estimate_ratio": 1.107,
+      "points": [
+        {
+          "period": "2017",
+          "index_value": 100.0,
+          "lots_sold": 28,
+          "total_value": 4395250.0,
+          "median_result": 109375.0,
+          "median_estimate": 60000.0,
+          "estimate_ratio": 1.65
+        },
+        {
+          "period": "2018",
+          "index_value": 68.57,
+          "lots_sold": 18,
+          "total_value": 1957500.0,
+          "median_result": 75000.0,
+          "median_estimate": 70000.0,
+          "estimate_ratio": 1.107
         }
       ],
       "notes": "Usable directional index; still needs repeat-sale and hedonic controls."
@@ -9114,6 +9444,264 @@
       "notes": "Usable directional index; still needs repeat-sale and hedonic controls."
     },
     {
+      "id": "artist:jean-prouvé",
+      "series_type": "artist",
+      "label": "Jean Prouvé",
+      "status": "history_ready",
+      "confidence": "high",
+      "period_count": 11,
+      "lot_count": 42,
+      "latest_period": "2026",
+      "latest_index_value": 364.76,
+      "latest_lots_sold": 2,
+      "latest_median_result": 132225.0,
+      "latest_estimate_ratio": 1.559,
+      "points": [
+        {
+          "period": "2013",
+          "index_value": 100.0,
+          "lots_sold": 2,
+          "total_value": 72500.0,
+          "median_result": 36250.0,
+          "median_estimate": 31250.0,
+          "estimate_ratio": 1.172
+        },
+        {
+          "period": "2014",
+          "index_value": 60.34,
+          "lots_sold": 1,
+          "total_value": 21875.0,
+          "median_result": 21875.0,
+          "median_estimate": 25000.0,
+          "estimate_ratio": 0.875
+        },
+        {
+          "period": "2015",
+          "index_value": 358.62,
+          "lots_sold": 4,
+          "total_value": 464750.0,
+          "median_result": 130000.0,
+          "median_estimate": 55000.0,
+          "estimate_ratio": 1.746
+        },
+        {
+          "period": "2016",
+          "index_value": 131.03,
+          "lots_sold": 9,
+          "total_value": 358750.0,
+          "median_result": 47500.0,
+          "median_estimate": 30000.0,
+          "estimate_ratio": 1.016
+        },
+        {
+          "period": "2017",
+          "index_value": 93.1,
+          "lots_sold": 6,
+          "total_value": 203750.0,
+          "median_result": 33750.0,
+          "median_estimate": 29500.0,
+          "estimate_ratio": 0.938
+        },
+        {
+          "period": "2018",
+          "index_value": 75.0,
+          "lots_sold": 4,
+          "total_value": 113750.0,
+          "median_result": 27187.5,
+          "median_estimate": 28500.0,
+          "estimate_ratio": 1.17
+        },
+        {
+          "period": "2020",
+          "index_value": 76.47,
+          "lots_sold": 1,
+          "total_value": 27720.0,
+          "median_result": 27720.0,
+          "median_estimate": 17500.0,
+          "estimate_ratio": 1.584
+        },
+        {
+          "period": "2021",
+          "index_value": 191.17,
+          "lots_sold": 7,
+          "total_value": 655830.0,
+          "median_result": 69300.0,
+          "median_estimate": 50000.0,
+          "estimate_ratio": 2.047
+        },
+        {
+          "period": "2024",
+          "index_value": 280.28,
+          "lots_sold": 3,
+          "total_value": 273050.0,
+          "median_result": 101600.0,
+          "median_estimate": 60000.0,
+          "estimate_ratio": 1.587
+        },
+        {
+          "period": "2025",
+          "index_value": 32.03,
+          "lots_sold": 3,
+          "total_value": 70950.0,
+          "median_result": 11610.0,
+          "median_estimate": 12500.0,
+          "estimate_ratio": 1.226
+        },
+        {
+          "period": "2026",
+          "index_value": 364.76,
+          "lots_sold": 2,
+          "total_value": 264450.0,
+          "median_result": 132225.0,
+          "median_estimate": 80000.0,
+          "estimate_ratio": 1.559
+        }
+      ],
+      "notes": "Usable directional index; still needs repeat-sale and hedonic controls."
+    },
+    {
+      "id": "artist:jean-royère",
+      "series_type": "artist",
+      "label": "Jean Royère",
+      "status": "history_ready",
+      "confidence": "high",
+      "period_count": 10,
+      "lot_count": 42,
+      "latest_period": "2024",
+      "latest_index_value": 455.17,
+      "latest_lots_sold": 3,
+      "latest_median_result": 355600.0,
+      "latest_estimate_ratio": 3.81,
+      "points": [
+        {
+          "period": "2013",
+          "index_value": 100.0,
+          "lots_sold": 4,
+          "total_value": 308250.0,
+          "median_result": 78125.0,
+          "median_estimate": 42500.0,
+          "estimate_ratio": 1.312
+        },
+        {
+          "period": "2014",
+          "index_value": 64.0,
+          "lots_sold": 1,
+          "total_value": 50000.0,
+          "median_result": 50000.0,
+          "median_estimate": 40000.0,
+          "estimate_ratio": 1.25
+        },
+        {
+          "period": "2015",
+          "index_value": 56.0,
+          "lots_sold": 6,
+          "total_value": 450250.0,
+          "median_result": 43750.0,
+          "median_estimate": 35000.0,
+          "estimate_ratio": 1.333
+        },
+        {
+          "period": "2016",
+          "index_value": 188.0,
+          "lots_sold": 8,
+          "total_value": 1455500.0,
+          "median_result": 146875.0,
+          "median_estimate": 75000.0,
+          "estimate_ratio": 1.675
+        },
+        {
+          "period": "2017",
+          "index_value": 200.0,
+          "lots_sold": 2,
+          "total_value": 312500.0,
+          "median_result": 156250.0,
+          "median_estimate": 75000.0,
+          "estimate_ratio": 2.098
+        },
+        {
+          "period": "2018",
+          "index_value": 29.6,
+          "lots_sold": 4,
+          "total_value": 108750.0,
+          "median_result": 23125.0,
+          "median_estimate": 15000.0,
+          "estimate_ratio": 1.642
+        },
+        {
+          "period": "2019",
+          "index_value": 192.0,
+          "lots_sold": 7,
+          "total_value": 1274375.0,
+          "median_result": 150000.0,
+          "median_estimate": 70000.0,
+          "estimate_ratio": 1.429
+        },
+        {
+          "period": "2021",
+          "index_value": 225.79,
+          "lots_sold": 4,
+          "total_value": 612360.0,
+          "median_result": 176400.0,
+          "median_estimate": 105000.0,
+          "estimate_ratio": 1.296
+        },
+        {
+          "period": "2022",
+          "index_value": 258.05,
+          "lots_sold": 3,
+          "total_value": 501480.0,
+          "median_result": 201600.0,
+          "median_estimate": 125000.0,
+          "estimate_ratio": 1.197
+        },
+        {
+          "period": "2024",
+          "index_value": 455.17,
+          "lots_sold": 3,
+          "total_value": 2459200.0,
+          "median_result": 355600.0,
+          "median_estimate": 80000.0,
+          "estimate_ratio": 3.81
+        }
+      ],
+      "notes": "Usable directional index; still needs repeat-sale and hedonic controls."
+    },
+    {
+      "id": "artist:patek-philippe",
+      "series_type": "artist",
+      "label": "Patek Philippe",
+      "status": "history_ready",
+      "confidence": "medium",
+      "period_count": 2,
+      "lot_count": 40,
+      "latest_period": "2020",
+      "latest_index_value": 69.3,
+      "latest_lots_sold": 17,
+      "latest_median_result": 69300.0,
+      "latest_estimate_ratio": 1.68,
+      "points": [
+        {
+          "period": "2019",
+          "index_value": 100.0,
+          "lots_sold": 23,
+          "total_value": 7225250.0,
+          "median_result": 100000.0,
+          "median_estimate": 105000.0,
+          "estimate_ratio": 1.25
+        },
+        {
+          "period": "2020",
+          "index_value": 69.3,
+          "lots_sold": 17,
+          "total_value": 2827780.0,
+          "median_result": 69300.0,
+          "median_estimate": 40000.0,
+          "estimate_ratio": 1.68
+        }
+      ],
+      "notes": "Usable directional index; still needs repeat-sale and hedonic controls."
+    },
+    {
       "id": "artist:berne-bellecour--etienne-prosper",
       "series_type": "artist",
       "label": "BERNE-BELLECOUR, ETIENNE PROSPER",
@@ -9752,6 +10340,41 @@
           "median_result": 400.0,
           "median_estimate": null,
           "estimate_ratio": null
+        }
+      ],
+      "notes": "Usable directional index; still needs repeat-sale and hedonic controls."
+    },
+    {
+      "id": "artist:rolex",
+      "series_type": "artist",
+      "label": "Rolex",
+      "status": "history_ready",
+      "confidence": "medium",
+      "period_count": 2,
+      "lot_count": 37,
+      "latest_period": "2020",
+      "latest_index_value": 64.51,
+      "latest_lots_sold": 14,
+      "latest_median_result": 80640.0,
+      "latest_estimate_ratio": 1.954,
+      "points": [
+        {
+          "period": "2019",
+          "index_value": 100.0,
+          "lots_sold": 23,
+          "total_value": 7404000.0,
+          "median_result": 125000.0,
+          "median_estimate": 120000.0,
+          "estimate_ratio": 1.361
+        },
+        {
+          "period": "2020",
+          "index_value": 64.51,
+          "lots_sold": 14,
+          "total_value": 7294440.0,
+          "median_result": 80640.0,
+          "median_estimate": 41250.0,
+          "estimate_ratio": 1.954
         }
       ],
       "notes": "Usable directional index; still needs repeat-sale and hedonic controls."
@@ -11120,6 +11743,77 @@
           "median_result": 537.5,
           "median_estimate": null,
           "estimate_ratio": null
+        }
+      ],
+      "notes": "Usable directional index; still needs repeat-sale and hedonic controls."
+    },
+    {
+      "id": "artist:hans-coper",
+      "series_type": "artist",
+      "label": "Hans Coper",
+      "status": "history_ready",
+      "confidence": "high",
+      "period_count": 6,
+      "lot_count": 31,
+      "latest_period": "2026",
+      "latest_index_value": 48.88,
+      "latest_lots_sold": 1,
+      "latest_median_result": 23220.0,
+      "latest_estimate_ratio": 1.327,
+      "points": [
+        {
+          "period": "2013",
+          "index_value": 100.0,
+          "lots_sold": 20,
+          "total_value": 1248875.0,
+          "median_result": 47500.0,
+          "median_estimate": 20000.0,
+          "estimate_ratio": 2.344
+        },
+        {
+          "period": "2014",
+          "index_value": 164.42,
+          "lots_sold": 2,
+          "total_value": 156200.0,
+          "median_result": 78100.0,
+          "median_estimate": 47500.0,
+          "estimate_ratio": 1.802
+        },
+        {
+          "period": "2015",
+          "index_value": 84.21,
+          "lots_sold": 3,
+          "total_value": 143750.0,
+          "median_result": 40000.0,
+          "median_estimate": 25000.0,
+          "estimate_ratio": 1.964
+        },
+        {
+          "period": "2021",
+          "index_value": 252.0,
+          "lots_sold": 4,
+          "total_value": 607320.0,
+          "median_result": 119700.0,
+          "median_estimate": 13750.0,
+          "estimate_ratio": 8.652
+        },
+        {
+          "period": "2025",
+          "index_value": 325.89,
+          "lots_sold": 1,
+          "total_value": 154800.0,
+          "median_result": 154800.0,
+          "median_estimate": 70000.0,
+          "estimate_ratio": 2.211
+        },
+        {
+          "period": "2026",
+          "index_value": 48.88,
+          "lots_sold": 1,
+          "total_value": 23220.0,
+          "median_result": 23220.0,
+          "median_estimate": 17500.0,
+          "estimate_ratio": 1.327
         }
       ],
       "notes": "Usable directional index; still needs repeat-sale and hedonic controls."
@@ -14615,54 +15309,81 @@
       "notes": "Usable directional index; still needs repeat-sale and hedonic controls."
     },
     {
-      "id": "artist:hans-coper",
+      "id": "artist:georges-jouve",
       "series_type": "artist",
-      "label": "Hans Coper",
+      "label": "Georges Jouve",
       "status": "history_ready",
       "confidence": "high",
-      "period_count": 4,
+      "period_count": 7,
       "lot_count": 24,
       "latest_period": "2026",
-      "latest_index_value": 48.88,
-      "latest_lots_sold": 1,
-      "latest_median_result": 23220.0,
-      "latest_estimate_ratio": 1.327,
+      "latest_index_value": 80.27,
+      "latest_lots_sold": 4,
+      "latest_median_result": 18060.0,
+      "latest_estimate_ratio": 1.55,
       "points": [
         {
-          "period": "2013",
-          "index_value": 100.0,
-          "lots_sold": 20,
-          "total_value": 1248875.0,
-          "median_result": 47500.0,
-          "median_estimate": 20000.0,
-          "estimate_ratio": 2.344
-        },
-        {
           "period": "2015",
-          "index_value": 78.95,
-          "lots_sold": 2,
-          "total_value": 75000.0,
-          "median_result": 37500.0,
-          "median_estimate": 21250.0,
-          "estimate_ratio": 1.8
+          "index_value": 100.0,
+          "lots_sold": 1,
+          "total_value": 22500.0,
+          "median_result": 22500.0,
+          "median_estimate": 17500.0,
+          "estimate_ratio": 1.286
         },
         {
-          "period": "2025",
-          "index_value": 325.89,
+          "period": "2016",
+          "index_value": 108.33,
+          "lots_sold": 6,
+          "total_value": 219375.0,
+          "median_result": 24375.0,
+          "median_estimate": 15000.0,
+          "estimate_ratio": 1.492
+        },
+        {
+          "period": "2018",
+          "index_value": 177.78,
           "lots_sold": 1,
-          "total_value": 154800.0,
-          "median_result": 154800.0,
-          "median_estimate": 70000.0,
-          "estimate_ratio": 2.211
+          "total_value": 40000.0,
+          "median_result": 40000.0,
+          "median_estimate": 30000.0,
+          "estimate_ratio": 1.333
+        },
+        {
+          "period": "2019",
+          "index_value": 88.89,
+          "lots_sold": 2,
+          "total_value": 40000.0,
+          "median_result": 20000.0,
+          "median_estimate": 8500.0,
+          "estimate_ratio": 2.348
+        },
+        {
+          "period": "2021",
+          "index_value": 134.4,
+          "lots_sold": 5,
+          "total_value": 248220.0,
+          "median_result": 30240.0,
+          "median_estimate": 10000.0,
+          "estimate_ratio": 3.024
+        },
+        {
+          "period": "2024",
+          "index_value": 90.31,
+          "lots_sold": 5,
+          "total_value": 175260.0,
+          "median_result": 20320.0,
+          "median_estimate": 12500.0,
+          "estimate_ratio": 1.349
         },
         {
           "period": "2026",
-          "index_value": 48.88,
-          "lots_sold": 1,
-          "total_value": 23220.0,
-          "median_result": 23220.0,
-          "median_estimate": 17500.0,
-          "estimate_ratio": 1.327
+          "index_value": 80.27,
+          "lots_sold": 4,
+          "total_value": 288315.0,
+          "median_result": 18060.0,
+          "median_estimate": 13750.0,
+          "estimate_ratio": 1.55
         }
       ],
       "notes": "Usable directional index; still needs repeat-sale and hedonic controls."
@@ -14922,6 +15643,41 @@
           "median_result": 500.0,
           "median_estimate": null,
           "estimate_ratio": null
+        }
+      ],
+      "notes": "Usable directional index; still needs repeat-sale and hedonic controls."
+    },
+    {
+      "id": "artist:r--w--martin---brothers",
+      "series_type": "artist",
+      "label": "R. W. Martin & Brothers",
+      "status": "history_ready",
+      "confidence": "medium",
+      "period_count": 2,
+      "lot_count": 24,
+      "latest_period": "2018",
+      "latest_index_value": 333.33,
+      "latest_lots_sold": 1,
+      "latest_median_result": 175000.0,
+      "latest_estimate_ratio": 0.875,
+      "points": [
+        {
+          "period": "2015",
+          "index_value": 100.0,
+          "lots_sold": 23,
+          "total_value": 1592250.0,
+          "median_result": 52500.0,
+          "median_estimate": 50000.0,
+          "estimate_ratio": 1.354
+        },
+        {
+          "period": "2018",
+          "index_value": 333.33,
+          "lots_sold": 1,
+          "total_value": 175000.0,
+          "median_result": 175000.0,
+          "median_estimate": 200000.0,
+          "estimate_ratio": 0.875
         }
       ],
       "notes": "Usable directional index; still needs repeat-sale and hedonic controls."
@@ -15953,6 +16709,95 @@
       "notes": "Usable directional index; still needs repeat-sale and hedonic controls."
     },
     {
+      "id": "artist:charlotte-perriand",
+      "series_type": "artist",
+      "label": "Charlotte Perriand",
+      "status": "history_ready",
+      "confidence": "high",
+      "period_count": 8,
+      "lot_count": 21,
+      "latest_period": "2025",
+      "latest_index_value": 220.47,
+      "latest_lots_sold": 1,
+      "latest_median_result": 60630.0,
+      "latest_estimate_ratio": 6.063,
+      "points": [
+        {
+          "period": "2013",
+          "index_value": 100.0,
+          "lots_sold": 4,
+          "total_value": 130000.0,
+          "median_result": 27500.0,
+          "median_estimate": 26500.0,
+          "estimate_ratio": 1.014
+        },
+        {
+          "period": "2015",
+          "index_value": 890.91,
+          "lots_sold": 1,
+          "total_value": 245000.0,
+          "median_result": 245000.0,
+          "median_estimate": 210000.0,
+          "estimate_ratio": 1.167
+        },
+        {
+          "period": "2016",
+          "index_value": 144.32,
+          "lots_sold": 4,
+          "total_value": 215000.0,
+          "median_result": 39687.5,
+          "median_estimate": 28500.0,
+          "estimate_ratio": 1.644
+        },
+        {
+          "period": "2017",
+          "index_value": 190.91,
+          "lots_sold": 4,
+          "total_value": 200000.0,
+          "median_result": 52500.0,
+          "median_estimate": 29000.0,
+          "estimate_ratio": 1.527
+        },
+        {
+          "period": "2019",
+          "index_value": 54.55,
+          "lots_sold": 1,
+          "total_value": 15000.0,
+          "median_result": 15000.0,
+          "median_estimate": 8000.0,
+          "estimate_ratio": 1.875
+        },
+        {
+          "period": "2021",
+          "index_value": 309.27,
+          "lots_sold": 2,
+          "total_value": 170100.0,
+          "median_result": 85050.0,
+          "median_estimate": 52500.0,
+          "estimate_ratio": 1.756
+        },
+        {
+          "period": "2024",
+          "index_value": 76.66,
+          "lots_sold": 4,
+          "total_value": 392684.0,
+          "median_result": 21082.0,
+          "median_estimate": 14500.0,
+          "estimate_ratio": 1.613
+        },
+        {
+          "period": "2025",
+          "index_value": 220.47,
+          "lots_sold": 1,
+          "total_value": 60630.0,
+          "median_result": 60630.0,
+          "median_estimate": 10000.0,
+          "estimate_ratio": 6.063
+        }
+      ],
+      "notes": "Usable directional index; still needs repeat-sale and hedonic controls."
+    },
+    {
       "id": "artist:domingo-y-marqués--francisco",
       "series_type": "artist",
       "label": "DOMINGO Y MARQUÉS, FRANCISCO",
@@ -16925,6 +17770,77 @@
       "notes": "Usable directional index; still needs repeat-sale and hedonic controls."
     },
     {
+      "id": "artist:damien-hirst",
+      "series_type": "artist",
+      "label": "Damien Hirst",
+      "status": "history_ready",
+      "confidence": "medium",
+      "period_count": 6,
+      "lot_count": 19,
+      "latest_period": "2026",
+      "latest_index_value": 24.08,
+      "latest_lots_sold": 9,
+      "latest_median_result": 18060.0,
+      "latest_estimate_ratio": 1.532,
+      "points": [
+        {
+          "period": "2019",
+          "index_value": 100.0,
+          "lots_sold": 1,
+          "total_value": 75000.0,
+          "median_result": 75000.0,
+          "median_estimate": 50000.0,
+          "estimate_ratio": 1.5
+        },
+        {
+          "period": "2021",
+          "index_value": 144.53,
+          "lots_sold": 1,
+          "total_value": 108400.0,
+          "median_result": 108400.0,
+          "median_estimate": 150000.0,
+          "estimate_ratio": 0.723
+        },
+        {
+          "period": "2022",
+          "index_value": 5057.07,
+          "lots_sold": 2,
+          "total_value": 7585600.0,
+          "median_result": 3792800.0,
+          "median_estimate": 3792500.0,
+          "estimate_ratio": 0.945
+        },
+        {
+          "period": "2024",
+          "index_value": 110.07,
+          "lots_sold": 5,
+          "total_value": 395605.0,
+          "median_result": 82550.0,
+          "median_estimate": 80000.0,
+          "estimate_ratio": 0.802
+        },
+        {
+          "period": "2025",
+          "index_value": 352.6,
+          "lots_sold": 1,
+          "total_value": 264450.0,
+          "median_result": 264450.0,
+          "median_estimate": 250000.0,
+          "estimate_ratio": 1.058
+        },
+        {
+          "period": "2026",
+          "index_value": 24.08,
+          "lots_sold": 9,
+          "total_value": 428925.0,
+          "median_result": 18060.0,
+          "median_estimate": 12500.0,
+          "estimate_ratio": 1.532
+        }
+      ],
+      "notes": "Usable directional index; still needs repeat-sale and hedonic controls."
+    },
+    {
       "id": "artist:edelfelt--albert-gustaf-aristides",
       "series_type": "artist",
       "label": "EDELFELT, ALBERT GUSTAF ARISTIDES",
@@ -17504,6 +18420,184 @@
       "notes": "Usable directional index; still needs repeat-sale and hedonic controls."
     },
     {
+      "id": "artist:george-nakashima",
+      "series_type": "artist",
+      "label": "George Nakashima",
+      "status": "history_ready",
+      "confidence": "medium",
+      "period_count": 7,
+      "lot_count": 18,
+      "latest_period": "2026",
+      "latest_index_value": 447.2,
+      "latest_lots_sold": 3,
+      "latest_median_result": 67080.0,
+      "latest_estimate_ratio": 2.236,
+      "points": [
+        {
+          "period": "2014",
+          "index_value": 100.0,
+          "lots_sold": 1,
+          "total_value": 15000.0,
+          "median_result": 15000.0,
+          "median_estimate": 15000.0,
+          "estimate_ratio": 1.0
+        },
+        {
+          "period": "2015",
+          "index_value": 1033.33,
+          "lots_sold": 1,
+          "total_value": 155000.0,
+          "median_result": 155000.0,
+          "median_estimate": 80000.0,
+          "estimate_ratio": 1.938
+        },
+        {
+          "period": "2017",
+          "index_value": 875.0,
+          "lots_sold": 1,
+          "total_value": 131250.0,
+          "median_result": 131250.0,
+          "median_estimate": 70000.0,
+          "estimate_ratio": 1.875
+        },
+        {
+          "period": "2021",
+          "index_value": 319.2,
+          "lots_sold": 1,
+          "total_value": 47880.0,
+          "median_result": 47880.0,
+          "median_estimate": 25000.0,
+          "estimate_ratio": 1.915
+        },
+        {
+          "period": "2022",
+          "index_value": 113.4,
+          "lots_sold": 4,
+          "total_value": 138600.0,
+          "median_result": 17010.0,
+          "median_estimate": 20000.0,
+          "estimate_ratio": 1.407
+        },
+        {
+          "period": "2025",
+          "index_value": 258.0,
+          "lots_sold": 7,
+          "total_value": 245745.0,
+          "median_result": 38700.0,
+          "median_estimate": 25000.0,
+          "estimate_ratio": 1.548
+        },
+        {
+          "period": "2026",
+          "index_value": 447.2,
+          "lots_sold": 3,
+          "total_value": 285090.0,
+          "median_result": 67080.0,
+          "median_estimate": 30000.0,
+          "estimate_ratio": 2.236
+        }
+      ],
+      "notes": "Usable directional index; still needs repeat-sale and hedonic controls."
+    },
+    {
+      "id": "artist:gino-sarfatti",
+      "series_type": "artist",
+      "label": "Gino Sarfatti",
+      "status": "history_ready",
+      "confidence": "medium",
+      "period_count": 9,
+      "lot_count": 18,
+      "latest_period": "2026",
+      "latest_index_value": 48.38,
+      "latest_lots_sold": 1,
+      "latest_median_result": 9675.0,
+      "latest_estimate_ratio": 1.382,
+      "points": [
+        {
+          "period": "2013",
+          "index_value": 100.0,
+          "lots_sold": 1,
+          "total_value": 20000.0,
+          "median_result": 20000.0,
+          "median_estimate": 10000.0,
+          "estimate_ratio": 2.0
+        },
+        {
+          "period": "2016",
+          "index_value": 875.0,
+          "lots_sold": 1,
+          "total_value": 175000.0,
+          "median_result": 175000.0,
+          "median_estimate": 50000.0,
+          "estimate_ratio": 3.5
+        },
+        {
+          "period": "2019",
+          "index_value": 375.0,
+          "lots_sold": 1,
+          "total_value": 75000.0,
+          "median_result": 75000.0,
+          "median_estimate": 35000.0,
+          "estimate_ratio": 2.143
+        },
+        {
+          "period": "2020",
+          "index_value": 40.95,
+          "lots_sold": 7,
+          "total_value": 117558.0,
+          "median_result": 8190.0,
+          "median_estimate": 6000.0,
+          "estimate_ratio": 1.323
+        },
+        {
+          "period": "2021",
+          "index_value": 333.9,
+          "lots_sold": 2,
+          "total_value": 133560.0,
+          "median_result": 66780.0,
+          "median_estimate": 27500.0,
+          "estimate_ratio": 2.615
+        },
+        {
+          "period": "2022",
+          "index_value": 100.8,
+          "lots_sold": 1,
+          "total_value": 20160.0,
+          "median_result": 20160.0,
+          "median_estimate": 17500.0,
+          "estimate_ratio": 1.152
+        },
+        {
+          "period": "2024",
+          "index_value": 41.27,
+          "lots_sold": 3,
+          "total_value": 28575.0,
+          "median_result": 8255.0,
+          "median_estimate": 5000.0,
+          "estimate_ratio": 1.016
+        },
+        {
+          "period": "2025",
+          "index_value": 51.6,
+          "lots_sold": 1,
+          "total_value": 10320.0,
+          "median_result": 10320.0,
+          "median_estimate": 6000.0,
+          "estimate_ratio": 1.72
+        },
+        {
+          "period": "2026",
+          "index_value": 48.38,
+          "lots_sold": 1,
+          "total_value": 9675.0,
+          "median_result": 9675.0,
+          "median_estimate": 7000.0,
+          "estimate_ratio": 1.382
+        }
+      ],
+      "notes": "Usable directional index; still needs repeat-sale and hedonic controls."
+    },
+    {
       "id": "artist:jiménez-aranda--luis",
       "series_type": "artist",
       "label": "JIMÉNEZ ARANDA, LUIS",
@@ -17606,59 +18700,6 @@
           "median_result": 905.0,
           "median_estimate": null,
           "estimate_ratio": null
-        }
-      ],
-      "notes": "Usable directional index; still needs repeat-sale and hedonic controls."
-    },
-    {
-      "id": "artist:jean-royère",
-      "series_type": "artist",
-      "label": "Jean Royère",
-      "status": "history_ready",
-      "confidence": "medium",
-      "period_count": 4,
-      "lot_count": 18,
-      "latest_period": "2019",
-      "latest_index_value": 400.0,
-      "latest_lots_sold": 7,
-      "latest_median_result": 150000.0,
-      "latest_estimate_ratio": 1.429,
-      "points": [
-        {
-          "period": "2015",
-          "index_value": 100.0,
-          "lots_sold": 5,
-          "total_value": 181250.0,
-          "median_result": 37500.0,
-          "median_estimate": 30000.0,
-          "estimate_ratio": 1.25
-        },
-        {
-          "period": "2017",
-          "index_value": 416.67,
-          "lots_sold": 2,
-          "total_value": 312500.0,
-          "median_result": 156250.0,
-          "median_estimate": 75000.0,
-          "estimate_ratio": 2.098
-        },
-        {
-          "period": "2018",
-          "index_value": 61.67,
-          "lots_sold": 4,
-          "total_value": 108750.0,
-          "median_result": 23125.0,
-          "median_estimate": 15000.0,
-          "estimate_ratio": 1.642
-        },
-        {
-          "period": "2019",
-          "index_value": 400.0,
-          "lots_sold": 7,
-          "total_value": 1274375.0,
-          "median_result": 150000.0,
-          "median_estimate": 70000.0,
-          "estimate_ratio": 1.429
         }
       ],
       "notes": "Usable directional index; still needs repeat-sale and hedonic controls."
@@ -17891,6 +18932,68 @@
           "median_result": 495.0,
           "median_estimate": null,
           "estimate_ratio": null
+        }
+      ],
+      "notes": "Usable directional index; still needs repeat-sale and hedonic controls."
+    },
+    {
+      "id": "artist:yayoi-kusama",
+      "series_type": "artist",
+      "label": "Yayoi Kusama",
+      "status": "history_ready",
+      "confidence": "medium",
+      "period_count": 5,
+      "lot_count": 18,
+      "latest_period": "2026",
+      "latest_index_value": 589.47,
+      "latest_lots_sold": 2,
+      "latest_median_result": 245100.0,
+      "latest_estimate_ratio": 1.226,
+      "points": [
+        {
+          "period": "2021",
+          "index_value": 100.0,
+          "lots_sold": 2,
+          "total_value": 83160.0,
+          "median_result": 41580.0,
+          "median_estimate": 25000.0,
+          "estimate_ratio": 1.663
+        },
+        {
+          "period": "2022",
+          "index_value": 27082.73,
+          "lots_sold": 2,
+          "total_value": 22522000.0,
+          "median_result": 11261000.0,
+          "median_estimate": 12500000.0,
+          "estimate_ratio": 0.916
+        },
+        {
+          "period": "2024",
+          "index_value": 519.24,
+          "lots_sold": 8,
+          "total_value": 1562100.0,
+          "median_result": 215900.0,
+          "median_estimate": 175000.0,
+          "estimate_ratio": 1.27
+        },
+        {
+          "period": "2025",
+          "index_value": 542.93,
+          "lots_sold": 4,
+          "total_value": 903000.0,
+          "median_result": 225750.0,
+          "median_estimate": 235000.0,
+          "estimate_ratio": 0.957
+        },
+        {
+          "period": "2026",
+          "index_value": 589.47,
+          "lots_sold": 2,
+          "total_value": 490200.0,
+          "median_result": 245100.0,
+          "median_estimate": 262500.0,
+          "estimate_ratio": 1.226
         }
       ],
       "notes": "Usable directional index; still needs repeat-sale and hedonic controls."
@@ -18529,6 +19632,59 @@
       "notes": "Usable directional index; still needs repeat-sale and hedonic controls."
     },
     {
+      "id": "artist:jean-michel-frank",
+      "series_type": "artist",
+      "label": "Jean-Michel Frank",
+      "status": "history_ready",
+      "confidence": "medium",
+      "period_count": 4,
+      "lot_count": 16,
+      "latest_period": "2018",
+      "latest_index_value": 220.0,
+      "latest_lots_sold": 3,
+      "latest_median_result": 68750.0,
+      "latest_estimate_ratio": 1.167,
+      "points": [
+        {
+          "period": "2015",
+          "index_value": 100.0,
+          "lots_sold": 2,
+          "total_value": 62500.0,
+          "median_result": 31250.0,
+          "median_estimate": 23750.0,
+          "estimate_ratio": 1.414
+        },
+        {
+          "period": "2016",
+          "index_value": 160.0,
+          "lots_sold": 4,
+          "total_value": 235000.0,
+          "median_result": 50000.0,
+          "median_estimate": 30000.0,
+          "estimate_ratio": 2.006
+        },
+        {
+          "period": "2017",
+          "index_value": 380.0,
+          "lots_sold": 7,
+          "total_value": 1237750.0,
+          "median_result": 118750.0,
+          "median_estimate": 50000.0,
+          "estimate_ratio": 2.344
+        },
+        {
+          "period": "2018",
+          "index_value": 220.0,
+          "lots_sold": 3,
+          "total_value": 283750.0,
+          "median_result": 68750.0,
+          "median_estimate": 35000.0,
+          "estimate_ratio": 1.167
+        }
+      ],
+      "notes": "Usable directional index; still needs repeat-sale and hedonic controls."
+    },
+    {
       "id": "artist:leon-y-escosura--ignacio-de",
       "series_type": "artist",
       "label": "LEON Y ESCOSURA, IGNACIO DE",
@@ -18800,6 +19956,95 @@
           "median_result": 17.0,
           "median_estimate": null,
           "estimate_ratio": null
+        }
+      ],
+      "notes": "Usable directional index; still needs repeat-sale and hedonic controls."
+    },
+    {
+      "id": "artist:serge-mouille",
+      "series_type": "artist",
+      "label": "Serge Mouille",
+      "status": "history_ready",
+      "confidence": "medium",
+      "period_count": 8,
+      "lot_count": 16,
+      "latest_period": "2024",
+      "latest_index_value": 35.1,
+      "latest_lots_sold": 1,
+      "latest_median_result": 24130.0,
+      "latest_estimate_ratio": 1.379,
+      "points": [
+        {
+          "period": "2013",
+          "index_value": 100.0,
+          "lots_sold": 1,
+          "total_value": 68750.0,
+          "median_result": 68750.0,
+          "median_estimate": 70000.0,
+          "estimate_ratio": 0.982
+        },
+        {
+          "period": "2014",
+          "index_value": 29.09,
+          "lots_sold": 3,
+          "total_value": 87500.0,
+          "median_result": 20000.0,
+          "median_estimate": 15000.0,
+          "estimate_ratio": 1.4
+        },
+        {
+          "period": "2015",
+          "index_value": 90.91,
+          "lots_sold": 1,
+          "total_value": 62500.0,
+          "median_result": 62500.0,
+          "median_estimate": 60000.0,
+          "estimate_ratio": 1.042
+        },
+        {
+          "period": "2016",
+          "index_value": 23.64,
+          "lots_sold": 4,
+          "total_value": 151250.0,
+          "median_result": 16250.0,
+          "median_estimate": 10500.0,
+          "estimate_ratio": 1.46
+        },
+        {
+          "period": "2017",
+          "index_value": 22.73,
+          "lots_sold": 2,
+          "total_value": 31250.0,
+          "median_result": 15625.0,
+          "median_estimate": 13750.0,
+          "estimate_ratio": 1.167
+        },
+        {
+          "period": "2019",
+          "index_value": 11.64,
+          "lots_sold": 2,
+          "total_value": 16000.0,
+          "median_result": 8000.0,
+          "median_estimate": 8250.0,
+          "estimate_ratio": 0.938
+        },
+        {
+          "period": "2021",
+          "index_value": 106.3,
+          "lots_sold": 2,
+          "total_value": 146160.0,
+          "median_result": 73080.0,
+          "median_estimate": 42500.0,
+          "estimate_ratio": 1.902
+        },
+        {
+          "period": "2024",
+          "index_value": 35.1,
+          "lots_sold": 1,
+          "total_value": 24130.0,
+          "median_result": 24130.0,
+          "median_estimate": 17500.0,
+          "estimate_ratio": 1.379
         }
       ],
       "notes": "Usable directional index; still needs repeat-sale and hedonic controls."
@@ -19135,6 +20380,68 @@
       "notes": "Usable directional index; still needs repeat-sale and hedonic controls."
     },
     {
+      "id": "artist:banksy",
+      "series_type": "artist",
+      "label": "Banksy",
+      "status": "history_ready",
+      "confidence": "medium",
+      "period_count": 5,
+      "lot_count": 15,
+      "latest_period": "2026",
+      "latest_index_value": 18.98,
+      "latest_lots_sold": 9,
+      "latest_median_result": 24510.0,
+      "latest_estimate_ratio": 1.613,
+      "points": [
+        {
+          "period": "2020",
+          "index_value": 100.0,
+          "lots_sold": 2,
+          "total_value": 258300.0,
+          "median_result": 129150.0,
+          "median_estimate": 87500.0,
+          "estimate_ratio": 1.449
+        },
+        {
+          "period": "2022",
+          "index_value": 4962.06,
+          "lots_sold": 2,
+          "total_value": 12817000.0,
+          "median_result": 6408500.0,
+          "median_estimate": 7875000.0,
+          "estimate_ratio": 0.864
+        },
+        {
+          "period": "2023",
+          "index_value": 167.17,
+          "lots_sold": 1,
+          "total_value": 215900.0,
+          "median_result": 215900.0,
+          "median_estimate": 150000.0,
+          "estimate_ratio": 1.439
+        },
+        {
+          "period": "2025",
+          "index_value": 23.97,
+          "lots_sold": 1,
+          "total_value": 30960.0,
+          "median_result": 30960.0,
+          "median_estimate": 40000.0,
+          "estimate_ratio": 0.774
+        },
+        {
+          "period": "2026",
+          "index_value": 18.98,
+          "lots_sold": 9,
+          "total_value": 336045.0,
+          "median_result": 24510.0,
+          "median_estimate": 17500.0,
+          "estimate_ratio": 1.613
+        }
+      ],
+      "notes": "Usable directional index; still needs repeat-sale and hedonic controls."
+    },
+    {
       "id": "artist:engel--johann-friedrich",
       "series_type": "artist",
       "label": "ENGEL, JOHANN FRIEDRICH",
@@ -19237,68 +20544,6 @@
           "median_result": 450.0,
           "median_estimate": null,
           "estimate_ratio": null
-        }
-      ],
-      "notes": "Usable directional index; still needs repeat-sale and hedonic controls."
-    },
-    {
-      "id": "artist:gio-ponti",
-      "series_type": "artist",
-      "label": "Gio Ponti",
-      "status": "history_ready",
-      "confidence": "medium",
-      "period_count": 5,
-      "lot_count": 15,
-      "latest_period": "2025",
-      "latest_index_value": 371.52,
-      "latest_lots_sold": 6,
-      "latest_median_result": 23220.0,
-      "latest_estimate_ratio": 1.79,
-      "points": [
-        {
-          "period": "2013",
-          "index_value": 100.0,
-          "lots_sold": 1,
-          "total_value": 6250.0,
-          "median_result": 6250.0,
-          "median_estimate": 12500.0,
-          "estimate_ratio": 0.5
-        },
-        {
-          "period": "2017",
-          "index_value": 840.0,
-          "lots_sold": 1,
-          "total_value": 52500.0,
-          "median_result": 52500.0,
-          "median_estimate": 25000.0,
-          "estimate_ratio": 2.1
-        },
-        {
-          "period": "2018",
-          "index_value": 300.0,
-          "lots_sold": 3,
-          "total_value": 93125.0,
-          "median_result": 18750.0,
-          "median_estimate": 15000.0,
-          "estimate_ratio": 1.25
-        },
-        {
-          "period": "2019",
-          "index_value": 260.0,
-          "lots_sold": 4,
-          "total_value": 66875.0,
-          "median_result": 16250.0,
-          "median_estimate": 13750.0,
-          "estimate_ratio": 1.205
-        },
-        {
-          "period": "2025",
-          "index_value": 371.52,
-          "lots_sold": 6,
-          "total_value": 134160.0,
-          "median_result": 23220.0,
-          "median_estimate": 11250.0,
-          "estimate_ratio": 1.79
         }
       ],
       "notes": "Usable directional index; still needs repeat-sale and hedonic controls."
@@ -19482,130 +20727,6 @@
       "notes": "Usable directional index; still needs repeat-sale and hedonic controls."
     },
     {
-      "id": "artist:jean-prouvé",
-      "series_type": "artist",
-      "label": "Jean Prouvé",
-      "status": "history_ready",
-      "confidence": "medium",
-      "period_count": 6,
-      "lot_count": 15,
-      "latest_period": "2026",
-      "latest_index_value": 436.06,
-      "latest_lots_sold": 1,
-      "latest_median_result": 193500.0,
-      "latest_estimate_ratio": 1.935,
-      "points": [
-        {
-          "period": "2015",
-          "index_value": 100.0,
-          "lots_sold": 2,
-          "total_value": 88750.0,
-          "median_result": 44375.0,
-          "median_estimate": 28500.0,
-          "estimate_ratio": 1.732
-        },
-        {
-          "period": "2016",
-          "index_value": 154.93,
-          "lots_sold": 3,
-          "total_value": 162500.0,
-          "median_result": 68750.0,
-          "median_estimate": 60000.0,
-          "estimate_ratio": 1.016
-        },
-        {
-          "period": "2017",
-          "index_value": 104.23,
-          "lots_sold": 2,
-          "total_value": 92500.0,
-          "median_result": 46250.0,
-          "median_estimate": 24500.0,
-          "estimate_ratio": 2.525
-        },
-        {
-          "period": "2018",
-          "index_value": 61.27,
-          "lots_sold": 4,
-          "total_value": 113750.0,
-          "median_result": 27187.5,
-          "median_estimate": 28500.0,
-          "estimate_ratio": 1.17
-        },
-        {
-          "period": "2025",
-          "index_value": 26.16,
-          "lots_sold": 3,
-          "total_value": 70950.0,
-          "median_result": 11610.0,
-          "median_estimate": 12500.0,
-          "estimate_ratio": 1.226
-        },
-        {
-          "period": "2026",
-          "index_value": 436.06,
-          "lots_sold": 1,
-          "total_value": 193500.0,
-          "median_result": 193500.0,
-          "median_estimate": 100000.0,
-          "estimate_ratio": 1.935
-        }
-      ],
-      "notes": "Usable directional index; still needs repeat-sale and hedonic controls."
-    },
-    {
-      "id": "artist:lucie-rie",
-      "series_type": "artist",
-      "label": "Lucie Rie",
-      "status": "history_ready",
-      "confidence": "medium",
-      "period_count": 4,
-      "lot_count": 15,
-      "latest_period": "2026",
-      "latest_index_value": 162.95,
-      "latest_lots_sold": 1,
-      "latest_median_result": 58050.0,
-      "latest_estimate_ratio": 4.644,
-      "points": [
-        {
-          "period": "2013",
-          "index_value": 100.0,
-          "lots_sold": 12,
-          "total_value": 478750.0,
-          "median_result": 35625.0,
-          "median_estimate": 23250.0,
-          "estimate_ratio": 1.993
-        },
-        {
-          "period": "2015",
-          "index_value": 70.18,
-          "lots_sold": 1,
-          "total_value": 25000.0,
-          "median_result": 25000.0,
-          "median_estimate": 25000.0,
-          "estimate_ratio": 1.0
-        },
-        {
-          "period": "2017",
-          "index_value": 140.35,
-          "lots_sold": 1,
-          "total_value": 50000.0,
-          "median_result": 50000.0,
-          "median_estimate": 50000.0,
-          "estimate_ratio": 1.0
-        },
-        {
-          "period": "2026",
-          "index_value": 162.95,
-          "lots_sold": 1,
-          "total_value": 58050.0,
-          "median_result": 58050.0,
-          "median_estimate": 12500.0,
-          "estimate_ratio": 4.644
-        }
-      ],
-      "notes": "Usable directional index; still needs repeat-sale and hedonic controls."
-    },
-    {
       "id": "artist:wagner--ferdinand--1819",
       "series_type": "artist",
       "label": "WAGNER, FERDINAND (1819)",
@@ -19775,27 +20896,202 @@
       "notes": "Usable directional index; still needs repeat-sale and hedonic controls."
     },
     {
-      "id": "sale_context:20th-century---contemporary-art--online-auction--new-york",
-      "series_type": "sale_context",
-      "label": "20th Century & Contemporary Art: Online Auction, New York",
+      "id": "artist:yoichi-ohira",
+      "series_type": "artist",
+      "label": "Yoichi Ohira",
+      "status": "history_ready",
+      "confidence": "medium",
+      "period_count": 6,
+      "lot_count": 15,
+      "latest_period": "2025",
+      "latest_index_value": 29.77,
+      "latest_lots_sold": 1,
+      "latest_median_result": 9675.0,
+      "latest_estimate_ratio": 0.968,
+      "points": [
+        {
+          "period": "2015",
+          "index_value": 100.0,
+          "lots_sold": 5,
+          "total_value": 160000.0,
+          "median_result": 32500.0,
+          "median_estimate": 15000.0,
+          "estimate_ratio": 1.9
+        },
+        {
+          "period": "2016",
+          "index_value": 42.31,
+          "lots_sold": 1,
+          "total_value": 13750.0,
+          "median_result": 13750.0,
+          "median_estimate": 17500.0,
+          "estimate_ratio": 0.786
+        },
+        {
+          "period": "2019",
+          "index_value": 53.85,
+          "lots_sold": 3,
+          "total_value": 50000.0,
+          "median_result": 17500.0,
+          "median_estimate": 10000.0,
+          "estimate_ratio": 1.75
+        },
+        {
+          "period": "2020",
+          "index_value": 27.53,
+          "lots_sold": 2,
+          "total_value": 17892.0,
+          "median_result": 8946.0,
+          "median_estimate": 8750.0,
+          "estimate_ratio": 1.033
+        },
+        {
+          "period": "2024",
+          "index_value": 31.26,
+          "lots_sold": 3,
+          "total_value": 36830.0,
+          "median_result": 10160.0,
+          "median_estimate": 5000.0,
+          "estimate_ratio": 2.032
+        },
+        {
+          "period": "2025",
+          "index_value": 29.77,
+          "lots_sold": 1,
+          "total_value": 9675.0,
+          "median_result": 9675.0,
+          "median_estimate": 10000.0,
+          "estimate_ratio": 0.968
+        }
+      ],
+      "notes": "Usable directional index; still needs repeat-sale and hedonic controls."
+    },
+    {
+      "id": "artist:henri-cartier-bresson",
+      "series_type": "artist",
+      "label": "Henri Cartier-Bresson",
       "status": "needs_more_history",
       "confidence": "low",
       "period_count": 1,
-      "lot_count": 50,
-      "latest_period": "2023",
+      "lot_count": 74,
+      "latest_period": "2017",
       "latest_index_value": 100.0,
-      "latest_lots_sold": 50,
-      "latest_median_result": 14605.0,
-      "latest_estimate_ratio": 1.016,
+      "latest_lots_sold": 74,
+      "latest_median_result": 16250.0,
+      "latest_estimate_ratio": 1.817,
       "points": [
         {
-          "period": "2023",
+          "period": "2017",
           "index_value": 100.0,
-          "lots_sold": 50,
-          "total_value": 792989.0,
-          "median_result": 14605.0,
-          "median_estimate": 12500.0,
-          "estimate_ratio": 1.016
+          "lots_sold": 74,
+          "total_value": 1441625.0,
+          "median_result": 16250.0,
+          "median_estimate": 8000.0,
+          "estimate_ratio": 1.817
+        }
+      ],
+      "notes": "Needs at least two observed periods before this behaves like a trend index."
+    },
+    {
+      "id": "sale_context:henri-cartier-bresson--the-eye-of-the-century",
+      "series_type": "sale_context",
+      "label": "Henri Cartier-Bresson: The Eye of the Century",
+      "status": "needs_more_history",
+      "confidence": "low",
+      "period_count": 1,
+      "lot_count": 74,
+      "latest_period": "2017",
+      "latest_index_value": 100.0,
+      "latest_lots_sold": 74,
+      "latest_median_result": 16250.0,
+      "latest_estimate_ratio": 1.817,
+      "points": [
+        {
+          "period": "2017",
+          "index_value": 100.0,
+          "lots_sold": 74,
+          "total_value": 1441625.0,
+          "median_result": 16250.0,
+          "median_estimate": 8000.0,
+          "estimate_ratio": 1.817
+        }
+      ],
+      "notes": "Needs at least two observed periods before this behaves like a trend index."
+    },
+    {
+      "id": "sale_context:game-changers",
+      "series_type": "sale_context",
+      "label": "Game Changers",
+      "status": "needs_more_history",
+      "confidence": "low",
+      "period_count": 1,
+      "lot_count": 73,
+      "latest_period": "2019",
+      "latest_index_value": 100.0,
+      "latest_lots_sold": 73,
+      "latest_median_result": 100000.0,
+      "latest_estimate_ratio": 1.451,
+      "points": [
+        {
+          "period": "2019",
+          "index_value": 100.0,
+          "lots_sold": 73,
+          "total_value": 20088625.0,
+          "median_result": 100000.0,
+          "median_estimate": 45000.0,
+          "estimate_ratio": 1.451
+        }
+      ],
+      "notes": "Needs at least two observed periods before this behaves like a trend index."
+    },
+    {
+      "id": "sale_context:moved-by-beauty--works-by-lucie-rie-from-an-important-asian-collection",
+      "series_type": "sale_context",
+      "label": "Moved by Beauty: Works by Lucie Rie from an Important Asian Collection",
+      "status": "needs_more_history",
+      "confidence": "low",
+      "period_count": 1,
+      "lot_count": 71,
+      "latest_period": "2024",
+      "latest_index_value": 100.0,
+      "latest_lots_sold": 71,
+      "latest_median_result": 17780.0,
+      "latest_estimate_ratio": 1.609,
+      "points": [
+        {
+          "period": "2024",
+          "index_value": 100.0,
+          "lots_sold": 71,
+          "total_value": 3237865.0,
+          "median_result": 17780.0,
+          "median_estimate": 10500.0,
+          "estimate_ratio": 1.609
+        }
+      ],
+      "notes": "Needs at least two observed periods before this behaves like a trend index."
+    },
+    {
+      "id": "sale_context:racing-pulse",
+      "series_type": "sale_context",
+      "label": "Racing Pulse",
+      "status": "needs_more_history",
+      "confidence": "low",
+      "period_count": 1,
+      "lot_count": 70,
+      "latest_period": "2020",
+      "latest_index_value": 100.0,
+      "latest_lots_sold": 70,
+      "latest_median_result": 75600.0,
+      "latest_estimate_ratio": 1.82,
+      "points": [
+        {
+          "period": "2020",
+          "index_value": 100.0,
+          "lots_sold": 70,
+          "total_value": 19404650.0,
+          "median_result": 75600.0,
+          "median_estimate": 40000.0,
+          "estimate_ratio": 1.82
         }
       ],
       "notes": "Needs at least two observed periods before this behaves like a trend index."
@@ -19807,21 +21103,73 @@
       "status": "needs_more_history",
       "confidence": "low",
       "period_count": 1,
-      "lot_count": 50,
+      "lot_count": 69,
       "latest_period": "2024",
       "latest_index_value": 100.0,
-      "latest_lots_sold": 50,
-      "latest_median_result": 79375.0,
-      "latest_estimate_ratio": 1.114,
+      "latest_lots_sold": 69,
+      "latest_median_result": 69850.0,
+      "latest_estimate_ratio": 1.111,
       "points": [
         {
           "period": "2024",
           "index_value": 100.0,
-          "lots_sold": 50,
-          "total_value": 6221730.0,
-          "median_result": 79375.0,
+          "lots_sold": 69,
+          "total_value": 7038975.0,
+          "median_result": 69850.0,
           "median_estimate": 60000.0,
-          "estimate_ratio": 1.114
+          "estimate_ratio": 1.111
+        }
+      ],
+      "notes": "Needs at least two observed periods before this behaves like a trend index."
+    },
+    {
+      "id": "sale_context:20th-century---contemporary-art--online-auction--new-york",
+      "series_type": "sale_context",
+      "label": "20th Century & Contemporary Art: Online Auction, New York",
+      "status": "needs_more_history",
+      "confidence": "low",
+      "period_count": 1,
+      "lot_count": 68,
+      "latest_period": "2023",
+      "latest_index_value": 100.0,
+      "latest_lots_sold": 68,
+      "latest_median_result": 8890.0,
+      "latest_estimate_ratio": 0.984,
+      "points": [
+        {
+          "period": "2023",
+          "index_value": 100.0,
+          "lots_sold": 68,
+          "total_value": 848298.0,
+          "median_result": 8890.0,
+          "median_estimate": 8500.0,
+          "estimate_ratio": 0.984
+        }
+      ],
+      "notes": "Needs at least two observed periods before this behaves like a trend index."
+    },
+    {
+      "id": "sale_context:modern---contemporary-editions--evening-sale",
+      "series_type": "sale_context",
+      "label": "Modern & Contemporary Editions: Evening Sale",
+      "status": "needs_more_history",
+      "confidence": "low",
+      "period_count": 1,
+      "lot_count": 65,
+      "latest_period": "2026",
+      "latest_index_value": 100.0,
+      "latest_lots_sold": 65,
+      "latest_median_result": 19350.0,
+      "latest_estimate_ratio": 1.445,
+      "points": [
+        {
+          "period": "2026",
+          "index_value": 100.0,
+          "lots_sold": 65,
+          "total_value": 2164039.0,
+          "median_result": 19350.0,
+          "median_estimate": 15000.0,
+          "estimate_ratio": 1.445
         }
       ],
       "notes": "Needs at least two observed periods before this behaves like a trend index."
@@ -19833,21 +21181,47 @@
       "status": "needs_more_history",
       "confidence": "low",
       "period_count": 1,
-      "lot_count": 47,
+      "lot_count": 64,
       "latest_period": "2013",
       "latest_index_value": 100.0,
-      "latest_lots_sold": 47,
-      "latest_median_result": 31250.0,
-      "latest_estimate_ratio": 1.786,
+      "latest_lots_sold": 64,
+      "latest_median_result": 27500.0,
+      "latest_estimate_ratio": 1.5,
       "points": [
         {
           "period": "2013",
           "index_value": 100.0,
-          "lots_sold": 47,
-          "total_value": 2243625.0,
-          "median_result": 31250.0,
+          "lots_sold": 64,
+          "total_value": 2571250.0,
+          "median_result": 27500.0,
+          "median_estimate": 16750.0,
+          "estimate_ratio": 1.5
+        }
+      ],
+      "notes": "Needs at least two observed periods before this behaves like a trend index."
+    },
+    {
+      "id": "sale_context:new-now--modern---contemporary-art",
+      "series_type": "sale_context",
+      "label": "New Now: Modern & Contemporary Art",
+      "status": "needs_more_history",
+      "confidence": "low",
+      "period_count": 1,
+      "lot_count": 62,
+      "latest_period": "2025",
+      "latest_index_value": 100.0,
+      "latest_lots_sold": 62,
+      "latest_median_result": 24510.0,
+      "latest_estimate_ratio": 1.106,
+      "points": [
+        {
+          "period": "2025",
+          "index_value": 100.0,
+          "lots_sold": 62,
+          "total_value": 2376567.0,
+          "median_result": 24510.0,
           "median_estimate": 17500.0,
-          "estimate_ratio": 1.786
+          "estimate_ratio": 1.106
         }
       ],
       "notes": "Needs at least two observed periods before this behaves like a trend index."
@@ -19859,21 +21233,47 @@
       "status": "needs_more_history",
       "confidence": "low",
       "period_count": 1,
-      "lot_count": 46,
+      "lot_count": 61,
       "latest_period": "2016",
       "latest_index_value": 100.0,
-      "latest_lots_sold": 46,
-      "latest_median_result": 14375.0,
-      "latest_estimate_ratio": 1.5,
+      "latest_lots_sold": 61,
+      "latest_median_result": 15000.0,
+      "latest_estimate_ratio": 1.518,
       "points": [
         {
           "period": "2016",
           "index_value": 100.0,
-          "lots_sold": 46,
-          "total_value": 1097625.0,
-          "median_result": 14375.0,
-          "median_estimate": 10000.0,
-          "estimate_ratio": 1.5
+          "lots_sold": 61,
+          "total_value": 1319750.0,
+          "median_result": 15000.0,
+          "median_estimate": 9000.0,
+          "estimate_ratio": 1.518
+        }
+      ],
+      "notes": "Needs at least two observed periods before this behaves like a trend index."
+    },
+    {
+      "id": "sale_context:modern---contemporary-art---design-sale",
+      "series_type": "sale_context",
+      "label": "Modern & Contemporary Art & Design Sale",
+      "status": "needs_more_history",
+      "confidence": "low",
+      "period_count": 1,
+      "lot_count": 55,
+      "latest_period": "2025",
+      "latest_index_value": 100.0,
+      "latest_lots_sold": 55,
+      "latest_median_result": 103200.0,
+      "latest_estimate_ratio": 1.032,
+      "points": [
+        {
+          "period": "2025",
+          "index_value": 100.0,
+          "lots_sold": 55,
+          "total_value": 13776555.0,
+          "median_result": 103200.0,
+          "median_estimate": 100000.0,
+          "estimate_ratio": 1.032
         }
       ],
       "notes": "Needs at least two observed periods before this behaves like a trend index."
@@ -19885,21 +21285,99 @@
       "status": "needs_more_history",
       "confidence": "low",
       "period_count": 1,
-      "lot_count": 39,
+      "lot_count": 53,
       "latest_period": "2018",
       "latest_index_value": 100.0,
-      "latest_lots_sold": 39,
-      "latest_median_result": 17500.0,
-      "latest_estimate_ratio": 1.328,
+      "latest_lots_sold": 53,
+      "latest_median_result": 16250.0,
+      "latest_estimate_ratio": 1.286,
       "points": [
         {
           "period": "2018",
           "index_value": 100.0,
-          "lots_sold": 39,
-          "total_value": 1025375.0,
-          "median_result": 17500.0,
+          "lots_sold": 53,
+          "total_value": 1281625.0,
+          "median_result": 16250.0,
           "median_estimate": 12500.0,
-          "estimate_ratio": 1.328
+          "estimate_ratio": 1.286
+        }
+      ],
+      "notes": "Needs at least two observed periods before this behaves like a trend index."
+    },
+    {
+      "id": "sale_context:modern---contemporary-art",
+      "series_type": "sale_context",
+      "label": "Modern & Contemporary Art",
+      "status": "needs_more_history",
+      "confidence": "low",
+      "period_count": 1,
+      "lot_count": 38,
+      "latest_period": "2026",
+      "latest_index_value": 100.0,
+      "latest_lots_sold": 38,
+      "latest_median_result": 212850.0,
+      "latest_estimate_ratio": 1.125,
+      "points": [
+        {
+          "period": "2026",
+          "index_value": 100.0,
+          "lots_sold": 38,
+          "total_value": 27022920.0,
+          "median_result": 212850.0,
+          "median_estimate": 170000.0,
+          "estimate_ratio": 1.125
+        }
+      ],
+      "notes": "Needs at least two observed periods before this behaves like a trend index."
+    },
+    {
+      "id": "sale_context:design-evening-sale",
+      "series_type": "sale_context",
+      "label": "Design Evening Sale",
+      "status": "needs_more_history",
+      "confidence": "low",
+      "period_count": 1,
+      "lot_count": 35,
+      "latest_period": "2016",
+      "latest_index_value": 100.0,
+      "latest_lots_sold": 35,
+      "latest_median_result": 121250.0,
+      "latest_estimate_ratio": 1.364,
+      "points": [
+        {
+          "period": "2016",
+          "index_value": 100.0,
+          "lots_sold": 35,
+          "total_value": 5380250.0,
+          "median_result": 121250.0,
+          "median_estimate": 75000.0,
+          "estimate_ratio": 1.364
+        }
+      ],
+      "notes": "Needs at least two observed periods before this behaves like a trend index."
+    },
+    {
+      "id": "sale_context:design-masters",
+      "series_type": "sale_context",
+      "label": "Design Masters",
+      "status": "needs_more_history",
+      "confidence": "low",
+      "period_count": 1,
+      "lot_count": 31,
+      "latest_period": "2015",
+      "latest_index_value": 100.0,
+      "latest_lots_sold": 31,
+      "latest_median_result": 87500.0,
+      "latest_estimate_ratio": 1.3,
+      "points": [
+        {
+          "period": "2015",
+          "index_value": 100.0,
+          "lots_sold": 31,
+          "total_value": 3460250.0,
+          "median_result": 87500.0,
+          "median_estimate": 70000.0,
+          "estimate_ratio": 1.3
         }
       ],
       "notes": "Needs at least two observed periods before this behaves like a trend index."
@@ -19931,27 +21409,79 @@
       "notes": "Needs at least two observed periods before this behaves like a trend index."
     },
     {
-      "id": "sale_context:design-evening",
+      "id": "sale_context:20th-century---contemporary-art-evening-sale-in-association-with-yongle",
       "series_type": "sale_context",
-      "label": "Design Evening",
+      "label": "20th Century & Contemporary Art Evening Sale in association with Yongle",
       "status": "needs_more_history",
       "confidence": "low",
       "period_count": 1,
-      "lot_count": 28,
-      "latest_period": "2017",
+      "lot_count": 27,
+      "latest_period": "2022",
       "latest_index_value": 100.0,
-      "latest_lots_sold": 28,
-      "latest_median_result": 109375.0,
-      "latest_estimate_ratio": 1.65,
+      "latest_lots_sold": 27,
+      "latest_median_result": 4032000.0,
+      "latest_estimate_ratio": 1.357,
       "points": [
         {
-          "period": "2017",
+          "period": "2022",
           "index_value": 100.0,
-          "lots_sold": 28,
-          "total_value": 4395250.0,
-          "median_result": 109375.0,
-          "median_estimate": 60000.0,
-          "estimate_ratio": 1.65
+          "lots_sold": 27,
+          "total_value": 231196500.0,
+          "median_result": 4032000.0,
+          "median_estimate": 2500000.0,
+          "estimate_ratio": 1.357
+        }
+      ],
+      "notes": "Needs at least two observed periods before this behaves like a trend index."
+    },
+    {
+      "id": "sale_context:martinware",
+      "series_type": "sale_context",
+      "label": "Martinware",
+      "status": "needs_more_history",
+      "confidence": "low",
+      "period_count": 1,
+      "lot_count": 23,
+      "latest_period": "2015",
+      "latest_index_value": 100.0,
+      "latest_lots_sold": 23,
+      "latest_median_result": 52500.0,
+      "latest_estimate_ratio": 1.354,
+      "points": [
+        {
+          "period": "2015",
+          "index_value": 100.0,
+          "lots_sold": 23,
+          "total_value": 1592250.0,
+          "median_result": 52500.0,
+          "median_estimate": 50000.0,
+          "estimate_ratio": 1.354
+        }
+      ],
+      "notes": "Needs at least two observed periods before this behaves like a trend index."
+    },
+    {
+      "id": "sale_context:photographs-from-the-art-institute-of-chicago---online-only",
+      "series_type": "sale_context",
+      "label": "Photographs from the Art Institute of Chicago - Online Only",
+      "status": "needs_more_history",
+      "confidence": "low",
+      "period_count": 1,
+      "lot_count": 17,
+      "latest_period": "2014",
+      "latest_index_value": 100.0,
+      "latest_lots_sold": 17,
+      "latest_median_result": 3000.0,
+      "latest_estimate_ratio": 1.083,
+      "points": [
+        {
+          "period": "2014",
+          "index_value": 100.0,
+          "lots_sold": 17,
+          "total_value": 69313.0,
+          "median_result": 3000.0,
+          "median_estimate": 3500.0,
+          "estimate_ratio": 1.083
         }
       ],
       "notes": "Needs at least two observed periods before this behaves like a trend index."
