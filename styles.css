@@ -471,6 +471,58 @@ h2 {
   text-align: center;
 }
 
+.fair-list {
+  display: grid;
+  gap: 10px;
+}
+
+.fair-row {
+  display: grid;
+  grid-template-columns: 66px minmax(0, 1fr) auto;
+  gap: 14px;
+  align-items: center;
+  border: 1px solid #e5ebf0;
+  border-radius: 8px;
+  padding: 12px;
+}
+
+.fair-date {
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+  text-align: center;
+  padding: 8px 6px;
+  border-radius: 8px;
+  background: #f4f7f8;
+}
+
+.fair-date strong {
+  font-size: 0.9rem;
+  line-height: 1.1;
+  color: var(--ink);
+}
+
+.fair-date span {
+  font-size: 0.68rem;
+  color: var(--muted);
+}
+
+.fair-body {
+  min-width: 0;
+}
+
+.fair-body h3 {
+  margin: 4px 0 0;
+  font-size: 0.98rem;
+  line-height: 1.25;
+}
+
+.fair-body p {
+  margin: 5px 0 0;
+  color: var(--muted);
+  font-size: 0.84rem;
+}
+
 .sparkline {
   width: 112px;
   height: 44px;

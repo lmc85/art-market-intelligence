@@ -5,6 +5,7 @@ __pycache__/
 # Generated ingestion outputs can become large quickly.
 data/ingested/*.json
 data/ingested/*.jsonl
+data/ingested/*.csv
 !data/ingested/.gitkeep
 
 # Local auction pipeline artifacts.

@@ -1,13 +1,1686 @@
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version='1.0' encoding='utf-8'?>
 <rss xmlns:artmi="https://artmarketintelligence.local/rss/1.0" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
   <channel>
     <title>Art Market Intelligence Auction Results</title>
     <link>http://localhost:4173/</link>
     <description>Auction and sale records normalized for art market intelligence.</description>
     <language>en-us</language>
-    <lastBuildDate>Mon, 25 May 2026 19:49:30 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 14 Jun 2026 00:13:26 +0000</lastBuildDate>
     <ttl>60</ttl>
     <atom:link href="http://localhost:4173/feeds/auction-results.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Vide poche - Phillips</title>
+      <link>https://www.phillips.com/detail/georges-jouve/235026</link>
+      <guid>phillips_auctions|phillips|NY050226|1</guid>
+      <pubDate>Fri, 12 Jun 2026 12:00:00 +0000</pubDate>
+      <category>sold</category>
+      <description>Artist(s): Georges Jouve
+Style: Design
+Medium: Not available
+Dimensions: Not available
+Auction house: Phillips
+Auction date: 2026-06-12
+Starting price: Not available
+Estimated selling price: $ 3,000 - 5,000
+Result price: $ 7,095
+Last sold price: Not available
+Notes: Starting price and prior sale price were not exposed in the public Phillips sale payload.</description>
+      <artmi:title>Vide poche</artmi:title>
+      <artmi:artists>Georges Jouve</artmi:artists>
+      <artmi:style>Design</artmi:style>
+      <artmi:auctionHouse>Phillips</artmi:auctionHouse>
+      <artmi:auctionDate>2026-06-12</artmi:auctionDate>
+      <artmi:status>sold</artmi:status>
+      <artmi:estimatedSellingPrice>$ 3,000 - 5,000</artmi:estimatedSellingPrice>
+      <artmi:resultPrice>$ 7,095</artmi:resultPrice>
+      <artmi:predictionReady>true</artmi:predictionReady>
+      <artmi:recordSource>Phillips public auction result page</artmi:recordSource>
+    </item>
+    <item>
+      <title>"Delfi" table, from the "Ultrarazionale" series - Phillips</title>
+      <link>https://www.phillips.com/detail/carlo-scarpa-and-marcel-breuer/235468</link>
+      <guid>phillips_auctions|phillips|NY050226|10</guid>
+      <pubDate>Fri, 12 Jun 2026 12:00:00 +0000</pubDate>
+      <category>sold</category>
+      <description>Artist(s): Carlo Scarpa and Marcel Breuer
+Style: Design
+Medium: Not available
+Dimensions: Not available
+Auction house: Phillips
+Auction date: 2026-06-12
+Starting price: Not available
+Estimated selling price: $ 4,000 - 6,000
+Result price: $ 6,192
+Last sold price: Not available
+Notes: Starting price and prior sale price were not exposed in the public Phillips sale payload.</description>
+      <artmi:title>"Delfi" table, from the "Ultrarazionale" series</artmi:title>
+      <artmi:artists>Carlo Scarpa and Marcel Breuer</artmi:artists>
+      <artmi:style>Design</artmi:style>
+      <artmi:auctionHouse>Phillips</artmi:auctionHouse>
+      <artmi:auctionDate>2026-06-12</artmi:auctionDate>
+      <artmi:status>sold</artmi:status>
+      <artmi:estimatedSellingPrice>$ 4,000 - 6,000</artmi:estimatedSellingPrice>
+      <artmi:resultPrice>$ 6,192</artmi:resultPrice>
+      <artmi:predictionReady>true</artmi:predictionReady>
+      <artmi:recordSource>Phillips public auction result page</artmi:recordSource>
+    </item>
+    <item>
+      <title>"Klismos" bench - Phillips</title>
+      <link>https://www.phillips.com/detail/th-robsjohngibbings/234149</link>
+      <guid>phillips_auctions|phillips|NY050226|11</guid>
+      <pubDate>Fri, 12 Jun 2026 12:00:00 +0000</pubDate>
+      <category>sold</category>
+      <description>Artist(s): T.H. Robsjohn-Gibbings
+Style: Design
+Medium: Not available
+Dimensions: Not available
+Auction house: Phillips
+Auction date: 2026-06-12
+Starting price: Not available
+Estimated selling price: $ 12,000 - 18,000
+Result price: $ 36,120
+Last sold price: Not available
+Notes: Starting price and prior sale price were not exposed in the public Phillips sale payload.</description>
+      <artmi:title>"Klismos" bench</artmi:title>
+      <artmi:artists>T.H. Robsjohn-Gibbings</artmi:artists>
+      <artmi:style>Design</artmi:style>
+      <artmi:auctionHouse>Phillips</artmi:auctionHouse>
+      <artmi:auctionDate>2026-06-12</artmi:auctionDate>
+      <artmi:status>sold</artmi:status>
+      <artmi:estimatedSellingPrice>$ 12,000 - 18,000</artmi:estimatedSellingPrice>
+      <artmi:resultPrice>$ 36,120</artmi:resultPrice>
+      <artmi:predictionReady>true</artmi:predictionReady>
+      <artmi:recordSource>Phillips public auction result page</artmi:recordSource>
+    </item>
+    <item>
+      <title>Footed bowl - Phillips</title>
+      <link>https://www.phillips.com/detail/andre-methey/214601</link>
+      <guid>phillips_auctions|phillips|NY050226|12</guid>
+      <pubDate>Fri, 12 Jun 2026 12:00:00 +0000</pubDate>
+      <category>sold</category>
+      <description>Artist(s): André Méthey
+Style: Design
+Medium: Not available
+Dimensions: Not available
+Auction house: Phillips
+Auction date: 2026-06-12
+Starting price: Not available
+Estimated selling price: $ 1,500 - 2,500
+Result price: $ 1,290
+Last sold price: Not available
+Notes: Starting price and prior sale price were not exposed in the public Phillips sale payload.</description>
+      <artmi:title>Footed bowl</artmi:title>
+      <artmi:artists>André Méthey</artmi:artists>
+      <artmi:style>Design</artmi:style>
+      <artmi:auctionHouse>Phillips</artmi:auctionHouse>
+      <artmi:auctionDate>2026-06-12</artmi:auctionDate>
+      <artmi:status>sold</artmi:status>
+      <artmi:estimatedSellingPrice>$ 1,500 - 2,500</artmi:estimatedSellingPrice>
+      <artmi:resultPrice>$ 1,290</artmi:resultPrice>
+      <artmi:predictionReady>true</artmi:predictionReady>
+      <artmi:recordSource>Phillips public auction result page</artmi:recordSource>
+    </item>
+    <item>
+      <title>"Bull Situla" - Phillips</title>
+      <link>https://www.phillips.com/detail/william-morris/230847</link>
+      <guid>phillips_auctions|phillips|NY050226|13</guid>
+      <pubDate>Fri, 12 Jun 2026 12:00:00 +0000</pubDate>
+      <category>auctioned</category>
+      <description>Artist(s): William Morris
+Style: Design
+Medium: Not available
+Dimensions: Not available
+Auction house: Phillips
+Auction date: 2026-06-12
+Starting price: Not available
+Estimated selling price: $ 30,000 - 50,000
+Result price: Not available
+Last sold price: Not available
+Notes: Starting price and prior sale price were not exposed in the public Phillips sale payload.</description>
+      <artmi:title>"Bull Situla"</artmi:title>
+      <artmi:artists>William Morris</artmi:artists>
+      <artmi:style>Design</artmi:style>
+      <artmi:auctionHouse>Phillips</artmi:auctionHouse>
+      <artmi:auctionDate>2026-06-12</artmi:auctionDate>
+      <artmi:status>auctioned</artmi:status>
+      <artmi:estimatedSellingPrice>$ 30,000 - 50,000</artmi:estimatedSellingPrice>
+      <artmi:predictionReady>false</artmi:predictionReady>
+      <artmi:recordSource>Phillips public auction result page</artmi:recordSource>
+    </item>
+    <item>
+      <title>Eight "Klismos" chairs, model no. 3 - Phillips</title>
+      <link>https://www.phillips.com/detail/th-robsjohngibbings/234147</link>
+      <guid>phillips_auctions|phillips|NY050226|14</guid>
+      <pubDate>Fri, 12 Jun 2026 12:00:00 +0000</pubDate>
+      <category>sold</category>
+      <description>Artist(s): T.H. Robsjohn-Gibbings
+Style: Design
+Medium: Not available
+Dimensions: Not available
+Auction house: Phillips
+Auction date: 2026-06-12
+Starting price: Not available
+Estimated selling price: $ 30,000 - 50,000
+Result price: $ 64,500
+Last sold price: Not available
+Notes: Starting price and prior sale price were not exposed in the public Phillips sale payload.</description>
+      <artmi:title>Eight "Klismos" chairs, model no. 3</artmi:title>
+      <artmi:artists>T.H. Robsjohn-Gibbings</artmi:artists>
+      <artmi:style>Design</artmi:style>
+      <artmi:auctionHouse>Phillips</artmi:auctionHouse>
+      <artmi:auctionDate>2026-06-12</artmi:auctionDate>
+      <artmi:status>sold</artmi:status>
+      <artmi:estimatedSellingPrice>$ 30,000 - 50,000</artmi:estimatedSellingPrice>
+      <artmi:resultPrice>$ 64,500</artmi:resultPrice>
+      <artmi:predictionReady>true</artmi:predictionReady>
+      <artmi:recordSource>Phillips public auction result page</artmi:recordSource>
+    </item>
+    <item>
+      <title>Two "Diphros" stools, model nos. 1 and 20 - Phillips</title>
+      <link>https://www.phillips.com/detail/th-robsjohngibbings/234150</link>
+      <guid>phillips_auctions|phillips|NY050226|15</guid>
+      <pubDate>Fri, 12 Jun 2026 12:00:00 +0000</pubDate>
+      <category>sold</category>
+      <description>Artist(s): T.H. Robsjohn-Gibbings
+Style: Design
+Medium: Not available
+Dimensions: Not available
+Auction house: Phillips
+Auction date: 2026-06-12
+Starting price: Not available
+Estimated selling price: $ 5,000 - 7,000
+Result price: $ 23,220
+Last sold price: Not available
+Notes: Starting price and prior sale price were not exposed in the public Phillips sale payload.</description>
+      <artmi:title>Two "Diphros" stools, model nos. 1 and 20</artmi:title>
+      <artmi:artists>T.H. Robsjohn-Gibbings</artmi:artists>
+      <artmi:style>Design</artmi:style>
+      <artmi:auctionHouse>Phillips</artmi:auctionHouse>
+      <artmi:auctionDate>2026-06-12</artmi:auctionDate>
+      <artmi:status>sold</artmi:status>
+      <artmi:estimatedSellingPrice>$ 5,000 - 7,000</artmi:estimatedSellingPrice>
+      <artmi:resultPrice>$ 23,220</artmi:resultPrice>
+      <artmi:predictionReady>true</artmi:predictionReady>
+      <artmi:recordSource>Phillips public auction result page</artmi:recordSource>
+    </item>
+    <item>
+      <title>Unique "Burning Bush" candelabrum with tray - Phillips</title>
+      <link>https://www.phillips.com/detail/michele-oka-doner/230164</link>
+      <guid>phillips_auctions|phillips|NY050226|16</guid>
+      <pubDate>Fri, 12 Jun 2026 12:00:00 +0000</pubDate>
+      <category>sold</category>
+      <description>Artist(s): Michele Oka Doner
+Style: Design
+Medium: Not available
+Dimensions: Not available
+Auction house: Phillips
+Auction date: 2026-06-12
+Starting price: Not available
+Estimated selling price: $ 8,000 - 12,000
+Result price: $ 28,380
+Last sold price: Not available
+Notes: Starting price and prior sale price were not exposed in the public Phillips sale payload.</description>
+      <artmi:title>Unique "Burning Bush" candelabrum with tray</artmi:title>
+      <artmi:artists>Michele Oka Doner</artmi:artists>
+      <artmi:style>Design</artmi:style>
+      <artmi:auctionHouse>Phillips</artmi:auctionHouse>
+      <artmi:auctionDate>2026-06-12</artmi:auctionDate>
+      <artmi:status>sold</artmi:status>
+      <artmi:estimatedSellingPrice>$ 8,000 - 12,000</artmi:estimatedSellingPrice>
+      <artmi:resultPrice>$ 28,380</artmi:resultPrice>
+      <artmi:predictionReady>true</artmi:predictionReady>
+      <artmi:recordSource>Phillips public auction result page</artmi:recordSource>
+    </item>
+    <item>
+      <title>“Plug” coffee table - Phillips</title>
+      <link>https://www.phillips.com/detail/rick-owens/235451</link>
+      <guid>phillips_auctions|phillips|NY050226|17</guid>
+      <pubDate>Fri, 12 Jun 2026 12:00:00 +0000</pubDate>
+      <category>sold</category>
+      <description>Artist(s): Rick Owens
+Style: Design
+Medium: Not available
+Dimensions: Not available
+Auction house: Phillips
+Auction date: 2026-06-12
+Starting price: Not available
+Estimated selling price: $ 10,000 - 15,000
+Result price: $ 20,640
+Last sold price: Not available
+Notes: Starting price and prior sale price were not exposed in the public Phillips sale payload.</description>
+      <artmi:title>“Plug” coffee table</artmi:title>
+      <artmi:artists>Rick Owens</artmi:artists>
+      <artmi:style>Design</artmi:style>
+      <artmi:auctionHouse>Phillips</artmi:auctionHouse>
+      <artmi:auctionDate>2026-06-12</artmi:auctionDate>
+      <artmi:status>sold</artmi:status>
+      <artmi:estimatedSellingPrice>$ 10,000 - 15,000</artmi:estimatedSellingPrice>
+      <artmi:resultPrice>$ 20,640</artmi:resultPrice>
+      <artmi:predictionReady>true</artmi:predictionReady>
+      <artmi:recordSource>Phillips public auction result page</artmi:recordSource>
+    </item>
+    <item>
+      <title>"Canopic Jar: Sable Antelope" - Phillips</title>
+      <link>https://www.phillips.com/detail/william-morris/230846</link>
+      <guid>phillips_auctions|phillips|NY050226|18</guid>
+      <pubDate>Fri, 12 Jun 2026 12:00:00 +0000</pubDate>
+      <category>sold</category>
+      <description>Artist(s): William Morris
+Style: Design
+Medium: Not available
+Dimensions: Not available
+Auction house: Phillips
+Auction date: 2026-06-12
+Starting price: Not available
+Estimated selling price: $ 150,000 - 200,000
+Result price: $ 154,800
+Last sold price: Not available
+Notes: Starting price and prior sale price were not exposed in the public Phillips sale payload.</description>
+      <artmi:title>"Canopic Jar: Sable Antelope"</artmi:title>
+      <artmi:artists>William Morris</artmi:artists>
+      <artmi:style>Design</artmi:style>
+      <artmi:auctionHouse>Phillips</artmi:auctionHouse>
+      <artmi:auctionDate>2026-06-12</artmi:auctionDate>
+      <artmi:status>sold</artmi:status>
+      <artmi:estimatedSellingPrice>$ 150,000 - 200,000</artmi:estimatedSellingPrice>
+      <artmi:resultPrice>$ 154,800</artmi:resultPrice>
+      <artmi:predictionReady>true</artmi:predictionReady>
+      <artmi:recordSource>Phillips public auction result page</artmi:recordSource>
+    </item>
+    <item>
+      <title>“Half Box” chair - Phillips</title>
+      <link>https://www.phillips.com/detail/rick-owens/235450</link>
+      <guid>phillips_auctions|phillips|NY050226|19</guid>
+      <pubDate>Fri, 12 Jun 2026 12:00:00 +0000</pubDate>
+      <category>sold</category>
+      <description>Artist(s): Rick Owens
+Style: Design
+Medium: Not available
+Dimensions: Not available
+Auction house: Phillips
+Auction date: 2026-06-12
+Starting price: Not available
+Estimated selling price: $ 10,000 - 15,000
+Result price: $ 38,700
+Last sold price: Not available
+Notes: Starting price and prior sale price were not exposed in the public Phillips sale payload.</description>
+      <artmi:title>“Half Box” chair</artmi:title>
+      <artmi:artists>Rick Owens</artmi:artists>
+      <artmi:style>Design</artmi:style>
+      <artmi:auctionHouse>Phillips</artmi:auctionHouse>
+      <artmi:auctionDate>2026-06-12</artmi:auctionDate>
+      <artmi:status>sold</artmi:status>
+      <artmi:estimatedSellingPrice>$ 10,000 - 15,000</artmi:estimatedSellingPrice>
+      <artmi:resultPrice>$ 38,700</artmi:resultPrice>
+      <artmi:predictionReady>true</artmi:predictionReady>
+      <artmi:recordSource>Phillips public auction result page</artmi:recordSource>
+    </item>
+    <item>
+      <title>"Galet” vase - Phillips</title>
+      <link>https://www.phillips.com/detail/georges-jouve/235346</link>
+      <guid>phillips_auctions|phillips|NY050226|2</guid>
+      <pubDate>Fri, 12 Jun 2026 12:00:00 +0000</pubDate>
+      <category>sold</category>
+      <description>Artist(s): Georges Jouve
+Style: Design
+Medium: Not available
+Dimensions: Not available
+Auction house: Phillips
+Auction date: 2026-06-12
+Starting price: Not available
+Estimated selling price: $ 8,000 - 12,000
+Result price: $ 12,900
+Last sold price: Not available
+Notes: Starting price and prior sale price were not exposed in the public Phillips sale payload.</description>
+      <artmi:title>"Galet” vase</artmi:title>
+      <artmi:artists>Georges Jouve</artmi:artists>
+      <artmi:style>Design</artmi:style>
+      <artmi:auctionHouse>Phillips</artmi:auctionHouse>
+      <artmi:auctionDate>2026-06-12</artmi:auctionDate>
+      <artmi:status>sold</artmi:status>
+      <artmi:estimatedSellingPrice>$ 8,000 - 12,000</artmi:estimatedSellingPrice>
+      <artmi:resultPrice>$ 12,900</artmi:resultPrice>
+      <artmi:predictionReady>true</artmi:predictionReady>
+      <artmi:recordSource>Phillips public auction result page</artmi:recordSource>
+    </item>
+    <item>
+      <title>"Cornaro" sofa, from the "Ultrarazionale" series - Phillips</title>
+      <link>https://www.phillips.com/detail/carlo-scarpa/235480</link>
+      <guid>phillips_auctions|phillips|NY050226|20</guid>
+      <pubDate>Fri, 12 Jun 2026 12:00:00 +0000</pubDate>
+      <category>sold</category>
+      <description>Artist(s): Carlo Scarpa
+Style: Design
+Medium: Not available
+Dimensions: Not available
+Auction house: Phillips
+Auction date: 2026-06-12
+Starting price: Not available
+Estimated selling price: $ 6,000 - 8,000
+Result price: $ 20,640
+Last sold price: Not available
+Notes: Starting price and prior sale price were not exposed in the public Phillips sale payload.</description>
+      <artmi:title>"Cornaro" sofa, from the "Ultrarazionale" series</artmi:title>
+      <artmi:artists>Carlo Scarpa</artmi:artists>
+      <artmi:style>Design</artmi:style>
+      <artmi:auctionHouse>Phillips</artmi:auctionHouse>
+      <artmi:auctionDate>2026-06-12</artmi:auctionDate>
+      <artmi:status>sold</artmi:status>
+      <artmi:estimatedSellingPrice>$ 6,000 - 8,000</artmi:estimatedSellingPrice>
+      <artmi:resultPrice>$ 20,640</artmi:resultPrice>
+      <artmi:predictionReady>true</artmi:predictionReady>
+      <artmi:recordSource>Phillips public auction result page</artmi:recordSource>
+    </item>
+    <item>
+      <title>Early "Poltrona di Proust" armchair - Phillips</title>
+      <link>https://www.phillips.com/detail/alessandro-mendini/235477</link>
+      <guid>phillips_auctions|phillips|NY050226|21</guid>
+      <pubDate>Fri, 12 Jun 2026 12:00:00 +0000</pubDate>
+      <category>sold</category>
+      <description>Artist(s): Alessandro Mendini
+Style: Design
+Medium: Not available
+Dimensions: Not available
+Auction house: Phillips
+Auction date: 2026-06-12
+Starting price: Not available
+Estimated selling price: $ 30,000 - 50,000
+Result price: $ 28,380
+Last sold price: Not available
+Notes: Starting price and prior sale price were not exposed in the public Phillips sale payload.</description>
+      <artmi:title>Early "Poltrona di Proust" armchair</artmi:title>
+      <artmi:artists>Alessandro Mendini</artmi:artists>
+      <artmi:style>Design</artmi:style>
+      <artmi:auctionHouse>Phillips</artmi:auctionHouse>
+      <artmi:auctionDate>2026-06-12</artmi:auctionDate>
+      <artmi:status>sold</artmi:status>
+      <artmi:estimatedSellingPrice>$ 30,000 - 50,000</artmi:estimatedSellingPrice>
+      <artmi:resultPrice>$ 28,380</artmi:resultPrice>
+      <artmi:predictionReady>true</artmi:predictionReady>
+      <artmi:recordSource>Phillips public auction result page</artmi:recordSource>
+    </item>
+    <item>
+      <title>Side table - Phillips</title>
+      <link>https://www.phillips.com/detail/gilbert-poillerat/228538</link>
+      <guid>phillips_auctions|phillips|NY050226|22</guid>
+      <pubDate>Fri, 12 Jun 2026 12:00:00 +0000</pubDate>
+      <category>sold</category>
+      <description>Artist(s): Gilbert Poillerat
+Style: Design
+Medium: Not available
+Dimensions: Not available
+Auction house: Phillips
+Auction date: 2026-06-12
+Starting price: Not available
+Estimated selling price: $ 5,000 - 7,000
+Result price: $ 6,450
+Last sold price: Not available
+Notes: Starting price and prior sale price were not exposed in the public Phillips sale payload.</description>
+      <artmi:title>Side table</artmi:title>
+      <artmi:artists>Gilbert Poillerat</artmi:artists>
+      <artmi:style>Design</artmi:style>
+      <artmi:auctionHouse>Phillips</artmi:auctionHouse>
+      <artmi:auctionDate>2026-06-12</artmi:auctionDate>
+      <artmi:status>sold</artmi:status>
+      <artmi:estimatedSellingPrice>$ 5,000 - 7,000</artmi:estimatedSellingPrice>
+      <artmi:resultPrice>$ 6,450</artmi:resultPrice>
+      <artmi:predictionReady>true</artmi:predictionReady>
+      <artmi:recordSource>Phillips public auction result page</artmi:recordSource>
+    </item>
+    <item>
+      <title>Guéridon - Phillips</title>
+      <link>https://www.phillips.com/detail/gilbert-poillerat/235781</link>
+      <guid>phillips_auctions|phillips|NY050226|23</guid>
+      <pubDate>Fri, 12 Jun 2026 12:00:00 +0000</pubDate>
+      <category>sold</category>
+      <description>Artist(s): Gilbert Poillerat
+Style: Design
+Medium: Not available
+Dimensions: Not available
+Auction house: Phillips
+Auction date: 2026-06-12
+Starting price: Not available
+Estimated selling price: $ 8,000 - 12,000
+Result price: $ 12,255
+Last sold price: Not available
+Notes: Starting price and prior sale price were not exposed in the public Phillips sale payload.</description>
+      <artmi:title>Guéridon</artmi:title>
+      <artmi:artists>Gilbert Poillerat</artmi:artists>
+      <artmi:style>Design</artmi:style>
+      <artmi:auctionHouse>Phillips</artmi:auctionHouse>
+      <artmi:auctionDate>2026-06-12</artmi:auctionDate>
+      <artmi:status>sold</artmi:status>
+      <artmi:estimatedSellingPrice>$ 8,000 - 12,000</artmi:estimatedSellingPrice>
+      <artmi:resultPrice>$ 12,255</artmi:resultPrice>
+      <artmi:predictionReady>true</artmi:predictionReady>
+      <artmi:recordSource>Phillips public auction result page</artmi:recordSource>
+    </item>
+    <item>
+      <title>Mirror, model no. 77 - Phillips</title>
+      <link>https://www.phillips.com/detail/carlo-scarpa/235479</link>
+      <guid>phillips_auctions|phillips|NY050226|24</guid>
+      <pubDate>Fri, 12 Jun 2026 12:00:00 +0000</pubDate>
+      <category>sold</category>
+      <description>Artist(s): Carlo Scarpa
+Style: Design
+Medium: Not available
+Dimensions: Not available
+Auction house: Phillips
+Auction date: 2026-06-12
+Starting price: Not available
+Estimated selling price: $ 15,000 - 20,000
+Result price: $ 47,730
+Last sold price: Not available
+Notes: Starting price and prior sale price were not exposed in the public Phillips sale payload.</description>
+      <artmi:title>Mirror, model no. 77</artmi:title>
+      <artmi:artists>Carlo Scarpa</artmi:artists>
+      <artmi:style>Design</artmi:style>
+      <artmi:auctionHouse>Phillips</artmi:auctionHouse>
+      <artmi:auctionDate>2026-06-12</artmi:auctionDate>
+      <artmi:status>sold</artmi:status>
+      <artmi:estimatedSellingPrice>$ 15,000 - 20,000</artmi:estimatedSellingPrice>
+      <artmi:resultPrice>$ 47,730</artmi:resultPrice>
+      <artmi:predictionReady>true</artmi:predictionReady>
+      <artmi:recordSource>Phillips public auction result page</artmi:recordSource>
+    </item>
+    <item>
+      <title>Set of three wall lights - Phillips</title>
+      <link>https://www.phillips.com/detail/napoleone-martinuzzi/233134</link>
+      <guid>phillips_auctions|phillips|NY050226|25</guid>
+      <pubDate>Fri, 12 Jun 2026 12:00:00 +0000</pubDate>
+      <category>sold</category>
+      <description>Artist(s): Napoleone Martinuzzi
+Style: Design
+Medium: Not available
+Dimensions: Not available
+Auction house: Phillips
+Auction date: 2026-06-12
+Starting price: Not available
+Estimated selling price: $ 8,000 - 12,000
+Result price: $ 7,740
+Last sold price: Not available
+Notes: Starting price and prior sale price were not exposed in the public Phillips sale payload.</description>
+      <artmi:title>Set of three wall lights</artmi:title>
+      <artmi:artists>Napoleone Martinuzzi</artmi:artists>
+      <artmi:style>Design</artmi:style>
+      <artmi:auctionHouse>Phillips</artmi:auctionHouse>
+      <artmi:auctionDate>2026-06-12</artmi:auctionDate>
+      <artmi:status>sold</artmi:status>
+      <artmi:estimatedSellingPrice>$ 8,000 - 12,000</artmi:estimatedSellingPrice>
+      <artmi:resultPrice>$ 7,740</artmi:resultPrice>
+      <artmi:predictionReady>true</artmi:predictionReady>
+      <artmi:recordSource>Phillips public auction result page</artmi:recordSource>
+    </item>
+    <item>
+      <title>"Nocturne" floor radio, model no. 1186 - Phillips</title>
+      <link>https://www.phillips.com/detail/walter-dorwin-teague/235482</link>
+      <guid>phillips_auctions|phillips|NY050226|26</guid>
+      <pubDate>Fri, 12 Jun 2026 12:00:00 +0000</pubDate>
+      <category>auctioned</category>
+      <description>Artist(s): Walter Dorwin Teague
+Style: Design
+Medium: Not available
+Dimensions: Not available
+Auction house: Phillips
+Auction date: 2026-06-12
+Starting price: Not available
+Estimated selling price: $ 25,000 - 35,000
+Result price: Not available
+Last sold price: Not available
+Notes: Starting price and prior sale price were not exposed in the public Phillips sale payload.</description>
+      <artmi:title>"Nocturne" floor radio, model no. 1186</artmi:title>
+      <artmi:artists>Walter Dorwin Teague</artmi:artists>
+      <artmi:style>Design</artmi:style>
+      <artmi:auctionHouse>Phillips</artmi:auctionHouse>
+      <artmi:auctionDate>2026-06-12</artmi:auctionDate>
+      <artmi:status>auctioned</artmi:status>
+      <artmi:estimatedSellingPrice>$ 25,000 - 35,000</artmi:estimatedSellingPrice>
+      <artmi:predictionReady>false</artmi:predictionReady>
+      <artmi:recordSource>Phillips public auction result page</artmi:recordSource>
+    </item>
+    <item>
+      <title>"Cornaro" armchair, from the "Ultrarazionale" series - Phillips</title>
+      <link>https://www.phillips.com/detail/carlo-scarpa/235481</link>
+      <guid>phillips_auctions|phillips|NY050226|27</guid>
+      <pubDate>Fri, 12 Jun 2026 12:00:00 +0000</pubDate>
+      <category>sold</category>
+      <description>Artist(s): Carlo Scarpa
+Style: Design
+Medium: Not available
+Dimensions: Not available
+Auction house: Phillips
+Auction date: 2026-06-12
+Starting price: Not available
+Estimated selling price: $ 3,000 - 5,000
+Result price: $ 4,902
+Last sold price: Not available
+Notes: Starting price and prior sale price were not exposed in the public Phillips sale payload.</description>
+      <artmi:title>"Cornaro" armchair, from the "Ultrarazionale" series</artmi:title>
+      <artmi:artists>Carlo Scarpa</artmi:artists>
+      <artmi:style>Design</artmi:style>
+      <artmi:auctionHouse>Phillips</artmi:auctionHouse>
+      <artmi:auctionDate>2026-06-12</artmi:auctionDate>
+      <artmi:status>sold</artmi:status>
+      <artmi:estimatedSellingPrice>$ 3,000 - 5,000</artmi:estimatedSellingPrice>
+      <artmi:resultPrice>$ 4,902</artmi:resultPrice>
+      <artmi:predictionReady>true</artmi:predictionReady>
+      <artmi:recordSource>Phillips public auction result page</artmi:recordSource>
+    </item>
+    <item>
+      <title>"Helga" floor lamp - Phillips</title>
+      <link>https://www.phillips.com/detail/paolo-portoghesi-and-silvio-bilangione/235174</link>
+      <guid>phillips_auctions|phillips|NY050226|28</guid>
+      <pubDate>Fri, 12 Jun 2026 12:00:00 +0000</pubDate>
+      <category>sold</category>
+      <description>Artist(s): Paolo Portoghesi and Silvio Bilangione
+Style: Design
+Medium: Not available
+Dimensions: Not available
+Auction house: Phillips
+Auction date: 2026-06-12
+Starting price: Not available
+Estimated selling price: $ 3,000 - 5,000
+Result price: $ 3,870
+Last sold price: Not available
+Notes: Starting price and prior sale price were not exposed in the public Phillips sale payload.</description>
+      <artmi:title>"Helga" floor lamp</artmi:title>
+      <artmi:artists>Paolo Portoghesi and Silvio Bilangione</artmi:artists>
+      <artmi:style>Design</artmi:style>
+      <artmi:auctionHouse>Phillips</artmi:auctionHouse>
+      <artmi:auctionDate>2026-06-12</artmi:auctionDate>
+      <artmi:status>sold</artmi:status>
+      <artmi:estimatedSellingPrice>$ 3,000 - 5,000</artmi:estimatedSellingPrice>
+      <artmi:resultPrice>$ 3,870</artmi:resultPrice>
+      <artmi:predictionReady>true</artmi:predictionReady>
+      <artmi:recordSource>Phillips public auction result page</artmi:recordSource>
+    </item>
+    <item>
+      <title>Pair of side chairs - Phillips</title>
+      <link>https://www.phillips.com/detail/paul-rodocanachi-for-jeanmichel-frank/229036</link>
+      <guid>phillips_auctions|phillips|NY050226|29</guid>
+      <pubDate>Fri, 12 Jun 2026 12:00:00 +0000</pubDate>
+      <category>sold</category>
+      <description>Artist(s): Paul Rodocanachi for Jean-Michel Frank
+Style: Design
+Medium: Not available
+Dimensions: Not available
+Auction house: Phillips
+Auction date: 2026-06-12
+Starting price: Not available
+Estimated selling price: $ 12,000 - 18,000
+Result price: $ 38,700
+Last sold price: Not available
+Notes: Starting price and prior sale price were not exposed in the public Phillips sale payload.</description>
+      <artmi:title>Pair of side chairs</artmi:title>
+      <artmi:artists>Paul Rodocanachi for Jean-Michel Frank</artmi:artists>
+      <artmi:style>Design</artmi:style>
+      <artmi:auctionHouse>Phillips</artmi:auctionHouse>
+      <artmi:auctionDate>2026-06-12</artmi:auctionDate>
+      <artmi:status>sold</artmi:status>
+      <artmi:estimatedSellingPrice>$ 12,000 - 18,000</artmi:estimatedSellingPrice>
+      <artmi:resultPrice>$ 38,700</artmi:resultPrice>
+      <artmi:predictionReady>true</artmi:predictionReady>
+      <artmi:recordSource>Phillips public auction result page</artmi:recordSource>
+    </item>
+    <item>
+      <title>Large "Cylindre” vase - Phillips</title>
+      <link>https://www.phillips.com/detail/georges-jouve/235344</link>
+      <guid>phillips_auctions|phillips|NY050226|3</guid>
+      <pubDate>Fri, 12 Jun 2026 12:00:00 +0000</pubDate>
+      <category>sold</category>
+      <description>Artist(s): Georges Jouve
+Style: Design
+Medium: Not available
+Dimensions: Not available
+Auction house: Phillips
+Auction date: 2026-06-12
+Starting price: Not available
+Estimated selling price: $ 15,000 - 20,000
+Result price: $ 23,220
+Last sold price: Not available
+Notes: Starting price and prior sale price were not exposed in the public Phillips sale payload.</description>
+      <artmi:title>Large "Cylindre” vase</artmi:title>
+      <artmi:artists>Georges Jouve</artmi:artists>
+      <artmi:style>Design</artmi:style>
+      <artmi:auctionHouse>Phillips</artmi:auctionHouse>
+      <artmi:auctionDate>2026-06-12</artmi:auctionDate>
+      <artmi:status>sold</artmi:status>
+      <artmi:estimatedSellingPrice>$ 15,000 - 20,000</artmi:estimatedSellingPrice>
+      <artmi:resultPrice>$ 23,220</artmi:resultPrice>
+      <artmi:predictionReady>true</artmi:predictionReady>
+      <artmi:recordSource>Phillips public auction result page</artmi:recordSource>
+    </item>
+    <item>
+      <title>Pair of wall lights - Phillips</title>
+      <link>https://www.phillips.com/detail/jacques-grange/235168</link>
+      <guid>phillips_auctions|phillips|NY050226|30</guid>
+      <pubDate>Fri, 12 Jun 2026 12:00:00 +0000</pubDate>
+      <category>sold</category>
+      <description>Artist(s): Jacques Grange
+Style: Design
+Medium: Not available
+Dimensions: Not available
+Auction house: Phillips
+Auction date: 2026-06-12
+Starting price: Not available
+Estimated selling price: $ 2,000 - 3,000
+Result price: $ 3,612
+Last sold price: Not available
+Notes: Starting price and prior sale price were not exposed in the public Phillips sale payload.</description>
+      <artmi:title>Pair of wall lights</artmi:title>
+      <artmi:artists>Jacques Grange</artmi:artists>
+      <artmi:style>Design</artmi:style>
+      <artmi:auctionHouse>Phillips</artmi:auctionHouse>
+      <artmi:auctionDate>2026-06-12</artmi:auctionDate>
+      <artmi:status>sold</artmi:status>
+      <artmi:estimatedSellingPrice>$ 2,000 - 3,000</artmi:estimatedSellingPrice>
+      <artmi:resultPrice>$ 3,612</artmi:resultPrice>
+      <artmi:predictionReady>true</artmi:predictionReady>
+      <artmi:recordSource>Phillips public auction result page</artmi:recordSource>
+    </item>
+    <item>
+      <title>Ottoman - Phillips</title>
+      <link>https://www.phillips.com/detail/jacques-grange/235172</link>
+      <guid>phillips_auctions|phillips|NY050226|31</guid>
+      <pubDate>Fri, 12 Jun 2026 12:00:00 +0000</pubDate>
+      <category>sold</category>
+      <description>Artist(s): Jacques Grange
+Style: Design
+Medium: Not available
+Dimensions: Not available
+Auction house: Phillips
+Auction date: 2026-06-12
+Starting price: Not available
+Estimated selling price: $ 800 - 1,200
+Result price: $ 7,740
+Last sold price: Not available
+Notes: Starting price and prior sale price were not exposed in the public Phillips sale payload.</description>
+      <artmi:title>Ottoman</artmi:title>
+      <artmi:artists>Jacques Grange</artmi:artists>
+      <artmi:style>Design</artmi:style>
+      <artmi:auctionHouse>Phillips</artmi:auctionHouse>
+      <artmi:auctionDate>2026-06-12</artmi:auctionDate>
+      <artmi:status>sold</artmi:status>
+      <artmi:estimatedSellingPrice>$ 800 - 1,200</artmi:estimatedSellingPrice>
+      <artmi:resultPrice>$ 7,740</artmi:resultPrice>
+      <artmi:predictionReady>true</artmi:predictionReady>
+      <artmi:recordSource>Phillips public auction result page</artmi:recordSource>
+    </item>
+    <item>
+      <title>Mirror, model no. 30 - Phillips</title>
+      <link>https://www.phillips.com/detail/carlo-scarpa/235478</link>
+      <guid>phillips_auctions|phillips|NY050226|32</guid>
+      <pubDate>Fri, 12 Jun 2026 12:00:00 +0000</pubDate>
+      <category>sold</category>
+      <description>Artist(s): Carlo Scarpa
+Style: Design
+Medium: Not available
+Dimensions: Not available
+Auction house: Phillips
+Auction date: 2026-06-12
+Starting price: Not available
+Estimated selling price: $ 15,000 - 20,000
+Result price: $ 23,220
+Last sold price: Not available
+Notes: Starting price and prior sale price were not exposed in the public Phillips sale payload.</description>
+      <artmi:title>Mirror, model no. 30</artmi:title>
+      <artmi:artists>Carlo Scarpa</artmi:artists>
+      <artmi:style>Design</artmi:style>
+      <artmi:auctionHouse>Phillips</artmi:auctionHouse>
+      <artmi:auctionDate>2026-06-12</artmi:auctionDate>
+      <artmi:status>sold</artmi:status>
+      <artmi:estimatedSellingPrice>$ 15,000 - 20,000</artmi:estimatedSellingPrice>
+      <artmi:resultPrice>$ 23,220</artmi:resultPrice>
+      <artmi:predictionReady>true</artmi:predictionReady>
+      <artmi:recordSource>Phillips public auction result page</artmi:recordSource>
+    </item>
+    <item>
+      <title>Early "Den trætte mand" (The Tired Man) armchair - Phillips</title>
+      <link>https://www.phillips.com/detail/flemming-lassen/233316</link>
+      <guid>phillips_auctions|phillips|NY050226|33</guid>
+      <pubDate>Fri, 12 Jun 2026 12:00:00 +0000</pubDate>
+      <category>auctioned</category>
+      <description>Artist(s): Flemming Lassen
+Style: Design
+Medium: Not available
+Dimensions: Not available
+Auction house: Phillips
+Auction date: 2026-06-12
+Starting price: Not available
+Estimated selling price: $ 60,000 - 80,000
+Result price: Not available
+Last sold price: Not available
+Notes: Starting price and prior sale price were not exposed in the public Phillips sale payload.</description>
+      <artmi:title>Early "Den trætte mand" (The Tired Man) armchair</artmi:title>
+      <artmi:artists>Flemming Lassen</artmi:artists>
+      <artmi:style>Design</artmi:style>
+      <artmi:auctionHouse>Phillips</artmi:auctionHouse>
+      <artmi:auctionDate>2026-06-12</artmi:auctionDate>
+      <artmi:status>auctioned</artmi:status>
+      <artmi:estimatedSellingPrice>$ 60,000 - 80,000</artmi:estimatedSellingPrice>
+      <artmi:predictionReady>false</artmi:predictionReady>
+      <artmi:recordSource>Phillips public auction result page</artmi:recordSource>
+    </item>
+    <item>
+      <title>Rare wall-mounted cabinet - Phillips</title>
+      <link>https://www.phillips.com/detail/finn-juhl/233306</link>
+      <guid>phillips_auctions|phillips|NY050226|34</guid>
+      <pubDate>Fri, 12 Jun 2026 12:00:00 +0000</pubDate>
+      <category>sold</category>
+      <description>Artist(s): Finn Juhl
+Style: Design
+Medium: Not available
+Dimensions: Not available
+Auction house: Phillips
+Auction date: 2026-06-12
+Starting price: Not available
+Estimated selling price: $ 60,000 - 80,000
+Result price: $ 70,950
+Last sold price: Not available
+Notes: Starting price and prior sale price were not exposed in the public Phillips sale payload.</description>
+      <artmi:title>Rare wall-mounted cabinet</artmi:title>
+      <artmi:artists>Finn Juhl</artmi:artists>
+      <artmi:style>Design</artmi:style>
+      <artmi:auctionHouse>Phillips</artmi:auctionHouse>
+      <artmi:auctionDate>2026-06-12</artmi:auctionDate>
+      <artmi:status>sold</artmi:status>
+      <artmi:estimatedSellingPrice>$ 60,000 - 80,000</artmi:estimatedSellingPrice>
+      <artmi:resultPrice>$ 70,950</artmi:resultPrice>
+      <artmi:predictionReady>true</artmi:predictionReady>
+      <artmi:recordSource>Phillips public auction result page</artmi:recordSource>
+    </item>
+    <item>
+      <title>Unique bar cabinet - Phillips</title>
+      <link>https://www.phillips.com/detail/finn-juhl/233310</link>
+      <guid>phillips_auctions|phillips|NY050226|35</guid>
+      <pubDate>Fri, 12 Jun 2026 12:00:00 +0000</pubDate>
+      <category>sold</category>
+      <description>Artist(s): Finn Juhl
+Style: Design
+Medium: Not available
+Dimensions: Not available
+Auction house: Phillips
+Auction date: 2026-06-12
+Starting price: Not available
+Estimated selling price: $ 40,000 - 60,000
+Result price: $ 45,150
+Last sold price: Not available
+Notes: Starting price and prior sale price were not exposed in the public Phillips sale payload.</description>
+      <artmi:title>Unique bar cabinet</artmi:title>
+      <artmi:artists>Finn Juhl</artmi:artists>
+      <artmi:style>Design</artmi:style>
+      <artmi:auctionHouse>Phillips</artmi:auctionHouse>
+      <artmi:auctionDate>2026-06-12</artmi:auctionDate>
+      <artmi:status>sold</artmi:status>
+      <artmi:estimatedSellingPrice>$ 40,000 - 60,000</artmi:estimatedSellingPrice>
+      <artmi:resultPrice>$ 45,150</artmi:resultPrice>
+      <artmi:predictionReady>true</artmi:predictionReady>
+      <artmi:recordSource>Phillips public auction result page</artmi:recordSource>
+    </item>
+    <item>
+      <title>Rare and early armchair - Phillips</title>
+      <link>https://www.phillips.com/detail/finn-juhl/233313</link>
+      <guid>phillips_auctions|phillips|NY050226|36</guid>
+      <pubDate>Fri, 12 Jun 2026 12:00:00 +0000</pubDate>
+      <category>sold</category>
+      <description>Artist(s): Finn Juhl
+Style: Design
+Medium: Not available
+Dimensions: Not available
+Auction house: Phillips
+Auction date: 2026-06-12
+Starting price: Not available
+Estimated selling price: $ 40,000 - 60,000
+Result price: $ 51,600
+Last sold price: Not available
+Notes: Starting price and prior sale price were not exposed in the public Phillips sale payload.</description>
+      <artmi:title>Rare and early armchair</artmi:title>
+      <artmi:artists>Finn Juhl</artmi:artists>
+      <artmi:style>Design</artmi:style>
+      <artmi:auctionHouse>Phillips</artmi:auctionHouse>
+      <artmi:auctionDate>2026-06-12</artmi:auctionDate>
+      <artmi:status>sold</artmi:status>
+      <artmi:estimatedSellingPrice>$ 40,000 - 60,000</artmi:estimatedSellingPrice>
+      <artmi:resultPrice>$ 51,600</artmi:resultPrice>
+      <artmi:predictionReady>true</artmi:predictionReady>
+      <artmi:recordSource>Phillips public auction result page</artmi:recordSource>
+    </item>
+    <item>
+      <title>Rare cabinet - Phillips</title>
+      <link>https://www.phillips.com/detail/finn-juhl/233315</link>
+      <guid>phillips_auctions|phillips|NY050226|37</guid>
+      <pubDate>Fri, 12 Jun 2026 12:00:00 +0000</pubDate>
+      <category>auctioned</category>
+      <description>Artist(s): Finn Juhl
+Style: Design
+Medium: Not available
+Dimensions: Not available
+Auction house: Phillips
+Auction date: 2026-06-12
+Starting price: Not available
+Estimated selling price: $ 10,000 - 15,000
+Result price: Not available
+Last sold price: Not available
+Notes: Starting price and prior sale price were not exposed in the public Phillips sale payload.</description>
+      <artmi:title>Rare cabinet</artmi:title>
+      <artmi:artists>Finn Juhl</artmi:artists>
+      <artmi:style>Design</artmi:style>
+      <artmi:auctionHouse>Phillips</artmi:auctionHouse>
+      <artmi:auctionDate>2026-06-12</artmi:auctionDate>
+      <artmi:status>auctioned</artmi:status>
+      <artmi:estimatedSellingPrice>$ 10,000 - 15,000</artmi:estimatedSellingPrice>
+      <artmi:predictionReady>false</artmi:predictionReady>
+      <artmi:recordSource>Phillips public auction result page</artmi:recordSource>
+    </item>
+    <item>
+      <title>Early work table - Phillips</title>
+      <link>https://www.phillips.com/detail/finn-juhl/233314</link>
+      <guid>phillips_auctions|phillips|NY050226|38</guid>
+      <pubDate>Fri, 12 Jun 2026 12:00:00 +0000</pubDate>
+      <category>auctioned</category>
+      <description>Artist(s): Finn Juhl
+Style: Design
+Medium: Not available
+Dimensions: Not available
+Auction house: Phillips
+Auction date: 2026-06-12
+Starting price: Not available
+Estimated selling price: $ 12,000 - 18,000
+Result price: Not available
+Last sold price: Not available
+Notes: Starting price and prior sale price were not exposed in the public Phillips sale payload.</description>
+      <artmi:title>Early work table</artmi:title>
+      <artmi:artists>Finn Juhl</artmi:artists>
+      <artmi:style>Design</artmi:style>
+      <artmi:auctionHouse>Phillips</artmi:auctionHouse>
+      <artmi:auctionDate>2026-06-12</artmi:auctionDate>
+      <artmi:status>auctioned</artmi:status>
+      <artmi:estimatedSellingPrice>$ 12,000 - 18,000</artmi:estimatedSellingPrice>
+      <artmi:predictionReady>false</artmi:predictionReady>
+      <artmi:recordSource>Phillips public auction result page</artmi:recordSource>
+    </item>
+    <item>
+      <title>“Chieftain” armchair, model no. FJ 49 A - Phillips</title>
+      <link>https://www.phillips.com/detail/finn-juhl/235349</link>
+      <guid>phillips_auctions|phillips|NY050226|39</guid>
+      <pubDate>Fri, 12 Jun 2026 12:00:00 +0000</pubDate>
+      <category>sold</category>
+      <description>Artist(s): Finn Juhl
+Style: Design
+Medium: Not available
+Dimensions: Not available
+Auction house: Phillips
+Auction date: 2026-06-12
+Starting price: Not available
+Estimated selling price: $ 40,000 - 60,000
+Result price: $ 45,150
+Last sold price: Not available
+Notes: Starting price and prior sale price were not exposed in the public Phillips sale payload.</description>
+      <artmi:title>“Chieftain” armchair, model no. FJ 49 A</artmi:title>
+      <artmi:artists>Finn Juhl</artmi:artists>
+      <artmi:style>Design</artmi:style>
+      <artmi:auctionHouse>Phillips</artmi:auctionHouse>
+      <artmi:auctionDate>2026-06-12</artmi:auctionDate>
+      <artmi:status>sold</artmi:status>
+      <artmi:estimatedSellingPrice>$ 40,000 - 60,000</artmi:estimatedSellingPrice>
+      <artmi:resultPrice>$ 45,150</artmi:resultPrice>
+      <artmi:predictionReady>true</artmi:predictionReady>
+      <artmi:recordSource>Phillips public auction result page</artmi:recordSource>
+    </item>
+    <item>
+      <title>Large mirror - Phillips</title>
+      <link>https://www.phillips.com/detail/georges-jouve/235121</link>
+      <guid>phillips_auctions|phillips|NY050226|4</guid>
+      <pubDate>Fri, 12 Jun 2026 12:00:00 +0000</pubDate>
+      <category>sold</category>
+      <description>Artist(s): Georges Jouve
+Style: Design
+Medium: Not available
+Dimensions: Not available
+Auction house: Phillips
+Auction date: 2026-06-12
+Starting price: Not available
+Estimated selling price: $ 50,000 - 70,000
+Result price: $ 245,100
+Last sold price: Not available
+Notes: Starting price and prior sale price were not exposed in the public Phillips sale payload.</description>
+      <artmi:title>Large mirror</artmi:title>
+      <artmi:artists>Georges Jouve</artmi:artists>
+      <artmi:style>Design</artmi:style>
+      <artmi:auctionHouse>Phillips</artmi:auctionHouse>
+      <artmi:auctionDate>2026-06-12</artmi:auctionDate>
+      <artmi:status>sold</artmi:status>
+      <artmi:estimatedSellingPrice>$ 50,000 - 70,000</artmi:estimatedSellingPrice>
+      <artmi:resultPrice>$ 245,100</artmi:resultPrice>
+      <artmi:predictionReady>true</artmi:predictionReady>
+      <artmi:recordSource>Phillips public auction result page</artmi:recordSource>
+    </item>
+    <item>
+      <title>Rare floor lamp, model no. 9620 - Phillips</title>
+      <link>https://www.phillips.com/detail/paavo-tynell/235213</link>
+      <guid>phillips_auctions|phillips|NY050226|40</guid>
+      <pubDate>Fri, 12 Jun 2026 12:00:00 +0000</pubDate>
+      <category>sold</category>
+      <description>Artist(s): Paavo Tynell
+Style: Design
+Medium: Not available
+Dimensions: Not available
+Auction house: Phillips
+Auction date: 2026-06-12
+Starting price: Not available
+Estimated selling price: $ 15,000 - 20,000
+Result price: $ 103,200
+Last sold price: Not available
+Notes: Starting price and prior sale price were not exposed in the public Phillips sale payload.</description>
+      <artmi:title>Rare floor lamp, model no. 9620</artmi:title>
+      <artmi:artists>Paavo Tynell</artmi:artists>
+      <artmi:style>Design</artmi:style>
+      <artmi:auctionHouse>Phillips</artmi:auctionHouse>
+      <artmi:auctionDate>2026-06-12</artmi:auctionDate>
+      <artmi:status>sold</artmi:status>
+      <artmi:estimatedSellingPrice>$ 15,000 - 20,000</artmi:estimatedSellingPrice>
+      <artmi:resultPrice>$ 103,200</artmi:resultPrice>
+      <artmi:predictionReady>true</artmi:predictionReady>
+      <artmi:recordSource>Phillips public auction result page</artmi:recordSource>
+    </item>
+    <item>
+      <title>Footed bowl - Phillips</title>
+      <link>https://www.phillips.com/detail/lucie-rie/235025</link>
+      <guid>phillips_auctions|phillips|NY050226|41</guid>
+      <pubDate>Fri, 12 Jun 2026 12:00:00 +0000</pubDate>
+      <category>sold</category>
+      <description>Artist(s): Lucie Rie
+Style: Design
+Medium: Not available
+Dimensions: Not available
+Auction house: Phillips
+Auction date: 2026-06-12
+Starting price: Not available
+Estimated selling price: $ 10,000 - 15,000
+Result price: $ 58,050
+Last sold price: Not available
+Notes: Starting price and prior sale price were not exposed in the public Phillips sale payload.</description>
+      <artmi:title>Footed bowl</artmi:title>
+      <artmi:artists>Lucie Rie</artmi:artists>
+      <artmi:style>Design</artmi:style>
+      <artmi:auctionHouse>Phillips</artmi:auctionHouse>
+      <artmi:auctionDate>2026-06-12</artmi:auctionDate>
+      <artmi:status>sold</artmi:status>
+      <artmi:estimatedSellingPrice>$ 10,000 - 15,000</artmi:estimatedSellingPrice>
+      <artmi:resultPrice>$ 58,050</artmi:resultPrice>
+      <artmi:predictionReady>true</artmi:predictionReady>
+      <artmi:recordSource>Phillips public auction result page</artmi:recordSource>
+    </item>
+    <item>
+      <title>"Poppy Head" pot - Phillips</title>
+      <link>https://www.phillips.com/detail/hans-coper/235024</link>
+      <guid>phillips_auctions|phillips|NY050226|42</guid>
+      <pubDate>Fri, 12 Jun 2026 12:00:00 +0000</pubDate>
+      <category>sold</category>
+      <description>Artist(s): Hans Coper
+Style: Design
+Medium: Not available
+Dimensions: Not available
+Auction house: Phillips
+Auction date: 2026-06-12
+Starting price: Not available
+Estimated selling price: $ 15,000 - 20,000
+Result price: $ 23,220
+Last sold price: Not available
+Notes: Starting price and prior sale price were not exposed in the public Phillips sale payload.</description>
+      <artmi:title>"Poppy Head" pot</artmi:title>
+      <artmi:artists>Hans Coper</artmi:artists>
+      <artmi:style>Design</artmi:style>
+      <artmi:auctionHouse>Phillips</artmi:auctionHouse>
+      <artmi:auctionDate>2026-06-12</artmi:auctionDate>
+      <artmi:status>sold</artmi:status>
+      <artmi:estimatedSellingPrice>$ 15,000 - 20,000</artmi:estimatedSellingPrice>
+      <artmi:resultPrice>$ 23,220</artmi:resultPrice>
+      <artmi:predictionReady>true</artmi:predictionReady>
+      <artmi:recordSource>Phillips public auction result page</artmi:recordSource>
+    </item>
+    <item>
+      <title>“Pale, speckled bands” - Phillips</title>
+      <link>https://www.phillips.com/detail/jennifer-lee/235347</link>
+      <guid>phillips_auctions|phillips|NY050226|43</guid>
+      <pubDate>Fri, 12 Jun 2026 12:00:00 +0000</pubDate>
+      <category>sold</category>
+      <description>Artist(s): Jennifer Lee
+Style: Design
+Medium: Not available
+Dimensions: Not available
+Auction house: Phillips
+Auction date: 2026-06-12
+Starting price: Not available
+Estimated selling price: $ 8,000 - 12,000
+Result price: $ 16,770
+Last sold price: Not available
+Notes: Starting price and prior sale price were not exposed in the public Phillips sale payload.</description>
+      <artmi:title>“Pale, speckled bands”</artmi:title>
+      <artmi:artists>Jennifer Lee</artmi:artists>
+      <artmi:style>Design</artmi:style>
+      <artmi:auctionHouse>Phillips</artmi:auctionHouse>
+      <artmi:auctionDate>2026-06-12</artmi:auctionDate>
+      <artmi:status>sold</artmi:status>
+      <artmi:estimatedSellingPrice>$ 8,000 - 12,000</artmi:estimatedSellingPrice>
+      <artmi:resultPrice>$ 16,770</artmi:resultPrice>
+      <artmi:predictionReady>true</artmi:predictionReady>
+      <artmi:recordSource>Phillips public auction result page</artmi:recordSource>
+    </item>
+    <item>
+      <title>Untitled (Bush) - Phillips</title>
+      <link>https://www.phillips.com/detail/harry-bertoia/234313</link>
+      <guid>phillips_auctions|phillips|NY050226|44</guid>
+      <pubDate>Fri, 12 Jun 2026 12:00:00 +0000</pubDate>
+      <category>sold</category>
+      <description>Artist(s): Harry Bertoia
+Style: Design
+Medium: Not available
+Dimensions: Not available
+Auction house: Phillips
+Auction date: 2026-06-12
+Starting price: Not available
+Estimated selling price: $ 30,000 - 50,000
+Result price: $ 67,080
+Last sold price: Not available
+Notes: Starting price and prior sale price were not exposed in the public Phillips sale payload.</description>
+      <artmi:title>Untitled (Bush)</artmi:title>
+      <artmi:artists>Harry Bertoia</artmi:artists>
+      <artmi:style>Design</artmi:style>
+      <artmi:auctionHouse>Phillips</artmi:auctionHouse>
+      <artmi:auctionDate>2026-06-12</artmi:auctionDate>
+      <artmi:status>sold</artmi:status>
+      <artmi:estimatedSellingPrice>$ 30,000 - 50,000</artmi:estimatedSellingPrice>
+      <artmi:resultPrice>$ 67,080</artmi:resultPrice>
+      <artmi:predictionReady>true</artmi:predictionReady>
+      <artmi:recordSource>Phillips public auction result page</artmi:recordSource>
+    </item>
+    <item>
+      <title>Untitled (Sonambient) - Phillips</title>
+      <link>https://www.phillips.com/detail/harry-bertoia/234309</link>
+      <guid>phillips_auctions|phillips|NY050226|45</guid>
+      <pubDate>Fri, 12 Jun 2026 12:00:00 +0000</pubDate>
+      <category>sold</category>
+      <description>Artist(s): Harry Bertoia
+Style: Design
+Medium: Not available
+Dimensions: Not available
+Auction house: Phillips
+Auction date: 2026-06-12
+Starting price: Not available
+Estimated selling price: $ 100,000 - 150,000
+Result price: $ 251,550
+Last sold price: Not available
+Notes: Starting price and prior sale price were not exposed in the public Phillips sale payload.</description>
+      <artmi:title>Untitled (Sonambient)</artmi:title>
+      <artmi:artists>Harry Bertoia</artmi:artists>
+      <artmi:style>Design</artmi:style>
+      <artmi:auctionHouse>Phillips</artmi:auctionHouse>
+      <artmi:auctionDate>2026-06-12</artmi:auctionDate>
+      <artmi:status>sold</artmi:status>
+      <artmi:estimatedSellingPrice>$ 100,000 - 150,000</artmi:estimatedSellingPrice>
+      <artmi:resultPrice>$ 251,550</artmi:resultPrice>
+      <artmi:predictionReady>true</artmi:predictionReady>
+      <artmi:recordSource>Phillips public auction result page</artmi:recordSource>
+    </item>
+    <item>
+      <title>Untitled (Spray) - Phillips</title>
+      <link>https://www.phillips.com/detail/harry-bertoia/234315</link>
+      <guid>phillips_auctions|phillips|NY050226|46</guid>
+      <pubDate>Fri, 12 Jun 2026 12:00:00 +0000</pubDate>
+      <category>sold</category>
+      <description>Artist(s): Harry Bertoia
+Style: Design
+Medium: Not available
+Dimensions: Not available
+Auction house: Phillips
+Auction date: 2026-06-12
+Starting price: Not available
+Estimated selling price: $ 12,000 - 18,000
+Result price: $ 24,510
+Last sold price: Not available
+Notes: Starting price and prior sale price were not exposed in the public Phillips sale payload.</description>
+      <artmi:title>Untitled (Spray)</artmi:title>
+      <artmi:artists>Harry Bertoia</artmi:artists>
+      <artmi:style>Design</artmi:style>
+      <artmi:auctionHouse>Phillips</artmi:auctionHouse>
+      <artmi:auctionDate>2026-06-12</artmi:auctionDate>
+      <artmi:status>sold</artmi:status>
+      <artmi:estimatedSellingPrice>$ 12,000 - 18,000</artmi:estimatedSellingPrice>
+      <artmi:resultPrice>$ 24,510</artmi:resultPrice>
+      <artmi:predictionReady>true</artmi:predictionReady>
+      <artmi:recordSource>Phillips public auction result page</artmi:recordSource>
+    </item>
+    <item>
+      <title>Untitled (Hanging Form) - Phillips</title>
+      <link>https://www.phillips.com/detail/harry-bertoia/234314</link>
+      <guid>phillips_auctions|phillips|NY050226|47</guid>
+      <pubDate>Fri, 12 Jun 2026 12:00:00 +0000</pubDate>
+      <category>sold</category>
+      <description>Artist(s): Harry Bertoia
+Style: Design
+Medium: Not available
+Dimensions: Not available
+Auction house: Phillips
+Auction date: 2026-06-12
+Starting price: Not available
+Estimated selling price: $ 15,000 - 20,000
+Result price: $ 25,800
+Last sold price: Not available
+Notes: Starting price and prior sale price were not exposed in the public Phillips sale payload.</description>
+      <artmi:title>Untitled (Hanging Form)</artmi:title>
+      <artmi:artists>Harry Bertoia</artmi:artists>
+      <artmi:style>Design</artmi:style>
+      <artmi:auctionHouse>Phillips</artmi:auctionHouse>
+      <artmi:auctionDate>2026-06-12</artmi:auctionDate>
+      <artmi:status>sold</artmi:status>
+      <artmi:estimatedSellingPrice>$ 15,000 - 20,000</artmi:estimatedSellingPrice>
+      <artmi:resultPrice>$ 25,800</artmi:resultPrice>
+      <artmi:predictionReady>true</artmi:predictionReady>
+      <artmi:recordSource>Phillips public auction result page</artmi:recordSource>
+    </item>
+    <item>
+      <title>Untitled (Sonambient) - Phillips</title>
+      <link>https://www.phillips.com/detail/harry-bertoia/234311</link>
+      <guid>phillips_auctions|phillips|NY050226|48</guid>
+      <pubDate>Fri, 12 Jun 2026 12:00:00 +0000</pubDate>
+      <category>sold</category>
+      <description>Artist(s): Harry Bertoia
+Style: Design
+Medium: Not available
+Dimensions: Not available
+Auction house: Phillips
+Auction date: 2026-06-12
+Starting price: Not available
+Estimated selling price: $ 40,000 - 60,000
+Result price: $ 77,400
+Last sold price: Not available
+Notes: Starting price and prior sale price were not exposed in the public Phillips sale payload.</description>
+      <artmi:title>Untitled (Sonambient)</artmi:title>
+      <artmi:artists>Harry Bertoia</artmi:artists>
+      <artmi:style>Design</artmi:style>
+      <artmi:auctionHouse>Phillips</artmi:auctionHouse>
+      <artmi:auctionDate>2026-06-12</artmi:auctionDate>
+      <artmi:status>sold</artmi:status>
+      <artmi:estimatedSellingPrice>$ 40,000 - 60,000</artmi:estimatedSellingPrice>
+      <artmi:resultPrice>$ 77,400</artmi:resultPrice>
+      <artmi:predictionReady>true</artmi:predictionReady>
+      <artmi:recordSource>Phillips public auction result page</artmi:recordSource>
+    </item>
+    <item>
+      <title>“Lizard” door handle - Phillips</title>
+      <link>https://www.phillips.com/detail/judy-kensley-mckie/230383</link>
+      <guid>phillips_auctions|phillips|NY050226|49</guid>
+      <pubDate>Fri, 12 Jun 2026 12:00:00 +0000</pubDate>
+      <category>sold</category>
+      <description>Artist(s): Judy Kensley McKie
+Style: Design
+Medium: Not available
+Dimensions: Not available
+Auction house: Phillips
+Auction date: 2026-06-12
+Starting price: Not available
+Estimated selling price: $ 4,000 - 6,000
+Result price: $ 28,380
+Last sold price: Not available
+Notes: Starting price and prior sale price were not exposed in the public Phillips sale payload.</description>
+      <artmi:title>“Lizard” door handle</artmi:title>
+      <artmi:artists>Judy Kensley McKie</artmi:artists>
+      <artmi:style>Design</artmi:style>
+      <artmi:auctionHouse>Phillips</artmi:auctionHouse>
+      <artmi:auctionDate>2026-06-12</artmi:auctionDate>
+      <artmi:status>sold</artmi:status>
+      <artmi:estimatedSellingPrice>$ 4,000 - 6,000</artmi:estimatedSellingPrice>
+      <artmi:resultPrice>$ 28,380</artmi:resultPrice>
+      <artmi:predictionReady>true</artmi:predictionReady>
+      <artmi:recordSource>Phillips public auction result page</artmi:recordSource>
+    </item>
+    <item>
+      <title>"Flavigny" table - Phillips</title>
+      <link>https://www.phillips.com/detail/jean-prouve/234474</link>
+      <guid>phillips_auctions|phillips|NY050226|5</guid>
+      <pubDate>Fri, 12 Jun 2026 12:00:00 +0000</pubDate>
+      <category>sold</category>
+      <description>Artist(s): Jean Prouvé
+Style: Design
+Medium: Not available
+Dimensions: Not available
+Auction house: Phillips
+Auction date: 2026-06-12
+Starting price: Not available
+Estimated selling price: $ 80,000 - 120,000
+Result price: $ 193,500
+Last sold price: Not available
+Notes: Starting price and prior sale price were not exposed in the public Phillips sale payload.</description>
+      <artmi:title>"Flavigny" table</artmi:title>
+      <artmi:artists>Jean Prouvé</artmi:artists>
+      <artmi:style>Design</artmi:style>
+      <artmi:auctionHouse>Phillips</artmi:auctionHouse>
+      <artmi:auctionDate>2026-06-12</artmi:auctionDate>
+      <artmi:status>sold</artmi:status>
+      <artmi:estimatedSellingPrice>$ 80,000 - 120,000</artmi:estimatedSellingPrice>
+      <artmi:resultPrice>$ 193,500</artmi:resultPrice>
+      <artmi:predictionReady>true</artmi:predictionReady>
+      <artmi:recordSource>Phillips public auction result page</artmi:recordSource>
+    </item>
+    <item>
+      <title>"New Chair" rocker and "Wepman" side table - Phillips</title>
+      <link>https://www.phillips.com/detail/mira-nakashima/234453</link>
+      <guid>phillips_auctions|phillips|NY050226|50</guid>
+      <pubDate>Fri, 12 Jun 2026 12:00:00 +0000</pubDate>
+      <category>sold</category>
+      <description>Artist(s): Mira Nakashima
+Style: Design
+Medium: Not available
+Dimensions: Not available
+Auction house: Phillips
+Auction date: 2026-06-12
+Starting price: Not available
+Estimated selling price: $ 4,000 - 6,000
+Result price: $ 10,965
+Last sold price: Not available
+Notes: Starting price and prior sale price were not exposed in the public Phillips sale payload.</description>
+      <artmi:title>"New Chair" rocker and "Wepman" side table</artmi:title>
+      <artmi:artists>Mira Nakashima</artmi:artists>
+      <artmi:style>Design</artmi:style>
+      <artmi:auctionHouse>Phillips</artmi:auctionHouse>
+      <artmi:auctionDate>2026-06-12</artmi:auctionDate>
+      <artmi:status>sold</artmi:status>
+      <artmi:estimatedSellingPrice>$ 4,000 - 6,000</artmi:estimatedSellingPrice>
+      <artmi:resultPrice>$ 10,965</artmi:resultPrice>
+      <artmi:predictionReady>true</artmi:predictionReady>
+      <artmi:recordSource>Phillips public auction result page</artmi:recordSource>
+    </item>
+    <item>
+      <title>"Kornblut" cabinet - Phillips</title>
+      <link>https://www.phillips.com/detail/george-nakashima/234452</link>
+      <guid>phillips_auctions|phillips|NY050226|51</guid>
+      <pubDate>Fri, 12 Jun 2026 12:00:00 +0000</pubDate>
+      <category>sold</category>
+      <description>Artist(s): George Nakashima
+Style: Design
+Medium: Not available
+Dimensions: Not available
+Auction house: Phillips
+Auction date: 2026-06-12
+Starting price: Not available
+Estimated selling price: $ 10,000 - 15,000
+Result price: $ 37,410
+Last sold price: Not available
+Notes: Starting price and prior sale price were not exposed in the public Phillips sale payload.</description>
+      <artmi:title>"Kornblut" cabinet</artmi:title>
+      <artmi:artists>George Nakashima</artmi:artists>
+      <artmi:style>Design</artmi:style>
+      <artmi:auctionHouse>Phillips</artmi:auctionHouse>
+      <artmi:auctionDate>2026-06-12</artmi:auctionDate>
+      <artmi:status>sold</artmi:status>
+      <artmi:estimatedSellingPrice>$ 10,000 - 15,000</artmi:estimatedSellingPrice>
+      <artmi:resultPrice>$ 37,410</artmi:resultPrice>
+      <artmi:predictionReady>true</artmi:predictionReady>
+      <artmi:recordSource>Phillips public auction result page</artmi:recordSource>
+    </item>
+    <item>
+      <title>"Minguren II" coffee table - Phillips</title>
+      <link>https://www.phillips.com/detail/george-nakashima/230350</link>
+      <guid>phillips_auctions|phillips|NY050226|52</guid>
+      <pubDate>Fri, 12 Jun 2026 12:00:00 +0000</pubDate>
+      <category>sold</category>
+      <description>Artist(s): George Nakashima
+Style: Design
+Medium: Not available
+Dimensions: Not available
+Auction house: Phillips
+Auction date: 2026-06-12
+Starting price: Not available
+Estimated selling price: $ 25,000 - 35,000
+Result price: $ 67,080
+Last sold price: Not available
+Notes: Starting price and prior sale price were not exposed in the public Phillips sale payload.</description>
+      <artmi:title>"Minguren II" coffee table</artmi:title>
+      <artmi:artists>George Nakashima</artmi:artists>
+      <artmi:style>Design</artmi:style>
+      <artmi:auctionHouse>Phillips</artmi:auctionHouse>
+      <artmi:auctionDate>2026-06-12</artmi:auctionDate>
+      <artmi:status>sold</artmi:status>
+      <artmi:estimatedSellingPrice>$ 25,000 - 35,000</artmi:estimatedSellingPrice>
+      <artmi:resultPrice>$ 67,080</artmi:resultPrice>
+      <artmi:predictionReady>true</artmi:predictionReady>
+      <artmi:recordSource>Phillips public auction result page</artmi:recordSource>
+    </item>
+    <item>
+      <title>Rare and early "Conoid" bench with single free-form arm - Phillips</title>
+      <link>https://www.phillips.com/detail/george-nakashima/234068</link>
+      <guid>phillips_auctions|phillips|NY050226|53</guid>
+      <pubDate>Fri, 12 Jun 2026 12:00:00 +0000</pubDate>
+      <category>sold</category>
+      <description>Artist(s): George Nakashima
+Style: Design
+Medium: Not available
+Dimensions: Not available
+Auction house: Phillips
+Auction date: 2026-06-12
+Starting price: Not available
+Estimated selling price: $ 120,000 - 180,000
+Result price: $ 180,600
+Last sold price: Not available
+Notes: Starting price and prior sale price were not exposed in the public Phillips sale payload.</description>
+      <artmi:title>Rare and early "Conoid" bench with single free-form arm</artmi:title>
+      <artmi:artists>George Nakashima</artmi:artists>
+      <artmi:style>Design</artmi:style>
+      <artmi:auctionHouse>Phillips</artmi:auctionHouse>
+      <artmi:auctionDate>2026-06-12</artmi:auctionDate>
+      <artmi:status>sold</artmi:status>
+      <artmi:estimatedSellingPrice>$ 120,000 - 180,000</artmi:estimatedSellingPrice>
+      <artmi:resultPrice>$ 180,600</artmi:resultPrice>
+      <artmi:predictionReady>true</artmi:predictionReady>
+      <artmi:recordSource>Phillips public auction result page</artmi:recordSource>
+    </item>
+    <item>
+      <title>Cabinet - Phillips</title>
+      <link>https://www.phillips.com/detail/phillip-lloyd-powell/235563</link>
+      <guid>phillips_auctions|phillips|NY050226|54</guid>
+      <pubDate>Fri, 12 Jun 2026 12:00:00 +0000</pubDate>
+      <category>sold</category>
+      <description>Artist(s): Phillip Lloyd Powell
+Style: Design
+Medium: Not available
+Dimensions: Not available
+Auction house: Phillips
+Auction date: 2026-06-12
+Starting price: Not available
+Estimated selling price: $ 6,000 - 8,000
+Result price: $ 16,125
+Last sold price: Not available
+Notes: Starting price and prior sale price were not exposed in the public Phillips sale payload.</description>
+      <artmi:title>Cabinet</artmi:title>
+      <artmi:artists>Phillip Lloyd Powell</artmi:artists>
+      <artmi:style>Design</artmi:style>
+      <artmi:auctionHouse>Phillips</artmi:auctionHouse>
+      <artmi:auctionDate>2026-06-12</artmi:auctionDate>
+      <artmi:status>sold</artmi:status>
+      <artmi:estimatedSellingPrice>$ 6,000 - 8,000</artmi:estimatedSellingPrice>
+      <artmi:resultPrice>$ 16,125</artmi:resultPrice>
+      <artmi:predictionReady>true</artmi:predictionReady>
+      <artmi:recordSource>Phillips public auction result page</artmi:recordSource>
+    </item>
+    <item>
+      <title>Tall vase - Phillips</title>
+      <link>https://www.phillips.com/detail/gertrud-natzler-and-otto-natzler/235343</link>
+      <guid>phillips_auctions|phillips|NY050226|55</guid>
+      <pubDate>Fri, 12 Jun 2026 12:00:00 +0000</pubDate>
+      <category>auctioned</category>
+      <description>Artist(s): Gertrud Natzler and Otto Natzler
+Style: Design
+Medium: Not available
+Dimensions: Not available
+Auction house: Phillips
+Auction date: 2026-06-12
+Starting price: Not available
+Estimated selling price: $ 20,000 - 30,000
+Result price: Not available
+Last sold price: Not available
+Notes: Starting price and prior sale price were not exposed in the public Phillips sale payload.</description>
+      <artmi:title>Tall vase</artmi:title>
+      <artmi:artists>Gertrud Natzler and Otto Natzler</artmi:artists>
+      <artmi:style>Design</artmi:style>
+      <artmi:auctionHouse>Phillips</artmi:auctionHouse>
+      <artmi:auctionDate>2026-06-12</artmi:auctionDate>
+      <artmi:status>auctioned</artmi:status>
+      <artmi:estimatedSellingPrice>$ 20,000 - 30,000</artmi:estimatedSellingPrice>
+      <artmi:predictionReady>false</artmi:predictionReady>
+      <artmi:recordSource>Phillips public auction result page</artmi:recordSource>
+    </item>
+    <item>
+      <title>Carpet, from the "Orno" series - Phillips</title>
+      <link>https://www.phillips.com/detail/beauvais-carpets/235166</link>
+      <guid>phillips_auctions|phillips|NY050226|56</guid>
+      <pubDate>Fri, 12 Jun 2026 12:00:00 +0000</pubDate>
+      <category>sold</category>
+      <description>Artist(s): Beauvais Carpets
+Style: Design
+Medium: Not available
+Dimensions: Not available
+Auction house: Phillips
+Auction date: 2026-06-12
+Starting price: Not available
+Estimated selling price: $ 4,000 - 6,000
+Result price: $ 49,020
+Last sold price: Not available
+Notes: Starting price and prior sale price were not exposed in the public Phillips sale payload.</description>
+      <artmi:title>Carpet, from the "Orno" series</artmi:title>
+      <artmi:artists>Beauvais Carpets</artmi:artists>
+      <artmi:style>Design</artmi:style>
+      <artmi:auctionHouse>Phillips</artmi:auctionHouse>
+      <artmi:auctionDate>2026-06-12</artmi:auctionDate>
+      <artmi:status>sold</artmi:status>
+      <artmi:estimatedSellingPrice>$ 4,000 - 6,000</artmi:estimatedSellingPrice>
+      <artmi:resultPrice>$ 49,020</artmi:resultPrice>
+      <artmi:predictionReady>true</artmi:predictionReady>
+      <artmi:recordSource>Phillips public auction result page</artmi:recordSource>
+    </item>
+    <item>
+      <title>"Wavy Front" cabinet - Phillips</title>
+      <link>https://www.phillips.com/detail/paul-evans/235476</link>
+      <guid>phillips_auctions|phillips|NY050226|57</guid>
+      <pubDate>Fri, 12 Jun 2026 12:00:00 +0000</pubDate>
+      <category>auctioned</category>
+      <description>Artist(s): Paul Evans
+Style: Design
+Medium: Not available
+Dimensions: Not available
+Auction house: Phillips
+Auction date: 2026-06-12
+Starting price: Not available
+Estimated selling price: $ 100,000 - 150,000
+Result price: Not available
+Last sold price: Not available
+Notes: Starting price and prior sale price were not exposed in the public Phillips sale payload.</description>
+      <artmi:title>"Wavy Front" cabinet</artmi:title>
+      <artmi:artists>Paul Evans</artmi:artists>
+      <artmi:style>Design</artmi:style>
+      <artmi:auctionHouse>Phillips</artmi:auctionHouse>
+      <artmi:auctionDate>2026-06-12</artmi:auctionDate>
+      <artmi:status>auctioned</artmi:status>
+      <artmi:estimatedSellingPrice>$ 100,000 - 150,000</artmi:estimatedSellingPrice>
+      <artmi:predictionReady>false</artmi:predictionReady>
+      <artmi:recordSource>Phillips public auction result page</artmi:recordSource>
+    </item>
+    <item>
+      <title>Pair of "Bilboquet" table lamps - Phillips</title>
+      <link>https://www.phillips.com/detail/jacques-grange/235170</link>
+      <guid>phillips_auctions|phillips|NY050226|58</guid>
+      <pubDate>Fri, 12 Jun 2026 12:00:00 +0000</pubDate>
+      <category>sold</category>
+      <description>Artist(s): Jacques Grange
+Style: Design
+Medium: Not available
+Dimensions: Not available
+Auction house: Phillips
+Auction date: 2026-06-12
+Starting price: Not available
+Estimated selling price: $ 2,000 - 3,000
+Result price: $ 38,700
+Last sold price: Not available
+Notes: Starting price and prior sale price were not exposed in the public Phillips sale payload.</description>
+      <artmi:title>Pair of "Bilboquet" table lamps</artmi:title>
+      <artmi:artists>Jacques Grange</artmi:artists>
+      <artmi:style>Design</artmi:style>
+      <artmi:auctionHouse>Phillips</artmi:auctionHouse>
+      <artmi:auctionDate>2026-06-12</artmi:auctionDate>
+      <artmi:status>sold</artmi:status>
+      <artmi:estimatedSellingPrice>$ 2,000 - 3,000</artmi:estimatedSellingPrice>
+      <artmi:resultPrice>$ 38,700</artmi:resultPrice>
+      <artmi:predictionReady>true</artmi:predictionReady>
+      <artmi:recordSource>Phillips public auction result page</artmi:recordSource>
+    </item>
+    <item>
+      <title>Carpet, from the "Géométrie" series - Phillips</title>
+      <link>https://www.phillips.com/detail/studio-diurne/235165</link>
+      <guid>phillips_auctions|phillips|NY050226|59</guid>
+      <pubDate>Fri, 12 Jun 2026 12:00:00 +0000</pubDate>
+      <category>sold</category>
+      <description>Artist(s): Studio Diurne
+Style: Design
+Medium: Not available
+Dimensions: Not available
+Auction house: Phillips
+Auction date: 2026-06-12
+Starting price: Not available
+Estimated selling price: $ 4,000 - 6,000
+Result price: $ 10,965
+Last sold price: Not available
+Notes: Starting price and prior sale price were not exposed in the public Phillips sale payload.</description>
+      <artmi:title>Carpet, from the "Géométrie" series</artmi:title>
+      <artmi:artists>Studio Diurne</artmi:artists>
+      <artmi:style>Design</artmi:style>
+      <artmi:auctionHouse>Phillips</artmi:auctionHouse>
+      <artmi:auctionDate>2026-06-12</artmi:auctionDate>
+      <artmi:status>sold</artmi:status>
+      <artmi:estimatedSellingPrice>$ 4,000 - 6,000</artmi:estimatedSellingPrice>
+      <artmi:resultPrice>$ 10,965</artmi:resultPrice>
+      <artmi:predictionReady>true</artmi:predictionReady>
+      <artmi:recordSource>Phillips public auction result page</artmi:recordSource>
+    </item>
+    <item>
+      <title>"Le Nôtre" cabinet - Phillips</title>
+      <link>https://www.phillips.com/detail/elizabeth-garouste-and-mattia-bonetti/235470</link>
+      <guid>phillips_auctions|phillips|NY050226|6</guid>
+      <pubDate>Fri, 12 Jun 2026 12:00:00 +0000</pubDate>
+      <category>sold</category>
+      <description>Artist(s): Elizabeth Garouste and Mattia Bonetti
+Style: Design
+Medium: Not available
+Dimensions: Not available
+Auction house: Phillips
+Auction date: 2026-06-12
+Starting price: Not available
+Estimated selling price: $ 12,000 - 18,000
+Result price: $ 41,280
+Last sold price: Not available
+Notes: Starting price and prior sale price were not exposed in the public Phillips sale payload.</description>
+      <artmi:title>"Le Nôtre" cabinet</artmi:title>
+      <artmi:artists>Elizabeth Garouste and Mattia Bonetti</artmi:artists>
+      <artmi:style>Design</artmi:style>
+      <artmi:auctionHouse>Phillips</artmi:auctionHouse>
+      <artmi:auctionDate>2026-06-12</artmi:auctionDate>
+      <artmi:status>sold</artmi:status>
+      <artmi:estimatedSellingPrice>$ 12,000 - 18,000</artmi:estimatedSellingPrice>
+      <artmi:resultPrice>$ 41,280</artmi:resultPrice>
+      <artmi:predictionReady>true</artmi:predictionReady>
+      <artmi:recordSource>Phillips public auction result page</artmi:recordSource>
+    </item>
+    <item>
+      <title>"Drift" bench - Phillips</title>
+      <link>https://www.phillips.com/detail/future-systems-and-amanda-levete/222410</link>
+      <guid>phillips_auctions|phillips|NY050226|60</guid>
+      <pubDate>Fri, 12 Jun 2026 12:00:00 +0000</pubDate>
+      <category>sold</category>
+      <description>Artist(s): Future Systems and Amanda Levete
+Style: Design
+Medium: Not available
+Dimensions: Not available
+Auction house: Phillips
+Auction date: 2026-06-12
+Starting price: Not available
+Estimated selling price: $ 12,000 - 18,000
+Result price: $ 16,770
+Last sold price: Not available
+Notes: Starting price and prior sale price were not exposed in the public Phillips sale payload.</description>
+      <artmi:title>"Drift" bench</artmi:title>
+      <artmi:artists>Future Systems and Amanda Levete</artmi:artists>
+      <artmi:style>Design</artmi:style>
+      <artmi:auctionHouse>Phillips</artmi:auctionHouse>
+      <artmi:auctionDate>2026-06-12</artmi:auctionDate>
+      <artmi:status>sold</artmi:status>
+      <artmi:estimatedSellingPrice>$ 12,000 - 18,000</artmi:estimatedSellingPrice>
+      <artmi:resultPrice>$ 16,770</artmi:resultPrice>
+      <artmi:predictionReady>true</artmi:predictionReady>
+      <artmi:recordSource>Phillips public auction result page</artmi:recordSource>
+    </item>
+    <item>
+      <title>"Rodéo" desk and armchair - Phillips</title>
+      <link>https://www.phillips.com/detail/elizabeth-garouste-and-mattia-bonetti/235120</link>
+      <guid>phillips_auctions|phillips|NY050226|7</guid>
+      <pubDate>Fri, 12 Jun 2026 12:00:00 +0000</pubDate>
+      <category>sold</category>
+      <description>Artist(s): Elizabeth Garouste and Mattia Bonetti
+Style: Design
+Medium: Not available
+Dimensions: Not available
+Auction house: Phillips
+Auction date: 2026-06-12
+Starting price: Not available
+Estimated selling price: $ 30,000 - 50,000
+Result price: $ 167,700
+Last sold price: Not available
+Notes: Starting price and prior sale price were not exposed in the public Phillips sale payload.</description>
+      <artmi:title>"Rodéo" desk and armchair</artmi:title>
+      <artmi:artists>Elizabeth Garouste and Mattia Bonetti</artmi:artists>
+      <artmi:style>Design</artmi:style>
+      <artmi:auctionHouse>Phillips</artmi:auctionHouse>
+      <artmi:auctionDate>2026-06-12</artmi:auctionDate>
+      <artmi:status>sold</artmi:status>
+      <artmi:estimatedSellingPrice>$ 30,000 - 50,000</artmi:estimatedSellingPrice>
+      <artmi:resultPrice>$ 167,700</artmi:resultPrice>
+      <artmi:predictionReady>true</artmi:predictionReady>
+      <artmi:recordSource>Phillips public auction result page</artmi:recordSource>
+    </item>
+    <item>
+      <title>Pair of "Library" table lamps - Phillips</title>
+      <link>https://www.phillips.com/detail/elizabeth-garouste-and-mattia-bonetti/235736</link>
+      <guid>phillips_auctions|phillips|NY050226|8</guid>
+      <pubDate>Fri, 12 Jun 2026 12:00:00 +0000</pubDate>
+      <category>sold</category>
+      <description>Artist(s): Elizabeth Garouste and Mattia Bonetti
+Style: Design
+Medium: Not available
+Dimensions: Not available
+Auction house: Phillips
+Auction date: 2026-06-12
+Starting price: Not available
+Estimated selling price: $ 4,000 - 6,000
+Result price: $ 30,960
+Last sold price: Not available
+Notes: Starting price and prior sale price were not exposed in the public Phillips sale payload.</description>
+      <artmi:title>Pair of "Library" table lamps</artmi:title>
+      <artmi:artists>Elizabeth Garouste and Mattia Bonetti</artmi:artists>
+      <artmi:style>Design</artmi:style>
+      <artmi:auctionHouse>Phillips</artmi:auctionHouse>
+      <artmi:auctionDate>2026-06-12</artmi:auctionDate>
+      <artmi:status>sold</artmi:status>
+      <artmi:estimatedSellingPrice>$ 4,000 - 6,000</artmi:estimatedSellingPrice>
+      <artmi:resultPrice>$ 30,960</artmi:resultPrice>
+      <artmi:predictionReady>true</artmi:predictionReady>
+      <artmi:recordSource>Phillips public auction result page</artmi:recordSource>
+    </item>
+    <item>
+      <title>"Klismos" chaise longue, model no. 11 - Phillips</title>
+      <link>https://www.phillips.com/detail/th-robsjohngibbings/234148</link>
+      <guid>phillips_auctions|phillips|NY050226|9</guid>
+      <pubDate>Fri, 12 Jun 2026 12:00:00 +0000</pubDate>
+      <category>sold</category>
+      <description>Artist(s): T.H. Robsjohn-Gibbings
+Style: Design
+Medium: Not available
+Dimensions: Not available
+Auction house: Phillips
+Auction date: 2026-06-12
+Starting price: Not available
+Estimated selling price: $ 10,000 - 15,000
+Result price: $ 33,540
+Last sold price: Not available
+Notes: Starting price and prior sale price were not exposed in the public Phillips sale payload.</description>
+      <artmi:title>"Klismos" chaise longue, model no. 11</artmi:title>
+      <artmi:artists>T.H. Robsjohn-Gibbings</artmi:artists>
+      <artmi:style>Design</artmi:style>
+      <artmi:auctionHouse>Phillips</artmi:auctionHouse>
+      <artmi:auctionDate>2026-06-12</artmi:auctionDate>
+      <artmi:status>sold</artmi:status>
+      <artmi:estimatedSellingPrice>$ 10,000 - 15,000</artmi:estimatedSellingPrice>
+      <artmi:resultPrice>$ 33,540</artmi:resultPrice>
+      <artmi:predictionReady>true</artmi:predictionReady>
+      <artmi:recordSource>Phillips public auction result page</artmi:recordSource>
+    </item>
     <item>
       <title>Spending Scarlet - Bonhams</title>
       <link>https://www.bonhams.com/auction/31876/lot/201/emily-mason-1932-2019-spending-scarlet-32-x-23-78-in-811-x-606-cm-painted-in-2000/</link>
@@ -908,6 +2581,368 @@ Sotheby's, London, 22 May 2012, lot 34 (consigned by the above)
 Acquired at the above sale by the present owner</artmi:provenance>
       <artmi:predictionReady>false</artmi:predictionReady>
       <artmi:recordSource>Sotheby's public auction result page</artmi:recordSource>
+    </item>
+    <item>
+      <title>"Bush" sculpture - Phillips</title>
+      <link>https://www.phillips.com/detail/harry-bertoia/224059</link>
+      <guid>phillips_auctions|phillips|NY050325|1</guid>
+      <pubDate>Sat, 13 Dec 2025 12:00:00 +0000</pubDate>
+      <category>sold</category>
+      <description>Artist(s): Harry Bertoia
+Style: Design
+Medium: Not available
+Dimensions: Not available
+Auction house: Phillips
+Auction date: 2025-12-13
+Starting price: Not available
+Estimated selling price: $ 30,000 - 50,000
+Result price: $ 70,950
+Last sold price: Not available
+Notes: Starting price and prior sale price were not exposed in the public Phillips sale payload.</description>
+      <artmi:title>"Bush" sculpture</artmi:title>
+      <artmi:artists>Harry Bertoia</artmi:artists>
+      <artmi:style>Design</artmi:style>
+      <artmi:auctionHouse>Phillips</artmi:auctionHouse>
+      <artmi:auctionDate>2025-12-13</artmi:auctionDate>
+      <artmi:status>sold</artmi:status>
+      <artmi:estimatedSellingPrice>$ 30,000 - 50,000</artmi:estimatedSellingPrice>
+      <artmi:resultPrice>$ 70,950</artmi:resultPrice>
+      <artmi:predictionReady>true</artmi:predictionReady>
+      <artmi:recordSource>Phillips public auction result page</artmi:recordSource>
+    </item>
+    <item>
+      <title>Set of three “Mira” chairs - Phillips</title>
+      <link>https://www.phillips.com/detail/george-nakashima/228171</link>
+      <guid>phillips_auctions|phillips|NY050325|10</guid>
+      <pubDate>Sat, 13 Dec 2025 12:00:00 +0000</pubDate>
+      <category>sold</category>
+      <description>Artist(s): George Nakashima
+Style: Design
+Medium: Not available
+Dimensions: Not available
+Auction house: Phillips
+Auction date: 2025-12-13
+Starting price: Not available
+Estimated selling price: $ 2,000 - 3,000
+Result price: $ 7,095
+Last sold price: Not available
+Notes: Starting price and prior sale price were not exposed in the public Phillips sale payload.</description>
+      <artmi:title>Set of three “Mira” chairs</artmi:title>
+      <artmi:artists>George Nakashima</artmi:artists>
+      <artmi:style>Design</artmi:style>
+      <artmi:auctionHouse>Phillips</artmi:auctionHouse>
+      <artmi:auctionDate>2025-12-13</artmi:auctionDate>
+      <artmi:status>sold</artmi:status>
+      <artmi:estimatedSellingPrice>$ 2,000 - 3,000</artmi:estimatedSellingPrice>
+      <artmi:resultPrice>$ 7,095</artmi:resultPrice>
+      <artmi:predictionReady>true</artmi:predictionReady>
+      <artmi:recordSource>Phillips public auction result page</artmi:recordSource>
+    </item>
+    <item>
+      <title>"Minguren II" coffee table - Phillips</title>
+      <link>https://www.phillips.com/detail/george-nakashima/226053</link>
+      <guid>phillips_auctions|phillips|NY050325|11</guid>
+      <pubDate>Sat, 13 Dec 2025 12:00:00 +0000</pubDate>
+      <category>auctioned</category>
+      <description>Artist(s): George Nakashima
+Style: Design
+Medium: Not available
+Dimensions: Not available
+Auction house: Phillips
+Auction date: 2025-12-13
+Starting price: Not available
+Estimated selling price: $ 80,000 - 120,000
+Result price: Not available
+Last sold price: Not available
+Notes: Starting price and prior sale price were not exposed in the public Phillips sale payload.</description>
+      <artmi:title>"Minguren II" coffee table</artmi:title>
+      <artmi:artists>George Nakashima</artmi:artists>
+      <artmi:style>Design</artmi:style>
+      <artmi:auctionHouse>Phillips</artmi:auctionHouse>
+      <artmi:auctionDate>2025-12-13</artmi:auctionDate>
+      <artmi:status>auctioned</artmi:status>
+      <artmi:estimatedSellingPrice>$ 80,000 - 120,000</artmi:estimatedSellingPrice>
+      <artmi:predictionReady>false</artmi:predictionReady>
+      <artmi:recordSource>Phillips public auction result page</artmi:recordSource>
+    </item>
+    <item>
+      <title>"Rutig Blå halvflossa" (Chequered Blue Half Pile) carpet - Phillips</title>
+      <link>https://www.phillips.com/detail/marta-maasfjetterstrom/222829</link>
+      <guid>phillips_auctions|phillips|NY050325|12</guid>
+      <pubDate>Sat, 13 Dec 2025 12:00:00 +0000</pubDate>
+      <category>sold</category>
+      <description>Artist(s): Märta Måås-Fjetterström
+Style: Design
+Medium: Not available
+Dimensions: Not available
+Auction house: Phillips
+Auction date: 2025-12-13
+Starting price: Not available
+Estimated selling price: $ 15,000 - 20,000
+Result price: $ 19,350
+Last sold price: Not available
+Notes: Starting price and prior sale price were not exposed in the public Phillips sale payload.</description>
+      <artmi:title>"Rutig Blå halvflossa" (Chequered Blue Half Pile) carpet</artmi:title>
+      <artmi:artists>Märta Måås-Fjetterström</artmi:artists>
+      <artmi:style>Design</artmi:style>
+      <artmi:auctionHouse>Phillips</artmi:auctionHouse>
+      <artmi:auctionDate>2025-12-13</artmi:auctionDate>
+      <artmi:status>sold</artmi:status>
+      <artmi:estimatedSellingPrice>$ 15,000 - 20,000</artmi:estimatedSellingPrice>
+      <artmi:resultPrice>$ 19,350</artmi:resultPrice>
+      <artmi:predictionReady>true</artmi:predictionReady>
+      <artmi:recordSource>Phillips public auction result page</artmi:recordSource>
+    </item>
+    <item>
+      <title>Cabinet, model no. PE-42 - Phillips</title>
+      <link>https://www.phillips.com/detail/paul-evans/225933</link>
+      <guid>phillips_auctions|phillips|NY050325|13</guid>
+      <pubDate>Sat, 13 Dec 2025 12:00:00 +0000</pubDate>
+      <category>sold</category>
+      <description>Artist(s): Paul Evans
+Style: Design
+Medium: Not available
+Dimensions: Not available
+Auction house: Phillips
+Auction date: 2025-12-13
+Starting price: Not available
+Estimated selling price: $ 25,000 - 35,000
+Result price: $ 25,800
+Last sold price: Not available
+Notes: Starting price and prior sale price were not exposed in the public Phillips sale payload.</description>
+      <artmi:title>Cabinet, model no. PE-42</artmi:title>
+      <artmi:artists>Paul Evans</artmi:artists>
+      <artmi:style>Design</artmi:style>
+      <artmi:auctionHouse>Phillips</artmi:auctionHouse>
+      <artmi:auctionDate>2025-12-13</artmi:auctionDate>
+      <artmi:status>sold</artmi:status>
+      <artmi:estimatedSellingPrice>$ 25,000 - 35,000</artmi:estimatedSellingPrice>
+      <artmi:resultPrice>$ 25,800</artmi:resultPrice>
+      <artmi:predictionReady>true</artmi:predictionReady>
+      <artmi:recordSource>Phillips public auction result page</artmi:recordSource>
+    </item>
+    <item>
+      <title>"Royal Spathe" and "Seed" sculptures - Phillips</title>
+      <link>https://www.phillips.com/detail/michele-oka-doner/211724</link>
+      <guid>phillips_auctions|phillips|NY050325|14</guid>
+      <pubDate>Sat, 13 Dec 2025 12:00:00 +0000</pubDate>
+      <category>sold</category>
+      <description>Artist(s): Michele Oka Doner
+Style: Design
+Medium: Not available
+Dimensions: Not available
+Auction house: Phillips
+Auction date: 2025-12-13
+Starting price: Not available
+Estimated selling price: $ 2,000 - 3,000
+Result price: $ 2,838
+Last sold price: Not available
+Notes: Starting price and prior sale price were not exposed in the public Phillips sale payload.</description>
+      <artmi:title>"Royal Spathe" and "Seed" sculptures</artmi:title>
+      <artmi:artists>Michele Oka Doner</artmi:artists>
+      <artmi:style>Design</artmi:style>
+      <artmi:auctionHouse>Phillips</artmi:auctionHouse>
+      <artmi:auctionDate>2025-12-13</artmi:auctionDate>
+      <artmi:status>sold</artmi:status>
+      <artmi:estimatedSellingPrice>$ 2,000 - 3,000</artmi:estimatedSellingPrice>
+      <artmi:resultPrice>$ 2,838</artmi:resultPrice>
+      <artmi:predictionReady>true</artmi:predictionReady>
+      <artmi:recordSource>Phillips public auction result page</artmi:recordSource>
+    </item>
+    <item>
+      <title>Dining table - Phillips</title>
+      <link>https://www.phillips.com/detail/wendell-castle/227973</link>
+      <guid>phillips_auctions|phillips|NY050325|15</guid>
+      <pubDate>Sat, 13 Dec 2025 12:00:00 +0000</pubDate>
+      <category>sold</category>
+      <description>Artist(s): Wendell Castle
+Style: Design
+Medium: Not available
+Dimensions: Not available
+Auction house: Phillips
+Auction date: 2025-12-13
+Starting price: Not available
+Estimated selling price: $ 150,000 - 200,000
+Result price: $ 141,900
+Last sold price: Not available
+Notes: Starting price and prior sale price were not exposed in the public Phillips sale payload.</description>
+      <artmi:title>Dining table</artmi:title>
+      <artmi:artists>Wendell Castle</artmi:artists>
+      <artmi:style>Design</artmi:style>
+      <artmi:auctionHouse>Phillips</artmi:auctionHouse>
+      <artmi:auctionDate>2025-12-13</artmi:auctionDate>
+      <artmi:status>sold</artmi:status>
+      <artmi:estimatedSellingPrice>$ 150,000 - 200,000</artmi:estimatedSellingPrice>
+      <artmi:resultPrice>$ 141,900</artmi:resultPrice>
+      <artmi:predictionReady>true</artmi:predictionReady>
+      <artmi:recordSource>Phillips public auction result page</artmi:recordSource>
+    </item>
+    <item>
+      <title>Set of six chairs - Phillips</title>
+      <link>https://www.phillips.com/detail/wendell-castle/227974</link>
+      <guid>phillips_auctions|phillips|NY050325|16</guid>
+      <pubDate>Sat, 13 Dec 2025 12:00:00 +0000</pubDate>
+      <category>sold</category>
+      <description>Artist(s): Wendell Castle
+Style: Design
+Medium: Not available
+Dimensions: Not available
+Auction house: Phillips
+Auction date: 2025-12-13
+Starting price: Not available
+Estimated selling price: $ 50,000 - 70,000
+Result price: $ 51,600
+Last sold price: Not available
+Notes: Starting price and prior sale price were not exposed in the public Phillips sale payload.</description>
+      <artmi:title>Set of six chairs</artmi:title>
+      <artmi:artists>Wendell Castle</artmi:artists>
+      <artmi:style>Design</artmi:style>
+      <artmi:auctionHouse>Phillips</artmi:auctionHouse>
+      <artmi:auctionDate>2025-12-13</artmi:auctionDate>
+      <artmi:status>sold</artmi:status>
+      <artmi:estimatedSellingPrice>$ 50,000 - 70,000</artmi:estimatedSellingPrice>
+      <artmi:resultPrice>$ 51,600</artmi:resultPrice>
+      <artmi:predictionReady>true</artmi:predictionReady>
+      <artmi:recordSource>Phillips public auction result page</artmi:recordSource>
+    </item>
+    <item>
+      <title>Side chair, designed for the John Pierpont Morgan residence, Madison Avenue, New York - Phillips</title>
+      <link>https://www.phillips.com/detail/herter-brothers/228040</link>
+      <guid>phillips_auctions|phillips|NY050325|17</guid>
+      <pubDate>Sat, 13 Dec 2025 12:00:00 +0000</pubDate>
+      <category>sold</category>
+      <description>Artist(s): Herter Brothers
+Style: Design
+Medium: Not available
+Dimensions: Not available
+Auction house: Phillips
+Auction date: 2025-12-13
+Starting price: Not available
+Estimated selling price: $ 10,000 - 15,000
+Result price: $ 37,410
+Last sold price: Not available
+Notes: Starting price and prior sale price were not exposed in the public Phillips sale payload.</description>
+      <artmi:title>Side chair, designed for the John Pierpont Morgan residence, Madison Avenue, New York</artmi:title>
+      <artmi:artists>Herter Brothers</artmi:artists>
+      <artmi:style>Design</artmi:style>
+      <artmi:auctionHouse>Phillips</artmi:auctionHouse>
+      <artmi:auctionDate>2025-12-13</artmi:auctionDate>
+      <artmi:status>sold</artmi:status>
+      <artmi:estimatedSellingPrice>$ 10,000 - 15,000</artmi:estimatedSellingPrice>
+      <artmi:resultPrice>$ 37,410</artmi:resultPrice>
+      <artmi:predictionReady>true</artmi:predictionReady>
+      <artmi:recordSource>Phillips public auction result page</artmi:recordSource>
+    </item>
+    <item>
+      <title>Pair of mirrors - Phillips</title>
+      <link>https://www.phillips.com/detail/carlo-bugatti/224768</link>
+      <guid>phillips_auctions|phillips|NY050325|18</guid>
+      <pubDate>Sat, 13 Dec 2025 12:00:00 +0000</pubDate>
+      <category>sold</category>
+      <description>Artist(s): Carlo Bugatti
+Style: Design
+Medium: Not available
+Dimensions: Not available
+Auction house: Phillips
+Auction date: 2025-12-13
+Starting price: Not available
+Estimated selling price: $ 30,000 - 50,000
+Result price: $ 41,280
+Last sold price: Not available
+Notes: Starting price and prior sale price were not exposed in the public Phillips sale payload.</description>
+      <artmi:title>Pair of mirrors</artmi:title>
+      <artmi:artists>Carlo Bugatti</artmi:artists>
+      <artmi:style>Design</artmi:style>
+      <artmi:auctionHouse>Phillips</artmi:auctionHouse>
+      <artmi:auctionDate>2025-12-13</artmi:auctionDate>
+      <artmi:status>sold</artmi:status>
+      <artmi:estimatedSellingPrice>$ 30,000 - 50,000</artmi:estimatedSellingPrice>
+      <artmi:resultPrice>$ 41,280</artmi:resultPrice>
+      <artmi:predictionReady>true</artmi:predictionReady>
+      <artmi:recordSource>Phillips public auction result page</artmi:recordSource>
+    </item>
+    <item>
+      <title>"Flammé" vase - Phillips</title>
+      <link>https://www.phillips.com/detail/taxile-doat/228416</link>
+      <guid>phillips_auctions|phillips|NY050325|19</guid>
+      <pubDate>Sat, 13 Dec 2025 12:00:00 +0000</pubDate>
+      <category>auctioned</category>
+      <description>Artist(s): Taxile Doat
+Style: Design
+Medium: Not available
+Dimensions: Not available
+Auction house: Phillips
+Auction date: 2025-12-13
+Starting price: Not available
+Estimated selling price: $ 5,000 - 7,000
+Result price: Not available
+Last sold price: Not available
+Notes: Starting price and prior sale price were not exposed in the public Phillips sale payload.</description>
+      <artmi:title>"Flammé" vase</artmi:title>
+      <artmi:artists>Taxile Doat</artmi:artists>
+      <artmi:style>Design</artmi:style>
+      <artmi:auctionHouse>Phillips</artmi:auctionHouse>
+      <artmi:auctionDate>2025-12-13</artmi:auctionDate>
+      <artmi:status>auctioned</artmi:status>
+      <artmi:estimatedSellingPrice>$ 5,000 - 7,000</artmi:estimatedSellingPrice>
+      <artmi:predictionReady>false</artmi:predictionReady>
+      <artmi:recordSource>Phillips public auction result page</artmi:recordSource>
+    </item>
+    <item>
+      <title>Pair of "Greenrock" ottomans - Phillips</title>
+      <link>https://www.phillips.com/detail/george-nakashima/227966</link>
+      <guid>phillips_auctions|phillips|NY050325|2</guid>
+      <pubDate>Sat, 13 Dec 2025 12:00:00 +0000</pubDate>
+      <category>sold</category>
+      <description>Artist(s): George Nakashima
+Style: Design
+Medium: Not available
+Dimensions: Not available
+Auction house: Phillips
+Auction date: 2025-12-13
+Starting price: Not available
+Estimated selling price: $ 12,000 - 18,000
+Result price: $ 30,960
+Last sold price: Not available
+Notes: Starting price and prior sale price were not exposed in the public Phillips sale payload.</description>
+      <artmi:title>Pair of "Greenrock" ottomans</artmi:title>
+      <artmi:artists>George Nakashima</artmi:artists>
+      <artmi:style>Design</artmi:style>
+      <artmi:auctionHouse>Phillips</artmi:auctionHouse>
+      <artmi:auctionDate>2025-12-13</artmi:auctionDate>
+      <artmi:status>sold</artmi:status>
+      <artmi:estimatedSellingPrice>$ 12,000 - 18,000</artmi:estimatedSellingPrice>
+      <artmi:resultPrice>$ 30,960</artmi:resultPrice>
+      <artmi:predictionReady>true</artmi:predictionReady>
+      <artmi:recordSource>Phillips public auction result page</artmi:recordSource>
+    </item>
+    <item>
+      <title>Side table - Phillips</title>
+      <link>https://www.phillips.com/detail/carlo-bugatti/227366</link>
+      <guid>phillips_auctions|phillips|NY050325|20</guid>
+      <pubDate>Sat, 13 Dec 2025 12:00:00 +0000</pubDate>
+      <category>sold</category>
+      <description>Artist(s): Carlo Bugatti
+Style: Design
+Medium: Not available
+Dimensions: Not available
+Auction house: Phillips
+Auction date: 2025-12-13
+Starting price: Not available
+Estimated selling price: $ 12,000 - 18,000
+Result price: $ 38,700
+Last sold price: Not available
+Notes: Starting price and prior sale price were not exposed in the public Phillips sale payload.</description>
+      <artmi:title>Side table</artmi:title>
+      <artmi:artists>Carlo Bugatti</artmi:artists>
+      <artmi:style>Design</artmi:style>
+      <artmi:auctionHouse>Phillips</artmi:auctionHouse>
+      <artmi:auctionDate>2025-12-13</artmi:auctionDate>
+      <artmi:status>sold</artmi:status>
+      <artmi:estimatedSellingPrice>$ 12,000 - 18,000</artmi:estimatedSellingPrice>
+      <artmi:resultPrice>$ 38,700</artmi:resultPrice>
+      <artmi:predictionReady>true</artmi:predictionReady>
+      <artmi:recordSource>Phillips public auction result page</artmi:recordSource>
     </item>
   </channel>
 </rss>

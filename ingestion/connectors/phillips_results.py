@@ -139,6 +139,21 @@ class PhillipsResultsConnector:
             lots_payload={"auction": auction},
         )
 
+    def discover_sale_urls(self, sale_query: str = "", limit_sales: int = 0) -> List[Dict[str, str]]:
+        """Return many past art sales (newest first) for multi-year backfill.
+
+        Each item is ``{"url", "date", "name"}``. The Phillips results page lists
+        the full past-auction archive (currently 2013 onward), so this is the
+        connector's deep history lane; watches/jewels/wine sales are filtered out.
+        """
+
+        results_html = self.client.get_text(RESULTS_URL)
+        try:
+            past_auctions = extract_past_auctions(extract_react_router_data(results_html))
+        except ValueError:
+            past_auctions = []
+        return select_phillips_sales(past_auctions, sale_query=sale_query, limit_sales=limit_sales)
+
     def discover_sale_url(self, sale_query: str = "") -> str:
         results_html = self.client.get_text(RESULTS_URL)
         query = sale_query.strip().lower()
@@ -303,6 +318,35 @@ def extract_past_auctions(data: Dict[str, Any]) -> List[Dict[str, Any]]:
         if isinstance(value, dict) and isinstance(value.get("pastAuctions"), list):
             return value["pastAuctions"]
     return []
+
+
+def select_phillips_sales(
+    past_auctions: List[Dict[str, Any]],
+    sale_query: str = "",
+    limit_sales: int = 0,
+) -> List[Dict[str, str]]:
+    """Filter the past-auction list to ingestible art sales, newest first.
+
+    Drops watches/jewels/wine (``EXCLUDED_SALE_TERMS``), applies an optional
+    title/url query, and caps the count at ``limit_sales`` (0 = no cap).
+    """
+
+    query = sale_query.strip().lower()
+    selected: List[Dict[str, str]] = []
+    for auction in past_auctions:
+        url = auction.get("auctionUrl")
+        if not url:
+            continue
+        name = clean_text(auction.get("auctionName") or "")
+        haystack = f"{name} {url}".lower()
+        if any(term in haystack for term in EXCLUDED_SALE_TERMS):
+            continue
+        if query and query not in haystack:
+            continue
+        selected.append({"url": url, "date": (auction.get("auctionStartDateTime") or "")[:10], "name": name})
+        if limit_sales and len(selected) >= limit_sales:
+            break
+    return selected
 
 
 def extract_lot_detail_payloads(data: Dict[str, Any]) -> List[Dict[str, Any]]:

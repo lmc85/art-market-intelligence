@@ -3,6 +3,7 @@ const auctionFeedPath = "data/auction_feed_items.json";
 const nextTargetsPath = "data/next_ingestion_targets.json";
 const marketIndicesPath = "data/market_indices.json";
 const legalAppraisalsPath = "data/legal_appraisal_records.json";
+const artFairsPath = "data/art_fairs.json";
 const dataVersion = new URLSearchParams(window.location.search).get("v") || "local";
 
 const feedItems = [
@@ -126,12 +127,20 @@ const fallbackLegalAppraisals = {
   records: [],
 };
 
+const fallbackArtFairs = {
+  fair_count: 0,
+  facets: {},
+  fairs: [],
+};
+
 let sources = [];
 let auctionItems = [];
 let nextTargets = [];
 let marketIndexPayload = fallbackMarketIndices;
 let legalAppraisalPayload = fallbackLegalAppraisals;
+let artFairPayload = fallbackArtFairs;
 let activeFilter = "all";
+let activeFairFilter = "all";
 let searchTerm = "";
 
 const elements = {
@@ -147,6 +156,9 @@ const elements = {
   marketIndexCount: document.querySelector("#market-index-count"),
   legalLeadList: document.querySelector("#legal-lead-list"),
   legalLeadCount: document.querySelector("#legal-lead-count"),
+  fairList: document.querySelector("#fair-list"),
+  fairCount: document.querySelector("#fair-count"),
+  fairFilterButtons: document.querySelectorAll("[data-fair-filter]"),
   coverageList: document.querySelector("#coverage-list"),
   queueBody: document.querySelector("#queue-body"),
   targetList: document.querySelector("#target-list"),
@@ -158,12 +170,13 @@ const elements = {
 init();
 
 async function init() {
-  [sources, auctionItems, nextTargets, marketIndexPayload, legalAppraisalPayload] = await Promise.all([
+  [sources, auctionItems, nextTargets, marketIndexPayload, legalAppraisalPayload, artFairPayload] = await Promise.all([
     loadSources(),
     loadJson(auctionFeedPath, fallbackAuctionItems),
     loadJson(nextTargetsPath, fallbackNextTargets),
     loadJson(marketIndicesPath, fallbackMarketIndices),
     loadJson(legalAppraisalsPath, fallbackLegalAppraisals),
+    loadJson(artFairsPath, fallbackArtFairs),
   ]);
   renderMetrics();
   renderMarketIndices();
@@ -172,6 +185,7 @@ async function init() {
   renderQueue();
   renderAuctionFeed();
   renderNextTargets();
+  renderFairCalendar();
   renderFeed();
   bindEvents();
 }
@@ -212,6 +226,14 @@ function bindEvents() {
     });
   });
 
+  elements.fairFilterButtons.forEach((button) => {
+    button.addEventListener("click", () => {
+      activeFairFilter = button.dataset.fairFilter;
+      elements.fairFilterButtons.forEach((item) => item.classList.toggle("active", item === button));
+      renderFairCalendar();
+    });
+  });
+
   elements.search.addEventListener("input", (event) => {
     searchTerm = event.target.value.trim().toLowerCase();
     renderFeed();
@@ -220,6 +242,7 @@ function bindEvents() {
     renderLegalLeads();
     renderQueue();
     renderNextTargets();
+    renderFairCalendar();
   });
 }
 
@@ -315,6 +338,69 @@ function renderLegalLead(item) {
       <a class="ghost-action legal-link" href="${escapeHtml(item.source_url || "#")}" target="_blank" rel="noreferrer">Open</a>
     </article>
   `;
+}
+
+function renderFairCalendar() {
+  if (!elements.fairList) return;
+
+  const fairs = (artFairPayload.fairs || [])
+    .filter((fair) => matchesFairFilter(fair, activeFairFilter))
+    .filter((fair) => {
+      if (!searchTerm) return true;
+      return [fair.name, fair.city, fair.country, fair.region, fair.fair_type, fair.start_date]
+        .join(" ")
+        .toLowerCase()
+        .includes(searchTerm);
+    });
+
+  elements.fairCount.textContent = `${fairs.length} fairs`;
+
+  elements.fairList.innerHTML = fairs.length
+    ? fairs.map(renderFairRow).join("")
+    : `<p class="empty-state">No fairs match the current filter.</p>`;
+}
+
+function matchesFairFilter(fair, token) {
+  if (token === "all") return true;
+  if (token === "US" || token === "International") return fair.region === token;
+  return fair.fair_type === token;
+}
+
+function renderFairRow(fair) {
+  const place = [fair.city, fair.country].filter(Boolean).join(", ") || "Location to be confirmed";
+  return `
+    <article class="fair-row">
+      <div class="fair-date">
+        <strong>${escapeHtml(formatFairDay(fair.start_date))}</strong>
+        <span>${escapeHtml(fairDateRange(fair))}</span>
+      </div>
+      <div class="fair-body">
+        <div class="feed-meta">
+          <span>${escapeHtml(fair.region || "International")}</span>
+          <span>${escapeHtml(formatLabel(fair.fair_type || "art_fair"))}</span>
+          <span>${escapeHtml(formatLabel(fair.status || "scheduled"))}</span>
+        </div>
+        <h3>${escapeHtml(fair.name || "Art fair")}</h3>
+        <p>${escapeHtml(place)}</p>
+      </div>
+      <a class="ghost-action" href="${escapeHtml(fair.source_url || "#")}" target="_blank" rel="noreferrer">View</a>
+    </article>
+  `;
+}
+
+function formatFairDay(value) {
+  if (!value) return "TBC";
+  const parsed = new Date(`${value}T00:00:00`);
+  if (Number.isNaN(parsed.getTime())) return value;
+  return parsed.toLocaleDateString(undefined, { month: "short", day: "numeric" });
+}
+
+function fairDateRange(fair) {
+  const year = fair.year || String(fair.start_date || "").slice(0, 4) || "";
+  if (fair.end_date && fair.end_date !== fair.start_date) {
+    return `through ${formatFairDay(fair.end_date)}, ${year}`.trim();
+  }
+  return String(year);
 }
 
 function parseCsv(text) {

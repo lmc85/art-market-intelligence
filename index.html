@@ -23,6 +23,7 @@
           <a href="#feed">Feed</a>
           <a href="#indices">Indices</a>
           <a href="#auction-feed">Sales Feed</a>
+          <a href="#calendar">Calendar</a>
           <a href="#legal-leads">Legal Leads</a>
           <a href="#sources">Sources</a>
           <a href="#forecast">Forecasts</a>
@@ -233,6 +234,24 @@
             </div>
           </section>
 
+          <section class="panel calendar-panel" id="calendar" aria-labelledby="calendar-title">
+            <div class="panel-header">
+              <div>
+                <p class="eyebrow">Fair Calendar</p>
+                <h2 id="calendar-title">Upcoming art fairs</h2>
+              </div>
+              <span class="time-chip" id="fair-count">-- fairs</span>
+            </div>
+            <div class="segmented-control" role="tablist" aria-label="Fair calendar filters">
+              <button class="active" type="button" data-fair-filter="all">All</button>
+              <button type="button" data-fair-filter="US">US</button>
+              <button type="button" data-fair-filter="International">International</button>
+              <button type="button" data-fair-filter="design_fair">Design</button>
+              <button type="button" data-fair-filter="photography_fair">Photo</button>
+            </div>
+            <div class="fair-list" id="fair-list"></div>
+          </section>
+
           <section class="panel targets-panel" id="targets" aria-labelledby="targets-title">
             <div class="panel-header">
               <div>
@@ -270,6 +289,6 @@
       </main>
     </div>
 
-    <script src="app.js?v=connectors-20260525"></script>
+    <script src="app.js?v=calendar-20260613"></script>
   </body>
 </html>

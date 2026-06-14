@@ -1,5 +1,2677 @@
 [
   {
+    "id": "phillips_auctions|phillips|NY050226|1",
+    "status": "sold",
+    "title": "Vide poche",
+    "artists": [
+      "Georges Jouve"
+    ],
+    "style": "Design",
+    "auction_house": "Phillips",
+    "auction_date": "2026-06-12",
+    "starting_price": null,
+    "estimated_selling_price": {
+      "currency": "USD",
+      "low": 3000.0,
+      "high": 5000.0,
+      "display": "$ 3,000 - 5,000"
+    },
+    "result_price": {
+      "currency": "USD",
+      "amount": 7095.0,
+      "display": "$ 7,095"
+    },
+    "last_sold_price": null,
+    "source_url": "https://www.phillips.com/detail/georges-jouve/235026",
+    "record_source": "Phillips public auction result page",
+    "notes": "Starting price and prior sale price were not exposed in the public Phillips sale payload.",
+    "medium": "",
+    "dimensions": "",
+    "provenance": "",
+    "literature": "",
+    "quality_flags": {
+      "has_artist": true,
+      "has_title": true,
+      "has_auction_date": true,
+      "has_estimate": true,
+      "has_result_price": true,
+      "has_starting_price": false,
+      "has_prior_sale": false,
+      "has_source_url": true,
+      "has_image": false,
+      "has_medium": false,
+      "has_dimensions": false
+    },
+    "prediction_ready": true
+  },
+  {
+    "id": "phillips_auctions|phillips|NY050226|10",
+    "status": "sold",
+    "title": "\"Delfi\" table, from the \"Ultrarazionale\" series",
+    "artists": [
+      "Carlo Scarpa and Marcel Breuer"
+    ],
+    "style": "Design",
+    "auction_house": "Phillips",
+    "auction_date": "2026-06-12",
+    "starting_price": null,
+    "estimated_selling_price": {
+      "currency": "USD",
+      "low": 4000.0,
+      "high": 6000.0,
+      "display": "$ 4,000 - 6,000"
+    },
+    "result_price": {
+      "currency": "USD",
+      "amount": 6192.0,
+      "display": "$ 6,192"
+    },
+    "last_sold_price": null,
+    "source_url": "https://www.phillips.com/detail/carlo-scarpa-and-marcel-breuer/235468",
+    "record_source": "Phillips public auction result page",
+    "notes": "Starting price and prior sale price were not exposed in the public Phillips sale payload.",
+    "medium": "",
+    "dimensions": "",
+    "provenance": "",
+    "literature": "",
+    "quality_flags": {
+      "has_artist": true,
+      "has_title": true,
+      "has_auction_date": true,
+      "has_estimate": true,
+      "has_result_price": true,
+      "has_starting_price": false,
+      "has_prior_sale": false,
+      "has_source_url": true,
+      "has_image": false,
+      "has_medium": false,
+      "has_dimensions": false
+    },
+    "prediction_ready": true
+  },
+  {
+    "id": "phillips_auctions|phillips|NY050226|11",
+    "status": "sold",
+    "title": "\"Klismos\" bench",
+    "artists": [
+      "T.H. Robsjohn-Gibbings"
+    ],
+    "style": "Design",
+    "auction_house": "Phillips",
+    "auction_date": "2026-06-12",
+    "starting_price": null,
+    "estimated_selling_price": {
+      "currency": "USD",
+      "low": 12000.0,
+      "high": 18000.0,
+      "display": "$ 12,000 - 18,000"
+    },
+    "result_price": {
+      "currency": "USD",
+      "amount": 36120.0,
+      "display": "$ 36,120"
+    },
+    "last_sold_price": null,
+    "source_url": "https://www.phillips.com/detail/th-robsjohngibbings/234149",
+    "record_source": "Phillips public auction result page",
+    "notes": "Starting price and prior sale price were not exposed in the public Phillips sale payload.",
+    "medium": "",
+    "dimensions": "",
+    "provenance": "",
+    "literature": "",
+    "quality_flags": {
+      "has_artist": true,
+      "has_title": true,
+      "has_auction_date": true,
+      "has_estimate": true,
+      "has_result_price": true,
+      "has_starting_price": false,
+      "has_prior_sale": false,
+      "has_source_url": true,
+      "has_image": false,
+      "has_medium": false,
+      "has_dimensions": false
+    },
+    "prediction_ready": true
+  },
+  {
+    "id": "phillips_auctions|phillips|NY050226|12",
+    "status": "sold",
+    "title": "Footed bowl",
+    "artists": [
+      "André Méthey"
+    ],
+    "style": "Design",
+    "auction_house": "Phillips",
+    "auction_date": "2026-06-12",
+    "starting_price": null,
+    "estimated_selling_price": {
+      "currency": "USD",
+      "low": 1500.0,
+      "high": 2500.0,
+      "display": "$ 1,500 - 2,500"
+    },
+    "result_price": {
+      "currency": "USD",
+      "amount": 1290.0,
+      "display": "$ 1,290"
+    },
+    "last_sold_price": null,
+    "source_url": "https://www.phillips.com/detail/andre-methey/214601",
+    "record_source": "Phillips public auction result page",
+    "notes": "Starting price and prior sale price were not exposed in the public Phillips sale payload.",
+    "medium": "",
+    "dimensions": "",
+    "provenance": "",
+    "literature": "",
+    "quality_flags": {
+      "has_artist": true,
+      "has_title": true,
+      "has_auction_date": true,
+      "has_estimate": true,
+      "has_result_price": true,
+      "has_starting_price": false,
+      "has_prior_sale": false,
+      "has_source_url": true,
+      "has_image": false,
+      "has_medium": false,
+      "has_dimensions": false
+    },
+    "prediction_ready": true
+  },
+  {
+    "id": "phillips_auctions|phillips|NY050226|13",
+    "status": "auctioned",
+    "title": "\"Bull Situla\"",
+    "artists": [
+      "William Morris"
+    ],
+    "style": "Design",
+    "auction_house": "Phillips",
+    "auction_date": "2026-06-12",
+    "starting_price": null,
+    "estimated_selling_price": {
+      "currency": "USD",
+      "low": 30000.0,
+      "high": 50000.0,
+      "display": "$ 30,000 - 50,000"
+    },
+    "result_price": null,
+    "last_sold_price": null,
+    "source_url": "https://www.phillips.com/detail/william-morris/230847",
+    "record_source": "Phillips public auction result page",
+    "notes": "Starting price and prior sale price were not exposed in the public Phillips sale payload.",
+    "medium": "",
+    "dimensions": "",
+    "provenance": "",
+    "literature": "",
+    "quality_flags": {
+      "has_artist": true,
+      "has_title": true,
+      "has_auction_date": true,
+      "has_estimate": true,
+      "has_result_price": false,
+      "has_starting_price": false,
+      "has_prior_sale": false,
+      "has_source_url": true,
+      "has_image": false,
+      "has_medium": false,
+      "has_dimensions": false
+    },
+    "prediction_ready": false
+  },
+  {
+    "id": "phillips_auctions|phillips|NY050226|14",
+    "status": "sold",
+    "title": "Eight \"Klismos\" chairs, model no. 3",
+    "artists": [
+      "T.H. Robsjohn-Gibbings"
+    ],
+    "style": "Design",
+    "auction_house": "Phillips",
+    "auction_date": "2026-06-12",
+    "starting_price": null,
+    "estimated_selling_price": {
+      "currency": "USD",
+      "low": 30000.0,
+      "high": 50000.0,
+      "display": "$ 30,000 - 50,000"
+    },
+    "result_price": {
+      "currency": "USD",
+      "amount": 64500.0,
+      "display": "$ 64,500"
+    },
+    "last_sold_price": null,
+    "source_url": "https://www.phillips.com/detail/th-robsjohngibbings/234147",
+    "record_source": "Phillips public auction result page",
+    "notes": "Starting price and prior sale price were not exposed in the public Phillips sale payload.",
+    "medium": "",
+    "dimensions": "",
+    "provenance": "",
+    "literature": "",
+    "quality_flags": {
+      "has_artist": true,
+      "has_title": true,
+      "has_auction_date": true,
+      "has_estimate": true,
+      "has_result_price": true,
+      "has_starting_price": false,
+      "has_prior_sale": false,
+      "has_source_url": true,
+      "has_image": false,
+      "has_medium": false,
+      "has_dimensions": false
+    },
+    "prediction_ready": true
+  },
+  {
+    "id": "phillips_auctions|phillips|NY050226|15",
+    "status": "sold",
+    "title": "Two \"Diphros\" stools, model nos. 1 and 20",
+    "artists": [
+      "T.H. Robsjohn-Gibbings"
+    ],
+    "style": "Design",
+    "auction_house": "Phillips",
+    "auction_date": "2026-06-12",
+    "starting_price": null,
+    "estimated_selling_price": {
+      "currency": "USD",
+      "low": 5000.0,
+      "high": 7000.0,
+      "display": "$ 5,000 - 7,000"
+    },
+    "result_price": {
+      "currency": "USD",
+      "amount": 23220.0,
+      "display": "$ 23,220"
+    },
+    "last_sold_price": null,
+    "source_url": "https://www.phillips.com/detail/th-robsjohngibbings/234150",
+    "record_source": "Phillips public auction result page",
+    "notes": "Starting price and prior sale price were not exposed in the public Phillips sale payload.",
+    "medium": "",
+    "dimensions": "",
+    "provenance": "",
+    "literature": "",
+    "quality_flags": {
+      "has_artist": true,
+      "has_title": true,
+      "has_auction_date": true,
+      "has_estimate": true,
+      "has_result_price": true,
+      "has_starting_price": false,
+      "has_prior_sale": false,
+      "has_source_url": true,
+      "has_image": false,
+      "has_medium": false,
+      "has_dimensions": false
+    },
+    "prediction_ready": true
+  },
+  {
+    "id": "phillips_auctions|phillips|NY050226|16",
+    "status": "sold",
+    "title": "Unique \"Burning Bush\" candelabrum with tray",
+    "artists": [
+      "Michele Oka Doner"
+    ],
+    "style": "Design",
+    "auction_house": "Phillips",
+    "auction_date": "2026-06-12",
+    "starting_price": null,
+    "estimated_selling_price": {
+      "currency": "USD",
+      "low": 8000.0,
+      "high": 12000.0,
+      "display": "$ 8,000 - 12,000"
+    },
+    "result_price": {
+      "currency": "USD",
+      "amount": 28380.0,
+      "display": "$ 28,380"
+    },
+    "last_sold_price": null,
+    "source_url": "https://www.phillips.com/detail/michele-oka-doner/230164",
+    "record_source": "Phillips public auction result page",
+    "notes": "Starting price and prior sale price were not exposed in the public Phillips sale payload.",
+    "medium": "",
+    "dimensions": "",
+    "provenance": "",
+    "literature": "",
+    "quality_flags": {
+      "has_artist": true,
+      "has_title": true,
+      "has_auction_date": true,
+      "has_estimate": true,
+      "has_result_price": true,
+      "has_starting_price": false,
+      "has_prior_sale": false,
+      "has_source_url": true,
+      "has_image": false,
+      "has_medium": false,
+      "has_dimensions": false
+    },
+    "prediction_ready": true
+  },
+  {
+    "id": "phillips_auctions|phillips|NY050226|17",
+    "status": "sold",
+    "title": "“Plug” coffee table",
+    "artists": [
+      "Rick Owens"
+    ],
+    "style": "Design",
+    "auction_house": "Phillips",
+    "auction_date": "2026-06-12",
+    "starting_price": null,
+    "estimated_selling_price": {
+      "currency": "USD",
+      "low": 10000.0,
+      "high": 15000.0,
+      "display": "$ 10,000 - 15,000"
+    },
+    "result_price": {
+      "currency": "USD",
+      "amount": 20640.0,
+      "display": "$ 20,640"
+    },
+    "last_sold_price": null,
+    "source_url": "https://www.phillips.com/detail/rick-owens/235451",
+    "record_source": "Phillips public auction result page",
+    "notes": "Starting price and prior sale price were not exposed in the public Phillips sale payload.",
+    "medium": "",
+    "dimensions": "",
+    "provenance": "",
+    "literature": "",
+    "quality_flags": {
+      "has_artist": true,
+      "has_title": true,
+      "has_auction_date": true,
+      "has_estimate": true,
+      "has_result_price": true,
+      "has_starting_price": false,
+      "has_prior_sale": false,
+      "has_source_url": true,
+      "has_image": false,
+      "has_medium": false,
+      "has_dimensions": false
+    },
+    "prediction_ready": true
+  },
+  {
+    "id": "phillips_auctions|phillips|NY050226|18",
+    "status": "sold",
+    "title": "\"Canopic Jar: Sable Antelope\"",
+    "artists": [
+      "William Morris"
+    ],
+    "style": "Design",
+    "auction_house": "Phillips",
+    "auction_date": "2026-06-12",
+    "starting_price": null,
+    "estimated_selling_price": {
+      "currency": "USD",
+      "low": 150000.0,
+      "high": 200000.0,
+      "display": "$ 150,000 - 200,000"
+    },
+    "result_price": {
+      "currency": "USD",
+      "amount": 154800.0,
+      "display": "$ 154,800"
+    },
+    "last_sold_price": null,
+    "source_url": "https://www.phillips.com/detail/william-morris/230846",
+    "record_source": "Phillips public auction result page",
+    "notes": "Starting price and prior sale price were not exposed in the public Phillips sale payload.",
+    "medium": "",
+    "dimensions": "",
+    "provenance": "",
+    "literature": "",
+    "quality_flags": {
+      "has_artist": true,
+      "has_title": true,
+      "has_auction_date": true,
+      "has_estimate": true,
+      "has_result_price": true,
+      "has_starting_price": false,
+      "has_prior_sale": false,
+      "has_source_url": true,
+      "has_image": false,
+      "has_medium": false,
+      "has_dimensions": false
+    },
+    "prediction_ready": true
+  },
+  {
+    "id": "phillips_auctions|phillips|NY050226|19",
+    "status": "sold",
+    "title": "“Half Box” chair",
+    "artists": [
+      "Rick Owens"
+    ],
+    "style": "Design",
+    "auction_house": "Phillips",
+    "auction_date": "2026-06-12",
+    "starting_price": null,
+    "estimated_selling_price": {
+      "currency": "USD",
+      "low": 10000.0,
+      "high": 15000.0,
+      "display": "$ 10,000 - 15,000"
+    },
+    "result_price": {
+      "currency": "USD",
+      "amount": 38700.0,
+      "display": "$ 38,700"
+    },
+    "last_sold_price": null,
+    "source_url": "https://www.phillips.com/detail/rick-owens/235450",
+    "record_source": "Phillips public auction result page",
+    "notes": "Starting price and prior sale price were not exposed in the public Phillips sale payload.",
+    "medium": "",
+    "dimensions": "",
+    "provenance": "",
+    "literature": "",
+    "quality_flags": {
+      "has_artist": true,
+      "has_title": true,
+      "has_auction_date": true,
+      "has_estimate": true,
+      "has_result_price": true,
+      "has_starting_price": false,
+      "has_prior_sale": false,
+      "has_source_url": true,
+      "has_image": false,
+      "has_medium": false,
+      "has_dimensions": false
+    },
+    "prediction_ready": true
+  },
+  {
+    "id": "phillips_auctions|phillips|NY050226|2",
+    "status": "sold",
+    "title": "\"Galet” vase",
+    "artists": [
+      "Georges Jouve"
+    ],
+    "style": "Design",
+    "auction_house": "Phillips",
+    "auction_date": "2026-06-12",
+    "starting_price": null,
+    "estimated_selling_price": {
+      "currency": "USD",
+      "low": 8000.0,
+      "high": 12000.0,
+      "display": "$ 8,000 - 12,000"
+    },
+    "result_price": {
+      "currency": "USD",
+      "amount": 12900.0,
+      "display": "$ 12,900"
+    },
+    "last_sold_price": null,
+    "source_url": "https://www.phillips.com/detail/georges-jouve/235346",
+    "record_source": "Phillips public auction result page",
+    "notes": "Starting price and prior sale price were not exposed in the public Phillips sale payload.",
+    "medium": "",
+    "dimensions": "",
+    "provenance": "",
+    "literature": "",
+    "quality_flags": {
+      "has_artist": true,
+      "has_title": true,
+      "has_auction_date": true,
+      "has_estimate": true,
+      "has_result_price": true,
+      "has_starting_price": false,
+      "has_prior_sale": false,
+      "has_source_url": true,
+      "has_image": false,
+      "has_medium": false,
+      "has_dimensions": false
+    },
+    "prediction_ready": true
+  },
+  {
+    "id": "phillips_auctions|phillips|NY050226|20",
+    "status": "sold",
+    "title": "\"Cornaro\" sofa, from the \"Ultrarazionale\" series",
+    "artists": [
+      "Carlo Scarpa"
+    ],
+    "style": "Design",
+    "auction_house": "Phillips",
+    "auction_date": "2026-06-12",
+    "starting_price": null,
+    "estimated_selling_price": {
+      "currency": "USD",
+      "low": 6000.0,
+      "high": 8000.0,
+      "display": "$ 6,000 - 8,000"
+    },
+    "result_price": {
+      "currency": "USD",
+      "amount": 20640.0,
+      "display": "$ 20,640"
+    },
+    "last_sold_price": null,
+    "source_url": "https://www.phillips.com/detail/carlo-scarpa/235480",
+    "record_source": "Phillips public auction result page",
+    "notes": "Starting price and prior sale price were not exposed in the public Phillips sale payload.",
+    "medium": "",
+    "dimensions": "",
+    "provenance": "",
+    "literature": "",
+    "quality_flags": {
+      "has_artist": true,
+      "has_title": true,
+      "has_auction_date": true,
+      "has_estimate": true,
+      "has_result_price": true,
+      "has_starting_price": false,
+      "has_prior_sale": false,
+      "has_source_url": true,
+      "has_image": false,
+      "has_medium": false,
+      "has_dimensions": false
+    },
+    "prediction_ready": true
+  },
+  {
+    "id": "phillips_auctions|phillips|NY050226|21",
+    "status": "sold",
+    "title": "Early \"Poltrona di Proust\" armchair",
+    "artists": [
+      "Alessandro Mendini"
+    ],
+    "style": "Design",
+    "auction_house": "Phillips",
+    "auction_date": "2026-06-12",
+    "starting_price": null,
+    "estimated_selling_price": {
+      "currency": "USD",
+      "low": 30000.0,
+      "high": 50000.0,
+      "display": "$ 30,000 - 50,000"
+    },
+    "result_price": {
+      "currency": "USD",
+      "amount": 28380.0,
+      "display": "$ 28,380"
+    },
+    "last_sold_price": null,
+    "source_url": "https://www.phillips.com/detail/alessandro-mendini/235477",
+    "record_source": "Phillips public auction result page",
+    "notes": "Starting price and prior sale price were not exposed in the public Phillips sale payload.",
+    "medium": "",
+    "dimensions": "",
+    "provenance": "",
+    "literature": "",
+    "quality_flags": {
+      "has_artist": true,
+      "has_title": true,
+      "has_auction_date": true,
+      "has_estimate": true,
+      "has_result_price": true,
+      "has_starting_price": false,
+      "has_prior_sale": false,
+      "has_source_url": true,
+      "has_image": false,
+      "has_medium": false,
+      "has_dimensions": false
+    },
+    "prediction_ready": true
+  },
+  {
+    "id": "phillips_auctions|phillips|NY050226|22",
+    "status": "sold",
+    "title": "Side table",
+    "artists": [
+      "Gilbert Poillerat"
+    ],
+    "style": "Design",
+    "auction_house": "Phillips",
+    "auction_date": "2026-06-12",
+    "starting_price": null,
+    "estimated_selling_price": {
+      "currency": "USD",
+      "low": 5000.0,
+      "high": 7000.0,
+      "display": "$ 5,000 - 7,000"
+    },
+    "result_price": {
+      "currency": "USD",
+      "amount": 6450.0,
+      "display": "$ 6,450"
+    },
+    "last_sold_price": null,
+    "source_url": "https://www.phillips.com/detail/gilbert-poillerat/228538",
+    "record_source": "Phillips public auction result page",
+    "notes": "Starting price and prior sale price were not exposed in the public Phillips sale payload.",
+    "medium": "",
+    "dimensions": "",
+    "provenance": "",
+    "literature": "",
+    "quality_flags": {
+      "has_artist": true,
+      "has_title": true,
+      "has_auction_date": true,
+      "has_estimate": true,
+      "has_result_price": true,
+      "has_starting_price": false,
+      "has_prior_sale": false,
+      "has_source_url": true,
+      "has_image": false,
+      "has_medium": false,
+      "has_dimensions": false
+    },
+    "prediction_ready": true
+  },
+  {
+    "id": "phillips_auctions|phillips|NY050226|23",
+    "status": "sold",
+    "title": "Guéridon",
+    "artists": [
+      "Gilbert Poillerat"
+    ],
+    "style": "Design",
+    "auction_house": "Phillips",
+    "auction_date": "2026-06-12",
+    "starting_price": null,
+    "estimated_selling_price": {
+      "currency": "USD",
+      "low": 8000.0,
+      "high": 12000.0,
+      "display": "$ 8,000 - 12,000"
+    },
+    "result_price": {
+      "currency": "USD",
+      "amount": 12255.0,
+      "display": "$ 12,255"
+    },
+    "last_sold_price": null,
+    "source_url": "https://www.phillips.com/detail/gilbert-poillerat/235781",
+    "record_source": "Phillips public auction result page",
+    "notes": "Starting price and prior sale price were not exposed in the public Phillips sale payload.",
+    "medium": "",
+    "dimensions": "",
+    "provenance": "",
+    "literature": "",
+    "quality_flags": {
+      "has_artist": true,
+      "has_title": true,
+      "has_auction_date": true,
+      "has_estimate": true,
+      "has_result_price": true,
+      "has_starting_price": false,
+      "has_prior_sale": false,
+      "has_source_url": true,
+      "has_image": false,
+      "has_medium": false,
+      "has_dimensions": false
+    },
+    "prediction_ready": true
+  },
+  {
+    "id": "phillips_auctions|phillips|NY050226|24",
+    "status": "sold",
+    "title": "Mirror, model no. 77",
+    "artists": [
+      "Carlo Scarpa"
+    ],
+    "style": "Design",
+    "auction_house": "Phillips",
+    "auction_date": "2026-06-12",
+    "starting_price": null,
+    "estimated_selling_price": {
+      "currency": "USD",
+      "low": 15000.0,
+      "high": 20000.0,
+      "display": "$ 15,000 - 20,000"
+    },
+    "result_price": {
+      "currency": "USD",
+      "amount": 47730.0,
+      "display": "$ 47,730"
+    },
+    "last_sold_price": null,
+    "source_url": "https://www.phillips.com/detail/carlo-scarpa/235479",
+    "record_source": "Phillips public auction result page",
+    "notes": "Starting price and prior sale price were not exposed in the public Phillips sale payload.",
+    "medium": "",
+    "dimensions": "",
+    "provenance": "",
+    "literature": "",
+    "quality_flags": {
+      "has_artist": true,
+      "has_title": true,
+      "has_auction_date": true,
+      "has_estimate": true,
+      "has_result_price": true,
+      "has_starting_price": false,
+      "has_prior_sale": false,
+      "has_source_url": true,
+      "has_image": false,
+      "has_medium": false,
+      "has_dimensions": false
+    },
+    "prediction_ready": true
+  },
+  {
+    "id": "phillips_auctions|phillips|NY050226|25",
+    "status": "sold",
+    "title": "Set of three wall lights",
+    "artists": [
+      "Napoleone Martinuzzi"
+    ],
+    "style": "Design",
+    "auction_house": "Phillips",
+    "auction_date": "2026-06-12",
+    "starting_price": null,
+    "estimated_selling_price": {
+      "currency": "USD",
+      "low": 8000.0,
+      "high": 12000.0,
+      "display": "$ 8,000 - 12,000"
+    },
+    "result_price": {
+      "currency": "USD",
+      "amount": 7740.0,
+      "display": "$ 7,740"
+    },
+    "last_sold_price": null,
+    "source_url": "https://www.phillips.com/detail/napoleone-martinuzzi/233134",
+    "record_source": "Phillips public auction result page",
+    "notes": "Starting price and prior sale price were not exposed in the public Phillips sale payload.",
+    "medium": "",
+    "dimensions": "",
+    "provenance": "",
+    "literature": "",
+    "quality_flags": {
+      "has_artist": true,
+      "has_title": true,
+      "has_auction_date": true,
+      "has_estimate": true,
+      "has_result_price": true,
+      "has_starting_price": false,
+      "has_prior_sale": false,
+      "has_source_url": true,
+      "has_image": false,
+      "has_medium": false,
+      "has_dimensions": false
+    },
+    "prediction_ready": true
+  },
+  {
+    "id": "phillips_auctions|phillips|NY050226|26",
+    "status": "auctioned",
+    "title": "\"Nocturne\" floor radio, model no. 1186",
+    "artists": [
+      "Walter Dorwin Teague"
+    ],
+    "style": "Design",
+    "auction_house": "Phillips",
+    "auction_date": "2026-06-12",
+    "starting_price": null,
+    "estimated_selling_price": {
+      "currency": "USD",
+      "low": 25000.0,
+      "high": 35000.0,
+      "display": "$ 25,000 - 35,000"
+    },
+    "result_price": null,
+    "last_sold_price": null,
+    "source_url": "https://www.phillips.com/detail/walter-dorwin-teague/235482",
+    "record_source": "Phillips public auction result page",
+    "notes": "Starting price and prior sale price were not exposed in the public Phillips sale payload.",
+    "medium": "",
+    "dimensions": "",
+    "provenance": "",
+    "literature": "",
+    "quality_flags": {
+      "has_artist": true,
+      "has_title": true,
+      "has_auction_date": true,
+      "has_estimate": true,
+      "has_result_price": false,
+      "has_starting_price": false,
+      "has_prior_sale": false,
+      "has_source_url": true,
+      "has_image": false,
+      "has_medium": false,
+      "has_dimensions": false
+    },
+    "prediction_ready": false
+  },
+  {
+    "id": "phillips_auctions|phillips|NY050226|27",
+    "status": "sold",
+    "title": "\"Cornaro\" armchair, from the \"Ultrarazionale\" series",
+    "artists": [
+      "Carlo Scarpa"
+    ],
+    "style": "Design",
+    "auction_house": "Phillips",
+    "auction_date": "2026-06-12",
+    "starting_price": null,
+    "estimated_selling_price": {
+      "currency": "USD",
+      "low": 3000.0,
+      "high": 5000.0,
+      "display": "$ 3,000 - 5,000"
+    },
+    "result_price": {
+      "currency": "USD",
+      "amount": 4902.0,
+      "display": "$ 4,902"
+    },
+    "last_sold_price": null,
+    "source_url": "https://www.phillips.com/detail/carlo-scarpa/235481",
+    "record_source": "Phillips public auction result page",
+    "notes": "Starting price and prior sale price were not exposed in the public Phillips sale payload.",
+    "medium": "",
+    "dimensions": "",
+    "provenance": "",
+    "literature": "",
+    "quality_flags": {
+      "has_artist": true,
+      "has_title": true,
+      "has_auction_date": true,
+      "has_estimate": true,
+      "has_result_price": true,
+      "has_starting_price": false,
+      "has_prior_sale": false,
+      "has_source_url": true,
+      "has_image": false,
+      "has_medium": false,
+      "has_dimensions": false
+    },
+    "prediction_ready": true
+  },
+  {
+    "id": "phillips_auctions|phillips|NY050226|28",
+    "status": "sold",
+    "title": "\"Helga\" floor lamp",
+    "artists": [
+      "Paolo Portoghesi and Silvio Bilangione"
+    ],
+    "style": "Design",
+    "auction_house": "Phillips",
+    "auction_date": "2026-06-12",
+    "starting_price": null,
+    "estimated_selling_price": {
+      "currency": "USD",
+      "low": 3000.0,
+      "high": 5000.0,
+      "display": "$ 3,000 - 5,000"
+    },
+    "result_price": {
+      "currency": "USD",
+      "amount": 3870.0,
+      "display": "$ 3,870"
+    },
+    "last_sold_price": null,
+    "source_url": "https://www.phillips.com/detail/paolo-portoghesi-and-silvio-bilangione/235174",
+    "record_source": "Phillips public auction result page",
+    "notes": "Starting price and prior sale price were not exposed in the public Phillips sale payload.",
+    "medium": "",
+    "dimensions": "",
+    "provenance": "",
+    "literature": "",
+    "quality_flags": {
+      "has_artist": true,
+      "has_title": true,
+      "has_auction_date": true,
+      "has_estimate": true,
+      "has_result_price": true,
+      "has_starting_price": false,
+      "has_prior_sale": false,
+      "has_source_url": true,
+      "has_image": false,
+      "has_medium": false,
+      "has_dimensions": false
+    },
+    "prediction_ready": true
+  },
+  {
+    "id": "phillips_auctions|phillips|NY050226|29",
+    "status": "sold",
+    "title": "Pair of side chairs",
+    "artists": [
+      "Paul Rodocanachi for Jean-Michel Frank"
+    ],
+    "style": "Design",
+    "auction_house": "Phillips",
+    "auction_date": "2026-06-12",
+    "starting_price": null,
+    "estimated_selling_price": {
+      "currency": "USD",
+      "low": 12000.0,
+      "high": 18000.0,
+      "display": "$ 12,000 - 18,000"
+    },
+    "result_price": {
+      "currency": "USD",
+      "amount": 38700.0,
+      "display": "$ 38,700"
+    },
+    "last_sold_price": null,
+    "source_url": "https://www.phillips.com/detail/paul-rodocanachi-for-jeanmichel-frank/229036",
+    "record_source": "Phillips public auction result page",
+    "notes": "Starting price and prior sale price were not exposed in the public Phillips sale payload.",
+    "medium": "",
+    "dimensions": "",
+    "provenance": "",
+    "literature": "",
+    "quality_flags": {
+      "has_artist": true,
+      "has_title": true,
+      "has_auction_date": true,
+      "has_estimate": true,
+      "has_result_price": true,
+      "has_starting_price": false,
+      "has_prior_sale": false,
+      "has_source_url": true,
+      "has_image": false,
+      "has_medium": false,
+      "has_dimensions": false
+    },
+    "prediction_ready": true
+  },
+  {
+    "id": "phillips_auctions|phillips|NY050226|3",
+    "status": "sold",
+    "title": "Large \"Cylindre” vase",
+    "artists": [
+      "Georges Jouve"
+    ],
+    "style": "Design",
+    "auction_house": "Phillips",
+    "auction_date": "2026-06-12",
+    "starting_price": null,
+    "estimated_selling_price": {
+      "currency": "USD",
+      "low": 15000.0,
+      "high": 20000.0,
+      "display": "$ 15,000 - 20,000"
+    },
+    "result_price": {
+      "currency": "USD",
+      "amount": 23220.0,
+      "display": "$ 23,220"
+    },
+    "last_sold_price": null,
+    "source_url": "https://www.phillips.com/detail/georges-jouve/235344",
+    "record_source": "Phillips public auction result page",
+    "notes": "Starting price and prior sale price were not exposed in the public Phillips sale payload.",
+    "medium": "",
+    "dimensions": "",
+    "provenance": "",
+    "literature": "",
+    "quality_flags": {
+      "has_artist": true,
+      "has_title": true,
+      "has_auction_date": true,
+      "has_estimate": true,
+      "has_result_price": true,
+      "has_starting_price": false,
+      "has_prior_sale": false,
+      "has_source_url": true,
+      "has_image": false,
+      "has_medium": false,
+      "has_dimensions": false
+    },
+    "prediction_ready": true
+  },
+  {
+    "id": "phillips_auctions|phillips|NY050226|30",
+    "status": "sold",
+    "title": "Pair of wall lights",
+    "artists": [
+      "Jacques Grange"
+    ],
+    "style": "Design",
+    "auction_house": "Phillips",
+    "auction_date": "2026-06-12",
+    "starting_price": null,
+    "estimated_selling_price": {
+      "currency": "USD",
+      "low": 2000.0,
+      "high": 3000.0,
+      "display": "$ 2,000 - 3,000"
+    },
+    "result_price": {
+      "currency": "USD",
+      "amount": 3612.0,
+      "display": "$ 3,612"
+    },
+    "last_sold_price": null,
+    "source_url": "https://www.phillips.com/detail/jacques-grange/235168",
+    "record_source": "Phillips public auction result page",
+    "notes": "Starting price and prior sale price were not exposed in the public Phillips sale payload.",
+    "medium": "",
+    "dimensions": "",
+    "provenance": "",
+    "literature": "",
+    "quality_flags": {
+      "has_artist": true,
+      "has_title": true,
+      "has_auction_date": true,
+      "has_estimate": true,
+      "has_result_price": true,
+      "has_starting_price": false,
+      "has_prior_sale": false,
+      "has_source_url": true,
+      "has_image": false,
+      "has_medium": false,
+      "has_dimensions": false
+    },
+    "prediction_ready": true
+  },
+  {
+    "id": "phillips_auctions|phillips|NY050226|31",
+    "status": "sold",
+    "title": "Ottoman",
+    "artists": [
+      "Jacques Grange"
+    ],
+    "style": "Design",
+    "auction_house": "Phillips",
+    "auction_date": "2026-06-12",
+    "starting_price": null,
+    "estimated_selling_price": {
+      "currency": "USD",
+      "low": 800.0,
+      "high": 1200.0,
+      "display": "$ 800 - 1,200"
+    },
+    "result_price": {
+      "currency": "USD",
+      "amount": 7740.0,
+      "display": "$ 7,740"
+    },
+    "last_sold_price": null,
+    "source_url": "https://www.phillips.com/detail/jacques-grange/235172",
+    "record_source": "Phillips public auction result page",
+    "notes": "Starting price and prior sale price were not exposed in the public Phillips sale payload.",
+    "medium": "",
+    "dimensions": "",
+    "provenance": "",
+    "literature": "",
+    "quality_flags": {
+      "has_artist": true,
+      "has_title": true,
+      "has_auction_date": true,
+      "has_estimate": true,
+      "has_result_price": true,
+      "has_starting_price": false,
+      "has_prior_sale": false,
+      "has_source_url": true,
+      "has_image": false,
+      "has_medium": false,
+      "has_dimensions": false
+    },
+    "prediction_ready": true
+  },
+  {
+    "id": "phillips_auctions|phillips|NY050226|32",
+    "status": "sold",
+    "title": "Mirror, model no. 30",
+    "artists": [
+      "Carlo Scarpa"
+    ],
+    "style": "Design",
+    "auction_house": "Phillips",
+    "auction_date": "2026-06-12",
+    "starting_price": null,
+    "estimated_selling_price": {
+      "currency": "USD",
+      "low": 15000.0,
+      "high": 20000.0,
+      "display": "$ 15,000 - 20,000"
+    },
+    "result_price": {
+      "currency": "USD",
+      "amount": 23220.0,
+      "display": "$ 23,220"
+    },
+    "last_sold_price": null,
+    "source_url": "https://www.phillips.com/detail/carlo-scarpa/235478",
+    "record_source": "Phillips public auction result page",
+    "notes": "Starting price and prior sale price were not exposed in the public Phillips sale payload.",
+    "medium": "",
+    "dimensions": "",
+    "provenance": "",
+    "literature": "",
+    "quality_flags": {
+      "has_artist": true,
+      "has_title": true,
+      "has_auction_date": true,
+      "has_estimate": true,
+      "has_result_price": true,
+      "has_starting_price": false,
+      "has_prior_sale": false,
+      "has_source_url": true,
+      "has_image": false,
+      "has_medium": false,
+      "has_dimensions": false
+    },
+    "prediction_ready": true
+  },
+  {
+    "id": "phillips_auctions|phillips|NY050226|33",
+    "status": "auctioned",
+    "title": "Early \"Den trætte mand\" (The Tired Man) armchair",
+    "artists": [
+      "Flemming Lassen"
+    ],
+    "style": "Design",
+    "auction_house": "Phillips",
+    "auction_date": "2026-06-12",
+    "starting_price": null,
+    "estimated_selling_price": {
+      "currency": "USD",
+      "low": 60000.0,
+      "high": 80000.0,
+      "display": "$ 60,000 - 80,000"
+    },
+    "result_price": null,
+    "last_sold_price": null,
+    "source_url": "https://www.phillips.com/detail/flemming-lassen/233316",
+    "record_source": "Phillips public auction result page",
+    "notes": "Starting price and prior sale price were not exposed in the public Phillips sale payload.",
+    "medium": "",
+    "dimensions": "",
+    "provenance": "",
+    "literature": "",
+    "quality_flags": {
+      "has_artist": true,
+      "has_title": true,
+      "has_auction_date": true,
+      "has_estimate": true,
+      "has_result_price": false,
+      "has_starting_price": false,
+      "has_prior_sale": false,
+      "has_source_url": true,
+      "has_image": false,
+      "has_medium": false,
+      "has_dimensions": false
+    },
+    "prediction_ready": false
+  },
+  {
+    "id": "phillips_auctions|phillips|NY050226|34",
+    "status": "sold",
+    "title": "Rare wall-mounted cabinet",
+    "artists": [
+      "Finn Juhl"
+    ],
+    "style": "Design",
+    "auction_house": "Phillips",
+    "auction_date": "2026-06-12",
+    "starting_price": null,
+    "estimated_selling_price": {
+      "currency": "USD",
+      "low": 60000.0,
+      "high": 80000.0,
+      "display": "$ 60,000 - 80,000"
+    },
+    "result_price": {
+      "currency": "USD",
+      "amount": 70950.0,
+      "display": "$ 70,950"
+    },
+    "last_sold_price": null,
+    "source_url": "https://www.phillips.com/detail/finn-juhl/233306",
+    "record_source": "Phillips public auction result page",
+    "notes": "Starting price and prior sale price were not exposed in the public Phillips sale payload.",
+    "medium": "",
+    "dimensions": "",
+    "provenance": "",
+    "literature": "",
+    "quality_flags": {
+      "has_artist": true,
+      "has_title": true,
+      "has_auction_date": true,
+      "has_estimate": true,
+      "has_result_price": true,
+      "has_starting_price": false,
+      "has_prior_sale": false,
+      "has_source_url": true,
+      "has_image": false,
+      "has_medium": false,
+      "has_dimensions": false
+    },
+    "prediction_ready": true
+  },
+  {
+    "id": "phillips_auctions|phillips|NY050226|35",
+    "status": "sold",
+    "title": "Unique bar cabinet",
+    "artists": [
+      "Finn Juhl"
+    ],
+    "style": "Design",
+    "auction_house": "Phillips",
+    "auction_date": "2026-06-12",
+    "starting_price": null,
+    "estimated_selling_price": {
+      "currency": "USD",
+      "low": 40000.0,
+      "high": 60000.0,
+      "display": "$ 40,000 - 60,000"
+    },
+    "result_price": {
+      "currency": "USD",
+      "amount": 45150.0,
+      "display": "$ 45,150"
+    },
+    "last_sold_price": null,
+    "source_url": "https://www.phillips.com/detail/finn-juhl/233310",
+    "record_source": "Phillips public auction result page",
+    "notes": "Starting price and prior sale price were not exposed in the public Phillips sale payload.",
+    "medium": "",
+    "dimensions": "",
+    "provenance": "",
+    "literature": "",
+    "quality_flags": {
+      "has_artist": true,
+      "has_title": true,
+      "has_auction_date": true,
+      "has_estimate": true,
+      "has_result_price": true,
+      "has_starting_price": false,
+      "has_prior_sale": false,
+      "has_source_url": true,
+      "has_image": false,
+      "has_medium": false,
+      "has_dimensions": false
+    },
+    "prediction_ready": true
+  },
+  {
+    "id": "phillips_auctions|phillips|NY050226|36",
+    "status": "sold",
+    "title": "Rare and early armchair",
+    "artists": [
+      "Finn Juhl"
+    ],
+    "style": "Design",
+    "auction_house": "Phillips",
+    "auction_date": "2026-06-12",
+    "starting_price": null,
+    "estimated_selling_price": {
+      "currency": "USD",
+      "low": 40000.0,
+      "high": 60000.0,
+      "display": "$ 40,000 - 60,000"
+    },
+    "result_price": {
+      "currency": "USD",
+      "amount": 51600.0,
+      "display": "$ 51,600"
+    },
+    "last_sold_price": null,
+    "source_url": "https://www.phillips.com/detail/finn-juhl/233313",
+    "record_source": "Phillips public auction result page",
+    "notes": "Starting price and prior sale price were not exposed in the public Phillips sale payload.",
+    "medium": "",
+    "dimensions": "",
+    "provenance": "",
+    "literature": "",
+    "quality_flags": {
+      "has_artist": true,
+      "has_title": true,
+      "has_auction_date": true,
+      "has_estimate": true,
+      "has_result_price": true,
+      "has_starting_price": false,
+      "has_prior_sale": false,
+      "has_source_url": true,
+      "has_image": false,
+      "has_medium": false,
+      "has_dimensions": false
+    },
+    "prediction_ready": true
+  },
+  {
+    "id": "phillips_auctions|phillips|NY050226|37",
+    "status": "auctioned",
+    "title": "Rare cabinet",
+    "artists": [
+      "Finn Juhl"
+    ],
+    "style": "Design",
+    "auction_house": "Phillips",
+    "auction_date": "2026-06-12",
+    "starting_price": null,
+    "estimated_selling_price": {
+      "currency": "USD",
+      "low": 10000.0,
+      "high": 15000.0,
+      "display": "$ 10,000 - 15,000"
+    },
+    "result_price": null,
+    "last_sold_price": null,
+    "source_url": "https://www.phillips.com/detail/finn-juhl/233315",
+    "record_source": "Phillips public auction result page",
+    "notes": "Starting price and prior sale price were not exposed in the public Phillips sale payload.",
+    "medium": "",
+    "dimensions": "",
+    "provenance": "",
+    "literature": "",
+    "quality_flags": {
+      "has_artist": true,
+      "has_title": true,
+      "has_auction_date": true,
+      "has_estimate": true,
+      "has_result_price": false,
+      "has_starting_price": false,
+      "has_prior_sale": false,
+      "has_source_url": true,
+      "has_image": false,
+      "has_medium": false,
+      "has_dimensions": false
+    },
+    "prediction_ready": false
+  },
+  {
+    "id": "phillips_auctions|phillips|NY050226|38",
+    "status": "auctioned",
+    "title": "Early work table",
+    "artists": [
+      "Finn Juhl"
+    ],
+    "style": "Design",
+    "auction_house": "Phillips",
+    "auction_date": "2026-06-12",
+    "starting_price": null,
+    "estimated_selling_price": {
+      "currency": "USD",
+      "low": 12000.0,
+      "high": 18000.0,
+      "display": "$ 12,000 - 18,000"
+    },
+    "result_price": null,
+    "last_sold_price": null,
+    "source_url": "https://www.phillips.com/detail/finn-juhl/233314",
+    "record_source": "Phillips public auction result page",
+    "notes": "Starting price and prior sale price were not exposed in the public Phillips sale payload.",
+    "medium": "",
+    "dimensions": "",
+    "provenance": "",
+    "literature": "",
+    "quality_flags": {
+      "has_artist": true,
+      "has_title": true,
+      "has_auction_date": true,
+      "has_estimate": true,
+      "has_result_price": false,
+      "has_starting_price": false,
+      "has_prior_sale": false,
+      "has_source_url": true,
+      "has_image": false,
+      "has_medium": false,
+      "has_dimensions": false
+    },
+    "prediction_ready": false
+  },
+  {
+    "id": "phillips_auctions|phillips|NY050226|39",
+    "status": "sold",
+    "title": "“Chieftain” armchair, model no. FJ 49 A",
+    "artists": [
+      "Finn Juhl"
+    ],
+    "style": "Design",
+    "auction_house": "Phillips",
+    "auction_date": "2026-06-12",
+    "starting_price": null,
+    "estimated_selling_price": {
+      "currency": "USD",
+      "low": 40000.0,
+      "high": 60000.0,
+      "display": "$ 40,000 - 60,000"
+    },
+    "result_price": {
+      "currency": "USD",
+      "amount": 45150.0,
+      "display": "$ 45,150"
+    },
+    "last_sold_price": null,
+    "source_url": "https://www.phillips.com/detail/finn-juhl/235349",
+    "record_source": "Phillips public auction result page",
+    "notes": "Starting price and prior sale price were not exposed in the public Phillips sale payload.",
+    "medium": "",
+    "dimensions": "",
+    "provenance": "",
+    "literature": "",
+    "quality_flags": {
+      "has_artist": true,
+      "has_title": true,
+      "has_auction_date": true,
+      "has_estimate": true,
+      "has_result_price": true,
+      "has_starting_price": false,
+      "has_prior_sale": false,
+      "has_source_url": true,
+      "has_image": false,
+      "has_medium": false,
+      "has_dimensions": false
+    },
+    "prediction_ready": true
+  },
+  {
+    "id": "phillips_auctions|phillips|NY050226|4",
+    "status": "sold",
+    "title": "Large mirror",
+    "artists": [
+      "Georges Jouve"
+    ],
+    "style": "Design",
+    "auction_house": "Phillips",
+    "auction_date": "2026-06-12",
+    "starting_price": null,
+    "estimated_selling_price": {
+      "currency": "USD",
+      "low": 50000.0,
+      "high": 70000.0,
+      "display": "$ 50,000 - 70,000"
+    },
+    "result_price": {
+      "currency": "USD",
+      "amount": 245100.0,
+      "display": "$ 245,100"
+    },
+    "last_sold_price": null,
+    "source_url": "https://www.phillips.com/detail/georges-jouve/235121",
+    "record_source": "Phillips public auction result page",
+    "notes": "Starting price and prior sale price were not exposed in the public Phillips sale payload.",
+    "medium": "",
+    "dimensions": "",
+    "provenance": "",
+    "literature": "",
+    "quality_flags": {
+      "has_artist": true,
+      "has_title": true,
+      "has_auction_date": true,
+      "has_estimate": true,
+      "has_result_price": true,
+      "has_starting_price": false,
+      "has_prior_sale": false,
+      "has_source_url": true,
+      "has_image": false,
+      "has_medium": false,
+      "has_dimensions": false
+    },
+    "prediction_ready": true
+  },
+  {
+    "id": "phillips_auctions|phillips|NY050226|40",
+    "status": "sold",
+    "title": "Rare floor lamp, model no. 9620",
+    "artists": [
+      "Paavo Tynell"
+    ],
+    "style": "Design",
+    "auction_house": "Phillips",
+    "auction_date": "2026-06-12",
+    "starting_price": null,
+    "estimated_selling_price": {
+      "currency": "USD",
+      "low": 15000.0,
+      "high": 20000.0,
+      "display": "$ 15,000 - 20,000"
+    },
+    "result_price": {
+      "currency": "USD",
+      "amount": 103200.0,
+      "display": "$ 103,200"
+    },
+    "last_sold_price": null,
+    "source_url": "https://www.phillips.com/detail/paavo-tynell/235213",
+    "record_source": "Phillips public auction result page",
+    "notes": "Starting price and prior sale price were not exposed in the public Phillips sale payload.",
+    "medium": "",
+    "dimensions": "",
+    "provenance": "",
+    "literature": "",
+    "quality_flags": {
+      "has_artist": true,
+      "has_title": true,
+      "has_auction_date": true,
+      "has_estimate": true,
+      "has_result_price": true,
+      "has_starting_price": false,
+      "has_prior_sale": false,
+      "has_source_url": true,
+      "has_image": false,
+      "has_medium": false,
+      "has_dimensions": false
+    },
+    "prediction_ready": true
+  },
+  {
+    "id": "phillips_auctions|phillips|NY050226|41",
+    "status": "sold",
+    "title": "Footed bowl",
+    "artists": [
+      "Lucie Rie"
+    ],
+    "style": "Design",
+    "auction_house": "Phillips",
+    "auction_date": "2026-06-12",
+    "starting_price": null,
+    "estimated_selling_price": {
+      "currency": "USD",
+      "low": 10000.0,
+      "high": 15000.0,
+      "display": "$ 10,000 - 15,000"
+    },
+    "result_price": {
+      "currency": "USD",
+      "amount": 58050.0,
+      "display": "$ 58,050"
+    },
+    "last_sold_price": null,
+    "source_url": "https://www.phillips.com/detail/lucie-rie/235025",
+    "record_source": "Phillips public auction result page",
+    "notes": "Starting price and prior sale price were not exposed in the public Phillips sale payload.",
+    "medium": "",
+    "dimensions": "",
+    "provenance": "",
+    "literature": "",
+    "quality_flags": {
+      "has_artist": true,
+      "has_title": true,
+      "has_auction_date": true,
+      "has_estimate": true,
+      "has_result_price": true,
+      "has_starting_price": false,
+      "has_prior_sale": false,
+      "has_source_url": true,
+      "has_image": false,
+      "has_medium": false,
+      "has_dimensions": false
+    },
+    "prediction_ready": true
+  },
+  {
+    "id": "phillips_auctions|phillips|NY050226|42",
+    "status": "sold",
+    "title": "\"Poppy Head\" pot",
+    "artists": [
+      "Hans Coper"
+    ],
+    "style": "Design",
+    "auction_house": "Phillips",
+    "auction_date": "2026-06-12",
+    "starting_price": null,
+    "estimated_selling_price": {
+      "currency": "USD",
+      "low": 15000.0,
+      "high": 20000.0,
+      "display": "$ 15,000 - 20,000"
+    },
+    "result_price": {
+      "currency": "USD",
+      "amount": 23220.0,
+      "display": "$ 23,220"
+    },
+    "last_sold_price": null,
+    "source_url": "https://www.phillips.com/detail/hans-coper/235024",
+    "record_source": "Phillips public auction result page",
+    "notes": "Starting price and prior sale price were not exposed in the public Phillips sale payload.",
+    "medium": "",
+    "dimensions": "",
+    "provenance": "",
+    "literature": "",
+    "quality_flags": {
+      "has_artist": true,
+      "has_title": true,
+      "has_auction_date": true,
+      "has_estimate": true,
+      "has_result_price": true,
+      "has_starting_price": false,
+      "has_prior_sale": false,
+      "has_source_url": true,
+      "has_image": false,
+      "has_medium": false,
+      "has_dimensions": false
+    },
+    "prediction_ready": true
+  },
+  {
+    "id": "phillips_auctions|phillips|NY050226|43",
+    "status": "sold",
+    "title": "“Pale, speckled bands”",
+    "artists": [
+      "Jennifer Lee"
+    ],
+    "style": "Design",
+    "auction_house": "Phillips",
+    "auction_date": "2026-06-12",
+    "starting_price": null,
+    "estimated_selling_price": {
+      "currency": "USD",
+      "low": 8000.0,
+      "high": 12000.0,
+      "display": "$ 8,000 - 12,000"
+    },
+    "result_price": {
+      "currency": "USD",
+      "amount": 16770.0,
+      "display": "$ 16,770"
+    },
+    "last_sold_price": null,
+    "source_url": "https://www.phillips.com/detail/jennifer-lee/235347",
+    "record_source": "Phillips public auction result page",
+    "notes": "Starting price and prior sale price were not exposed in the public Phillips sale payload.",
+    "medium": "",
+    "dimensions": "",
+    "provenance": "",
+    "literature": "",
+    "quality_flags": {
+      "has_artist": true,
+      "has_title": true,
+      "has_auction_date": true,
+      "has_estimate": true,
+      "has_result_price": true,
+      "has_starting_price": false,
+      "has_prior_sale": false,
+      "has_source_url": true,
+      "has_image": false,
+      "has_medium": false,
+      "has_dimensions": false
+    },
+    "prediction_ready": true
+  },
+  {
+    "id": "phillips_auctions|phillips|NY050226|44",
+    "status": "sold",
+    "title": "Untitled (Bush)",
+    "artists": [
+      "Harry Bertoia"
+    ],
+    "style": "Design",
+    "auction_house": "Phillips",
+    "auction_date": "2026-06-12",
+    "starting_price": null,
+    "estimated_selling_price": {
+      "currency": "USD",
+      "low": 30000.0,
+      "high": 50000.0,
+      "display": "$ 30,000 - 50,000"
+    },
+    "result_price": {
+      "currency": "USD",
+      "amount": 67080.0,
+      "display": "$ 67,080"
+    },
+    "last_sold_price": null,
+    "source_url": "https://www.phillips.com/detail/harry-bertoia/234313",
+    "record_source": "Phillips public auction result page",
+    "notes": "Starting price and prior sale price were not exposed in the public Phillips sale payload.",
+    "medium": "",
+    "dimensions": "",
+    "provenance": "",
+    "literature": "",
+    "quality_flags": {
+      "has_artist": true,
+      "has_title": true,
+      "has_auction_date": true,
+      "has_estimate": true,
+      "has_result_price": true,
+      "has_starting_price": false,
+      "has_prior_sale": false,
+      "has_source_url": true,
+      "has_image": false,
+      "has_medium": false,
+      "has_dimensions": false
+    },
+    "prediction_ready": true
+  },
+  {
+    "id": "phillips_auctions|phillips|NY050226|45",
+    "status": "sold",
+    "title": "Untitled (Sonambient)",
+    "artists": [
+      "Harry Bertoia"
+    ],
+    "style": "Design",
+    "auction_house": "Phillips",
+    "auction_date": "2026-06-12",
+    "starting_price": null,
+    "estimated_selling_price": {
+      "currency": "USD",
+      "low": 100000.0,
+      "high": 150000.0,
+      "display": "$ 100,000 - 150,000"
+    },
+    "result_price": {
+      "currency": "USD",
+      "amount": 251550.0,
+      "display": "$ 251,550"
+    },
+    "last_sold_price": null,
+    "source_url": "https://www.phillips.com/detail/harry-bertoia/234309",
+    "record_source": "Phillips public auction result page",
+    "notes": "Starting price and prior sale price were not exposed in the public Phillips sale payload.",
+    "medium": "",
+    "dimensions": "",
+    "provenance": "",
+    "literature": "",
+    "quality_flags": {
+      "has_artist": true,
+      "has_title": true,
+      "has_auction_date": true,
+      "has_estimate": true,
+      "has_result_price": true,
+      "has_starting_price": false,
+      "has_prior_sale": false,
+      "has_source_url": true,
+      "has_image": false,
+      "has_medium": false,
+      "has_dimensions": false
+    },
+    "prediction_ready": true
+  },
+  {
+    "id": "phillips_auctions|phillips|NY050226|46",
+    "status": "sold",
+    "title": "Untitled (Spray)",
+    "artists": [
+      "Harry Bertoia"
+    ],
+    "style": "Design",
+    "auction_house": "Phillips",
+    "auction_date": "2026-06-12",
+    "starting_price": null,
+    "estimated_selling_price": {
+      "currency": "USD",
+      "low": 12000.0,
+      "high": 18000.0,
+      "display": "$ 12,000 - 18,000"
+    },
+    "result_price": {
+      "currency": "USD",
+      "amount": 24510.0,
+      "display": "$ 24,510"
+    },
+    "last_sold_price": null,
+    "source_url": "https://www.phillips.com/detail/harry-bertoia/234315",
+    "record_source": "Phillips public auction result page",
+    "notes": "Starting price and prior sale price were not exposed in the public Phillips sale payload.",
+    "medium": "",
+    "dimensions": "",
+    "provenance": "",
+    "literature": "",
+    "quality_flags": {
+      "has_artist": true,
+      "has_title": true,
+      "has_auction_date": true,
+      "has_estimate": true,
+      "has_result_price": true,
+      "has_starting_price": false,
+      "has_prior_sale": false,
+      "has_source_url": true,
+      "has_image": false,
+      "has_medium": false,
+      "has_dimensions": false
+    },
+    "prediction_ready": true
+  },
+  {
+    "id": "phillips_auctions|phillips|NY050226|47",
+    "status": "sold",
+    "title": "Untitled (Hanging Form)",
+    "artists": [
+      "Harry Bertoia"
+    ],
+    "style": "Design",
+    "auction_house": "Phillips",
+    "auction_date": "2026-06-12",
+    "starting_price": null,
+    "estimated_selling_price": {
+      "currency": "USD",
+      "low": 15000.0,
+      "high": 20000.0,
+      "display": "$ 15,000 - 20,000"
+    },
+    "result_price": {
+      "currency": "USD",
+      "amount": 25800.0,
+      "display": "$ 25,800"
+    },
+    "last_sold_price": null,
+    "source_url": "https://www.phillips.com/detail/harry-bertoia/234314",
+    "record_source": "Phillips public auction result page",
+    "notes": "Starting price and prior sale price were not exposed in the public Phillips sale payload.",
+    "medium": "",
+    "dimensions": "",
+    "provenance": "",
+    "literature": "",
+    "quality_flags": {
+      "has_artist": true,
+      "has_title": true,
+      "has_auction_date": true,
+      "has_estimate": true,
+      "has_result_price": true,
+      "has_starting_price": false,
+      "has_prior_sale": false,
+      "has_source_url": true,
+      "has_image": false,
+      "has_medium": false,
+      "has_dimensions": false
+    },
+    "prediction_ready": true
+  },
+  {
+    "id": "phillips_auctions|phillips|NY050226|48",
+    "status": "sold",
+    "title": "Untitled (Sonambient)",
+    "artists": [
+      "Harry Bertoia"
+    ],
+    "style": "Design",
+    "auction_house": "Phillips",
+    "auction_date": "2026-06-12",
+    "starting_price": null,
+    "estimated_selling_price": {
+      "currency": "USD",
+      "low": 40000.0,
+      "high": 60000.0,
+      "display": "$ 40,000 - 60,000"
+    },
+    "result_price": {
+      "currency": "USD",
+      "amount": 77400.0,
+      "display": "$ 77,400"
+    },
+    "last_sold_price": null,
+    "source_url": "https://www.phillips.com/detail/harry-bertoia/234311",
+    "record_source": "Phillips public auction result page",
+    "notes": "Starting price and prior sale price were not exposed in the public Phillips sale payload.",
+    "medium": "",
+    "dimensions": "",
+    "provenance": "",
+    "literature": "",
+    "quality_flags": {
+      "has_artist": true,
+      "has_title": true,
+      "has_auction_date": true,
+      "has_estimate": true,
+      "has_result_price": true,
+      "has_starting_price": false,
+      "has_prior_sale": false,
+      "has_source_url": true,
+      "has_image": false,
+      "has_medium": false,
+      "has_dimensions": false
+    },
+    "prediction_ready": true
+  },
+  {
+    "id": "phillips_auctions|phillips|NY050226|49",
+    "status": "sold",
+    "title": "“Lizard” door handle",
+    "artists": [
+      "Judy Kensley McKie"
+    ],
+    "style": "Design",
+    "auction_house": "Phillips",
+    "auction_date": "2026-06-12",
+    "starting_price": null,
+    "estimated_selling_price": {
+      "currency": "USD",
+      "low": 4000.0,
+      "high": 6000.0,
+      "display": "$ 4,000 - 6,000"
+    },
+    "result_price": {
+      "currency": "USD",
+      "amount": 28380.0,
+      "display": "$ 28,380"
+    },
+    "last_sold_price": null,
+    "source_url": "https://www.phillips.com/detail/judy-kensley-mckie/230383",
+    "record_source": "Phillips public auction result page",
+    "notes": "Starting price and prior sale price were not exposed in the public Phillips sale payload.",
+    "medium": "",
+    "dimensions": "",
+    "provenance": "",
+    "literature": "",
+    "quality_flags": {
+      "has_artist": true,
+      "has_title": true,
+      "has_auction_date": true,
+      "has_estimate": true,
+      "has_result_price": true,
+      "has_starting_price": false,
+      "has_prior_sale": false,
+      "has_source_url": true,
+      "has_image": false,
+      "has_medium": false,
+      "has_dimensions": false
+    },
+    "prediction_ready": true
+  },
+  {
+    "id": "phillips_auctions|phillips|NY050226|5",
+    "status": "sold",
+    "title": "\"Flavigny\" table",
+    "artists": [
+      "Jean Prouvé"
+    ],
+    "style": "Design",
+    "auction_house": "Phillips",
+    "auction_date": "2026-06-12",
+    "starting_price": null,
+    "estimated_selling_price": {
+      "currency": "USD",
+      "low": 80000.0,
+      "high": 120000.0,
+      "display": "$ 80,000 - 120,000"
+    },
+    "result_price": {
+      "currency": "USD",
+      "amount": 193500.0,
+      "display": "$ 193,500"
+    },
+    "last_sold_price": null,
+    "source_url": "https://www.phillips.com/detail/jean-prouve/234474",
+    "record_source": "Phillips public auction result page",
+    "notes": "Starting price and prior sale price were not exposed in the public Phillips sale payload.",
+    "medium": "",
+    "dimensions": "",
+    "provenance": "",
+    "literature": "",
+    "quality_flags": {
+      "has_artist": true,
+      "has_title": true,
+      "has_auction_date": true,
+      "has_estimate": true,
+      "has_result_price": true,
+      "has_starting_price": false,
+      "has_prior_sale": false,
+      "has_source_url": true,
+      "has_image": false,
+      "has_medium": false,
+      "has_dimensions": false
+    },
+    "prediction_ready": true
+  },
+  {
+    "id": "phillips_auctions|phillips|NY050226|50",
+    "status": "sold",
+    "title": "\"New Chair\" rocker and \"Wepman\" side table",
+    "artists": [
+      "Mira Nakashima"
+    ],
+    "style": "Design",
+    "auction_house": "Phillips",
+    "auction_date": "2026-06-12",
+    "starting_price": null,
+    "estimated_selling_price": {
+      "currency": "USD",
+      "low": 4000.0,
+      "high": 6000.0,
+      "display": "$ 4,000 - 6,000"
+    },
+    "result_price": {
+      "currency": "USD",
+      "amount": 10965.0,
+      "display": "$ 10,965"
+    },
+    "last_sold_price": null,
+    "source_url": "https://www.phillips.com/detail/mira-nakashima/234453",
+    "record_source": "Phillips public auction result page",
+    "notes": "Starting price and prior sale price were not exposed in the public Phillips sale payload.",
+    "medium": "",
+    "dimensions": "",
+    "provenance": "",
+    "literature": "",
+    "quality_flags": {
+      "has_artist": true,
+      "has_title": true,
+      "has_auction_date": true,
+      "has_estimate": true,
+      "has_result_price": true,
+      "has_starting_price": false,
+      "has_prior_sale": false,
+      "has_source_url": true,
+      "has_image": false,
+      "has_medium": false,
+      "has_dimensions": false
+    },
+    "prediction_ready": true
+  },
+  {
+    "id": "phillips_auctions|phillips|NY050226|51",
+    "status": "sold",
+    "title": "\"Kornblut\" cabinet",
+    "artists": [
+      "George Nakashima"
+    ],
+    "style": "Design",
+    "auction_house": "Phillips",
+    "auction_date": "2026-06-12",
+    "starting_price": null,
+    "estimated_selling_price": {
+      "currency": "USD",
+      "low": 10000.0,
+      "high": 15000.0,
+      "display": "$ 10,000 - 15,000"
+    },
+    "result_price": {
+      "currency": "USD",
+      "amount": 37410.0,
+      "display": "$ 37,410"
+    },
+    "last_sold_price": null,
+    "source_url": "https://www.phillips.com/detail/george-nakashima/234452",
+    "record_source": "Phillips public auction result page",
+    "notes": "Starting price and prior sale price were not exposed in the public Phillips sale payload.",
+    "medium": "",
+    "dimensions": "",
+    "provenance": "",
+    "literature": "",
+    "quality_flags": {
+      "has_artist": true,
+      "has_title": true,
+      "has_auction_date": true,
+      "has_estimate": true,
+      "has_result_price": true,
+      "has_starting_price": false,
+      "has_prior_sale": false,
+      "has_source_url": true,
+      "has_image": false,
+      "has_medium": false,
+      "has_dimensions": false
+    },
+    "prediction_ready": true
+  },
+  {
+    "id": "phillips_auctions|phillips|NY050226|52",
+    "status": "sold",
+    "title": "\"Minguren II\" coffee table",
+    "artists": [
+      "George Nakashima"
+    ],
+    "style": "Design",
+    "auction_house": "Phillips",
+    "auction_date": "2026-06-12",
+    "starting_price": null,
+    "estimated_selling_price": {
+      "currency": "USD",
+      "low": 25000.0,
+      "high": 35000.0,
+      "display": "$ 25,000 - 35,000"
+    },
+    "result_price": {
+      "currency": "USD",
+      "amount": 67080.0,
+      "display": "$ 67,080"
+    },
+    "last_sold_price": null,
+    "source_url": "https://www.phillips.com/detail/george-nakashima/230350",
+    "record_source": "Phillips public auction result page",
+    "notes": "Starting price and prior sale price were not exposed in the public Phillips sale payload.",
+    "medium": "",
+    "dimensions": "",
+    "provenance": "",
+    "literature": "",
+    "quality_flags": {
+      "has_artist": true,
+      "has_title": true,
+      "has_auction_date": true,
+      "has_estimate": true,
+      "has_result_price": true,
+      "has_starting_price": false,
+      "has_prior_sale": false,
+      "has_source_url": true,
+      "has_image": false,
+      "has_medium": false,
+      "has_dimensions": false
+    },
+    "prediction_ready": true
+  },
+  {
+    "id": "phillips_auctions|phillips|NY050226|53",
+    "status": "sold",
+    "title": "Rare and early \"Conoid\" bench with single free-form arm",
+    "artists": [
+      "George Nakashima"
+    ],
+    "style": "Design",
+    "auction_house": "Phillips",
+    "auction_date": "2026-06-12",
+    "starting_price": null,
+    "estimated_selling_price": {
+      "currency": "USD",
+      "low": 120000.0,
+      "high": 180000.0,
+      "display": "$ 120,000 - 180,000"
+    },
+    "result_price": {
+      "currency": "USD",
+      "amount": 180600.0,
+      "display": "$ 180,600"
+    },
+    "last_sold_price": null,
+    "source_url": "https://www.phillips.com/detail/george-nakashima/234068",
+    "record_source": "Phillips public auction result page",
+    "notes": "Starting price and prior sale price were not exposed in the public Phillips sale payload.",
+    "medium": "",
+    "dimensions": "",
+    "provenance": "",
+    "literature": "",
+    "quality_flags": {
+      "has_artist": true,
+      "has_title": true,
+      "has_auction_date": true,
+      "has_estimate": true,
+      "has_result_price": true,
+      "has_starting_price": false,
+      "has_prior_sale": false,
+      "has_source_url": true,
+      "has_image": false,
+      "has_medium": false,
+      "has_dimensions": false
+    },
+    "prediction_ready": true
+  },
+  {
+    "id": "phillips_auctions|phillips|NY050226|54",
+    "status": "sold",
+    "title": "Cabinet",
+    "artists": [
+      "Phillip Lloyd Powell"
+    ],
+    "style": "Design",
+    "auction_house": "Phillips",
+    "auction_date": "2026-06-12",
+    "starting_price": null,
+    "estimated_selling_price": {
+      "currency": "USD",
+      "low": 6000.0,
+      "high": 8000.0,
+      "display": "$ 6,000 - 8,000"
+    },
+    "result_price": {
+      "currency": "USD",
+      "amount": 16125.0,
+      "display": "$ 16,125"
+    },
+    "last_sold_price": null,
+    "source_url": "https://www.phillips.com/detail/phillip-lloyd-powell/235563",
+    "record_source": "Phillips public auction result page",
+    "notes": "Starting price and prior sale price were not exposed in the public Phillips sale payload.",
+    "medium": "",
+    "dimensions": "",
+    "provenance": "",
+    "literature": "",
+    "quality_flags": {
+      "has_artist": true,
+      "has_title": true,
+      "has_auction_date": true,
+      "has_estimate": true,
+      "has_result_price": true,
+      "has_starting_price": false,
+      "has_prior_sale": false,
+      "has_source_url": true,
+      "has_image": false,
+      "has_medium": false,
+      "has_dimensions": false
+    },
+    "prediction_ready": true
+  },
+  {
+    "id": "phillips_auctions|phillips|NY050226|55",
+    "status": "auctioned",
+    "title": "Tall vase",
+    "artists": [
+      "Gertrud Natzler and Otto Natzler"
+    ],
+    "style": "Design",
+    "auction_house": "Phillips",
+    "auction_date": "2026-06-12",
+    "starting_price": null,
+    "estimated_selling_price": {
+      "currency": "USD",
+      "low": 20000.0,
+      "high": 30000.0,
+      "display": "$ 20,000 - 30,000"
+    },
+    "result_price": null,
+    "last_sold_price": null,
+    "source_url": "https://www.phillips.com/detail/gertrud-natzler-and-otto-natzler/235343",
+    "record_source": "Phillips public auction result page",
+    "notes": "Starting price and prior sale price were not exposed in the public Phillips sale payload.",
+    "medium": "",
+    "dimensions": "",
+    "provenance": "",
+    "literature": "",
+    "quality_flags": {
+      "has_artist": true,
+      "has_title": true,
+      "has_auction_date": true,
+      "has_estimate": true,
+      "has_result_price": false,
+      "has_starting_price": false,
+      "has_prior_sale": false,
+      "has_source_url": true,
+      "has_image": false,
+      "has_medium": false,
+      "has_dimensions": false
+    },
+    "prediction_ready": false
+  },
+  {
+    "id": "phillips_auctions|phillips|NY050226|56",
+    "status": "sold",
+    "title": "Carpet, from the \"Orno\" series",
+    "artists": [
+      "Beauvais Carpets"
+    ],
+    "style": "Design",
+    "auction_house": "Phillips",
+    "auction_date": "2026-06-12",
+    "starting_price": null,
+    "estimated_selling_price": {
+      "currency": "USD",
+      "low": 4000.0,
+      "high": 6000.0,
+      "display": "$ 4,000 - 6,000"
+    },
+    "result_price": {
+      "currency": "USD",
+      "amount": 49020.0,
+      "display": "$ 49,020"
+    },
+    "last_sold_price": null,
+    "source_url": "https://www.phillips.com/detail/beauvais-carpets/235166",
+    "record_source": "Phillips public auction result page",
+    "notes": "Starting price and prior sale price were not exposed in the public Phillips sale payload.",
+    "medium": "",
+    "dimensions": "",
+    "provenance": "",
+    "literature": "",
+    "quality_flags": {
+      "has_artist": true,
+      "has_title": true,
+      "has_auction_date": true,
+      "has_estimate": true,
+      "has_result_price": true,
+      "has_starting_price": false,
+      "has_prior_sale": false,
+      "has_source_url": true,
+      "has_image": false,
+      "has_medium": false,
+      "has_dimensions": false
+    },
+    "prediction_ready": true
+  },
+  {
+    "id": "phillips_auctions|phillips|NY050226|57",
+    "status": "auctioned",
+    "title": "\"Wavy Front\" cabinet",
+    "artists": [
+      "Paul Evans"
+    ],
+    "style": "Design",
+    "auction_house": "Phillips",
+    "auction_date": "2026-06-12",
+    "starting_price": null,
+    "estimated_selling_price": {
+      "currency": "USD",
+      "low": 100000.0,
+      "high": 150000.0,
+      "display": "$ 100,000 - 150,000"
+    },
+    "result_price": null,
+    "last_sold_price": null,
+    "source_url": "https://www.phillips.com/detail/paul-evans/235476",
+    "record_source": "Phillips public auction result page",
+    "notes": "Starting price and prior sale price were not exposed in the public Phillips sale payload.",
+    "medium": "",
+    "dimensions": "",
+    "provenance": "",
+    "literature": "",
+    "quality_flags": {
+      "has_artist": true,
+      "has_title": true,
+      "has_auction_date": true,
+      "has_estimate": true,
+      "has_result_price": false,
+      "has_starting_price": false,
+      "has_prior_sale": false,
+      "has_source_url": true,
+      "has_image": false,
+      "has_medium": false,
+      "has_dimensions": false
+    },
+    "prediction_ready": false
+  },
+  {
+    "id": "phillips_auctions|phillips|NY050226|58",
+    "status": "sold",
+    "title": "Pair of \"Bilboquet\" table lamps",
+    "artists": [
+      "Jacques Grange"
+    ],
+    "style": "Design",
+    "auction_house": "Phillips",
+    "auction_date": "2026-06-12",
+    "starting_price": null,
+    "estimated_selling_price": {
+      "currency": "USD",
+      "low": 2000.0,
+      "high": 3000.0,
+      "display": "$ 2,000 - 3,000"
+    },
+    "result_price": {
+      "currency": "USD",
+      "amount": 38700.0,
+      "display": "$ 38,700"
+    },
+    "last_sold_price": null,
+    "source_url": "https://www.phillips.com/detail/jacques-grange/235170",
+    "record_source": "Phillips public auction result page",
+    "notes": "Starting price and prior sale price were not exposed in the public Phillips sale payload.",
+    "medium": "",
+    "dimensions": "",
+    "provenance": "",
+    "literature": "",
+    "quality_flags": {
+      "has_artist": true,
+      "has_title": true,
+      "has_auction_date": true,
+      "has_estimate": true,
+      "has_result_price": true,
+      "has_starting_price": false,
+      "has_prior_sale": false,
+      "has_source_url": true,
+      "has_image": false,
+      "has_medium": false,
+      "has_dimensions": false
+    },
+    "prediction_ready": true
+  },
+  {
+    "id": "phillips_auctions|phillips|NY050226|59",
+    "status": "sold",
+    "title": "Carpet, from the \"Géométrie\" series",
+    "artists": [
+      "Studio Diurne"
+    ],
+    "style": "Design",
+    "auction_house": "Phillips",
+    "auction_date": "2026-06-12",
+    "starting_price": null,
+    "estimated_selling_price": {
+      "currency": "USD",
+      "low": 4000.0,
+      "high": 6000.0,
+      "display": "$ 4,000 - 6,000"
+    },
+    "result_price": {
+      "currency": "USD",
+      "amount": 10965.0,
+      "display": "$ 10,965"
+    },
+    "last_sold_price": null,
+    "source_url": "https://www.phillips.com/detail/studio-diurne/235165",
+    "record_source": "Phillips public auction result page",
+    "notes": "Starting price and prior sale price were not exposed in the public Phillips sale payload.",
+    "medium": "",
+    "dimensions": "",
+    "provenance": "",
+    "literature": "",
+    "quality_flags": {
+      "has_artist": true,
+      "has_title": true,
+      "has_auction_date": true,
+      "has_estimate": true,
+      "has_result_price": true,
+      "has_starting_price": false,
+      "has_prior_sale": false,
+      "has_source_url": true,
+      "has_image": false,
+      "has_medium": false,
+      "has_dimensions": false
+    },
+    "prediction_ready": true
+  },
+  {
+    "id": "phillips_auctions|phillips|NY050226|6",
+    "status": "sold",
+    "title": "\"Le Nôtre\" cabinet",
+    "artists": [
+      "Elizabeth Garouste and Mattia Bonetti"
+    ],
+    "style": "Design",
+    "auction_house": "Phillips",
+    "auction_date": "2026-06-12",
+    "starting_price": null,
+    "estimated_selling_price": {
+      "currency": "USD",
+      "low": 12000.0,
+      "high": 18000.0,
+      "display": "$ 12,000 - 18,000"
+    },
+    "result_price": {
+      "currency": "USD",
+      "amount": 41280.0,
+      "display": "$ 41,280"
+    },
+    "last_sold_price": null,
+    "source_url": "https://www.phillips.com/detail/elizabeth-garouste-and-mattia-bonetti/235470",
+    "record_source": "Phillips public auction result page",
+    "notes": "Starting price and prior sale price were not exposed in the public Phillips sale payload.",
+    "medium": "",
+    "dimensions": "",
+    "provenance": "",
+    "literature": "",
+    "quality_flags": {
+      "has_artist": true,
+      "has_title": true,
+      "has_auction_date": true,
+      "has_estimate": true,
+      "has_result_price": true,
+      "has_starting_price": false,
+      "has_prior_sale": false,
+      "has_source_url": true,
+      "has_image": false,
+      "has_medium": false,
+      "has_dimensions": false
+    },
+    "prediction_ready": true
+  },
+  {
+    "id": "phillips_auctions|phillips|NY050226|60",
+    "status": "sold",
+    "title": "\"Drift\" bench",
+    "artists": [
+      "Future Systems and Amanda Levete"
+    ],
+    "style": "Design",
+    "auction_house": "Phillips",
+    "auction_date": "2026-06-12",
+    "starting_price": null,
+    "estimated_selling_price": {
+      "currency": "USD",
+      "low": 12000.0,
+      "high": 18000.0,
+      "display": "$ 12,000 - 18,000"
+    },
+    "result_price": {
+      "currency": "USD",
+      "amount": 16770.0,
+      "display": "$ 16,770"
+    },
+    "last_sold_price": null,
+    "source_url": "https://www.phillips.com/detail/future-systems-and-amanda-levete/222410",
+    "record_source": "Phillips public auction result page",
+    "notes": "Starting price and prior sale price were not exposed in the public Phillips sale payload.",
+    "medium": "",
+    "dimensions": "",
+    "provenance": "",
+    "literature": "",
+    "quality_flags": {
+      "has_artist": true,
+      "has_title": true,
+      "has_auction_date": true,
+      "has_estimate": true,
+      "has_result_price": true,
+      "has_starting_price": false,
+      "has_prior_sale": false,
+      "has_source_url": true,
+      "has_image": false,
+      "has_medium": false,
+      "has_dimensions": false
+    },
+    "prediction_ready": true
+  },
+  {
+    "id": "phillips_auctions|phillips|NY050226|7",
+    "status": "sold",
+    "title": "\"Rodéo\" desk and armchair",
+    "artists": [
+      "Elizabeth Garouste and Mattia Bonetti"
+    ],
+    "style": "Design",
+    "auction_house": "Phillips",
+    "auction_date": "2026-06-12",
+    "starting_price": null,
+    "estimated_selling_price": {
+      "currency": "USD",
+      "low": 30000.0,
+      "high": 50000.0,
+      "display": "$ 30,000 - 50,000"
+    },
+    "result_price": {
+      "currency": "USD",
+      "amount": 167700.0,
+      "display": "$ 167,700"
+    },
+    "last_sold_price": null,
+    "source_url": "https://www.phillips.com/detail/elizabeth-garouste-and-mattia-bonetti/235120",
+    "record_source": "Phillips public auction result page",
+    "notes": "Starting price and prior sale price were not exposed in the public Phillips sale payload.",
+    "medium": "",
+    "dimensions": "",
+    "provenance": "",
+    "literature": "",
+    "quality_flags": {
+      "has_artist": true,
+      "has_title": true,
+      "has_auction_date": true,
+      "has_estimate": true,
+      "has_result_price": true,
+      "has_starting_price": false,
+      "has_prior_sale": false,
+      "has_source_url": true,
+      "has_image": false,
+      "has_medium": false,
+      "has_dimensions": false
+    },
+    "prediction_ready": true
+  },
+  {
+    "id": "phillips_auctions|phillips|NY050226|8",
+    "status": "sold",
+    "title": "Pair of \"Library\" table lamps",
+    "artists": [
+      "Elizabeth Garouste and Mattia Bonetti"
+    ],
+    "style": "Design",
+    "auction_house": "Phillips",
+    "auction_date": "2026-06-12",
+    "starting_price": null,
+    "estimated_selling_price": {
+      "currency": "USD",
+      "low": 4000.0,
+      "high": 6000.0,
+      "display": "$ 4,000 - 6,000"
+    },
+    "result_price": {
+      "currency": "USD",
+      "amount": 30960.0,
+      "display": "$ 30,960"
+    },
+    "last_sold_price": null,
+    "source_url": "https://www.phillips.com/detail/elizabeth-garouste-and-mattia-bonetti/235736",
+    "record_source": "Phillips public auction result page",
+    "notes": "Starting price and prior sale price were not exposed in the public Phillips sale payload.",
+    "medium": "",
+    "dimensions": "",
+    "provenance": "",
+    "literature": "",
+    "quality_flags": {
+      "has_artist": true,
+      "has_title": true,
+      "has_auction_date": true,
+      "has_estimate": true,
+      "has_result_price": true,
+      "has_starting_price": false,
+      "has_prior_sale": false,
+      "has_source_url": true,
+      "has_image": false,
+      "has_medium": false,
+      "has_dimensions": false
+    },
+    "prediction_ready": true
+  },
+  {
+    "id": "phillips_auctions|phillips|NY050226|9",
+    "status": "sold",
+    "title": "\"Klismos\" chaise longue, model no. 11",
+    "artists": [
+      "T.H. Robsjohn-Gibbings"
+    ],
+    "style": "Design",
+    "auction_house": "Phillips",
+    "auction_date": "2026-06-12",
+    "starting_price": null,
+    "estimated_selling_price": {
+      "currency": "USD",
+      "low": 10000.0,
+      "high": 15000.0,
+      "display": "$ 10,000 - 15,000"
+    },
+    "result_price": {
+      "currency": "USD",
+      "amount": 33540.0,
+      "display": "$ 33,540"
+    },
+    "last_sold_price": null,
+    "source_url": "https://www.phillips.com/detail/th-robsjohngibbings/234148",
+    "record_source": "Phillips public auction result page",
+    "notes": "Starting price and prior sale price were not exposed in the public Phillips sale payload.",
+    "medium": "",
+    "dimensions": "",
+    "provenance": "",
+    "literature": "",
+    "quality_flags": {
+      "has_artist": true,
+      "has_title": true,
+      "has_auction_date": true,
+      "has_estimate": true,
+      "has_result_price": true,
+      "has_starting_price": false,
+      "has_prior_sale": false,
+      "has_source_url": true,
+      "has_image": false,
+      "has_medium": false,
+      "has_dimensions": false
+    },
+    "prediction_ready": true
+  },
+  {
     "id": "bonhams_results|bonhams|31876|201",
     "status": "sold",
     "title": "Spending Scarlet",
@@ -1193,5 +3865,582 @@
       "has_dimensions": true
     },
     "prediction_ready": false
+  },
+  {
+    "id": "phillips_auctions|phillips|NY050325|1",
+    "status": "sold",
+    "title": "\"Bush\" sculpture",
+    "artists": [
+      "Harry Bertoia"
+    ],
+    "style": "Design",
+    "auction_house": "Phillips",
+    "auction_date": "2025-12-13",
+    "starting_price": null,
+    "estimated_selling_price": {
+      "currency": "USD",
+      "low": 30000.0,
+      "high": 50000.0,
+      "display": "$ 30,000 - 50,000"
+    },
+    "result_price": {
+      "currency": "USD",
+      "amount": 70950.0,
+      "display": "$ 70,950"
+    },
+    "last_sold_price": null,
+    "source_url": "https://www.phillips.com/detail/harry-bertoia/224059",
+    "record_source": "Phillips public auction result page",
+    "notes": "Starting price and prior sale price were not exposed in the public Phillips sale payload.",
+    "medium": "",
+    "dimensions": "",
+    "provenance": "",
+    "literature": "",
+    "quality_flags": {
+      "has_artist": true,
+      "has_title": true,
+      "has_auction_date": true,
+      "has_estimate": true,
+      "has_result_price": true,
+      "has_starting_price": false,
+      "has_prior_sale": false,
+      "has_source_url": true,
+      "has_image": false,
+      "has_medium": false,
+      "has_dimensions": false
+    },
+    "prediction_ready": true
+  },
+  {
+    "id": "phillips_auctions|phillips|NY050325|10",
+    "status": "sold",
+    "title": "Set of three “Mira” chairs",
+    "artists": [
+      "George Nakashima"
+    ],
+    "style": "Design",
+    "auction_house": "Phillips",
+    "auction_date": "2025-12-13",
+    "starting_price": null,
+    "estimated_selling_price": {
+      "currency": "USD",
+      "low": 2000.0,
+      "high": 3000.0,
+      "display": "$ 2,000 - 3,000"
+    },
+    "result_price": {
+      "currency": "USD",
+      "amount": 7095.0,
+      "display": "$ 7,095"
+    },
+    "last_sold_price": null,
+    "source_url": "https://www.phillips.com/detail/george-nakashima/228171",
+    "record_source": "Phillips public auction result page",
+    "notes": "Starting price and prior sale price were not exposed in the public Phillips sale payload.",
+    "medium": "",
+    "dimensions": "",
+    "provenance": "",
+    "literature": "",
+    "quality_flags": {
+      "has_artist": true,
+      "has_title": true,
+      "has_auction_date": true,
+      "has_estimate": true,
+      "has_result_price": true,
+      "has_starting_price": false,
+      "has_prior_sale": false,
+      "has_source_url": true,
+      "has_image": false,
+      "has_medium": false,
+      "has_dimensions": false
+    },
+    "prediction_ready": true
+  },
+  {
+    "id": "phillips_auctions|phillips|NY050325|11",
+    "status": "auctioned",
+    "title": "\"Minguren II\" coffee table",
+    "artists": [
+      "George Nakashima"
+    ],
+    "style": "Design",
+    "auction_house": "Phillips",
+    "auction_date": "2025-12-13",
+    "starting_price": null,
+    "estimated_selling_price": {
+      "currency": "USD",
+      "low": 80000.0,
+      "high": 120000.0,
+      "display": "$ 80,000 - 120,000"
+    },
+    "result_price": null,
+    "last_sold_price": null,
+    "source_url": "https://www.phillips.com/detail/george-nakashima/226053",
+    "record_source": "Phillips public auction result page",
+    "notes": "Starting price and prior sale price were not exposed in the public Phillips sale payload.",
+    "medium": "",
+    "dimensions": "",
+    "provenance": "",
+    "literature": "",
+    "quality_flags": {
+      "has_artist": true,
+      "has_title": true,
+      "has_auction_date": true,
+      "has_estimate": true,
+      "has_result_price": false,
+      "has_starting_price": false,
+      "has_prior_sale": false,
+      "has_source_url": true,
+      "has_image": false,
+      "has_medium": false,
+      "has_dimensions": false
+    },
+    "prediction_ready": false
+  },
+  {
+    "id": "phillips_auctions|phillips|NY050325|12",
+    "status": "sold",
+    "title": "\"Rutig Blå halvflossa\" (Chequered Blue Half Pile) carpet",
+    "artists": [
+      "Märta Måås-Fjetterström"
+    ],
+    "style": "Design",
+    "auction_house": "Phillips",
+    "auction_date": "2025-12-13",
+    "starting_price": null,
+    "estimated_selling_price": {
+      "currency": "USD",
+      "low": 15000.0,
+      "high": 20000.0,
+      "display": "$ 15,000 - 20,000"
+    },
+    "result_price": {
+      "currency": "USD",
+      "amount": 19350.0,
+      "display": "$ 19,350"
+    },
+    "last_sold_price": null,
+    "source_url": "https://www.phillips.com/detail/marta-maasfjetterstrom/222829",
+    "record_source": "Phillips public auction result page",
+    "notes": "Starting price and prior sale price were not exposed in the public Phillips sale payload.",
+    "medium": "",
+    "dimensions": "",
+    "provenance": "",
+    "literature": "",
+    "quality_flags": {
+      "has_artist": true,
+      "has_title": true,
+      "has_auction_date": true,
+      "has_estimate": true,
+      "has_result_price": true,
+      "has_starting_price": false,
+      "has_prior_sale": false,
+      "has_source_url": true,
+      "has_image": false,
+      "has_medium": false,
+      "has_dimensions": false
+    },
+    "prediction_ready": true
+  },
+  {
+    "id": "phillips_auctions|phillips|NY050325|13",
+    "status": "sold",
+    "title": "Cabinet, model no. PE-42",
+    "artists": [
+      "Paul Evans"
+    ],
+    "style": "Design",
+    "auction_house": "Phillips",
+    "auction_date": "2025-12-13",
+    "starting_price": null,
+    "estimated_selling_price": {
+      "currency": "USD",
+      "low": 25000.0,
+      "high": 35000.0,
+      "display": "$ 25,000 - 35,000"
+    },
+    "result_price": {
+      "currency": "USD",
+      "amount": 25800.0,
+      "display": "$ 25,800"
+    },
+    "last_sold_price": null,
+    "source_url": "https://www.phillips.com/detail/paul-evans/225933",
+    "record_source": "Phillips public auction result page",
+    "notes": "Starting price and prior sale price were not exposed in the public Phillips sale payload.",
+    "medium": "",
+    "dimensions": "",
+    "provenance": "",
+    "literature": "",
+    "quality_flags": {
+      "has_artist": true,
+      "has_title": true,
+      "has_auction_date": true,
+      "has_estimate": true,
+      "has_result_price": true,
+      "has_starting_price": false,
+      "has_prior_sale": false,
+      "has_source_url": true,
+      "has_image": false,
+      "has_medium": false,
+      "has_dimensions": false
+    },
+    "prediction_ready": true
+  },
+  {
+    "id": "phillips_auctions|phillips|NY050325|14",
+    "status": "sold",
+    "title": "\"Royal Spathe\" and \"Seed\" sculptures",
+    "artists": [
+      "Michele Oka Doner"
+    ],
+    "style": "Design",
+    "auction_house": "Phillips",
+    "auction_date": "2025-12-13",
+    "starting_price": null,
+    "estimated_selling_price": {
+      "currency": "USD",
+      "low": 2000.0,
+      "high": 3000.0,
+      "display": "$ 2,000 - 3,000"
+    },
+    "result_price": {
+      "currency": "USD",
+      "amount": 2838.0,
+      "display": "$ 2,838"
+    },
+    "last_sold_price": null,
+    "source_url": "https://www.phillips.com/detail/michele-oka-doner/211724",
+    "record_source": "Phillips public auction result page",
+    "notes": "Starting price and prior sale price were not exposed in the public Phillips sale payload.",
+    "medium": "",
+    "dimensions": "",
+    "provenance": "",
+    "literature": "",
+    "quality_flags": {
+      "has_artist": true,
+      "has_title": true,
+      "has_auction_date": true,
+      "has_estimate": true,
+      "has_result_price": true,
+      "has_starting_price": false,
+      "has_prior_sale": false,
+      "has_source_url": true,
+      "has_image": false,
+      "has_medium": false,
+      "has_dimensions": false
+    },
+    "prediction_ready": true
+  },
+  {
+    "id": "phillips_auctions|phillips|NY050325|15",
+    "status": "sold",
+    "title": "Dining table",
+    "artists": [
+      "Wendell Castle"
+    ],
+    "style": "Design",
+    "auction_house": "Phillips",
+    "auction_date": "2025-12-13",
+    "starting_price": null,
+    "estimated_selling_price": {
+      "currency": "USD",
+      "low": 150000.0,
+      "high": 200000.0,
+      "display": "$ 150,000 - 200,000"
+    },
+    "result_price": {
+      "currency": "USD",
+      "amount": 141900.0,
+      "display": "$ 141,900"
+    },
+    "last_sold_price": null,
+    "source_url": "https://www.phillips.com/detail/wendell-castle/227973",
+    "record_source": "Phillips public auction result page",
+    "notes": "Starting price and prior sale price were not exposed in the public Phillips sale payload.",
+    "medium": "",
+    "dimensions": "",
+    "provenance": "",
+    "literature": "",
+    "quality_flags": {
+      "has_artist": true,
+      "has_title": true,
+      "has_auction_date": true,
+      "has_estimate": true,
+      "has_result_price": true,
+      "has_starting_price": false,
+      "has_prior_sale": false,
+      "has_source_url": true,
+      "has_image": false,
+      "has_medium": false,
+      "has_dimensions": false
+    },
+    "prediction_ready": true
+  },
+  {
+    "id": "phillips_auctions|phillips|NY050325|16",
+    "status": "sold",
+    "title": "Set of six chairs",
+    "artists": [
+      "Wendell Castle"
+    ],
+    "style": "Design",
+    "auction_house": "Phillips",
+    "auction_date": "2025-12-13",
+    "starting_price": null,
+    "estimated_selling_price": {
+      "currency": "USD",
+      "low": 50000.0,
+      "high": 70000.0,
+      "display": "$ 50,000 - 70,000"
+    },
+    "result_price": {
+      "currency": "USD",
+      "amount": 51600.0,
+      "display": "$ 51,600"
+    },
+    "last_sold_price": null,
+    "source_url": "https://www.phillips.com/detail/wendell-castle/227974",
+    "record_source": "Phillips public auction result page",
+    "notes": "Starting price and prior sale price were not exposed in the public Phillips sale payload.",
+    "medium": "",
+    "dimensions": "",
+    "provenance": "",
+    "literature": "",
+    "quality_flags": {
+      "has_artist": true,
+      "has_title": true,
+      "has_auction_date": true,
+      "has_estimate": true,
+      "has_result_price": true,
+      "has_starting_price": false,
+      "has_prior_sale": false,
+      "has_source_url": true,
+      "has_image": false,
+      "has_medium": false,
+      "has_dimensions": false
+    },
+    "prediction_ready": true
+  },
+  {
+    "id": "phillips_auctions|phillips|NY050325|17",
+    "status": "sold",
+    "title": "Side chair, designed for the John Pierpont Morgan residence, Madison Avenue, New York",
+    "artists": [
+      "Herter Brothers"
+    ],
+    "style": "Design",
+    "auction_house": "Phillips",
+    "auction_date": "2025-12-13",
+    "starting_price": null,
+    "estimated_selling_price": {
+      "currency": "USD",
+      "low": 10000.0,
+      "high": 15000.0,
+      "display": "$ 10,000 - 15,000"
+    },
+    "result_price": {
+      "currency": "USD",
+      "amount": 37410.0,
+      "display": "$ 37,410"
+    },
+    "last_sold_price": null,
+    "source_url": "https://www.phillips.com/detail/herter-brothers/228040",
+    "record_source": "Phillips public auction result page",
+    "notes": "Starting price and prior sale price were not exposed in the public Phillips sale payload.",
+    "medium": "",
+    "dimensions": "",
+    "provenance": "",
+    "literature": "",
+    "quality_flags": {
+      "has_artist": true,
+      "has_title": true,
+      "has_auction_date": true,
+      "has_estimate": true,
+      "has_result_price": true,
+      "has_starting_price": false,
+      "has_prior_sale": false,
+      "has_source_url": true,
+      "has_image": false,
+      "has_medium": false,
+      "has_dimensions": false
+    },
+    "prediction_ready": true
+  },
+  {
+    "id": "phillips_auctions|phillips|NY050325|18",
+    "status": "sold",
+    "title": "Pair of mirrors",
+    "artists": [
+      "Carlo Bugatti"
+    ],
+    "style": "Design",
+    "auction_house": "Phillips",
+    "auction_date": "2025-12-13",
+    "starting_price": null,
+    "estimated_selling_price": {
+      "currency": "USD",
+      "low": 30000.0,
+      "high": 50000.0,
+      "display": "$ 30,000 - 50,000"
+    },
+    "result_price": {
+      "currency": "USD",
+      "amount": 41280.0,
+      "display": "$ 41,280"
+    },
+    "last_sold_price": null,
+    "source_url": "https://www.phillips.com/detail/carlo-bugatti/224768",
+    "record_source": "Phillips public auction result page",
+    "notes": "Starting price and prior sale price were not exposed in the public Phillips sale payload.",
+    "medium": "",
+    "dimensions": "",
+    "provenance": "",
+    "literature": "",
+    "quality_flags": {
+      "has_artist": true,
+      "has_title": true,
+      "has_auction_date": true,
+      "has_estimate": true,
+      "has_result_price": true,
+      "has_starting_price": false,
+      "has_prior_sale": false,
+      "has_source_url": true,
+      "has_image": false,
+      "has_medium": false,
+      "has_dimensions": false
+    },
+    "prediction_ready": true
+  },
+  {
+    "id": "phillips_auctions|phillips|NY050325|19",
+    "status": "auctioned",
+    "title": "\"Flammé\" vase",
+    "artists": [
+      "Taxile Doat"
+    ],
+    "style": "Design",
+    "auction_house": "Phillips",
+    "auction_date": "2025-12-13",
+    "starting_price": null,
+    "estimated_selling_price": {
+      "currency": "USD",
+      "low": 5000.0,
+      "high": 7000.0,
+      "display": "$ 5,000 - 7,000"
+    },
+    "result_price": null,
+    "last_sold_price": null,
+    "source_url": "https://www.phillips.com/detail/taxile-doat/228416",
+    "record_source": "Phillips public auction result page",
+    "notes": "Starting price and prior sale price were not exposed in the public Phillips sale payload.",
+    "medium": "",
+    "dimensions": "",
+    "provenance": "",
+    "literature": "",
+    "quality_flags": {
+      "has_artist": true,
+      "has_title": true,
+      "has_auction_date": true,
+      "has_estimate": true,
+      "has_result_price": false,
+      "has_starting_price": false,
+      "has_prior_sale": false,
+      "has_source_url": true,
+      "has_image": false,
+      "has_medium": false,
+      "has_dimensions": false
+    },
+    "prediction_ready": false
+  },
+  {
+    "id": "phillips_auctions|phillips|NY050325|2",
+    "status": "sold",
+    "title": "Pair of \"Greenrock\" ottomans",
+    "artists": [
+      "George Nakashima"
+    ],
+    "style": "Design",
+    "auction_house": "Phillips",
+    "auction_date": "2025-12-13",
+    "starting_price": null,
+    "estimated_selling_price": {
+      "currency": "USD",
+      "low": 12000.0,
+      "high": 18000.0,
+      "display": "$ 12,000 - 18,000"
+    },
+    "result_price": {
+      "currency": "USD",
+      "amount": 30960.0,
+      "display": "$ 30,960"
+    },
+    "last_sold_price": null,
+    "source_url": "https://www.phillips.com/detail/george-nakashima/227966",
+    "record_source": "Phillips public auction result page",
+    "notes": "Starting price and prior sale price were not exposed in the public Phillips sale payload.",
+    "medium": "",
+    "dimensions": "",
+    "provenance": "",
+    "literature": "",
+    "quality_flags": {
+      "has_artist": true,
+      "has_title": true,
+      "has_auction_date": true,
+      "has_estimate": true,
+      "has_result_price": true,
+      "has_starting_price": false,
+      "has_prior_sale": false,
+      "has_source_url": true,
+      "has_image": false,
+      "has_medium": false,
+      "has_dimensions": false
+    },
+    "prediction_ready": true
+  },
+  {
+    "id": "phillips_auctions|phillips|NY050325|20",
+    "status": "sold",
+    "title": "Side table",
+    "artists": [
+      "Carlo Bugatti"
+    ],
+    "style": "Design",
+    "auction_house": "Phillips",
+    "auction_date": "2025-12-13",
+    "starting_price": null,
+    "estimated_selling_price": {
+      "currency": "USD",
+      "low": 12000.0,
+      "high": 18000.0,
+      "display": "$ 12,000 - 18,000"
+    },
+    "result_price": {
+      "currency": "USD",
+      "amount": 38700.0,
+      "display": "$ 38,700"
+    },
+    "last_sold_price": null,
+    "source_url": "https://www.phillips.com/detail/carlo-bugatti/227366",
+    "record_source": "Phillips public auction result page",
+    "notes": "Starting price and prior sale price were not exposed in the public Phillips sale payload.",
+    "medium": "",
+    "dimensions": "",
+    "provenance": "",
+    "literature": "",
+    "quality_flags": {
+      "has_artist": true,
+      "has_title": true,
+      "has_auction_date": true,
+      "has_estimate": true,
+      "has_result_price": true,
+      "has_starting_price": false,
+      "has_prior_sale": false,
+      "has_source_url": true,
+      "has_image": false,
+      "has_medium": false,
+      "has_dimensions": false
+    },
+    "prediction_ready": true
   }
 ]

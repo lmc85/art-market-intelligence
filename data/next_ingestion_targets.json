@@ -1,5 +1,32 @@
 [
   {
+    "source_id": "getty_knoedler",
+    "source_name": "Getty Provenance Index — Knoedler",
+    "priority": "P0",
+    "target_type": "Historical realized-price backfill",
+    "stage": "Implemented bulk CC0 connector",
+    "rss_use": "1873–1912 dealer transactions giving per-artist/genre indices multi-year price history",
+    "next_action": "Segment the blended all-market index by era and add currency/inflation normalization so historical and contemporary lanes are not read as continuous; consider the larger Getty sales_catalogs auction dataset next."
+  },
+  {
+    "source_id": "artsy_fairs",
+    "source_name": "Artsy Fairs Calendar",
+    "priority": "P0",
+    "target_type": "Art-fair calendar event",
+    "stage": "Implemented fair-calendar connector",
+    "rss_use": "Forward-looking global fair calendar with name, dates, derived city/region, and fair type for the Calendar panel",
+    "next_action": "Add a Wikidata SPARQL enrichment lane for city/country and build a category classifier for free-vs-paid and invitation-only facets, which Artsy does not expose."
+  },
+  {
+    "source_id": "saffronart_auctions",
+    "source_name": "Saffronart Auctions",
+    "priority": "P0",
+    "target_type": "Official auction result (India / South Asia)",
+    "stage": "Implemented sale-calendar connector",
+    "rss_use": "Indian / South Asian sale events with title, start/end dates, status, and public results URL",
+    "next_action": "Probe for an unauthenticated per-auction results JSON method to add lot-level realized prices; until then enrich from results pages only where terms permit."
+  },
+  {
     "source_id": "heritage_auctions",
     "source_name": "Heritage Auctions Archives",
     "priority": "P0",
@@ -58,9 +85,9 @@
     "source_name": "Phillips Auctions",
     "priority": "P0",
     "target_type": "Official auction result",
-    "stage": "Implemented with detail enrichment",
+    "stage": "Implemented with detail enrichment and multi-year archive backfill",
     "rss_use": "Contemporary art, design, editions, and photographs with estimates, sold price, date, medium, dimensions, provenance, and detail URL",
-    "next_action": "Add pagination and prior-sale matching."
+    "next_action": "Backfill connector walks the 2013-onward archive (scripts/backfill_auction_history.py) to give per-artist lanes multi-year history; next add currency normalization and extend discover_sale_urls to Bonhams/Sotheby's/Christie's."
   },
   {
     "source_id": "liveauctioneers",

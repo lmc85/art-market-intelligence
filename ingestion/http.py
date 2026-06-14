@@ -37,6 +37,29 @@ class HttpClient:
         except json.JSONDecodeError as exc:
             raise HttpError(f"Response from {url} was not valid JSON") from exc
 
+    def post_json(self, url: str, payload: Dict[str, Any]) -> Dict[str, Any]:
+        body = json.dumps(payload).encode("utf-8")
+        headers = self._headers()
+        headers["Content-Type"] = "application/json"
+        request = urllib.request.Request(url, data=body, headers=headers, method="POST")
+        last_error: Optional[BaseException] = None
+
+        for attempt in range(self.retries + 1):
+            try:
+                with urllib.request.urlopen(request, timeout=self.timeout_seconds) as response:
+                    text = response.read().decode("utf-8")
+                break
+            except (urllib.error.URLError, TimeoutError) as exc:
+                last_error = exc
+                if attempt == self.retries:
+                    raise HttpError(f"POST failed for {url}: {exc}") from exc
+                time.sleep(self.backoff_seconds * (attempt + 1))
+
+        try:
+            return json.loads(text)
+        except json.JSONDecodeError as exc:
+            raise HttpError(f"Response from {url} was not valid JSON") from exc
+
     def get_text(self, url: str, params: Optional[Dict[str, Any]] = None) -> str:
         request_url = self._with_params(url, params)
         request = urllib.request.Request(request_url, headers=self._headers())
